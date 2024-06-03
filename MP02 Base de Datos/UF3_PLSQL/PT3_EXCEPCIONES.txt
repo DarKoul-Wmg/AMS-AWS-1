@@ -1,0 +1,76 @@
+E1-------------------------------------------------------------------------------
+/* mostrar el rang salarial d'un job_id determinat */
+
+accept vh_job_id prompt 'job_id a buscar?'
+declare
+    v_job   jobs%rowtype;
+    v_job_id    jobs.job_id%type := '&vh_job_id';
+begin
+    -- v_job_id := '&vh_job_id';
+    select * 
+        into v_job
+    from jobs
+    where job_id = v_job_id;
+    dbms_output.put_line('&vh_job_id: cobra de '
+        || v_job.min_salary || ' a ' || v_job.max_salary || 'USD');
+exception
+    when no_data_found then
+    dbms_output.put_line('job no trobat: '|| v_job_id);
+     dbms_output.put_line(sqlcode || ' - ' || sqlerrm);
+    
+    when value_error then
+    dbms_output.put_line('Valor fora de rang: '|| v_min_salary);
+     dbms_output.put_line(sqlcode || ' - ' || sqlerrm);
+    
+    when others then
+    dbms_output.put_line(sqlcode || ' - ' || sqlerrm);
+
+end;
+E2---------------------------------------
+accept vh_min_sal prompt 'quin sou mínim busques?'
+DECLARE
+    v_min_sal jobs.min_salary%type:=NULL;
+    v_job_title jobs.job_title%type:=NULL;
+BEGIN
+    v_min_sal:=&vh_min_sal;
+    select JOB_TITLE into v_job_title
+    from JOBS
+    where MIN_SALARY=v_min_sal;
+    dbms_output.put_line('el job '||v_job_title||' cobra mínim '||v_min_sal);
+exception 
+    when no_data_found then
+        dbms_output.put_line('No hi ha cap job amb aquest sou mínim '||v_min_sal);
+        dbms_output.put_line(sqlcode||'-'||sqlerrm);
+    
+   when too_many_rows then
+        dbms_output.put_line('Error, més d''un job amb el sou mínim '||v_min_sal);
+        dbms_output.put_line(sqlcode||'-'||sqlerrm);
+   when value_error then
+        dbms_output.put_line('Error, valor fora de rang '||v_min_sal);
+        dbms_output.put_line(sqlcode||'-'||sqlerrm);
+end;
+
+E3------------------------------------------------------------------------------------
+accept vh_dep_id prompt 'quin departament busques?'
+declare
+    v_sou_mig jobs.min_salary%type:=NULL;
+    v_dep_id departments.department_id%type:=NULL;
+    e_id_negatiu exception;
+    e_id_inexistent exception;
+BEGIN
+    v_dep_id:=&vh_dep_id; -- department a buscar
+    if v_dep_id < 0 then
+        --raise e_id_negatiu;
+        raise no_data_found;
+    end if;
+    select avg(salary) into v_sou_mig
+    from employees
+    where department_id=v_dep_id;
+    dbms_output.put_line('sou mitja '||v_dep_id||' es '||v_sou_mig);
+exception 
+   when e_id_negatiu then
+        dbms_output.put_line('Error department negatiu '||v_dep_id);
+   when no_data_found then
+        dbms_output.put_line('Error, departament sense treballadors '||v_dep_id);
+        dbms_output.put_line(sqlcode||'-'||sqlerrm);
+end;

@@ -1,0 +1,63 @@
+:root {
+    --color-text: rgb(0, 0, 0);
+    --color-gris: rgb(212, 209, 206);
+    --color-groc: rgb(250, 240, 205);
+    --color-clar: rgb(218, 223, 223);
+    --color-blue: rgb(35, 110, 160);
+
+}
+
+body {
+    color: var(--color-text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    margin: 0;
+    user-select: none;
+}
+
+.autocenter {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    border-bottom: solid 5px black;
+    padding-bottom: 10px;
+}
+
+.rule {
+    border-bottom: solid 1px black;
+    padding-bottom: 20px;
+}
+
+.details {
+    display: flex;
+}
+
+.details .summary {
+    box-sizing: border-box;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.details .summary p {
+    text-align: center;
+}
+
+.details .summary table {
+    width: 100%;
+}
+
+.details .chart {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.details .chart p {
+    text-align: center;
+}
+
+.payments p {
+    text-align: center;
+}

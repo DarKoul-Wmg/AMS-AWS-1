@@ -1,0 +1,26 @@
+-- 1
+BEGIN
+    update employees set salary = salary-1
+    where DEPARTMENT_ID=70;
+    DBMS_OUTPUT.PUT_LINE('FILES MODIFICADES');
+END;
+
+SELECT * FROM SALARY_HISTORY;
+
+-- 2
+create or replace TRIGGER t_count_empleats
+BEFORE UPDATE OF employee_count
+ON departments
+FOR EACH ROW
+DECLARE
+    v_department_id DEPARTMENTS.DEPARTMENT_ID%TYPE;
+BEGIN
+    IF :NEW.employee_count > 2 THEN
+        v_department_id := :NEW.department_id;
+
+        IF v_department_id IN (10, 20, 70, 110) THEN
+            RAISE_APPLICATION_ERROR(-20001, 'El contador no puede ser mayor que 2 para los departamentos especificados.');
+        END IF;
+    END IF;
+END t_count_empleats;
+

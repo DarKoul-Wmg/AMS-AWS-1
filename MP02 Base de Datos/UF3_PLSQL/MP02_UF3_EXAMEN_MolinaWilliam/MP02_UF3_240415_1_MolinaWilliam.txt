@@ -1,0 +1,39 @@
+create or replace procedure prod_cat5_noUS_MolinaWilliam(v_nom_producte products.product_name%TYPE)
+
+IS
+
+v_producte_ok BOOLEAN:= TRUE;
+v_productes NUMBER := 0;
+v_stock number :=0;
+no_existeix exception;
+
+BEGIN
+ 
+    -- Producte existeix y es cat 5
+    select count(*) INTO v_productes  from PRODUCTS 
+    where PRODUCT_NAME = v_nom_producte AND CATEGORY_ID = 5;
+
+    IF v_productes = 0 THEN
+        DBMS_OUTPUT.PUT_LINE('Producte inexistent o categoria incorrecte:' || v_nom_producte);
+    
+    ELSE
+        select SUM(QUANTITY) INTO v_stock 
+        from INVENTORIES n
+        JOIN PRODUCTS p ON n.PRODUCT_ID = p.PRODUCT_ID
+        JOIN WAREHOUSES w ON n.WAREHOUSE_ID = w.WAREHOUSE_ID
+        JOIN LOCATIONS l ON w.LOCATION_ID = l.LOCATION_ID
+        where p.PRODUCT_NAME = v_nom_producte AND l.COUNTRY_ID != 'US';
+
+        if v_stock > 0 THEN           
+            DBMS_OUTPUT.PUT_LINE('En els magatzems de fora d’US la quantitat de producte '||v_nom_producte||' disponible és:'|| v_stock);
+
+        ELSE
+            DBMS_OUTPUT.PUT_LINE('Producte sense estoc fora d’US: ' || v_nom_producte);          
+        END IF;
+    END IF;
+    
+EXCEPTION
+    WHEN others THEN
+         DBMS_OUTPUT.PUT_LINE('error inserperat');
+END prod_cat5_noUS_MolinaWilliam;
+

@@ -1,0 +1,63 @@
+/*William Molina*/
+
+use CustProd;
+
+/*1.*/
+SELECT
+p.productVendor as venEDOR,  
+p.productline,
+COUNT(p.productCode) as producte_count
+FROM products p
+JOIN productlines pl on p.productLine = pl.productLine
+GROUP BY
+p.productvendor,
+p.productline
+ORDER BY
+p.productvendor,
+p.productline;
+
+
+/*2.*/
+
+SELECT
+p.productline as linia_Proucte,
+COUNT(DISTINCT p.productvendor) as vendor_count
+FROM products p
+GROUP BY p.productline
+ORDER BY p.productline;
+
+/*3.*/
+SELECT
+c.customerNumber as Num_client,
+c.customerName as Nom_client,
+c.city,
+c.country,
+o.orderDate as Date,
+CONCAT(p.productVendor, ' ', p.productName) as Product_Venedor
+FROM customers c
+JOIN orders o on c.customerNumber = o.customerNumber
+JOIN orderdetails od on o.orderNumber = od.orderNumber
+JOIN products p on od.productCode = p.productCode
+WHERE c.country = 'France' AND p.productVendor = 'Motor City Art Classics'
+ORDER BY
+c.customerNumber,
+o.orderDate;
+
+/*4.*/
+
+SELECT 
+p.productName as Nom_Producte,
+c.customerName as Nom_Client,
+c.customerNumber as Num_CLient,
+o.orderDate as Date
+FROM customers c
+JOIN orders o  on c.customerNumber = o.customerNumber
+JOIN orderdetails od on o.orderNumber = od.orderNumber
+JOIN products p on od.productCode = p.productCode
+JOIN productlines pl on p.productLine = pl.productLine
+WHERE pl.productLine = 'Classic Cars' AND (o.orderDate BETWEEN '2005-01-01'AND'2005-03-01')
+ORDER BY 
+o.orderDate;
+
+
+

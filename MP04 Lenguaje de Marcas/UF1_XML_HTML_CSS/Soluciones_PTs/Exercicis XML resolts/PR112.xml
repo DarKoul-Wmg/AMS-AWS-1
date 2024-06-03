@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gym>
+    <users>
+        <user id="1">
+            <dni>33000000A</dni>
+            <nom>Toni</nom>
+            <cognom>Camacho</cognom>
+            <telefon>657886655</telefon>
+            <email>toni@mail.com</email>
+            <direccio>C/Lludrigues 23</direccio>
+            <codipostal>080001</codipostal>
+            <id_abonament>1</id_abonament>
+        </user>
+        <!-- I la resta d'usuaris -->
+    </users>
+    <proveidors>
+        <proveidor id="1">
+            <nif>660000000B</nif>
+            <nom>BodyGym</nom>
+            <telefon>657123456</telefon>
+            <email>partners@bodygym.com</email>
+            <ids_productes>
+                <id_producte>1</id_producte>
+                <id_producte>2</id_producte>
+                <id_producte>3</id_producte>
+            </ids_productes>
+            <persona_contacte>sandra@bodygym.com</persona_contacte>
+        </proveidor>
+        <!-- I la resta de proveidors -->
+    </proveidors>
+    <productes>
+        <producte id="1" fungible="yes">
+            <nom>Tovallola amb logo</nom>
+            <quantitat>52</quantitat>
+        </producte>
+        <!-- I la resta de productes -->
+    </productes>
+    <abonaments>
+        <abonament id="1">
+            <horari>mati</horari>
+            <descripcio>Entrada fins a les 13:00</descripcio>
+        </abonament>
+        <!-- I la resta d'abonaments -->
+    </abonaments>
+    <horaris>
+        <horari id="1">
+            <dies_valids>
+                <dia>Dilluns</dia>
+                <dia>Dimarts</dia>
+                <dia>Dimecres</dia>
+                <dia>Dijous</dia>
+                <dia>Divendres</dia>
+            </dies_valids>
+            <hores_valides>8:00 - 12:00</hores_valides>
+        </horari>
+    </horaris>
+</gym>

@@ -1,0 +1,57 @@
+exercici triggers, 
+    TRIGGER 1 - quan inserim, esborrem o modifiquem un treballadors actualitzarem 
+	el comptador de treballadors "employee_count" del departament.
+
+    TRIGGER 2 - cal impedir que als departaments 10,20,70 i 110 es superi el 
+	llindar de màxim 2 treballadors. (hecho en t_employee_count)
+
+
+/*
+update departments d set EMPLOYEE_COUNT = (select count(*) 
+                                          from employees e 
+                                          where e.DEPARTMENT_ID = d.DEPARTMENT_ID);
+*/
+/* SRIPT DE PRUEBAS
+set SERVEROUTPUT on
+DECLARE
+    dept1 departments.department_id%type;
+    dept2 departments.department_id%type;
+BEGIN
+    dept1:=20;
+    dept2:=110;
+    update employees
+    set department_id = dept1
+    where department_id = dept2;
+    dbms_output.put_line('files modificades '||sql%rowcount);
+    commit;
+exception 
+    when others then 
+        rollback;
+        dbms_output.put_line(sqlerrm);
+end;
+*/
+
+
+create or replace TRIGGER t_modificar_empleats
+AFTER INSERT OR UPDATE OR DELETE ON employees
+FOR EACH ROW
+DECLARE
+    v_total_emp DEPARTMENTS.employee_count%TYPE;
+    v_count_new number;
+    v_count_old number;
+BEGIN
+
+    IF inserting then v_count_new:=1; end if;
+    if deleting then v_count_old:=-1; end if;
+    if updating then
+        -- obtener el nuevo total de los empleados
+        select count(*) into v_total_emp
+        from EMPLOYEES
+        where department_id = :NEW.department_id;
+
+    -- actualizar fila con el nuevo total de los empleados
+    update DEPARTMENTS d set EMPLOYEE_COUNT = v_total_emp;
+    DBMS_OUTPUT.PUT_LINE('Comptador dels empleats del departament ' || department_id || ' actualitzat.');
+
+
+END t_modificar_empleats;

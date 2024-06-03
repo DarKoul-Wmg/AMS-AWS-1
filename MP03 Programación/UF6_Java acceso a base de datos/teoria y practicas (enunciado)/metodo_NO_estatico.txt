@@ -1,0 +1,2 @@
+Main myclasse = new Main()
+myclasse.nombre_metodo

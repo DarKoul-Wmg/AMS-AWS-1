@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fruites>
+    <fruita id="0">
+        <nom>poma</nom>
+        <color>verd</color>
+        <preu>0.4</preu>
+    </fruita>
+    <fruita id="1">
+        <nom>pera</nom>
+        <color>verd</color>
+        <preu>0.6</preu>
+    </fruita>
+    <fruita id="2">
+        <nom>plàtan</nom>
+        <color>groc</color>
+        <preu>0.6</preu>
+    </fruita>
+    <fruita id="3">
+        <nom>maduixa</nom>
+        <color>vermell</color>
+        <preu>0.4</preu>
+    </fruita>
+    <fruita id="4">
+        <nom>meló</nom>
+        <color>verd</color>
+        <preu>0.5</preu>
+    </fruita>
+    <fruita id="5">
+        <nom>préssec</nom>
+        <color>taronja</color>
+        <preu>0.6</preu>
+    </fruita>
+    <fruita id="6">
+        <nom>albercoc</nom>
+        <color>taronja</color>
+        <preu>0.7</preu>
+    </fruita>
+    <fruita id="7">
+        <nom>pera d'aigua</nom>
+        <color>groc</color>
+        <preu>0.5</preu>
+    </fruita>
+</fruites>

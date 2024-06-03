@@ -1,0 +1,103 @@
+use hr;
+
+/* EXEMPLES JOIN N TAULES*/
+
+/* la taula employees la enllacem amb la job i també l'enllacem amb departament-location-countries*/
+
+select e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   j.job_title,
+	   d.department_name, l.city, c.country_name
+from employees e
+      join jobs j on e.job_id = j.job_id
+      join departments d on e.department_id=d.department_id
+      join locations l on d.location_id = l.location_id
+      join countries c on l.country_id = c.country_id;
+
+/* una altra manera de fer-ho, per combinació de taules (claus_foranes amb claus_primàries)*/
+
+select e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   j.job_title,
+	   d.department_name, l.city, c.country_name
+from employees e, jobs j, departments d, locations l,countries c
+where e.job_id=j.job_id
+and   e.department_id= d.department_id
+and   d.location_id = l.location_id
+and   l.country_id = c.country_id;
+
+/*EXEMPLES UNION N SELECT*/
+
+/*definir 4 categories en funció del sou, ordenar per categoria de sou, sou i categoria_laboral*/
+
+select "CAT_1" as cat_sou, e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   j.job_title,
+	   d.department_name, l.city, c.country_name
+from employees e
+      join jobs j on e.job_id = j.job_id
+      join departments d on e.department_id=d.department_id
+      join locations l on d.location_id = l.location_id
+      join countries c on l.country_id = c.country_id
+WHERE salary between 0 and 1000
+
+	UNION
+
+select "CAT_2" as cat_sou, e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   j.job_title,
+	   d.department_name, l.city, c.country_name
+from employees e
+      join jobs j on e.job_id = j.job_id
+      join departments d on e.department_id=d.department_id
+      join locations l on d.location_id = l.location_id
+      join countries c on l.country_id = c.country_id
+WHERE salary between 1001 and 5000
+
+	UNION
+
+select "CAT_3" as cat_sou, e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   j.job_title,
+	   d.department_name, l.city, c.country_name
+from employees e
+      join jobs j on e.job_id = j.job_id
+      join departments d on e.department_id=d.department_id
+      join locations l on d.location_id = l.location_id
+      join countries c on l.country_id = c.country_id
+WHERE salary between 5001 and 10000
+
+	UNION
+
+select "CAT_4" as cat_sou, e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   j.job_title,
+	   d.department_name, l.city, c.country_name
+from employees e
+      join jobs j on e.job_id = j.job_id
+      join departments d on e.department_id=d.department_id
+      join locations l on d.location_id = l.location_id
+      join countries c on l.country_id = c.country_id
+WHERE salary > 10000
+order by cat_sou desc, salary desc, job_title;
+
+/* una altre manera de fer-ho */
+
+select cat_sou, e.employee_id, e.last_name, substr(e.first_name,1,1) as inicial, e.salary,
+	   e.job_title,
+	   d.department_name, l.city, c.country_name
+from (select e.employee_id, e.last_name, e.first_name, e.salary, e.department_id,j.job_title,
+			(case   when salary < 1001 then "CAT_1"
+					when salary < 5001 then "CAT_2"
+					when salary <10001 then "CAT_3"
+					else "CAT_4" end) as cat_sou
+	    from employees e join jobs j on e.job_id = j.job_id) e
+      join departments d on e.department_id=d.department_id
+      join locations l on d.location_id = l.location_id
+      join countries c on l.country_id = c.country_id
+order by cat_sou desc, salary desc, job_title;
+
+/* he posat al from en comptes d'una taula, el resultat d'una select,
+  la select que ja em categoritza les persones per sou i em dona també la seva categoria laboral */
+
+  select e.employee_id, e.last_name, e.first_name, e.salary, e.department_id,
+	  (case when salary < 1001 then "CAT_1"
+            when salary < 5001 then "CAT_2"
+            when salary <10001 then "CAT_3"
+            else "CAT_4" end)
+            as cat_sou
+from employees e join jobs j on e.job_id = j.job_id;

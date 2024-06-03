@@ -1,0 +1,145 @@
+public abstract class Empleado {
+	private String nom;
+	private String cOrigen;
+	private String lugar;
+	
+	public Empleado(String nom, String cOrigen, String lugar) {
+		super();
+		this.nom = nom;
+		this.cOrigen = cOrigen;
+		this.lugar = lugar;
+	}
+	
+	public abstract String lugar();
+	public abstract String ciudadOrigen();
+	public abstract float salarioDiario();
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getcOrigen() {
+		return cOrigen;
+	}
+
+	public void setcOrigen(String cOrigen) {
+		this.cOrigen = cOrigen;
+	}
+
+	public String getLugar() {
+		return lugar;
+	}
+
+	public void setLugar(String lugar) {
+		this.lugar = lugar;
+	}
+	
+	
+	
+	
+	
+}
+class Cajero extends Empleado {
+
+	private int horasTrabajadas;
+	public String lugar() {
+		// TODO Auto-generated method stub
+		return getLugar();
+	}
+
+	
+	public String ciudadOrigen() {
+		// TODO Auto-generated method stub
+		return getcOrigen();
+	}
+
+	public float salarioDiario() {
+		// TODO Auto-generated method stub
+		return 15*getHorasTrabajadas();
+	}
+
+	
+	public int getHorasTrabajadas() {
+		return horasTrabajadas;
+	}
+
+
+	public void setHorasTrabajadas(int horasTrabajadas) {
+		this.horasTrabajadas = horasTrabajadas;
+	}
+
+
+	public Cajero(String nom, String cOrigen, String lugar, int horasTrabajadas) {
+		super(nom, cOrigen, lugar);
+		this.horasTrabajadas = horasTrabajadas;
+	}
+
+
+	
+	
+}
+
+class Limpieza extends Empleado{
+
+	
+	public Limpieza(String nom, String cOrigen, String lugar) {
+		super(nom, cOrigen, lugar);
+
+	}
+
+	public String lugar() {
+		// TODO Auto-generated method stub
+		return getLugar();
+	}
+
+	public String ciudadOrigen() {
+		// TODO Auto-generated method stub
+		return getcOrigen();
+	}
+
+	@Override
+	public float salarioDiario() {
+		// TODO Auto-generated method stub
+		return 35;
+	}
+	
+}
+class Mostrador extends Empleado{
+	float ventas;
+
+	
+	public Mostrador(String nom, String cOrigen, String lugar, float ventas) {
+		super(nom, cOrigen, lugar);
+		this.ventas = ventas;
+	}
+
+
+	public String lugar() {
+		// TODO Auto-generated method stub
+		return getLugar();
+	}
+
+	public String ciudadOrigen() {
+		// TODO Auto-generated method stub
+		return getcOrigen();
+	}
+
+	public float salarioDiario() {
+		// TODO Auto-generated method stub
+		return (float) (50+ventas*0.15);
+	}
+
+	public float getVentas() {
+		return ventas;
+	}
+
+	public void setVentas(float ventas) {
+		this.ventas = ventas;
+	}
+	
+	
+}

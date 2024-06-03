@@ -1,0 +1,7 @@
+.paragraf {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: dotted;
+    column-rule-width: 0.5em;
+    column-rule-color: blue;
+}

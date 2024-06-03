@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 25px;
+    user-select: none;
+}
+
+h1 {
+    font-family: "Noto Serif";
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Noto Serif";
+    font-size: 3em;
+    text-align: center;
+}
+
+.autocenter {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.top {
+        justify-content: space-evenly;
+    border-top: solid 1px blue;
+    border-bottom: solid 1px blue;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#date {
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+    .box p {
+        columns: 100px 3;
+        column-rule: dotted #979797;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+
+#date {
+    padding-left: 10px;
+}
+
+.box h3 {
+    color: blue;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box img {
+    float: left;
+    margin-right: 16px;
+    width: 100%;
+        filter: contrast(150%)
+}
+
+.box > p {
+    column-gap: 20px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.bottom {
+    color: white;
+    background-color: blue;
+    display: flex;
+    font-family: "Noto Serif";
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+#director {
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+#opinion {
+    columns: 100px 4;
+    font-size: 0.9em;
+    margin-top: 25px;
+    text-align: justify;
+      
+}
+
+#opinion span {
+    text-align: center;
+}

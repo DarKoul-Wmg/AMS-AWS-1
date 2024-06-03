@@ -1,0 +1,9 @@
+.amuntavall {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.avallamunt {
+    display: flex;
+    flex-direction: column-reverse;
+}

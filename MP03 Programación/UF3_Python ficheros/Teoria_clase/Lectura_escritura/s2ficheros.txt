@@ -1,0 +1,9 @@
+dni-    11111111H*nota    -7.5*     nombre-Pedro
+nombre-  Aroa*    dni-22222222A*    nota-6.5
+nota-  3.5*       dni-33333333B    *    nombre-Anabel
+dni-44444444C*nombre-lolo*nota-7.45
+dni-55555555Q*nombre-Floper*nota-7.6
+dni-55555555Q*nombre-Floper*nota-7.6
+dni-55556555Q*nombre-jose*nota-7.6
+
+dni-55556555Q*nombre-jose*nota-7.6

@@ -1,0 +1,20 @@
+
+Procedure NEW_CUSTOMER compilado
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+5/1       PL/SQL: SQL Statement ignored
+5/93      PL/SQL: ORA-00904: "email": identificador no válido
+Errores: comprobar log de compilador
+
+Procedure NEW_CUSTOMER compilado
+
+
+EMAIL                         
+------------------------------
+aainvest@gmail.com
+chen@hotmail.com
+JPC@gmail.com
+
+SYSTEM@gmail.com
+

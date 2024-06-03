@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciutats>
+    <ciutat id="0">
+        <nom>Barcelona</nom>
+        <habitants>1.6</habitants>
+    </ciutat>
+    <ciutat id="1">
+        <nom>Hospitalet</nom>
+        <habitants>0.3</habitants>
+    </ciutat>
+    <ciutat id="2">
+        <nom>Badalona</nom>
+        <habitants>0.2</habitants>
+    </ciutat>
+    <ciutat id="3">
+        <nom>Montcada</nom>
+        <habitants>0.2</habitants>
+    </ciutat>
+    <ciutat id="4">
+        <nom>Sabadell</nom>
+        <habitants>0.2</habitants>
+    </ciutat>
+    <ciutat id="5">
+        <nom>Vic</nom>
+        <habitants>0.1</habitants>
+    </ciutat>
+</ciutats>

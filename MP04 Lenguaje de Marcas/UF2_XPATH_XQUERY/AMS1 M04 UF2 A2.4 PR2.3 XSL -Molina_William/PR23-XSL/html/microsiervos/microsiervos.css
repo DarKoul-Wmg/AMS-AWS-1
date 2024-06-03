@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #9DD0DE;
+
+}
+
+body.impar {
+    background-color: #A5ABAC;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.noticia {
+    margin-bottom: 20px;
+}
+
+/* Estilos para títulos */
+h1, h2, h3 {
+    color: #333;
+
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+
+h2 {
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-size: 20px;
+    color: grey;
+}
+
+/* Estilos para el contenido de la noticia */
+p {
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    border-top: 8px solid #fff;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+
+.noticia img {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.noticia .icon {
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    max-width: 80px; /* Establece el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+    margin-left: 20px; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+    box-shadow: none;
+    align-items: start;
+
+}

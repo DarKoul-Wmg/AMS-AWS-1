@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- 
+No modifiquis aquest HTML
+Modifica els arxius CSS per tal que aquest arxiu:
+
+    Al css general:
+    - Crea la variable --color-groc té el color "rgb(250, 240, 205)"
+    - Crea la variable --color-clar té el color "rgb(218, 223, 223)"
+    - Crea la variable --color-blue té el color "rgb(35, 110, 160)"
+
+    La primera taula, la Details:
+    - Té un padding de cel·les de 8px
+    - Tingui la primera columna en gris
+    - Els 4 primers elements de la segona columna fan servir la variable groc
+
+    La segona taula, la Payments:
+    - Té les files imparells amb --color-clar
+    - Té la primera fila amb --color-blue
+    - Té la primera fila amb text negreta blanc
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet" />
+        <link href="./003.css" rel="stylesheet" />
+        <link href="./003details.css" rel="stylesheet" />
+        <link href="./003payments.css" rel="stylesheet" />
+        <title>003</title>
+    </head>
+    <body>
+        <div class="autocenter">
+            <h1>Mortgage Calculator</h1>
+            <p class="rule">The 28% rule states that you should spend 28% or less of your monthly gross income on your mortgage payment (e.g. principal, interest, taxes and insurance). To determine how much you can afford using this rule, multiply your monthly gross income by 28%.</p>
+            <div class="details">
+                <div class="summary">
+                    <p>Mortgage details</p>
+                    <table class="taulaDetails">
+                        <tr><td>Purchase price</td><td class="fonsGroc">$350,000</td></tr>
+                        <tr><td>% down payment</td><td class="fonsGroc">10%</td></tr>
+                        <tr><td>Interest rate</td><td class="fonsGroc">4.250%</td></tr>
+                        <tr><td>Mortgage length(years)</td><td class="fonsGroc">20</td></tr>
+                        <tr><td>Down payment</td><td>$35,000</td></tr>
+                        <tr><td>Loan amount</td><td>$315,000</td></tr>
+                        <tr><td>Payment with principal</td><td>$1,951</td></tr>
+                    </table>
+                </div>
+                <div class="chart">
+                    <p>Montly payment by interest rate</p>
+                    <img src="./imgs/003.svg" />
+                </div>
+            </div>
+            <div class="payments">
+                <p>Possible Payments</p>
+                <table class="taulaPayments">
+                    <tr><td>Interest rate / Loan amount</td><td>3.750%</td><td>4.000%</td><td>4.250%</td><td>4.500%</td><td>4.750%</td></tr>
+                    <tr><td>$243,741</td><td>$1,445</td><td>$1,477</td><td>$1,509</td><td>$1,542</td><td>$1,575</td></tr>
+                    <tr><td>$256,569</td><td>$1,521</td><td>$1,555</td><td>$1,589</td><td>$1,623</td><td>$1,658</td></tr>
+                    <tr><td>$270,073</td><td>$1,601</td><td>$1,637</td><td>$1,672</td><td>$1,709</td><td>$1,745</td></tr>
+                    <tr><td>$284,288</td><td>$1,686</td><td>$1,723</td><td>$1,760</td><td>$1,799</td><td>$1,837</td></tr>
+                    <tr><td>$299,250</td><td>$1,774</td><td>$1,813</td><td>$1,853</td><td>$1,893</td><td>$1,934</td></tr>
+                    <tr><td>$315,000</td><td>$1,868</td><td>$1,909</td><td>$1,951</td><td>$1,993</td><td>$2,036</td></tr>
+                    <tr><td>$330,750</td><td>$1,961</td><td>$2,004</td><td>$2,048</td><td>$2,092</td><td>$2,137</td></tr>
+                    <tr><td>$347,288</td><td>$2,059</td><td>$2,104</td><td>$2,151</td><td>$2,197</td><td>$2,244</td></tr>
+                    <tr><td>$364,652</td><td>$2,162</td><td>$2,210</td><td>$2,258</td><td>$2,307</td><td>$2,356</td></tr>
+                    <tr><td>$382,884</td><td>$2,270</td><td>$2,320</td><td>$2,371</td><td>$2,422</td><td>$2,474</td></tr>
+                    <tr><td>$402,029</td><td>$2,384</td><td>$2,436</td><td>$2,490</td><td>$2,543</td><td>$2,598</td></tr>         
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

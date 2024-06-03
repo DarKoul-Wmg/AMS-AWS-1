@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root type="database">
+    <students type="table">
+        <student type="row">
+           <name>Maria</name>
+           <surname>Longstorm</surname>
+           <age>18</age>
+           <course>1B</course>
+        </student>
+        <student type="row">
+            <name>John</name>
+            <surname>Bluefield</surname>
+            <age>17</age>
+            <course>1B</course>
+         </student>
+         <!-- I la resta d'estudiants ... -->
+    </students>
+    <teachers>
+        <teacher type="row" tutor="yes">
+            <name>Emmie</name>
+            <surname>Fastbelt</surname>
+            <age>35</age>
+            <course>1A</course>
+         </teacher>
+         <teacher type="row" tutor="yes">
+             <name>Ernald</name>
+             <surname>Softson</surname>
+             <age>23</age>
+             <course>1B</course>
+          </teacher>
+          <!-- I la resta de profes ... -->
+    </teachers>
+    <rooms>
+        <room type="subtable">
+            <name>1A</name>
+            <capacity>25</capacity>
+        </room>
+        <!-- I la resta de sales ... -->
+        <room type="subtable">
+            <name>Gym</name>
+            <capacity>60</capacity>
+        </room>
+    </rooms>
+</root>

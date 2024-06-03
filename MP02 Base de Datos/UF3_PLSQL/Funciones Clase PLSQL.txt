@@ -1,0 +1,61 @@
+SACAR ID DE MANAGER:
+
+create or replace FUNCTION f_dept_manager(id_dept number)
+return number  --id del manager
+is
+
+    v_id departments.manager_id%type;
+    v_count number :=0;
+    
+BEGIN 
+    select manager_id into v_id from departments where department_id = id_dept;
+    if  v_id is null then
+        return -1;
+    else
+        return v_id;
+    end if;
+
+exception
+        when no_data_found then
+            return null;
+        when others then
+            return null;
+
+END f_dept_manager;
+
+----------------------------------------------------print de la funcion------------------------------
+BEGIN
+
+DBMS_OUTPUT.PUT_LINE('el manager de 110: ' || f_dept_manager(110));
+DBMS_OUTPUT.PUT_LINE('el manager de 120: ' || f_dept_manager(120));
+DBMS_OUTPUT.PUT_LINE('el manager de 345: ' || f_dept_manager(345));
+
+END;
+
+
+---------------------------------------------------Funcion para sacar nombre ------------------------
+
+create or replace FUNCTION f_nom_manager(id_manager number)
+return VARCHAR2  --nom del manager
+is
+
+    v_name varchar2(100):=null;
+    
+BEGIN 
+
+    if id_manager is null then
+        return null;
+        
+    else
+        select concat(first_name,concat(' ',last_name)) into v_name 
+        from employees where employee_id = id_manager;
+        return v_name;
+    end if;
+
+exception
+        when no_data_found then
+            return 'manager inexistent';
+        when others then
+            return null;
+
+END f_nom_manager;

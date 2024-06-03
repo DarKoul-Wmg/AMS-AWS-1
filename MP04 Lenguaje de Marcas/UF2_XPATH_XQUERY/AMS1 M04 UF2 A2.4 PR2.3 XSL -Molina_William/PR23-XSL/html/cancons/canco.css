@@ -1,0 +1,71 @@
+body {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f4a58;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #33f043;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  }
+  
+  ul {
+    background-color: #00000080;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    padding: 10px 0;
+  }
+  
+  img {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.8);
+  }
+  
+  .lletra {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00000080;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+    box-shadow: 0 0 10px rgba(38, 199, 38, 0.9);
+    text-align: center;
+  }
+  
+  .lletra h2 {
+    color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(54, 239, 30, 0.716);
+  }
+  
+  .estrofa:nth-child(even) {
+    color: #13ea25;
+  }
+  .estrofa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+  }
+
+  .estrofa p:last-child {
+    margin-bottom: 0;
+  }
+  

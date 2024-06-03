@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<comanda>
+	<producte codi="a0" seccio="b">
+		<nom>Xinxeta</nom>
+		<quantitat>20</quantitat>
+        <proveidors>
+            <proveidor nom="Metalls Marta" />
+            <proveidor nom="Oficina Feliç" />
+        </proveidors>
+	</producte>
+	<producte codi="a1" seccio="b">
+		<nom>Boli</nom>
+		<quantitat>10</quantitat>
+	</producte>
+	<enviament origen="Vic" desti="Barcelona" />
+</comanda>

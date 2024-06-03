@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- 
+No modifiquis aquest HTML
+Modifica l'arxiu 002.css per tal que aquest arxiu:
+
+    - Apliqui un 150% de contrast a la imatge                                   filter: contrast(150%)
+    - La capçalera (PLN, 17 November ...) es vegi com a la imatge resultat       justify-content: space-evenly; (el texto)
+    
+    - El primer paràgraf tingui el text justificat
+    - El primer paràgraf tingui el text en 3 columnes
+    - El primer paràgraf separi les columnes amb linies de punts verticals
+    - El color dels punts anteriors és #979797
+
+         .box p {
+        columns: 100px 3;
+        column-rule: dotted #979797;
+        text-align: justify;
+        text-justify: inter-word;
+        }
+
+    - El segon paràgraf té el text justificat
+    - El segon paràgraf té el text en 4 columnes
+         #opinion{
+            columns: 100px 4;
+            font-size: 0.9em;
+            margin-top: 25px;
+            text-align: justify;
+        }
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="./002.css" rel="stylesheet" />
+        <title>002</title>
+    </head>
+    <body>
+        <div class="autocenter">
+            <h1>Premier Leage News</h1>
+            <div class="top">
+                <div>PLN</div>
+                <div id="date">17 November 2022</div>
+                <div>Nr. 123</div>
+            </div>
+            <div class="box">
+                <h2>Manchester City 'are willing to pay Toni Kroos £230,000-a-week</h2>
+                <h3>With the 32-year-old out of contract at Real Madrid at the end of the season</h3>
+                <p>
+                    Manchester City are interested in signing Real Madrid midfielder Toni Kroos on a free transfer, according to reports in Spain.
+                    <br/>
+                    The German international is currently in the final year of his contract at the Bernebau and has showed no indications of signing a new deal with the Spanish outfit. 
+                    <br/><br/>
+                    It's put a number of top teams across Europe on red alert, with Pep Guardiola's Manchester City supposedly the frontrunners to secure Kroos' signature next year.
+                    <br/>
+                    According to SPORT, the Premier League champions are not hesitating and have already made an approach to sign the player. 
+                    <br/><br/>
+                    The Citizen's are willing to offer him a deal worth €14million (£12.2million) a year - which works out as roughly £230,000-a-week. A large increase from his current €9million deal.
+                    <br/>
+                    Real Madrid remain committed to renewing his deal, but the player wants to wait to see how he feels, both physically and mentally, before making a decision.
+                    <br/><br/>
+                    The 32-year-old has complete freedom over his next move and only needs to wait until January 1st to be able to sign a contract with another club. 
+                    <br/>
+                    One thing that may sway a deal in City's favour is the previous relationship between Kroos and Guardiola. The two spent a season together at Bayern Munich in 2013-14.
+                    <br/>
+                    Kroos spoke highly of his former coach when asked about their time at the Bundesliga side. 
+                    <br/>
+                    He said: 'Guardiola fought until the last day for me to stay at Bayern. If I have to choose a coach who is perfect for my game, it's Guardiola. I really enjoyed the year with him, he improved me a lot.'
+                    <br/><br/>
+                    The midfielder has featured 11 times for Los Blancos in this campaign and has chipped with a goal and two assists in LaLiga so far.
+                    <br/>
+                    His only goal came in their 2-1 win over Cadiz last week, where he scored a wondergoal to help secure all three points for his side
+                </p>
+                <img src="./imgs/002.png" />
+            </div>
+            <div class="bottom">
+                <div id="director">Signings as 's***' after ONE training session</div>
+                <div>Editor's opinion</div>
+            </div>
+            <div id="opinion">
+                Peter Crouch has opened up on the brutal culture at Liverpool that saw some new signings labelled as 's***' after just one training session.
+                <br/><br/>
+                The former Reds striker discussed the rigidly high standards at Anfield led by club legends Steven Gerrard and Jamie Carragher, who were not afraid to call players out in front of the whole squad or write them off very early into their Liverpool career.
+                <br/><br/>
+                And Crouch told Steven Bartlett's Diary of a CEO podcast that Gerrard and Carragher's elite mentality - along with the likes of former Chelsea pair John Terry and Frank Lampard - meant it looked like they did not enjoy playing football.
+            </div>
+        </div>
+    </body>
+</html>

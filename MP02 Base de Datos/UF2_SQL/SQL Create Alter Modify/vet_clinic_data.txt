@@ -1,0 +1,40 @@
+-- Insert data into Owner table
+INSERT INTO Owner (id, first_name, last_name, contact_number, email)
+VALUES
+    (1, 'John', 'Doe', '555-1234', 'john.doe@example.com'),
+    (2, 'Jane', 'Smith', '555-5678', 'jane.smith@example.com'),
+    (3, 'Emily', 'Johnson', '555-9999', 'emily.j@example.com'),
+    (4, 'Robert', 'Davis', '555-7777', 'robert.d@example.com');
+
+-- Insert data into Animal table
+INSERT INTO Animal (id, name, species, breed, birth_date, owner_id)
+VALUES
+    (1, 'Buddy', 'Dog', 'Golden Retriever', '2020-05-15', 1),
+    (2, 'Whiskers', 'Cat', 'Siamese', '2019-08-22', 2),
+    (3, 'Charlie', 'Dog', 'Beagle', '2018-02-28', 3),
+    (4, 'Fluffy', 'Cat', 'Persian', '2017-06-10', 4);
+
+-- Insert data into Veterinarian table
+INSERT INTO Veterinarian (id, first_name, last_name, contact_number, email, specialization)
+VALUES
+    (1, 'Dr. Sarah', 'Johnson', '555-4321', 'sarah.johnson@example.com', 'General Medicine'),
+    (2, 'Dr. Michael', 'Williams', '555-8765', 'michael.williams@example.com', 'Surgery'),
+	(3, 'Dr. Mark', 'Anderson', '555-2468', 'mark.anderson@example.com', 'Dentistry'),
+    (4, 'Dr. Lisa', 'Miller', '555-1357', 'lisa.miller@example.com', 'Orthopedics');
+
+-- Insert data into Appointment table
+INSERT INTO Appointment (id, animal_id, veterinarian_id, appointment_date, reason)
+VALUES
+    (1, 1, 1, '2024-01-10 09:00:00', 'Routine Checkup'),
+    (2, 2, 2, '2024-01-12 15:30:00', 'Vaccination'),
+	(3, 3, 3, '2024-01-15 11:00:00', 'Dental Checkup'),
+    (4, 4, 4, '2024-01-18 14:45:00', 'Orthopedic Evaluation');
+
+-- Insert data into Invoice table
+INSERT INTO Invoice (id, appointment_id, total_amount, payment_status)
+VALUES
+    (1, 1, 75.00, 'Paid'),
+    (2, 2, 50.00, 'Pending'),
+	(3, 3, 120.00, 'Pending'),
+    (4, 4, 90.00, 'Paid');
+

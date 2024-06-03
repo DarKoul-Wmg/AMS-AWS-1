@@ -1,0 +1,158 @@
+
+/*Normal*/
+@media only screen and (min-width: 768px) {
+    .cols {
+        width: auto;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .content-container {
+        width: auto;
+    }
+}
+
+/*Movil*/
+@media only screen and (max-width: 767px) {
+    .cols {
+        width: auto; 
+        margin: 0; 
+    }
+}
+
+.cols {
+    margin-left: 2em;
+}
+
+.content-container {
+    width: 22em;
+}
+
+.table-title {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+table.sales-table, td{
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.sales-table {
+    width: 40em;
+}
+
+.sales-table-category {
+    vertical-align: top;
+    width: 2em;
+    height: 5em;
+    text-align: start;
+    padding-left: 0.25em;
+}
+
+
+.sales-table-left {
+    text-align: start;
+    padding-left: 0.25em;
+}
+
+.sales-table tr:nth-child(even) td {
+    background-color: rgb(244,244,244);
+}
+
+.sales-table tr:not(:first-child) > :nth-child(1) {
+    background-color: transparent !important;
+}
+
+.sales-table-right {
+    text-align: end;
+    padding-right: 0.25em;
+}
+
+
+
+
+.sales-table th {
+    border-right: 1px solid white;
+    width: 25em;
+    background-color: rgb(26, 156, 249);
+    padding: 1%;
+    color: white;
+    text-align: left;
+}
+
+
+
+/*SALES PIVOT*/
+
+.sales-pivot-table {
+    width: 40em;
+    border-collapse: collapse;
+    border: 1px solid grey
+}
+
+.sales-pivot-table th {
+    background-color: rgb(26, 156, 249);
+    color: white;
+    padding: 1%;
+    text-align: left;
+    border-right: 1px solid white;
+    border-top: 2px solid white;
+}
+
+
+.sales-pivot-table-category {
+    vertical-align: top;
+    white-space: nowrap;
+    width: 2em;
+    height: 5em;
+    text-align: start;
+    padding-left: 0.25em;
+    border-right: 1px solid white;
+}
+
+
+.sales-pivot-table-left {
+    text-align: start;
+    padding-left: 0.25em;
+}
+
+.sales-pivot-table-right {
+    text-align: end;
+    padding-right: 0.25em;
+}
+
+/*Power*/
+.sales-pivot-table th:first-child{
+  width: 120px;
+  border-right: 0;
+
+}
+
+.Date {
+    text-align: right !important;
+}
+
+
+.sales-pivot-table tr:nth-child(6) td,
+.sales-pivot-table tr:nth-child(9) td {
+    background-color: rgb(244, 244, 244); /*gris claro*/
+}
+
+.sales-pivot-table tr:nth-child(6) td:nth-child(n+2):nth-child(-n+4) {
+    background-color: rgb(232, 232, 232); /*grtis oscuro*/
+}
+.sales-pivot-table tr:nth-child(9) td:nth-child(n+2):nth-child(-n+4) {
+    background-color: rgb(232, 232, 232);
+}
+
+.sales-pivot-table tr:last-child {
+    background-color: rgb(232, 232, 232);
+}
+
+.sales-pivot-table tr:last-child th {
+    
+    font-weight: 900; 
+    color: rgb(0, 0, 0);
+    
+}

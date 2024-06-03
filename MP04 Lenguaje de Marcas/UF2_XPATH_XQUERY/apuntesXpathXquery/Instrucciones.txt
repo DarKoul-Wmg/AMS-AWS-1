@@ -1,0 +1,41 @@
+EXAMEN XPATH y XQUERY
+La entrega tiene que ser de la misma carpeta, en formato ZIP, con el siguiente formato: "PAC2.1_NombreApellido.zip".
+Cualquier entrega que no siga este formato no sera evaluada, igual que cualquier archivo que falte o al que le cambieis el nombre.
+Teneis 2 horas, para solucionar todos los ejercios:
+
+XPATH (uso del fichero "books.xml" dentro de la carpeta de xpath):
+	1 - Muestra el título de cada libro cuyo precio sea mayor o igual a 30.
+	2 - Muestra los autores de cada libro donde la fecha de publicacion sea el 2005, sin repetir. 
+	3 - Muestra los años de publicación sin repetir. 
+	4 - Muestra el total de libros que hay. 
+	5 - Muestra el titulo de los libros escritos en años que terminen en "3". 
+
+# Muestra el título de cada libro cuyo precio sea mayor o igual a 30.
+result = tree.xpath('/bookstore/book[price >= 30]/title/text()')
+print(1, result)
+
+# Muestra los autores de cada libro donde la fecha de publicacion sea el 2005, sin repetir. 
+result = tree.xpath('/bookstore/book[year = 2005]/author[not(. = preceding::author)]/text()') # en este caso no es necesario
+print(2, result)
+
+# Muestra los años de publicación sin repetir. 
+result = tree.xpath('/bookstore/book/year[not(. = preceding::year)]/text()')
+print(3, result)
+
+# Muestra el total de libros que hay. 
+result = tree.xpath('count(/bookstore/book)')
+print(4, result)
+
+# Muestra el titulo de los libros escritos en años que terminen en "3". 
+result = tree.xpath('/bookstore/book[ends-with(year,"3")]/title/text()')
+print(5, result)
+
+
+XQUERY (uso del fichero "books.xml" dentro de la carpeta de xquery):
+	1 - Muestra los libros ordenados primero por "category" y luego por "title" en una sola consulta. (Formato: <title>titulo</title>)
+	2 - Muestra el precio mínimo y máximo de los libros. (Formato: <min>x</min><max>y</max>)
+	3 - Muestra el título del libro, su precio y su precio sin el IVA incluido. Ordénalos por precio. (Formato: <title>titulo</title> <price>precio</price> <price_woIVA>precio</price_woIVA>)
+	4 - Muestra la suma total de los precios de los libros. (Formato: <total_sum>suma</total_sum>)
+	5 - Muestra en la misma etiqueta el título y entre paréntesis el número de autores que tiene ese título. (Formato: <title>titulo(x)</title>)
+	6 - Muestra los libros cuya categoría empiece por "C". (Formato: <title category="categoria">titulo</title>)
+	7 - Muestra los libros que tengan una "X" mayúscula o minúscula en el título ordenados de manera descendente. (Formato: <title>titulo</title>)

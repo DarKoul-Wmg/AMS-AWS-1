@@ -1,0 +1,56 @@
+/*Exercici 1 : M2_UF2_DML*/
+
+use hr;
+/*1. Mostra detalls de la taula JOBS en què el salari mínim és superior
+ a 10000.*/
+select * from jobs where min_salary > 10000
+order by min_salary asc;
+
+/*2. Mostra el nom I la data de contractació dels empleats que van 
+ser contractats entre 2002 i 2005.*/
+select first_name, last_name, hire_date from employees 
+where hire_date between '1990-01-01' and '2001-12-31'
+order by hire_date asc;
+
+/*3. Mostra el nom I la data de contractació dels  empleats que 
+tenen son IT_Programmer o Sales Man.*/
+select first_name, last_name, job_id from employees 
+where job_id in ('IT_PROG','SA_MAN')
+order by job_id;
+
+/*4. Mostra els empleats que van ser contractats després de 01/01/2008.*/
+select first_name, last_name, hire_date from employees 
+where hire_date > '2000-01-01'
+order by hire_date asc;
+
+/*5. Mostra els empleats amb identificador d’empleat 150 o 160.*/
+select first_name, last_name, hire_date from employees 
+where employee_id in (150,160);
+
+/*6. Mostra el cognom, salari, la comissió i la data de contractació 
+dels empleats que tenen un salari inferior a 10000.*/
+select first_name, last_name, salary, commission_pct, hire_date from employees 
+where salary<10000
+order by salary desc;
+
+/*7. Mostrar per cada lloc de treball (job_title) la diferencia 
+entre el salari màxim i el salari mínim en una nova columna que 
+s’esmenti “DIFFERENCE”, 
+d’aquells pels qual el seu salari màxim estigui 
+entre el rang 10000 a 20.000.
+Mostra la informació de la taula JOBS ordenada de manera descendent per títol.*/
+select max_salary, min_salary, max_salary-min_salary as gap, job_title
+from jobs;
+
+/*8. Mostra els empleats els quals el seu nom o cognom comença per S.*/
+select first_name, last_name from employees
+where first_name like 'S%' or last_name like 'S%';
+
+/*9. Mostra tota la informació de la taula empleats pels quals 
+el percentatge de comissió és nul, 
+el seu salari està entre 5000 i 10000 
+i pertanyen al departament 30.*/
+select * from employees
+where commission_pct is null 
+	and salary between 5000 and 10000
+    and department_id=50;

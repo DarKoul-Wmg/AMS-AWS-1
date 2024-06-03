@@ -1,0 +1,102 @@
+create or replace FUNCTION f1_dept(nom varchar2) 
+return number 
+is 
+    v_id departments.department_id%type; 
+    v_count number:=0; 
+BEGIN 
+    select count(*) into v_count from departments where upper(department_name)=upper(nom); 
+    if v_count=1 then 
+        select department_id into v_id from departments where upper(department_name)=upper(nom); 
+        return v_id; 
+    else  
+        return null; 
+    end if; 
+END f1_dept;
+
+
+-------------------------------------------------------------------------------------
+create or replace FUNCTION f1_comissio(id number) 
+return employees.commission_pct%type
+is 
+    v_max_com employees.commission_id%type=null; 
+    v_count number:=0; 
+BEGIN 
+    select count(*) into v_count from departments where upper(department_name)=upper(nom); 
+    if v_count=1 then 
+        select department_id into v_id from departments where upper(department_name)=upper(nom); 
+        return v_id; 
+    else  
+        return null; 
+    end if; 
+END f1_dept;
+
+---------------------------CORREGIDO DE MARINA----------------------------------------------------------
+
+create or replace FUNCTION f1_dept(nom varchar2) 
+return number 
+is 
+    v_id departments.department_id%type; 
+    v_count number:=0; 
+BEGIN 
+        select department_id into v_id from departments where upper(department_name)=upper(nom); 
+        return v_id; 
+exception
+    when no_data_found then 
+        return null;
+    when others then
+        return null;
+END f1_dept;
+
+
+-----------------------------CORREGIDO DE MARINA--------------------------------------------------------
+
+create or replace FUNCTION f1_comissio(id number)  
+return employees.commission_pct%type  
+is  
+    v_max_com employees.commission_pct%type:=null;  
+    v_count number(6):=0;  
+BEGIN  
+    select count(*) into v_count from employees where department_id=id;
+    if v_count>=1 then  
+        select nvl(max(commission_pct),0) into v_max_com from employees where department_id=id;  
+        return v_max_com;
+    else
+        return 0;
+    end if;  
+END f1_comissio;
+
+
+-------------------------------CORREGIDO DE MARINA------------------------------------------------
+
+create or replace PROCEDURE P1_comissio (p_nom varchar2)
+is  
+    v_nom varchar2(200):='Sales';
+    v_id  number(6);
+    v_max_com employees.commission_pct%type:=null;  
+    v_emp employees%rowtype;
+BEGIN     
+    if p_nom is not null then
+        v_nom:=p_nom;
+    end if;
+    v_id:= f1_dept(v_nom);
+    if v_id is not null then
+        v_max_com:= f1_comissio(v_id);
+        if v_max_com > 0 then
+            select * into v_emp
+            from employees
+            where department_id=v_id and commission_pct=v_max_com
+            order by employee_id
+            fetch  first 1 row only;
+            dbms_output.put_line('----------------treballador de '||v_nom||'----------------');
+            dbms_output.put_line('       nom       :'||v_emp.last_name);
+            dbms_output.put_line('       email     :'||v_emp.email);
+            dbms_output.put_line('       hire_date :'||v_emp.hire_date);
+            dbms_output.put_line('       comission :'||v_emp.commission_pct);
+            dbms_output.put_line('----------------treballador de '||v_nom||'----------------');
+        else
+            dbms_output.put_line('----------------els treballadors del departament '||v_nom||' amb id ' ||v_id||' NO TENEN COMISSIÓ --------');        
+        end if;
+    else
+        dbms_output.put_line('----------------departament de '||v_nom||' NO EXISTEIX --------');        
+    end if;
+END p1_comissio;

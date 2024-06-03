@@ -1,0 +1,21 @@
+<!ELEMENT root (students,teachers,rooms)>
+<!ATTLIST root type CDATA #FIXED "database">
+<!ELEMENT students (student*)>
+<!ATTLIST students type CDATA #FIXED "table">
+<!ELEMENT student (name, surname, age, course)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ATTLIST student type CDATA #FIXED "row">
+<!ELEMENT teachers (teacher*)>
+<!ATTLIST teachers type CDATA #FIXED "table">
+<!ELEMENT teacher (name, surname, age, group)>
+<!ATTLIST teacher type CDATA #FIXED "row"
+                  tutor (yes|no) #REQUIRED>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT rooms (room*)>
+<!ATTLIST rooms type CDATA #FIXED "table">
+<!ELEMENT room (name, capacity)>
+<!ATTLIST room type CDATA #FIXED "subtable">
+<!ELEMENT capacity (#PCDATA)>

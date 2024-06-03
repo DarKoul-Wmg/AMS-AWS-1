@@ -1,0 +1,27 @@
+create or replace  FUNCTION f_codi_departament_excep (IN_nom_departament varchar2)
+RETURN number IS
+    v_ok varchar2(10);
+    v_id departments.department_id%type;
+BEGIN
+        select department_id into v_id
+        from departments 
+        where department_name like IN_nom_departament||'%';
+        return v_id;
+EXCEPTION 
+    when NO_DATA_FOUND then
+        dbms_output.put_line('NO_DATA_FOUND');
+        dbms_output.put_line(SQLCODE||'-'||SQLERRM);
+        return -99;
+    when TOO_MANY_ROWS then
+        dbms_output.put_line('TOO_MANY_ROWS');
+        dbms_output.put_line(SQLCODE||'-'||SQLERRM);
+        return -88;
+    when others then
+        dbms_output.put_line(SQLCODE||'-'||SQLERRM);
+        return -1;
+END f_codi_departament_excep;
+
+set serveroutput on
+BEGIN
+dbms_output.put_line('el departament és:'||f_codi_departament_excep('S'));
+END;

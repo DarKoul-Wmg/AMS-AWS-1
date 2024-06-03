@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pagina>
+    <titulo>Noticias Esteve Terradas</titulo>
+    <articulos>
+        <articulo categoria="Ciencia">
+            <titulo>Descubrimiento Científico Revolucionario</titulo>
+            <autor>Juan Pérez</autor>
+            <fecha>2022-05-19</fecha>
+            <contenido>Un grupo de científicos ha hecho un descubrimiento revolucionario que cambiará la forma en que entendemos el universo.</contenido>
+        </articulo>
+        <articulo categoria="Política">
+            <titulo>Entrevista Exclusiva con la Presidenta</titulo>
+            <autor>Maria Rodriguez</autor>
+            <fecha>2022-07-20</fecha>
+            <contenido>En una entrevista exclusiva, la presidenta del país habla sobre sus planes y desafíos para el próximo año.</contenido>
+        </articulo>
+        <articulo categoria="Moda">
+            <titulo>Nuevas Tendencias en Moda para la Primavera</titulo>
+            <autor>Carlos Gómez</autor>
+            <fecha>2023-02-18</fecha>
+            <contenido>Descubre las últimas tendencias de moda que marcarán la pauta en la próxima temporada de primavera.</contenido>
+        </articulo>
+        <articulo categoria="Exploración">
+            <titulo>Explorando los Secretos del Océano Profundo</titulo>
+            <autor>Laura Sánchez</autor>
+            <fecha>2023-12-22</fecha>
+            <contenido>Una expedición submarina revela fascinantes secretos sobre la vida en las profundidades del océano.</contenido>
+        </articulo>
+        <articulo categoria="Tecnología">
+            <titulo>Avances Tecnológicos: Robótica del Futuro</titulo>
+            <autor>Pablo Martínez</autor>
+            <fecha>2024-01-24</fecha>
+            <contenido>Exploramos los últimos avances en robótica que están transformando la forma en que interactuamos con la tecnología.</contenido>
+        </articulo>
+		<articulo categoria="Moda">
+            <titulo>Gana Mal Studio</titulo>
+            <autor>Maria Rodriguez</autor>
+            <fecha>2024-04-11</fecha>
+            <contenido>La españo-peruana Mal Studio, ganadora del Allianz Ego Confidence in Fashion, en el contexto de esta última edición de febrero de 2024 de la pasarela MBFW Madrid.</contenido>
+        </articulo>
+    </articulos>
+</pagina>
+<!-- Funciones disponibles: https://www.w3schools.com/xml/xsl_functions.asp 
+	1- Selecciona todos los títulos de los artículos:
+	2- Encuentra la cantidad total de artículos:
+	3- Selecciona los nombres de los autores de artículos publicados después de cierta fecha (2022-09-03):
+	4- Encuentra el título del artículo más reciente:
+	5- Selecciona los artículos con contenido que contiene la palabra "presidenta":
+	6- Encuentra el autor que ha escrito más artículos:
+	7- Selecciona los títulos de los artículos ordenados por fecha de publicación:
+	8- Encuentra el promedio de palabras en el contenido de los artículos:
+	9- Encuentra el contado de articulos por categoria:
+	10- Encuentra la fecha más antigua y la más reciente de publicación de artículos:
+-->

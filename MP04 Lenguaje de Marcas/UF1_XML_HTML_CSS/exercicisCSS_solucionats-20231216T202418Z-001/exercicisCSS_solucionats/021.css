@@ -1,0 +1,19 @@
+.quadre0 {
+    background-color: lightskyblue;
+    height: 50px;
+    margin-top: 50px;
+    width: 100px;
+}
+.quadre1:hover {
+    border-radius: 50px;
+    height: 100px;
+    background-color: orange;
+}
+.quadre1 {
+    background-color: lightseagreen;
+    border-radius: 0;
+    height: 50px;
+    margin-top: 50px;
+    transition: background-color 1s ease, border-radius 0.5s ease, height 0.5s ease;
+    width: 100px;
+}

@@ -1,0 +1,16 @@
+select to_char(order_date,'yyyy-mm') as periode, CUSTOMER_ID, count(*)
+from orders
+group by to_char(order_date,'yyyy-mm'), customer_id
+having count(*) > 1
+order by periode;
+
+SELECT *
+from ORDERS o
+where order_date between to_date('01'||'03-2017','dd-mm-yyyy')
+                 and last_day(to_date('03-2017','mm-yyyy'));
+
+SELECT *
+from ORDERS o
+where instr(',47,48,44,',','||customer_id||',') > 0
+--where instr(',47,60,43,',customer_id) > 0
+order by order_date;

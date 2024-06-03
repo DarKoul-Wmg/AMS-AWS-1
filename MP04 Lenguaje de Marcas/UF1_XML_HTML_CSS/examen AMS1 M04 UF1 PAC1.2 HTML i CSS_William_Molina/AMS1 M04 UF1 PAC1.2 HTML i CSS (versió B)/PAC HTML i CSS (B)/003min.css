@@ -1,0 +1,26 @@
+.min {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10px;
+}
+
+.min .month {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0;
+    border-bottom: 1px solid grey;
+    background-color: var(--color-clar);
+}
+
+.min .days tr td {
+    padding: 0 5px;
+    text-align: right;
+
+}
+
+.min .days tr:first-child td {
+    color: var(--color-gris);
+    text-align: left;
+    font-weight: 0.7em;
+}

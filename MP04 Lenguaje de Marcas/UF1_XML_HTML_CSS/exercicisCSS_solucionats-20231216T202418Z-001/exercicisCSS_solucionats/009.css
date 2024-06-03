@@ -1,0 +1,10 @@
+.saltliniacentrat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.saltliniaespaiat {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}

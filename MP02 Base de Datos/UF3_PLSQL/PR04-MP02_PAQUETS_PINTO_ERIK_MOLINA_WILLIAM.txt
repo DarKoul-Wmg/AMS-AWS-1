@@ -1,0 +1,717 @@
+-- EX1
+
+
+
+--FUNCIONS SECUNDARIES
+
+
+create or replace FUNCTION F_validarfecha_PintoErik_MolinaWilliam(p_period VARCHAR2)
+RETURN BOOLEAN
+IS
+    v_month NUMBER;
+    v_year NUMBER;
+    v_periode_ok BOOLEAN;
+
+BEGIN
+    -- Validar periodo
+    v_periode_ok := TRUE;
+
+    -- periode mida 7
+    IF LENGTH(p_period) != 7 THEN
+        v_periode_ok := FALSE;
+    END IF;
+
+    -- No tiene el formato con -
+    IF SUBSTR(p_period, 3, 1) != '-' THEN
+        v_periode_ok := FALSE;
+    END IF;
+
+    -- primer elemento un numero entre 1 y 12
+    IF REGEXP_LIKE(SUBSTR(p_period, 1, 2),'^\d+$')THEN
+        -- es numero:
+        v_month := TO_NUMBER(SUBSTR(p_period, 1, 2));
+
+        -- entre 1 y 12
+        IF v_month < 1 or v_month > 12 THEN
+            v_periode_ok := FALSE;
+        END IF;
+    ELSE
+        v_periode_ok := FALSE;
+    END IF;
+
+    -- Anyo entre 2000 y 2023:
+    IF REGEXP_LIKE(SUBSTR(p_period, 4),'^\d+$')THEN
+        -- es numero:
+        v_year := TO_NUMBER(SUBSTR(p_period, 4));
+
+        -- entre 2000 y 2023
+        IF v_year < 2000 or v_year > 2023 THEN
+            v_periode_ok := FALSE;
+        END IF;
+    ELSE
+        v_periode_ok := FALSE;
+    END IF;
+
+    RETURN v_periode_ok;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN FALSE;
+END F_validarfecha_PintoErik_MolinaWilliam;
+/
+
+
+CREATE OR REPLACE FUNCTION f_repeat_comanda (
+    id_comanda IN orders.ORDER_ID%TYPE)
+RETURN NUMBER IS
+    old_date DATE;
+    new_date DATE;
+    new_status orders.STATUS%TYPE;
+    org_customer_id customers.customer_id%TYPE;
+    org_name customers.name%TYPE;
+    org_address customers.address%TYPE;
+    org_website customers.website%TYPE;
+    org_credit_limit customers.credit_limit%TYPE;
+    org_salesman_id orders.SALESMAN_ID%TYPE;
+    v_sequence_name VARCHAR2(50);
+    next NUMBER;
+BEGIN
+
+    
+    SELECT ORDER_DATE INTO old_date
+    FROM ORDERS
+    WHERE ORDER_ID = id_comanda;
+
+    -- Sumamos 18 meses a la fecha obtenida
+    new_date := ADD_MONTHS(old_date, 18);
+
+    -- Cambiamos estado
+    new_status := 'Pending';
+
+    --Extraemos información de la comanda original
+    SELECT customer_id, salesman_id
+    INTO org_customer_id, org_salesman_id
+    FROM ORDERS
+    WHERE order_id = id_comanda;
+
+    --Creamos la nueva comanda con los valores pedidos
+
+    SELECT SEQUENCE_NAME INTO v_sequence_name
+    FROM user_tab_identity_cols
+    WHERE table_name = 'CUSTOMERS' AND column_name = 'CUSTOMER_ID';
+
+    -- Obtenemos el próximo valor de la secuencia
+    EXECUTE IMMEDIATE 'SELECT ' || v_sequence_name || '.NEXTVAL FROM dual' INTO next;
+
+    dbms_output.put_line('Order created with ID: ' || TO_CHAR(next - 1));    
+
+    --Insertamos los datos
+
+    INSERT INTO orders (order_id, customer_id, status, salesman_id, order_date)
+    VALUES ( next -1,id_comanda, new_status, org_salesman_id, new_date);
+
+    FOR item IN (SELECT * FROM order_items WHERE order_id = id_comanda) LOOP
+        UPDATE order_items
+        SET UNIT_PRICE = item.UNIT_PRICE * 1.025
+        WHERE order_id = id_comanda
+        AND item_id = item.item_id;
+    END LOOP;
+
+    -- Aquí seleccionamos el customerid de la comanda
+    SELECT customer_id INTO org_customer_id
+    FROM orders
+    WHERE order_id = id_comanda;
+
+    -- Aquí crearemos un nuevo customer
+    -- Copiaremos los atributos del customer
+    SELECT name, address, website, credit_limit
+    INTO org_name, org_address, org_website, org_credit_limit
+    FROM CUSTOMERS
+    WHERE customer_id = org_customer_id;
+
+    --Insertamos el nuevo customer con los parametros indicados
+    INSERT INTO CUSTOMERS (name, address, website, credit_limit)
+    VALUES (org_name, org_address, concat(org_website, '.WEK'), org_credit_limit);
+
+    RETURN 1;
+
+
+END f_repeat_comanda;
+/
+
+
+
+CREATE OR REPLACE FUNCTION F_validar_clientes_PintoErik_MolinaWilliam(p_period VARCHAR2)
+RETURN BOOLEAN
+IS
+    v_client_id NUMBER;
+    v_count NUMBER;
+    v_all_valid BOOLEAN := TRUE;
+    str_aux VARCHAR2(4000) := p_period || ','; -- Agregamos una coma al final para asegurar el último elemento
+    v_element VARCHAR2(4000);
+BEGIN
+    -- Recorre la lista buscando los elementos antes de cada coma
+    WHILE LENGTH(str_aux) > 0 AND v_all_valid LOOP
+        -- Obtener el primer elemento de la lista antes de la posición de la coma
+        v_element := TRIM(SUBSTR(str_aux, 1, INSTR(str_aux, ',', 1, 1) - 1));
+
+        -- Verificar si el elemento es un número
+        IF REGEXP_LIKE(v_element, '^\d+$') THEN
+            v_client_id := TO_NUMBER(v_element);
+
+            -- Verificar si el ID de cliente existe en la base de datos
+            SELECT COUNT(*)
+            INTO v_count
+            FROM customers
+            WHERE customer_id = v_client_id;
+
+            -- Si el ID no existe, marcar como no válido
+            IF v_count = 0 THEN
+                v_all_valid := FALSE;
+            END IF;
+        ELSE
+            -- Si el elemento no es un número, marcar como no válido
+            v_all_valid := FALSE;
+        END IF;
+
+        -- Retallar la lista eliminando el primer elemento
+        str_aux := SUBSTR(str_aux, INSTR(str_aux, ',', 1, 1) + 1);
+    END LOOP;
+
+    RETURN v_all_valid;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN FALSE;
+END F_validar_clientes_PintoErik_MolinaWilliam;
+/
+
+
+
+
+
+CREATE OR REPLACE FUNCTION F_validar_comandas_MolinaWilliamPintoErik(
+    p_clients VARCHAR2,
+    v_month NUMBER,
+    v_year NUMBER
+) RETURN NUMBER IS
+    v_orders_count NUMBER := 0;
+    v_client_id NUMBER;
+    str_aux VARCHAR2(4000) := p_clients || ','; -- Agregamos una coma al final para asegurar el último elemento
+    v_element VARCHAR2(4000);
+BEGIN
+    -- Recorre la lista de clientes
+    WHILE LENGTH(str_aux) > 0 LOOP
+        -- Obtener el primer ID de cliente de la lista
+        v_element := TRIM(SUBSTR(str_aux, 1, INSTR(str_aux, ',', 1, 1) - 1));
+        
+        -- Convertir el elemento a número
+        BEGIN
+            v_client_id := TO_NUMBER(v_element);
+        EXCEPTION
+            WHEN VALUE_ERROR THEN
+                -- Si el elemento no es un número, continuar con el siguiente
+                CONTINUE;
+        END;
+        
+        -- Verificar si el cliente tiene órdenes en el período indicado
+        SELECT COUNT(*)
+        INTO v_orders_count
+        FROM orders
+        WHERE customer_id = v_client_id
+        AND EXTRACT(MONTH FROM order_date) = v_month
+        AND EXTRACT(YEAR FROM order_date) = v_year;
+
+        -- Si se encuentra al menos una orden, terminar la búsqueda
+        IF v_orders_count > 0 THEN
+            RETURN v_orders_count;
+        END IF;
+
+        -- Retallar la lista eliminando el primer elemento
+        str_aux := SUBSTR(str_aux, INSTR(str_aux, ',', 1, 1) + 1);
+    END LOOP;
+
+    -- Si se recorre toda la lista y no se encuentra ninguna orden, retornar 0
+    RETURN 0;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN -1; -- Error genérico
+END F_validar_comandas_MolinaWilliamPintoErik;
+/
+
+
+
+
+
+
+
+
+--FUNCIO PRINCIPAL
+
+
+CREATE OR REPLACE FUNCTION F_repetir_comandes_Erik_MolinaWilliam(p_period String, p_clients String)
+RETURN NUMBER --
+IS
+    v_month number;
+    v_year number;
+
+    v_client_id NUMBER;
+    v_orders_repeated NUMBER := 0;
+    v_orders_count NUMBER := 0;
+
+    -- Variable de control per verificar el periode y la lista
+    v_periode_ok BOOLEAN;
+    v_clients_ok BOOLEAN;
+    v_clientes_con_comandas NUMBER;
+    v_comanda_repetida NUMBER;
+
+    CURSOR c_orders IS
+        SELECT o.order_id
+        FROM ORDERS o
+        WHERE o.order_date BETWEEN TO_DATE('01-' || p_period, 'DD-MM-YYYY')
+                               AND LAST_DAY(TO_DATE('01-' || p_period, 'DD-MM-YYYY'))
+        AND (',' || p_clients || ',' LIKE '%,' || TO_CHAR(o.customer_id) || ',%')
+        AND o.status = 'Shipped';
+
+
+BEGIN
+
+-- Validar periodo
+    v_periode_ok := F_validarfecha_PintoErik_MolinaWilliam(p_period);
+    IF NOT v_periode_ok THEN
+            RETURN -2;
+    END IF;
+
+    v_month := TO_NUMBER(SUBSTR(p_period, 1, 2));
+    v_year := TO_NUMBER(SUBSTR(p_period, -4));
+
+-- Validar string clientes
+    v_clients_ok := F_validar_clientes_PintoErik_MolinaWilliam(p_clients);
+
+
+    IF NOT v_clients_ok THEN
+        RETURN -1;
+    END IF;
+
+
+
+-- Validar clientes con comandas
+    v_clientes_con_comandas := F_validar_comandas_MolinaWilliamPintoErik(p_clients, v_month, v_year);
+
+    IF v_clientes_con_comandas = 0  THEN
+        RETURN 0;
+    END IF;
+
+
+    FOR r_order in c_orders LOOP
+
+
+        -- Consulta para contar las comandas del cliente en el período indicado
+        SELECT COUNT(*)
+        INTO v_orders_count
+        FROM orders o
+        WHERE customer_id = o.CUSTOMER_ID AND status = 'Shipped'
+        
+        AND EXTRACT(MONTH FROM order_date) = v_month
+        AND EXTRACT(YEAR FROM order_date) = v_year;
+
+        
+
+
+        -- FUNCION PASANDO EL CUSTOMER_ID
+        v_comanda_repetida := F_REPEAT_COMANDA(r_order.order_id);
+
+        v_orders_repeated := v_orders_repeated + v_orders_count;
+
+    END LOOP;
+
+    -- Si ningún cliente tiene comandas en el período, retornamos 0
+    IF v_orders_repeated = 0 THEN
+        RETURN 0;
+    END IF;
+
+    dbms_output.put_line('Function Executed Succesfully'); 
+
+
+    RETURN v_orders_repeated;
+EXCEPTION
+    -- Manejo de excepciones
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN -1; 
+END F_repetir_comandes_Erik_MolinaWilliam;
+/
+
+-- EX 2 PAQUETS
+
+
+CREATE OR REPLACE PACKAGE "BOTIGA".pk_repetir_comandes AS
+
+    FUNCTION pkf_validar_comandas_molinawilliampintoerik(p_clients VARCHAR2,v_month NUMBER,v_year NUMBER) RETURN NUMBER;
+
+    FUNCTION pkF_validar_clientes_PintoErik_MolinaWilliam(p_period VARCHAR2) RETURN BOOLEAN;
+    
+    FUNCTION pkf_repeat_comanda(id_comanda IN orders.ORDER_ID%TYPE) RETURN NUMBER;
+
+    FUNCTION pkf_repetir_comandes_erik_molinawilliam(p_period String, p_clients String) RETURN NUMBER;
+
+END pk_repetir_comandes;
+/
+
+
+CREATE OR REPLACE PACKAGE BODY pk_repetir_comandes AS
+
+    FUNCTION pkF_validar_comandas_MolinaWilliamPintoErik(
+    p_clients VARCHAR2,
+    v_month NUMBER,
+    v_year NUMBER
+) RETURN NUMBER IS
+    v_orders_count NUMBER := 0;
+    v_client_id NUMBER;
+    str_aux VARCHAR2(4000) := p_clients || ','; -- Agregamos una coma al final para asegurar el último elemento
+    v_element VARCHAR2(4000);
+BEGIN
+    -- Recorre la lista de clientes
+    WHILE LENGTH(str_aux) > 0 LOOP
+        -- Obtener el primer ID de cliente de la lista
+        v_element := TRIM(SUBSTR(str_aux, 1, INSTR(str_aux, ',', 1, 1) - 1));
+        
+        -- Convertir el elemento a número
+        BEGIN
+            v_client_id := TO_NUMBER(v_element);
+        EXCEPTION
+            WHEN VALUE_ERROR THEN
+                -- Si el elemento no es un número, continuar con el siguiente
+                CONTINUE;
+        END;
+
+
+        
+        -- Verificar si el cliente tiene órdenes en el período indicado
+        SELECT COUNT(*)
+        INTO v_orders_count
+        FROM orders
+        WHERE customer_id = v_client_id
+        AND EXTRACT(MONTH FROM order_date) = v_month
+        AND EXTRACT(YEAR FROM order_date) = v_year;
+
+        -- Si se encuentra al menos una orden, terminar la búsqueda
+        IF v_orders_count > 0 THEN
+            RETURN v_orders_count;
+        END IF;
+
+        -- Retallar la lista eliminando el primer elemento
+        str_aux := SUBSTR(str_aux, INSTR(str_aux, ',', 1, 1) + 1);
+    END LOOP;
+
+    -- Si se recorre toda la lista y no se encuentra ninguna orden, retornar 0
+    RETURN 0;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN -1; -- Error genérico
+END pkF_validar_comandas_MolinaWilliamPintoErik;
+
+
+    
+
+    
+    FUNCTION pkf_repeat_comanda (
+    id_comanda IN orders.ORDER_ID%TYPE)
+    RETURN NUMBER IS
+    old_date DATE;
+    new_date DATE;
+    new_status orders.STATUS%TYPE;
+    org_customer_id customers.customer_id%TYPE;
+    org_name customers.name%TYPE;
+    org_address customers.address%TYPE;
+    org_website customers.website%TYPE;
+    org_credit_limit customers.credit_limit%TYPE;
+    org_salesman_id orders.SALESMAN_ID%TYPE;
+    v_sequence_name VARCHAR2(50);
+    next NUMBER;
+    BEGIN
+
+    
+    SELECT ORDER_DATE INTO old_date
+    FROM ORDERS
+    WHERE ORDER_ID = id_comanda;
+
+    -- Sumamos 18 meses a la fecha obtenida
+    new_date := ADD_MONTHS(old_date, 18);
+
+    -- Cambiamos estado
+    new_status := 'Pending';
+
+    --Extraemos información de la comanda original
+    SELECT customer_id, salesman_id
+    INTO org_customer_id, org_salesman_id
+    FROM ORDERS
+    WHERE order_id = id_comanda;
+
+
+    --Creamos la nueva comanda con los valores pedidos
+
+    SELECT SEQUENCE_NAME INTO v_sequence_name
+    FROM user_tab_identity_cols
+    WHERE table_name = 'CUSTOMERS' AND column_name = 'CUSTOMER_ID';
+
+
+
+
+
+    -- Obtenemos el próximo valor de la secuencia
+    EXECUTE IMMEDIATE 'SELECT ' || v_sequence_name || '.NEXTVAL FROM dual' INTO next;
+
+
+    dbms_output.put_line('Order created with ID: ' || TO_CHAR(next - 1));
+
+
+    --Insertamos los datos
+
+    INSERT INTO orders (order_id, customer_id, status, salesman_id, order_date)
+    VALUES ( next -1,id_comanda, new_status, org_salesman_id, new_date);
+
+    FOR item IN (SELECT * FROM order_items WHERE order_id = id_comanda) LOOP
+        UPDATE order_items
+        SET UNIT_PRICE = item.UNIT_PRICE * 1.025
+        WHERE order_id = id_comanda
+        AND item_id = item.item_id;
+    END LOOP;
+
+    -- Aquí seleccionamos el customerid de la comanda
+    SELECT customer_id INTO org_customer_id
+    FROM orders
+    WHERE order_id = id_comanda;
+
+    -- Aquí crearemos un nuevo customer
+    -- Copiaremos los atributos del customer
+    SELECT name, address, website, credit_limit
+    INTO org_name, org_address, org_website, org_credit_limit
+    FROM CUSTOMERS
+    WHERE customer_id = org_customer_id;
+
+    --Insertamos el nuevo customer con los parametros indicados
+    INSERT INTO CUSTOMERS (name, address, website, credit_limit)
+    VALUES (org_name, org_address, concat(org_website, '.WEK'), org_credit_limit);
+
+    RETURN 1;
+
+
+    END pkf_repeat_comanda;
+
+
+
+
+
+
+    FUNCTION pkF_repetir_comandes_Erik_MolinaWilliam(p_period String, p_clients String)
+    RETURN NUMBER --
+    IS
+    v_month number;
+    v_year number;
+
+    v_client_id NUMBER;
+    v_orders_repeated NUMBER := 0;
+    v_orders_count NUMBER := 0;
+
+    -- Variable de control per verificar el periode y la lista
+    v_periode_ok BOOLEAN;
+    v_clients_ok BOOLEAN;
+    v_clientes_con_comandas NUMBER;
+    v_comanda_repetida NUMBER;
+
+    CURSOR c_orders IS
+        SELECT o.order_id
+        FROM ORDERS o
+        WHERE o.order_date BETWEEN TO_DATE('01-' || p_period, 'DD-MM-YYYY')
+                               AND LAST_DAY(TO_DATE('01-' || p_period, 'DD-MM-YYYY'))
+        AND (',' || p_clients || ',' LIKE '%,' || TO_CHAR(o.customer_id) || ',%')
+        AND o.status = 'Shipped';
+
+
+BEGIN
+
+-- Validar periodo
+
+    v_periode_ok := F_validarfecha_PintoErik_MolinaWilliam(p_period);
+    IF NOT v_periode_ok THEN
+            RETURN -2;
+    END IF;
+
+    v_month := TO_NUMBER(SUBSTR(p_period, 1, 2));
+    v_year := TO_NUMBER(SUBSTR(p_period, -4));
+
+-- Validar string clientes
+    v_clients_ok := F_validar_clientes_PintoErik_MolinaWilliam(p_clients);
+
+
+    IF NOT v_clients_ok THEN
+        RETURN -1;
+    END IF;
+
+
+
+-- Validar clientes con comandas
+    v_clientes_con_comandas := F_validar_comandas_MolinaWilliamPintoErik(p_clients, v_month, v_year);
+
+    IF v_clientes_con_comandas = 0  THEN
+        RETURN 0;
+    END IF;
+
+
+    FOR r_order in c_orders LOOP
+
+
+        -- Consulta para contar las comandas del cliente en el período indicado
+        SELECT COUNT(*)
+        INTO v_orders_count
+        FROM orders o
+        WHERE customer_id = o.CUSTOMER_ID AND status = 'Shipped'
+        
+        AND EXTRACT(MONTH FROM order_date) = v_month
+        AND EXTRACT(YEAR FROM order_date) = v_year;
+
+
+
+
+        -- FUNCION PASANDO EL CUSTOMER_ID
+        v_comanda_repetida := PKF_REPEAT_COMANDA(r_order.order_id);
+
+
+        v_orders_repeated := v_orders_repeated + v_orders_count;
+
+    END LOOP;
+
+    -- Si ningún cliente tiene comandas en el período, retornamos 0
+    IF v_orders_repeated = 0 THEN
+        RETURN 0;
+    END IF;
+
+    dbms_output.put_line('Function Executed Succesfully'); 
+
+
+    RETURN v_orders_repeated;
+EXCEPTION
+    -- Manejo de excepciones
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN -1; 
+END pkF_repetir_comandes_Erik_MolinaWilliam;
+
+
+
+FUNCTION pkF_validar_clientes_PintoErik_MolinaWilliam(p_period VARCHAR2)
+RETURN BOOLEAN
+IS
+    v_client_id NUMBER;
+    v_count NUMBER;
+    v_all_valid BOOLEAN := TRUE;
+    str_aux VARCHAR2(4000) := p_period || ','; -- Agregamos una coma al final para asegurar el último elemento
+    v_element VARCHAR2(4000);
+BEGIN
+    -- Recorre la lista buscando los elementos antes de cada coma
+    WHILE LENGTH(str_aux) > 0 AND v_all_valid LOOP
+        -- Obtener el primer elemento de la lista antes de la posición de la coma
+        v_element := TRIM(SUBSTR(str_aux, 1, INSTR(str_aux, ',', 1, 1) - 1));
+
+        -- Verificar si el elemento es un número
+        IF REGEXP_LIKE(v_element, '^\d+$') THEN
+            v_client_id := TO_NUMBER(v_element);
+
+            -- Verificar si el ID de cliente existe en la base de datos
+            SELECT COUNT(*)
+            INTO v_count
+            FROM customers
+            WHERE customer_id = v_client_id;
+
+            -- Si el ID no existe, marcar como no válido
+            IF v_count = 0 THEN
+                v_all_valid := FALSE;
+            END IF;
+        ELSE
+            -- Si el elemento no es un número, marcar como no válido
+            v_all_valid := FALSE;
+        END IF;
+
+        -- Retallar la lista eliminando el primer elemento
+        str_aux := SUBSTR(str_aux, INSTR(str_aux, ',', 1, 1) + 1);
+    END LOOP;
+
+    RETURN v_all_valid;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        RETURN FALSE;
+END pkF_validar_clientes_PintoErik_MolinaWilliam;
+
+END pk_repetir_comandes;
+
+
+-- SCRIPTS DE PROVES
+
+
+set SERVEROUTPUT on
+declare
+periode 	varchar2(50):='03-2017';
+cust_list 	varchar2(50):='47,48';
+resultado number;
+
+begin
+	resultado := F_REPETIR_COMANDES_ERIK_MOLINAWILLIAM(periode,cust_list);
+
+	--Prova per paquets (ex2)
+	--resultado := PK_REPETIR_COMANDES.PKF_REPETIR_COMANDES_ERIK_MOLINAWILLIAM(periode,cust_list);
+    IF resultado < 0 THEN
+        IF resultado = -2 THEN
+            dbms_output.put_line('Error en el periode: Result= ' || resultado);
+
+            ELSIF resultado = -1 THEN
+                dbms_output.put_line('Error en la lista de clientes: Result= ' || resultado);
+
+                ELSIF resultado = 0 THEN
+                    dbms_output.put_line('Clientes sin comandas en el periodo dado: Result= ' || resultado);
+        END IF;
+
+    ELSE
+      dbms_output.put_line('Orders repetides ' || resultado); 
+    END IF;    
+	
+
+end;
+
+/
+
+declare
+periode 	varchar2(50):='34-2028';
+cust_list 	varchar2(50):='47,48';
+resultado number;
+
+begin
+	resultado := F_REPETIR_COMANDES_ERIK_MOLINAWILLIAM(periode,cust_list);
+
+	--Prova per paquets (ex2)
+	--resultado := PK_REPETIR_COMANDES.PKF_REPETIR_COMANDES_ERIK_MOLINAWILLIAM(periode,cust_list);
+
+	 IF resultado < 0 THEN
+        IF resultado = -2 THEN
+            dbms_output.put_line('Error en el periode: Result= ' || resultado);
+
+            ELSIF resultado = -1 THEN
+                dbms_output.put_line('Error en la lista de clientes: Result= ' || resultado);
+
+                ELSIF resultado = 0 THEN
+                    dbms_output.put_line('Clientes sin comandas en el periodo dado: Result= ' || resultado);
+        END IF;
+
+    ELSE
+      dbms_output.put_line('Orders repetides ' || resultado); 
+    END IF;     
+
+end;

@@ -1,0 +1,12 @@
+Fer consultes XQuery amb BaseX
+
+Fer anar BaseX GUI amb: 
+
+    cd xquery
+    java -cp BaseX104.jar org.basex.BaseXGUI
+    (Obrir la carpeta xquery)
+
+Fer queries per linia de comandes:
+
+    cd xquery
+    java -cp BaseX104.jar org.basex.BaseX exemple-books00.xq

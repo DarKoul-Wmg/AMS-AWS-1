@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos SYSTEM "003.dtd">
+<!-- Exercici 3
+    - Emplena l'arxiu 003.dtd que valida aquest XML
+-->
+<datos type="database">
+    <cd id="id_0">
+        <nombre>Empire Burlesque</nombre>
+        <grupo>Bob Dylan</grupo>
+        <lugar>USA</lugar>
+        <productora>Columbia</productora>
+        <precio>10.90</precio>
+        <fecha>1985</fecha>
+    </cd>
+    <cd id="id_1">
+        <nombre>Hide your heart</nombre>
+        <grupo>Bonnie Tyler</grupo>
+        <lugar>UK</lugar>
+        <productora>CBS Records</productora>
+        <precio>9.90</precio>
+        <fecha>1988</fecha>
+    </cd>
+    <cd id="id_2">
+        <nombre>Greatest Hits</nombre>
+        <grupo>Dolly Parton</grupo>
+        <lugar>USA</lugar>
+        <productora>RCA</productora>
+        <precio>9.90</precio>
+        <fecha>1982</fecha>
+    </cd>
+    <cd id="id_3">
+        <nombre>Still got the blues</nombre>
+        <grupo>Gary Moore</grupo>
+        <lugar>UK</lugar>
+        <productora>Virgin records</productora>
+        <precio>10.20</precio>
+        <fecha>1990</fecha>
+    </cd>
+</datos>

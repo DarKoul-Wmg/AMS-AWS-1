@@ -1,0 +1,13 @@
+<!ELEMENT programacio (canal+)>
+<!ELEMENT canal (publicitat, dia+)>
+<!ATTLIST canal nom CDATA #REQUIRED>
+<!ELEMENT publicitat (#PCDATA)>
+<!ELEMENT dia (data, programes+)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT programes (programa*)>
+<!ELEMENT programa (duracio, titol, resum*)>
+<!ATTLIST programa edat CDATA #REQUIRED>
+<!ATTLIST programa idioma CDATA #REQUIRED>
+<!ELEMENT duracio (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT resum (#PCDATA)>

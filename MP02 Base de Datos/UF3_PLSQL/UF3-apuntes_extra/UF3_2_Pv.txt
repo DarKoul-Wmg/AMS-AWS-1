@@ -1,0 +1,89 @@
+-- EXERCICI 2
+
+-- FUNCIÓ
+
+create or replace function foraJob_Parraga_Valeria(v_job_title jobs.job_title%TYPE, v_num NUMBER)
+return Number
+as
+
+v_count number := 0;
+v_count_job number := 0;
+no_existeix exception;
+
+cursor c_cursor is select e.first_name, e.last_name, e.hire_date, e.salary
+FROM employees e
+JOIN jobs j ON e.job_id = j.job_id
+WHERE j.job_title = v_job_title
+ORDER BY e.salary DESC;
+
+begin
+
+    IF v_job_title IS NULL THEN
+        raise no_data_found;
+    END IF;
+    
+    IF v_num IS NULL THEN 
+        raise no_data_found;
+    END IF;
+    
+    SELECT count(*) INTO v_count_job FROM jobs where job_title = v_job_title;
+    IF v_count_job = 0 then
+        raise no_existeix;
+    END IF;
+    
+    FOR i in c_cursor LOOP
+    DBMS_OUTPUT.PUT_LINE(RPAD(i.first_name, 10) || RPAD(i.last_name, 10) || TO_CHAR(i.hire_date, 'DD-MM-YYYY') || '   $' ||RPAD(i.salary, 10));
+    
+    v_count := v_count + 1;
+
+    IF v_count >= v_num THEN
+        EXIT;
+    END IF;
+
+    END LOOP;
+
+    RETURN v_count;
+    
+EXCEPTION
+    WHEN no_data_found then
+        RETURN -1;
+    WHEN no_existeix then
+        RETURN -2;
+end;
+    
+-- SCRIPT
+
+DECLARE
+res number;
+BEGIN 
+    res := foraJob_Parraga_Valeria(null, 5);
+    IF res = -1 THEN
+        DBMS_OUTPUT.PUT_LINE('NULL');
+    ELSE
+        IF res = -2 THEN
+            DBMS_OUTPUT.PUT_LINE('La categoria no existeix');
+        ELSE
+            DBMS_OUTPUT.PUT_LINE(res);
+        END IF;
+    END IF;
+    res := foraJob_Parraga_Valeria('Pollastre', 5);
+    IF res = -1 THEN
+        DBMS_OUTPUT.PUT_LINE('NULL');
+    ELSE
+        IF res = -2 THEN
+            DBMS_OUTPUT.PUT_LINE('La categoria no existeix');
+        ELSE
+            DBMS_OUTPUT.PUT_LINE(res);
+        END IF;
+    END IF;
+    res := foraJob_Parraga_Valeria('Purchasing Clerk', 3);
+    IF res = -1 THEN
+        DBMS_OUTPUT.PUT_LINE('NULL');
+    ELSE
+        IF res = -2 THEN
+            DBMS_OUTPUT.PUT_LINE('La categoria no existeix');
+        ELSE
+            DBMS_OUTPUT.PUT_LINE(res);
+        END IF;
+    END IF;
+END;

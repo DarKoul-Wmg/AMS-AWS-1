@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://localhost:3000/M04ProyectoZelda/pages/tutorial.html">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="../styles/tutorial.css" rel="stylesheet" />
+	<link href="../styles/sticky_menu.css" rel="stylesheet" />
+    <script src="../scripts/shadowPartial.js"></script>
+	<link rel="icon" href="../images/icon_mini.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+
+
+	<title>tutorial</title>
+</head>
+
+<body>
+    <header class="menu">
+		<img class="foto" src="../images/icon2.png">
+        <a class="opc"  href="./index.html">INICIO</a>
+        <a class="opc" href="./tutorial.html">TUTORIAL</a>
+        <a class="opc" href="./about.html">ABOUT US</a>
+        <a class="opc" href="./free.html">FREE</a>
+		<img class="foto" src="../images/icon2.png">
+    </header>
+    <main>
+		<container class="tutorial-container">
+			<h1>TUTORIAL</h1>
+			<div class ="game-description">
+				<article class ="how-play">
+					<h2>¿Cómo jugar?</h2>
+					<p>
+						El objetivo del juego es rescatar a Zelda de las manos del malvado Ganon,
+						para esto, Link (o nosotros mismos) tendremos que emprender una aventura, explorando
+						y combatiendo para llegar a nuestro objetivo, el Castillo. 
+						Pero antes de todo, tienes que saber como funciona este mundo.
+					</p>
+				</article>
+			</div>
+	
+			<section class ="first-container">
+				<article class="first-header">
+					<h2>Primeros pasos</h2>
+					<p>
+						Cuando entras al mundo de Zelda por primera vez, podrás ver un menú principal con multiples opciones:
+					</p>
+				</article>
+				<article class="first-steps">
+					<div class="first-steps-image">
+						<img  src="../images/game/main_menu.png"/>
+					</div>
+					<div class="first-steps-content">
+						<div>
+							<h3>New Game</h3>
+							<p><em>Empieza tu aventura!!</em></p>
+						</div>
+						<div>
+							<h3>Help</h3>
+							<p><em>Abre un menú de ayuda si no sabes como seguir</em></p>
+						</div>
+						<div>
+							<h3>About</h3>
+							<p><em>Información extra acerca de la creación de este mundo.</em></p>
+						</div>
+						<div>
+							<h3>Exit</h3>
+							<p><em>Sales de este mundo y vuelves al tuyo.</em></p>
+						</div>
+						<div>
+
+							<h3>Continue</h3>
+							<p><em>Si ya habias empezado una aventura, puedes seguir tu camino.</em></p>
+						</div>
+					</div>
+				</article>
+			</section>
+		
+			<section class ="new-game">
+				<h3>New Game</h3>
+				<img class="new-game-image" src="../images/game/nwe_game_menu.PNG">
+				<p>
+					Lo primero de todo es presentarse no?<br/> Prueba a decirle tu nombre de aventurero 
+					a ver que pasa. O dale al enter para jugar como Link. 
+					
+				</p>
+			</section>
+			<section class ="leg-plot">
+				<h2>Legend & Plot</h2>
+				<img class="new-game-image" src="../images/game/legend_menu.PNG">
+				<p>
+					Estas dos secciones te pondran en contexto de la situación actual en el reino de
+					Hyrule.
+				</p>
+			</section>
+
+			<section class ="continue">
+				<h2>Continue</h2>
+				<img class="continue-image" src="../images/game/saved_menu.png">
+				<p>
+					Desde esta sección puedes acceder a todas tus aventuras guardadas.
+				</p>
+			</section>
+			
+			<section class ="game">
+				<h3>
+					Como se puede apreciar, este mundo es visualmente simple. Pero ojo, este no deja de ser peligroso!!!
+				</h3>
+				<article class ="screen">
+					<h2>Mapa</h2>
+					<p>
+						El gran rectangulo es el mapa de la zona donde te encuentras. Y el pequeño rectangulo de la derecha es tu inventario.
+						</br>
+						En total hay 4 regiones del mapa y una central, el castillo. (img mapa grande)
+						El conocimiento es saber,  asi que a continuación tienes un registro de los simbolos con los que te puedes encontrar en
+						tu aventura y su significado:
+					</p>
+					<div class="map_icons">
+						<ul>
+							<li>X, Personaje (Link)</li>
+							<li>O  Piedras</li>
+							<li>C  Cocinas</li>
+							<li>T,TX Arboles</li>
+							<li>~  Agua</li>
+							<li>F  Fox (zorro)</li>
+							<li>M, Cofre cerrado</li>
+							<li>W, Cofre abierto</li>
+							<li>SX,SX? Santuario (? desconocido)</li>
+							<li>EX Enemigo (X es la vida)</li>
+						</ul>
+						<img class="map" src="../images/game/map.PNG">
+		
+					</div>
+					<p>Siempre puedes ver el mapa introduciendo: Show map.</p>
+				</article>
+				<article class ="inventory">
+					<h2>Inventario</h2>
+					<p>Esta zona de la pantalla te muestra todos los objetos, alimentos e información de tu partida actual
+						tenemos tres invemtarios diferents a los cuales puedes cambiar escribiendo</p>
+					<div class ="menu-inventory"></div>
+					<ul>
+						<li>Show inventory main (muestra información general)</li>
+						<li>Show inventory weapons (información detallada armas)</li>
+						<li>Show inventory Food (informacion detallada comida)</li>
+					</ul>
+					<img class="inventory-img" src="../images/game/inventory_views.PNG">
+					</div>
+					<p>
+						Si necesitas ayuda para entenderlo, escribe show inventory help.
+					</p>
+				</article>
+				<article class ="actions">
+					<h2>Acciones</h2>
+					<p>
+						Una vez conocido el mundo que nos rodea, toca aprender como interactuar y desplazarnos por este mundo.</br>
+						ENTORNO: En todo momento te saldrán las acciones disponibles que peudes realizar en ese momento.
+						<img class="actions-img" src="../images/game/actions2.png">
+					</p>
+					<ul>
+						<li>EAT: Para comer y recuperar salud, solo tienes que introducir eat 'alimento'.</li>
+						<li>EQUIP/UNEQUIP: Para equiparte un arma, introduce: equip the 'nombre arma', y para desequipar: unequip the 'nombre arma'
+							ten en cuenta que las armas tienen un uso limitado y estas se rompen.
+							las armas de madera tienen 5 usos, y las normales 9.</li>
+						<li>COOK: A lado de una olla (C) te permite cocinar alimentos más nutritivos, para para hacerlo pon: cook 'alimento'</li>
+						<li>FISH: Al lado de agua puedes intentar atrapar algun pez escurridizo</li>
+						<li>OPEN: Cuando estes cerca de un cofre o un santuario,introduce open 'objetivo'.</li>
+						<li>ATTACK: Siempre que estes al lado de un objeto que pueda ser atacado aparecera esta opcion, realizala escribiendo: attack.</li>
+					</ul>
+					<h2>Movimiento:</h2>
+					<p>GO para desplazarte por el mapa tienes tres opciones:</p>
+					<ul>
+						<li>go left/right/up/down 'numero': te desplazas el numero de casillas indicado, si nada te corta el paso claro.</li>
+						<li>go by 'objetivo': te permite ir al lado de un simbolo, o lo mas cercano a este que puedas.</li>
+						<li>go to 'region': pasa a alguna de las otras localizaciones del mapa, pero ten en cuenta que solo puedes acceder a las contiguas.</li>
+					</ul>		
+				</article>
+			</section>
+			<section class ="tips">
+				<h2>
+					Tips del Juego:
+				</h2>
+				<ul>
+					<li>CONSEGUIR COMIDA: la comida es un recurso esencial, prueba a pescar, matar a un animal o atacar a un arbol...</li>
+					<li>BLOOD MOON: cada 25 acciones aparecera la bloodmoon, un fenomeno natural que revive a tus enemigops vencidos!!!</li>
+					<li>RESET DE COFRES: Si has abierto todos los cofres y te quedas sin armas no te preocupes, estos volverán a cerrarse por arte
+						de magia.</li>
+					<li>SANTUARIO ABIERTO: Cada vez que abras un santurario, te embriagas de energia divina y tu vida aumenta en 1. Quizas esta sea la
+						clave para vencer al tirano Ganon...</li>
+				</ul>
+
+			</section>
+	
+			<section class ="end">
+				<h2>Finales</h2>
+				<p>
+					Por desgracia solo hay dos desenlaces posibles para esta aventura, salvar a Zelda o morir en el intento.
+					Pero tranquilo/a, si mueres puedes aprender de tus errores y reaparecer en el ultimo punto de guardado que tengas.
+				</p>
+				<img class="end-img" src="../images/game/spoiler_alert.jpg">
+			</section>
+		</container>
+    </main>
+    <shadow-partial data-html="../pages/footer.html" data-css="../styles/footer.css"></shadow-partial>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Si quereis crear un resultSet utilizando la clase preparedStatement, 
+de forma que podais modificar la bbdd utilizando dicho resultSet.
+
+ps= conn.prepareStatement(query,ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+
+Error al realizar un connection.close (solucion): 
+
+String urlDatos="jdbc:mysql://localhost/farmville?serverTimezone=UTC&autoReconnect=true&useSSL=false";

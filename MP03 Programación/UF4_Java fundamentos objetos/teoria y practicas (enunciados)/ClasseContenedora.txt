@@ -1,0 +1,61 @@
+import java.util.ArrayList;
+
+public class ClaseContenedora {
+    private ArrayList<Empleado> empleados;
+
+    public ClaseContenedora() {
+        super();
+        empleados = new ArrayList<Empleado>();
+    }
+    public void insertaEmpleado(Empleado e) {
+        empleados.add(e);
+    }
+    public void eliminarLinpieza() {
+
+        for (int i = empleados.size()-1; i>=0;i--) {
+            if ( empleados.get(i) instanceof Limpieza) {
+                empleados.remove(i);
+            }
+        }
+    }
+    
+    public int cuantosCornella() {
+        int contador = 0;
+        for (Empleado e : empleados) {
+            if ( e.ciudadOrigen().equals("Cornella")) {
+                contador +=1;
+            }
+        }
+        return contador;
+    }
+    
+    public float costeNomina() {
+        int salarios = 0;
+        for (Empleado e : empleados) {
+            salarios += e.salarioDiario();
+        }
+        return salarios;
+    }
+    
+    public int cantidadCajeros() {
+        int contador = 0;
+        for (Empleado e : empleados) {
+            if ( e instanceof Cajero) {
+                contador += 1;
+            }
+        }
+        return contador;
+    }
+    
+    public float sueldoPromedio() {
+        return (float) costeNomina()/empleados.size();
+    }
+    
+    public void mostrarNombres() {
+        for (Empleado e : empleados) {
+            System.out.println(e.getNom());
+        }
+    }
+    
+    
+}

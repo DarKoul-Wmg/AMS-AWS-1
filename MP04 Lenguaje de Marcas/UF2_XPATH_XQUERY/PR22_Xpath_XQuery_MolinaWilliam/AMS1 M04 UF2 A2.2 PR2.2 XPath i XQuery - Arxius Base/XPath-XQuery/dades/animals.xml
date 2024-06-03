@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<especies_animals>
+    <especie id="0">
+        <nom>mamífers</nom>
+        <animals>
+            <animal id="0">
+                <nom>lleó</nom>
+                <color>groc</color>
+                <pes>200</pes>
+            </animal>
+            <animal id="1">
+                <nom>girafa</nom>
+                <color>groc</color>
+                <pes>1000</pes>
+            </animal>
+            <animal id="2">
+                <nom>elefant</nom>
+                <color>gris</color>
+                <pes>5000</pes>
+            </animal>
+            <animal id="3">
+                <nom>gat</nom>
+                <color>gris</color>
+                <pes>10</pes>
+            </animal>
+            <animal id="4">
+                <nom>gos</nom>
+                <color>negre</color>
+                <pes>20</pes>
+            </animal>
+        </animals>
+    </especie>
+    <especie id="1">
+        <nom>peixos</nom>
+        <animals>
+            <animal id="0">
+                <nom>llampuga</nom>
+                <color>groc</color>
+                <pes>1</pes>
+            </animal>
+            <animal id="1">
+                <nom>salmó</nom>
+                <color>taronja</color>
+                <pes>0.1</pes>
+            </animal>
+            <animal id="2">
+                <nom>truita</nom>
+                <color>blanc</color>
+                <pes>2</pes>
+            </animal>
+            <animal id="3">
+                <nom>tauró</nom>
+                <color>gris</color>
+                <pes>1000</pes>
+            </animal>
+            <animal id="4">
+                <nom>calamar</nom>
+                <color>negre</color>
+                <pes>0.5</pes>
+            </animal>
+            <animal id="5">
+                <nom>estrella de mar</nom>
+                <color>vermell</color>
+                <pes>0.1</pes>
+            </animal>
+            <animal id="6">
+                <nom>peix globus</nom>
+                <color>gris</color>
+                <pes>1.5</pes>
+            </animal>
+        </animals>
+    </especie>
+    <especie id="2">
+        <nom>crustacis</nom>
+        <animals>
+            <animal id="0">
+                <nom>langosta</nom>
+                <color>vermell</color>
+                <pes>0.5</pes>
+            </animal>
+            <animal id="1">
+                <nom>gamba</nom>
+                <color>vermell</color>
+                <pes>0.1</pes>
+            </animal>
+            <animal id="2">
+                <nom>camaró</nom>
+                <color>vermell</color>
+                <pes>0.5</pes>
+            </animal>
+            <animal id="3">
+                <nom>cargol de mar</nom>
+                <color>gris</color>
+                <pes>0.2</pes>
+            </animal>
+        </animals>
+    </especie>
+    <especie id="3">
+        <nom>ocells</nom>
+        <animals>
+            <animal id="0">
+                <nom>gallina</nom>
+                <color>vermell</color>
+                <pes>3</pes>
+            </animal>
+            <animal id="1">
+                <nom>falcó</nom>
+                <color>negre</color>
+                <pes>10</pes>
+            </animal>
+            <animal id="2">
+                <nom>ànec</nom>
+                <color>blanc</color>
+                <pes>8</pes>
+            </animal>
+            <animal id="3">
+                <nom>perdiu</nom>
+                <color>marró</color>
+                <pes>0.5</pes>
+            </animal>
+            <animal id="3">
+                <nom>colom</nom>
+                <color>gris</color>
+                <pes>1.5</pes>
+            </animal>
+        </animals>
+    </especie>
+</especies_animals>

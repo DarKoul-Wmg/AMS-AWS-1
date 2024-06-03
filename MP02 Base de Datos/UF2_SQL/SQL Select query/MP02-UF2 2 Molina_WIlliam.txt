@@ -1,0 +1,66 @@
+use hr;
+/*William Molina*/
+/*1*/
+
+SELECT
+d.department_id as department_id,
+d.department_name as department_name,
+e.manager_id as manager_id,
+CONCAT(m.last_name, ', ', m.first_name) as manager_name
+FROM departments d
+JOIN employees e on d.department_id = e.department_id
+JOIN employees m on d.manager_id = m.employee_id
+GROUP BY 
+d.department_id, 
+d.department_name, 
+e.manager_id,
+m.last_name,
+m.first_name
+HAVING COUNT(e.employee_id) > 5;
+
+/*2*/
+
+SELECT
+d.department_name as Nombre_dept,
+COUNT(e.employee_id) as Total_empl
+FROM departments d
+JOIN employees e on d.department_id = e.department_id
+JOIN locations l on d.location_id = l.location_id
+WHERE l.country_id = 'UK'
+GROUP BY
+d.department_name
+ORDER BY
+d.department_name;
+
+
+/*3*/
+
+SELECT 
+e.employee_id,
+CONCAT(e.first_name, ' ', e.last_name) as employee_name,
+j.job_title,
+d.department_name,
+jh.start_date,
+jh.end_date
+FROM employees e
+JOIN job_history jh on e.employee_id = jh.employee_id
+JOIN jobs j on jh.job_id = j.job_id
+JOIN departments d on jh.department_id = d.department_id
+ORDER BY e.employee_id, jh.start_date;
+
+/*4*/
+SELECT 
+e.employee_id,
+e.first_name,
+e.last_name,
+jh.job_id,
+j.job_title,
+jh.start_date as job_start_date
+FROM employees e
+JOIN job_history jh on e.employee_id = jh.employee_id
+JOIN jobs j on jh.job_id = j.job_id
+WHERE e.employee_id = 101 
+	and jh.end_date = 
+		(SELECT MAX(end_date)FROM job_history
+		 WHERE employee_id = 101);
+

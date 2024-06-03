@@ -1,0 +1,61 @@
+ex1-----------------------------------------------
+
+DECLARE
+    CURSOR cursorEx5 
+    is
+    select department_name from DEPARTMENTS; 
+
+    lv_dep_nom DEPARTMENTS.department_name%type;
+    
+BEGIN
+    --open cursorEx5;
+    fetch cursorEx5 into lv_dep_nom;
+    dbms_output.put_line('Department Fetched:'|| lv_dep_nom);
+END;
+
+/*
+ORA-01001: invalid cursorORA-06512: at line 1001001. 00000 
+- "cursor number is invalid or does not exist"
+Cause:    Either a host language program call specified an invalid cursor           
+number or the value of the MAXOPENCURSORS option in the precompiler           
+command was too small.
+*/
+
+
+ex2-------------------------------------------------
+
+/*
+Mostrar el nom complet del president/a de l'empresa. El president/a és l'empleat que no té "manager_id".
+*/
+declare
+    cursor c_pres is
+     select first_name, last_name
+     from employees
+     where manager_id is null;
+    V_nom   employees.first_name%type; 
+    v_cognom    employees.last_name%type;
+
+begin
+    open c_pres;
+    fetch c_pres into v_nom, v_cognom;
+
+    dbms_output.put_line(v_nom || ' ' || v_cognom ||' és president/a');
+    close.c_pres;
+end;
+
+/*
+Mostrar el nom complet del president/a de l'empresa. El president/a és l'empleat que no té "manager_id".
+*/
+declare
+V_nom   employees.first_name%type;
+v_cognom    employees.last_name%type;
+
+begin
+
+    select first_name, last_name
+     into v_nom, v_cognom
+     from employees
+     where manager_id is null;
+    dbms_output.put_line(v_nom || ' ' || v_cognom|| ' és el president/a.');
+
+end;

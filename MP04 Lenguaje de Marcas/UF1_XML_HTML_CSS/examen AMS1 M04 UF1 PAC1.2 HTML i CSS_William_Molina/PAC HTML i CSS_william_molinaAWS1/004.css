@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(111,0,255,1) 100%);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.autocenter {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 800px;
+}
+
+.fons {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(111,0,255,1) 100%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.esquerra {
+    color: white;
+    flex-grow: 1;
+    height: 300px;
+    margin-right: 25px;
+    max-width: calc(100% - 300px);
+    position: relative;
+    text-align: center;
+}
+    .esquerra h2{
+        text-transform: uppercase;
+    }
+
+.dreta {
+    height: 300px;
+    position: relative;
+    width: 300px;
+}
+
+.dreta .orbit {
+    border: dashed 2px white;
+    border-radius: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+}
+
+.dreta .earth {
+    height: 150px;
+    left: 70px;
+    position: absolute;
+    top: 70px;
+    transform: scale3d(1, 1, 1);
+    width: 150px;
+}
+
+.dreta .spaceship {
+    left: 115px;
+    position: absolute;
+    top: 125px;
+    width: 75px;
+    transform: rotate3d(0, 0, 1, 0deg) translate3d(0, -145px, 0); 
+}
+.spaceship{
+    animation: animSpaceship 8s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animSpaceship {
+    0%   { transform: rotate3d(0, 0, 1, 0deg) translate3d(0, -145px, 0); }
+    25%  { transform: rotate3d(0, 0, 1, 90deg) translate3d(0, -145px, 0); }
+    50%  { transform: rotate3d(0, 0, 1, 180deg) translate3d(0, -145px, 0); }
+    75%  { transform: rotate3d(0, 0, 1, 270deg) translate3d(0, -145px, 0);  }
+    100% { transform: rotate3d(0, 0, 1, 360deg) translate3d(0, -145px, 0); }
+}
+
+.astronauts {
+    bottom: calc(0px + 10%);
+    display: flex;
+    flex-direction: row;
+    left: calc(50vw - 25%);
+    position: absolute;
+}
+
+.cat0 {
+    width: 75px;
+    transition: 0.5s ease;
+    
+}
+.cat0:hover{
+    cursor: pointer;
+    transform: scaleX(1.5) scaleY(1.5);
+    
+}
+
+.cat1 {
+    width: 75px;
+    transition: 0.5s ease;
+
+}
+
+.cat1:hover{
+    cursor: pointer;
+    transform: scaleX(0.5) scaleY(0.5);
+    
+}
+
+
+
+

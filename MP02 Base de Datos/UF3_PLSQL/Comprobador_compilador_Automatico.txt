@@ -1,0 +1,16 @@
+create or replace procedure compile_invalid
+is
+begin
+    for row in (select * from user_objects where status='INVALID') LOOP
+      DBMS_OUTPUT.PUT_LINE(row.object_type ||' '  || row.object_name || ' needs to be UPDATED.');
+      if row.object_type = 'VIEW' then
+        execute immediate('alter view '|| row.object_name || ' compile');
+      ELSIF row.object_type = 'PROCEDURE' THEN
+        execute immediate('alter procedure '|| row.object_name || ' compile');
+      ELSIF row.object_type = 'FUNCTION' THEN
+        execute immediate('alter function '|| row.object_name || ' compile');
+      ELSE
+        DBMS_OUTPUT.PUT_LINE(row.object_type ||' '  || row.object_name || ' not UPDATED.');
+      END IF;
+    END LOOP;
+end;

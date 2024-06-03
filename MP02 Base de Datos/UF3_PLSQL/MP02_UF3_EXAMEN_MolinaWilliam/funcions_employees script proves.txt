@@ -1,0 +1,36 @@
+--SCRIPT DE PROVES f_empleat_per_cognom_i_nom
+set SERVEROUTPUT on
+declare
+v_emp employees%rowtype;
+begin
+
+v_emp:=f_empleat_per_cognom_i_nom(100,'        CHEN','JOHN         ');
+dbms_output.put_line('treballador: '||v_emp.employee_id);
+
+v_emp:=f_empleat_per_cognom(100,'Chen           ');
+dbms_output.put_line('treballador: '||v_emp.employee_id);
+
+v_emp:=f_empleat_per_cognom_i_nom(80,'Cambrault','Gerald');
+dbms_output.put_line('treballador: '||v_emp.employee_id);
+
+v_emp:=f_empleat_per_cognom(80,'Cambrault');
+dbms_output.put_line('treballador: '||v_emp.employee_id);
+end;
+
+/
+
+--SCRIPT DE PROVES f_job
+set SERVEROUTPUT on
+declare
+v_id jobs.job_id%type;
+begin
+
+v_id:=f_job('President');
+dbms_output.put_line('job id és: '||v_id);
+
+v_id:=f_job('  President ');
+dbms_output.put_line('job id és: '||v_id);
+
+v_id:=f_job(' accounting     manager');
+dbms_output.put_line('job id és: '||v_id);
+end;

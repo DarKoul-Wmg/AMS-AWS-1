@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pt41_Implementacio_Classes.Ex5_figures3D.java&apos; to &apos;Ex5_figures.java&apos;&#x0D;&#x0A;- Original project: &apos;PTs_Objetos&apos;&#x0D;&#x0A;- Original element: &apos;pt41_Implementacio_Classes.Ex5_figures3D.java&apos;&#x0D;&#x0A;- Renamed element: &apos;pt41_Implementacio_Classes.Ex5_figures.java&apos;" description="Rename compilation unit &apos;Ex5_figures3D.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;pt41_Implementacio_Classes{Ex5_figures3D.java" name="Ex5_figures.java" references="false" stamp="1710280974544" version="1.0"/>
+</session>

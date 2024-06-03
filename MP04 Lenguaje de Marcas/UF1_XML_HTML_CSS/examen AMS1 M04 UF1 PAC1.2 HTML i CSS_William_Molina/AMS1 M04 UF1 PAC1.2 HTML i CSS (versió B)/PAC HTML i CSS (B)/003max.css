@@ -1,0 +1,37 @@
+.max {
+    width: 100%;
+}
+
+.max .days {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.max .days tr td {
+    padding: 0;
+    text-align: right;
+}
+
+
+.max .days tr:nth-child(odd){
+    background-color: var(--color-clar);
+    height: 50px;
+}
+.max .days tr:first-child {
+    height: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-main);
+    color: white;
+}
+
+.max .days tr:first-child td {
+    text-align: left;
+}
+
+.apunt{
+    background-color: var(--color-blau);
+    font-size: 0.75em;
+    font-weight: 300;
+    border-bottom: 1px dashed grey;
+}   

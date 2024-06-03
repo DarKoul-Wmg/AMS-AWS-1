@@ -1,0 +1,20 @@
+EXAMEN XPATH y XQUERY
+La entrega tiene que ser de la misma carpeta, en formato ZIP, con el siguiente formato: "PAC2.1_NombreApellido.zip".
+Cualquier entrega que no siga este formato no sera evaluada, igual que cualquier archivo que falte o al que le cambieis el nombre.
+Teneis 2 horas, para solucionar todos los ejercios:
+
+XPATH (uso del fichero "books.xml" dentro de la carpeta de xpath):
+	1 - Muestra el nombre de cada baile que tenga cuota trimestral.
+	2 - Muestra los bailes que puedan aprender despues de la fecha: 2011-04-01.
+	3 - Muestra los profesores que cobren en "euro".
+	4 - Muestra el total de bailes que hay.
+	5 - Muestra los bailes que tengan cuota que empieza por "3".
+
+XQUERY (uso del fichero "books.xml" dentro de la carpeta de xquery):
+	1 - Muestra los bailes ordenados primero por "plazas" y luego por "nombre" en una sola consulta.
+	2 - Mostrar la media de los precios de todos los bailes.
+	3 - Muestra el nombre del baile, su precio y el precio con un descuento del 15% para familias numerosas. Ordenar por el nombre del baile.
+	4 - Muestra el dinero que ganaría en un mes la profesora "Laura" (no conocemos su apellido) si se completaran todas las plazas de su baile.
+	5 - Mostrar cuántas plazas en total oferta el profesor "Jesus Lozano".
+	6 - Muestra los bailes que tengan una "S" mayúscula o minúscula en el título ordenados de manera descendente.
+	7 - Muestra los bailes que tengan una duracion (fin - comienzo) de mas de 250 dias. (Pista: days-from-duration)

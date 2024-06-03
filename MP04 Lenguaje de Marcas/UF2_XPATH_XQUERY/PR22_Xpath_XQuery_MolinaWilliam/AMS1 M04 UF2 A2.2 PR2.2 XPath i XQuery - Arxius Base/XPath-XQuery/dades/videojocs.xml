@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consoles>
+    <consola id="0" color="negra">
+        <nom>Playstation 4</nom>
+        <fabricant>Sony</fabricant>
+        <preu>299</preu>
+        <color>negre</color>
+        <videojocs>
+            <videojoc id="0">
+                <nom>Call of Duty: Ghosts</nom>
+                <desenvolupador>Infinity Ward</desenvolupador>
+                <preu>59</preu>
+            </videojoc>
+            <videojoc id="1">
+                <nom>Assassin's Creed IV</nom>
+                <desenvolupador>Ubisoft Montreal</desenvolupador>
+                <preu>60</preu>
+            </videojoc>
+            <videojoc id="2">
+                <nom>Need for Speed: Rivals</nom>
+                <desenvolupador>Ghost Games</desenvolupador>
+                <preu>50</preu>
+            </videojoc>
+            <videojoc id="3">
+                <nom>Watch Dogs</nom>
+                <desenvolupador>Ubisoft Barcelona</desenvolupador>
+                <preu>55</preu>
+            </videojoc>
+        </videojocs>
+    </consola>
+    <consola id="1" color="blanc">
+        <nom>Xbox One</nom>
+        <fabricant>Microsoft</fabricant>
+        <preu>299</preu>
+        <color>blanc</color>
+        <videojocs>
+            <videojoc id="4">
+                <nom>Call of Duty: Warzone</nom>
+                <desenvolupador>Infinity Ward</desenvolupador>
+                <preu>65</preu>
+            </videojoc>
+            <videojoc id="5">
+                <nom>Assassin's Creed III</nom>
+                <desenvolupador>Ubisoft</desenvolupador>
+                <preu>60</preu>
+            </videojoc>
+            <videojoc id="6">
+                <nom>Need for Speed: Most Wanted</nom>
+                <desenvolupador>Ghost Games</desenvolupador>
+                <preu>70</preu>
+            </videojoc>
+            <videojoc id="7">
+                <nom>Grand Theft Auto</nom>
+                <desenvolupador>RockStar</desenvolupador>
+                <preu>55</preu>
+            </videojoc>
+        </videojocs>
+    </consola>
+    <consola id="2" color="negra">
+        <nom>Wii U</nom>
+        <fabricant>Nintendo</fabricant>
+        <preu>299</preu>
+        <color>negre</color>
+        <videojocs>
+            <videojoc id="8">
+                <nom>Super Mario World</nom>
+                <desenvolupador>Nintendo</desenvolupador>
+                <preu>65</preu>
+            </videojoc>
+            <videojoc id="9">
+                <nom>Super Mario Kart</nom>
+                <desenvolupador>Nintendo</desenvolupador>
+                <preu>60</preu>
+            </videojoc>
+            <videojoc id="10">
+                <nom>Super Mario Party</nom>
+                <desenvolupador>Nintendo</desenvolupador>
+                <preu>55</preu>
+            </videojoc>
+        </videojocs>
+    </consola>
+    <consola id="3" color="negra">
+        <nom>Playstation 3</nom>
+        <fabricant>Sony</fabricant>
+        <preu>199</preu>
+        <color>negre</color>
+        <videojocs>
+            <videojoc id="11">
+                <nom>Little Big Planet</nom>
+                <desenvolupador>Media Molecule</desenvolupador>
+                <preu>50</preu>
+            </videojoc>
+            <videojoc id="12">
+                <nom>Uncharted 3</nom>
+                <desenvolupador>Naughty Dog</desenvolupador>
+                <preu>55</preu>
+            </videojoc>
+            <videojoc id="13">
+                <nom>Gran Turismo 5</nom>
+                <desenvolupador>Polyphony Digital</desenvolupador>
+                <preu>55</preu>
+            </videojoc>
+            <videojoc id="14">
+                <nom>The Last Of Us</nom>
+                <desenvolupador>Naughty Dog</desenvolupador>
+                <preu>65</preu>
+            </videojoc>
+            <videojoc id="15">
+                <nom>God of War III</nom>
+                <desenvolupador>SCE Santa Monica Studio</desenvolupador>
+                <preu>60</preu>
+            </videojoc>
+        </videojocs>
+    </consola>
+    <consola id="4" color="blanc">
+        <nom>Wii</nom>
+        <fabricant>Nintendo</fabricant>
+        <preu>199</preu>
+        <color>blanc</color>
+        <videojocs>
+            <videojoc id="16">
+                <nom>Super Mario Galaxy</nom>
+                <desenvolupador>Nintendo</desenvolupador>
+                <preu>50</preu>
+            </videojoc>
+            <videojoc id="17">
+                <nom>Wii Sports</nom>
+                <desenvolupador>Nintendo</desenvolupador>
+                <preu>40</preu>
+            </videojoc>
+            <videojoc id="18">
+                <nom>Mario Tenis</nom>
+                <desenvolupador>Nintendo</desenvolupador>
+                <preu>45</preu>
+            </videojoc>
+            <videojoc id="19">
+                <nom>Pokemon</nom>
+                <desenvolupador>The Pokémon Company</desenvolupador>
+                <preu>55</preu>
+            </videojoc>
+        </videojocs>
+    </consola>
+</consoles>

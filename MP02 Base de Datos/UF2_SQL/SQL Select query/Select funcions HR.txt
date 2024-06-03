@@ -1,0 +1,63 @@
+USE hr;
+
+/* obtenir de la taula ciutats el nom, i una dada d'ubicació poden per per aquest ordre: state,address,postal_code*/
+
+select city, coalesce(state_province,street_address,postal_code,'NO_LOC') as loc
+from locations;
+
+/*concatenar state_province i city de la taula locations, que passa si algun dels 2 camps és null?*/
+
+select concat(ifnull(state_province,'NO_STATE'),"-",city)
+from hr.locations;
+
+/* identificar quin és l'origen de la dada d'ubicació*/
+
+select city, coalesce(state_province,street_address,postal_code) as loc,
+	(case when state_province is not null then 'state'
+		  when street_address is not null then 'address'
+		  when postal_code is not null then 'postal'
+          else 'none'
+          end) as loc_origin
+from locations;
+
+/*convertitr els noms "first_name" del treballadors a majuscules,  pero la primera en minúscula*/
+
+select last_name, first_name,
+    concat(lcase(substr(first_name,1,1)),
+           ucase(substr(first_name,2))) as Formated_name
+from employees;
+
+/* consulta sobre el nom, si el nom comença per A, canviar el nom a ALFRED, si el nom comença per B canviar el nom a BONIFACE, si  el nom comença per C canviar el nom a CHARLES, sino deixa el nom que tenen*/
+select first_name,
+    case when ucase(first_name) like 'A%' then 'Alfred'
+         when ucase(substr(first_name,1,1))='B' then 'Boniface'
+         when ucase(substr(first_name,1,1))='C' then 'Charles'
+         else ifnull(first_name,'NoName')
+    end as new_name
+from employees
+order by first_name;
+
+/*per montar un email alternatiu pels treballadors, heu de construir-lo agafant; job_id+incial de nom+inicial de cognom+id treballador"@"ieti.com. Tingueu en compte els valors null*/
+
+select first_name,job_id,employee_id,
+    concat( rpad(job_id,10,'0'),
+            ucase(substr(first_name,1,1)),
+            lpad(employee_id,5,'0'),
+            '@ieti.com') as new_email
+from employees
+order by job_id;
+
+/*canvia la inicial del nom: si comença per A canviar per Z, B a Y, C a X..... així podem fer que en una ordenació els que comencin per A no siguin els primers*/
+SELECT first_name,
+		concat(
+			substr(reverse("ABCDEFGHIJKLMNOPQRSTUVXYZ"),
+				   LOCATE(ucase(substr(first_name, 1,1)),"ABCDEFGHIJKLMNOPQRSTUVXYZ"),
+				   1),
+			substr(first_name,2)
+			) as name_changed
+from employees order by name_changed;
+
+SELECT first_name, 
+	CONCAT(CHAR(ASCII("A")+(ASCII("Z")-ASCII(SUBSTR(first_name,1,1)))), 
+	SUBSTR(first_name,2)) AS nom 
+FROM employees;

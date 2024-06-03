@@ -1,0 +1,100 @@
+db.universities.aggregate([
+  { $match : { name : 'USAL' } },
+  { $unwind : '$students' },
+  { $project : { _id : 0, 'students.year' : 1, 'students.number' : 1 } },
+  { $sort : { 'students.number' : -1 } }
+]).pretty()
+
+
+
+
+
+// Ejemplos examen Mongo db:
+
+	// 5- Pelis d'acció i aventures del segle passat (mostrar titol, genres, cast i any)
+
+	db.movies.find(
+		{genres: {$all:["Action","Adventure"]},
+		year:{$lt:2010}},
+		{_id:0, title:1, genres:1, cast:1, year:1}
+	)
+
+
+	// 7,5- Pelis de western on intervenen John Wayne i James Stewart (ordenades per any desc, mostrar
+		titol, genres, cast i any)
+
+
+	db.movies.aggregate([
+		{$match: {genres: "Western",
+			 cast: {$all: ["John Wayne","James Stewart"]}}},
+		{$project: {_id:0, genres: 1, title: 1, cast: 1, year: 1}},
+		{$sort: {year: -1}}
+	])
+
+	// 10- pelis d'acció i aventures de la decada dels 90 (comptar cuantes hi ha de cada una)
+
+	db.movies.aggregate([
+		{$match: {year: {$in: [1990, 1991,1992,1993,1994,1995,1996,1997,1998,1999]},
+			  genres: {$in: ["Action", "Adventure"]}}},
+
+		{$project: {_id: 0, genres: 1}},
+		{$unwind: "$genres"},
+		{$match: {genres: {$in: ["Action", "Adventure"]}}},
+		{$group: {_id: "$genres", totalpelis: {$sum: 1}}}
+
+	])
+		
+ /*Pasos
+    $match
+
+	Filtra los documentos de la colección movies que cumplen dos condiciones:
+	El campo year debe estar en el rango de años de 1990 a 1999.
+	El campo genres debe contener al menos uno de los géneros "Action" o "Adventure".
+
+    $project
+        Proyecta solo el campo genres en los documentos resultantes, excluyendo el _id.
+
+    $unwind
+	Deshace el array de géneros, creando un documento separado para cada género en la lista de 
+        géneros de cada película.
+
+    $match
+       Filtra los documentos resultantes nuevamente, manteniendo solo aquellos con géneros "Action" o "Adventure".
+
+    $group
+	Agrupa los documentos por el campo genres.
+	totalpelis: {$sum: 1} cuenta cuántas veces aparece cada género después de todos los filtros anteriores 
+        y asigna este recuento a la clave totalpelis.
+
+*/
+
+
+
+
+
+
+
+
+
+//ejenmplo de sumatorio de valores (salarios de empleados mujeres):-------------------------------------------
+
+db.empleados.aggregate(
+[{$match: {sexo:'F', edad:{$gte:20}}}, 
+{$group: {_id:'$area', total:{$sum:'$salario'}}}
+]).pretty()
+
+
+// gastos en salario por cada mes, ademas de promedio de dias trabajados por los empleados y empleados totales
+que trabajan en cada mes:
+
+db.empleados.aggregate(
+[{
+	$group: {
+		_id:{mes:{$month:'$fechapago'},
+		anyo: {$year:'$fechapago'}
+	},
+	salariomensual:{$sum:{$multiply:['$salario','$diast']}},
+	diaspromedio:{$avg: '$idast'},
+	numeroempleados:{$sum:1}
+}
+}]).pretty()

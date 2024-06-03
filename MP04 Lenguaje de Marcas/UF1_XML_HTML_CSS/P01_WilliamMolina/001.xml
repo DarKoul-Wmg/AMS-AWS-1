@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas SYSTEM "001.dtd">
+<!-- Exercici 1
+    Enganxa aquí sota el codi XML 
+    corregit de l'exercici 000
+    i genera el DTD que valida aquest,
+    a l'arxiu "001.dtd"
+    de tal manera que: 
+
+    - Els identificadors siguin únics
+    - Hi hagi 1 o més elements 'item' a la llista
+-->
+
+<peliculas>
+    <item id="id_0">
+        <titulo>Cloud Atlas</titulo>
+        <fecha>2012</fecha>
+        <sinopsis>The story jumps between eras until each storyline eventually resolves, spanning hundreds of fechas.</sinopsis>
+    </item>
+    <item id="id_1">
+        <titulo>Blade Runner</titulo>
+        <fecha>1982</fecha>
+        <sinopsis>A future built on a science that allows men to play God. Their creation?</sinopsis>
+    </item>
+    <item id="id_2">
+        <titulo>Star Wars</titulo>
+        <fecha>1977</fecha>
+        <sinopsis>A menagerie of weird &amp; wonderful aliens, and epic space battles that held the fates of planets in the balance</sinopsis>
+    </item>
+    <item id="id_3">
+        <titulo>Alien</titulo>
+        <fecha>1979 </fecha>
+        <sinopsis>In Space, No One Can Hear You Scream</sinopsis>
+    </item>
+    <item id="id_4">
+        <titulo>Planet of the Apes</titulo>
+        <fecha>1968</fecha>
+        <sinopsis>The misanthropic George heads into outer space to get away from all those &quot;damned dirty hippies&quot;.</sinopsis>
+    </item>
+    <item id="id_5">
+        <titulo>Jurassic Park</titulo>
+        <fecha>1993</fecha>
+        <sinopsis>Visiting a park of Dinosaurs turns into ecology disruption hell.</sinopsis>
+    </item>
+</peliculas>

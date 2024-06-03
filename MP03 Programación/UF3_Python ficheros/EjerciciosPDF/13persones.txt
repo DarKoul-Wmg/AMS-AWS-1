@@ -1,0 +1,5 @@
+nom:william-cognoms:Molina-NIF:48142524M-edat:21-altura:1.75
+nom:wil-cognoms:lina-NIF:48142M-edat:17-altura:1.8
+nom:am-cognoms:Mona-NIF:42524M-edat:18-altura:1.6
+nom:ll-cognoms:ola-NIF:484M-edat:15-altura:1.7
+

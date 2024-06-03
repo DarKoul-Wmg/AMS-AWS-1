@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+
+
+
+public class Exercici2_uf5_Molina_William {
+
+	public static void main(String[] args) {
+		//instanciamos la calse apra ejecutar metodos no esatticos
+		Exercici2_uf5_Molina_William main = new Exercici2_uf5_Molina_William();
+        
+		try {
+			main.method1();
+		} catch (CustomException2 e) {
+			
+		}
+      
+    }
+	
+	public void method1() {
+		method2();
+	}
+	
+	public void method2() {
+		method3();
+	}
+	
+	public void method3() {
+		Scanner sc = new Scanner(System.in);
+        System.out.print("Introdueix un nom: ");
+        String numero = sc.nextLine();
+
+        if (numero.) {
+            throw new CustomException1("Not a Number");
+            
+        } else if (numero < 0) {
+            throw new CaractersNoValids("La ç és un caràcter no vàlid");
+        }
+	}
+	
+}
+
+		
+		
+	
+	
+	
+	
+    
+  
+
+class CustomException1 extends Exception {
+    public CustomException1(String message) {
+        super(message);
+    }
+}
+
+class CustomException2 extends Exception {
+    public CustomException2(String message) {
+        super(message);
+    }
+}
+
+
+
+

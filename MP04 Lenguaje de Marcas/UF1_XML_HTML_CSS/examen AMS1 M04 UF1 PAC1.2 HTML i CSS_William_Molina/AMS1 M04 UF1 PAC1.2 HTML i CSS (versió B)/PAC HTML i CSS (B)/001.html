@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+No modifiquis aquest HTML
+Modifica l'arxiu 001.css per tal que aquest arxiu:
+
+    - L'element '.top' es vegi en vertical a mòbil      
+        .top{ 
+            display: flex;
+            flex-direction: column;
+        }            
+    - L'element '.top .text' ocupi el 100% de l'amplada a mòbil
+        .top .text{
+            width: 100%;
+        }
+    - L'element '.top img' es vegi com a la captura a mòbil
+        .top img{
+            width: auto;
+            max-width: 100%;
+            padding-top: 10px;
+        }
+    - L'element '.bottom' es vegi en vertical a mòbil
+        .bottom{
+            display: flex;
+            flex-direction: column;
+        }
+    - L'element '.bottom .left' es vegi com a la captura a mòbil
+        .bottom .left{
+            width: 100%;
+        }
+    - L'element '.bottom .right' es vegi com a la captura a mòbil
+        .bottom .right{
+            margin-top: 2em;
+            width: 100%;
+        }
+    * La captura del mòbil es troba a ./resultats/001mobil.png
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="./001.css" rel="stylesheet" />
+        <title>001</title>
+    </head>
+    <body>
+        <div class="fullBox">
+            <div class="autocenter">
+                <div class="top">
+                    <div class="text">
+                        <h3>Layer-Based Editing</h3>
+                        <p>Use simple buildings blocks – shape, text, and image layers – to create stunning compositions and designs. Add layers in delightfully quick and simple ways, such as by dragging and dropping them straight into Pixelmator Pro, or using the built-in Photo Browser.</p>
+                    </div>
+                    <img src="./imgs/img_design-layers.jpeg" />
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <div class="linedBox">
+                            <h3 class="linedTitle">
+                                Smart Guides
+                            </h3>
+                            <p>The Arrange tool makes it incredibly easy to create designs. It lets you automatically select layers by clicking them on the canvas, intelligently snaps layers into position as you move them around, and even lets you align and distribute layers automatically.</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="./imgs/img_design-layer-styles.jpeg" />
+                        <h3>Layer Styles</h3>
+                        <p>Nondestructively customize the look of any layer in your image by adding fills, strokes, and shadows, or any combination of multiple styles. And with presets, you can save your favorite combinations, use them in any of your images, and even share them with others.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="autocenter boxesPos">
+            <div class="box">
+                <span class="material-symbols-outlined">auto_fix</span>
+                <h3>ML Enhace</h3>
+                <p>Automatically enhance photos like a pro photographer.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">settings_overscan</span>
+                <h3>ML Super Resolution</h3>
+                <p>Magically increase the resolution of images while preserving sharpness and details.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">palette</span>
+                <h3>ML Match Colors</h3>
+                <p>Quickly and easily match the colors and style of any photo.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">blur_off</span>
+                <h3>ML Denoise</h3>
+                <p>Effortlessly remove camera noise and image compression artifacts from photos.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">format_paint</span>
+                <h3>Quick Selection Tool</h3>
+                <p>Quickly make accurate selections with ease.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">crop</span>
+                <h3>ML Crop</h3>
+                <p>Improve the composition of photos with just a click.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">account_box</span>
+                <h3>Remove Background</h3>
+                <p>Remove the background from any image with just a click.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">account_circle</span>
+                <h3>Select subject</h3>
+                <p>Automatically select the subjects of images with ease.</p>
+            </div>
+            <div class="box">
+                <span class="material-symbols-outlined">tools_wrench</span>
+                <h3>Mask Tool</h3>
+                <p>Easily make advanced selections of challenging image areas like hair or fur.</p>
+            </div>
+        </div>
+    </body>
+</html>

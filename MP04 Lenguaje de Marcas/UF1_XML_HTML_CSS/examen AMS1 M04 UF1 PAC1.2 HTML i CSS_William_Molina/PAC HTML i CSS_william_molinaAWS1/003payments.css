@@ -1,0 +1,32 @@
+.taulaPayments {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.taulaPayments tr td {
+    border: solid 1px lightgray;
+    padding: 8px 8px;
+}
+
+.taulaPayments td:first-child {
+    font-weight: bold;
+    text-align: center;
+}
+
+.taulaPayments td {
+    text-align: right;
+}
+
+.taulaPayments tr:nth-child(odd) {
+    background-color: var(--color-clar);
+}
+
+.taulaPayments tr:first-child{
+    background-color: var(--color-blue);
+    font-weight: bold;
+    color: white;
+  
+}

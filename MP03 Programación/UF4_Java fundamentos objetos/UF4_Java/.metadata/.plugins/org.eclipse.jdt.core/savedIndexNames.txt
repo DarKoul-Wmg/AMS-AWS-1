@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+C:\Users\drags\eclipse-workspace\JavaAWS1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4180524668.index
+2330878657.index
+959153961.index
+3654766049.index
+3413270776.index
+3030779662.index
+2686637715.index
+2510987029.index
+3432879967.index
+3609585157.index
+3687760.index
+2018261072.index
+2673434864.index
+3487276125.index
+3245938426.index
+3480043643.index
+3483595449.index
+1151042140.index
+1491747801.index

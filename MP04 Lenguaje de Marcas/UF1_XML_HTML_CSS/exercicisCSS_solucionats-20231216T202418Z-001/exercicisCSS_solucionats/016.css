@@ -1,0 +1,21 @@
+.cursorAuto {
+    cursor: auto;
+}
+.cursorPointer {
+    cursor: pointer;
+}
+.cursorHelp {
+    cursor: help;
+}
+.cursorWait {
+    cursor: wait;
+}
+.cursorGrab {
+    cursor: grab;
+}
+.cursorNW {
+    cursor: nw-resize;
+}
+.cursorZoom {
+    cursor: zoom-in;
+}

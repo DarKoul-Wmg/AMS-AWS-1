@@ -1,0 +1,10 @@
+<!ELEMENT datos (cd+)>
+<!ATTLIST datos type CDATA #FIXED "database">
+<!ELEMENT cd (nombre,grupo,lugar,productora,precio,fecha)>
+<!ATTLIST cd id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT grupo (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT productora (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>

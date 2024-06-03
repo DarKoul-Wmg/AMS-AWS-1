@@ -1,0 +1,790 @@
+-- phpMyAdmin SQL Dump
+-- version 3.4.11.1deb2
+-- httpwww.phpmyadmin.net
+--
+-- Servidor localhost
+-- Tiempo de generación 09-09-2014 a las 123114
+-- Versión del servidor 5.5.37
+-- Versión de PHP 5.4.4-14+deb7u11
+
+ SET SQL_MODE=NO_AUTO_VALUE_ON_ZERO;
+ SET time_zone = +0000; 
+
+
+!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;
+!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;
+!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;
+!40101 SET NAMES utf8 ;
+
+--
+-- Base de datos `farmville`
+--
+CREATE DATABASE `farmville`;
+USE `farmville`;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `construcciones`
+--
+
+CREATE TABLE IF NOT EXISTS `construcciones` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) NOT NULL,
+  `precio` float NOT NULL DEFAULT '0',
+  `id_granjero` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_granjero` (`id_granjero`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=101 ;
+
+--
+-- Volcado de datos para la tabla `construcciones`
+--
+
+INSERT INTO `construcciones` (`id`, `nombre`, `precio`, `id_granjero`) VALUES
+(1, 'granja', 162, 40),
+(2, 'casa de madera', 204, 19),
+(3, 'mansion', 122, 49),
+(4, 'mansion', 402, 43),
+(5, 'granja', 220, 36),
+(6, 'establo', 470, 19),
+(7, 'invernadero', 191, 64),
+(8, 'palomar', 141, 86),
+(9, 'invernadero', 394, 35),
+(10, 'granja', 247, 26),
+(11, 'palomar', 480, 53),
+(12, 'invernadero', 380, 51),
+(13, 'establo', 224, 76),
+(14, 'establo', 326, 84),
+(15, 'invernadero', 183, 69),
+(16, 'palomar', 208, 26),
+(17, 'establo', 309, 62),
+(18, 'establo', 343, 37),
+(19, 'establo', 410, 47),
+(20, 'mansion', 282, 69),
+(21, 'casa de madera', 403, 35),
+(22, 'granja', 434, 55),
+(23, 'granja', 201, 78),
+(24, 'mansion', 361, 38),
+(25, 'establo', 113, 53),
+(26, 'casa de madera', 446, 63),
+(27, 'invernadero', 204, 61),
+(28, 'granja', 188, 45),
+(29, 'establo', 246, 13),
+(30, 'granja', 476, 13),
+(31, 'establo', 327, 19),
+(32, 'invernadero', 358, 11),
+(33, 'granja', 213, 78),
+(34, 'granja', 247, 59),
+(35, 'casa de madera', 282, 30),
+(36, 'granja', 238, 17),
+(37, 'casa de madera', 227, 8),
+(38, 'invernadero', 414, 83),
+(39, 'granja', 472, 57),
+(40, 'invernadero', 143, 89),
+(41, 'establo', 442, 61),
+(42, 'casa de madera', 141, 49),
+(43, 'establo', 349, 33),
+(44, 'mansion', 228, 63),
+(45, 'establo', 103, 3),
+(46, 'mansion', 325, 32),
+(47, 'casa de madera', 138, 40),
+(48, 'palomar', 322, 17),
+(49, 'granja', 490, 55),
+(50, 'mansion', 437, 48),
+(51, 'casa de madera', 267, 74),
+(52, 'granja', 193, 84),
+(53, 'palomar', 403, 81),
+(54, 'casa de madera', 234, 10),
+(55, 'mansion', 172, 12),
+(56, 'palomar', 435, 18),
+(57, 'invernadero', 217, 76),
+(58, 'invernadero', 423, 18),
+(59, 'invernadero', 431, 21),
+(60, 'granja', 195, 55),
+(61, 'invernadero', 380, 24),
+(62, 'casa de madera', 345, 90),
+(63, 'casa de madera', 311, 85),
+(64, 'casa de madera', 255, 64),
+(65, 'palomar', 255, 32),
+(66, 'establo', 305, 22),
+(67, 'mansion', 176, 90),
+(68, 'establo', 133, 17),
+(69, 'palomar', 231, 44),
+(70, 'casa de madera', 387, 70),
+(71, 'palomar', 248, 20),
+(72, 'mansion', 437, 5),
+(73, 'mansion', 187, 19),
+(74, 'palomar', 207, 38),
+(75, 'invernadero', 468, 10),
+(76, 'casa de madera', 201, 56),
+(77, 'casa de madera', 300, 40),
+(78, 'establo', 368, 66),
+(79, 'invernadero', 279, 60),
+(80, 'granja', 107, 35),
+(81, 'palomar', 407, 8),
+(82, 'palomar', 115, 82),
+(83, 'invernadero', 185, 23),
+(84, 'establo', 106, 11),
+(85, 'invernadero', 463, 30),
+(86, 'palomar', 457, 30),
+(87, 'palomar', 410, 12),
+(88, 'establo', 395, 44),
+(89, 'invernadero', 132, 48),
+(90, 'casa de madera', 338, 50),
+(91, 'palomar', 367, 10),
+(92, 'mansion', 224, 8),
+(93, 'establo', 151, 29),
+(94, 'mansion', 183, 67),
+(95, 'establo', 103, 36),
+(96, 'mansion', 376, 21),
+(97, 'casa de madera', 500, 72),
+(98, 'granja', 371, 70),
+(99, 'establo', 104, 46),
+(100, 'invernadero', 187, 63);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `granjero_granjero`
+--
+
+CREATE TABLE IF NOT EXISTS `granjero_granjero` (
+  `id_granjero` int(11) unsigned NOT NULL,
+  `id_vecino` int(11) unsigned NOT NULL,
+  `puntos_compartidos` int(11) NOT NULL,
+  PRIMARY KEY (`id_granjero`,`id_vecino`),
+  KEY `id_vecino` (`id_vecino`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `granjero_granjero`
+--
+
+INSERT INTO `granjero_granjero` (`id_granjero`, `id_vecino`, `puntos_compartidos`) VALUES
+(10, 41, 0),
+(10, 46, 0),
+(10, 63, 0),
+(10, 88, 0),
+(12, 57, 0),
+(13, 77, 0),
+(13, 88, 0),
+(14, 30, 0),
+(14, 58, 0),
+(14, 71, 0),
+(15, 85, 0),
+(15, 86, 0),
+(17, 36, 0),
+(17, 49, 0),
+(17, 52, 0),
+(18, 25, 0),
+(18, 63, 0),
+(19, 34, 0),
+(19, 65, 0),
+(19, 90, 0),
+(20, 35, 0),
+(20, 66, 0),
+(20, 68, 0),
+(20, 88, 0),
+(21, 39, 0),
+(21, 40, 0),
+(21, 57, 0),
+(21, 65, 0),
+(22, 80, 0),
+(22, 86, 0),
+(23, 70, 0),
+(26, 62, 0),
+(26, 68, 0),
+(27, 89, 0),
+(28, 49, 0),
+(28, 53, 0),
+(28, 79, 0),
+(28, 86, 0),
+(31, 31, 0),
+(31, 55, 0),
+(32, 53, 0),
+(32, 76, 0),
+(32, 79, 0),
+(34, 20, 0),
+(34, 28, 0),
+(34, 32, 0),
+(34, 61, 0),
+(35, 29, 0),
+(35, 39, 0),
+(35, 72, 0),
+(36, 28, 0),
+(36, 44, 0),
+(36, 49, 0),
+(37, 27, 0),
+(38, 25, 0),
+(38, 34, 0),
+(39, 25, 0),
+(41, 30, 0),
+(41, 60, 0),
+(44, 66, 0),
+(44, 70, 0),
+(45, 27, 0),
+(45, 57, 0),
+(45, 78, 0),
+(46, 59, 0),
+(46, 60, 0),
+(47, 84, 0),
+(49, 26, 0),
+(49, 43, 0),
+(50, 36, 0),
+(50, 86, 0),
+(51, 51, 0),
+(52, 58, 0),
+(52, 60, 0),
+(53, 60, 0),
+(54, 43, 0),
+(54, 48, 0),
+(54, 55, 0),
+(54, 56, 0),
+(55, 27, 0),
+(55, 38, 0),
+(55, 43, 0),
+(55, 76, 0),
+(55, 85, 0),
+(56, 33, 0),
+(58, 41, 0),
+(59, 45, 0),
+(59, 49, 0),
+(60, 56, 0),
+(62, 52, 0),
+(63, 47, 0),
+(64, 22, 0),
+(64, 35, 0),
+(66, 22, 0),
+(67, 23, 0),
+(68, 44, 0),
+(68, 76, 0),
+(69, 42, 0),
+(70, 56, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `granjeros`
+--
+
+CREATE TABLE IF NOT EXISTS `granjeros` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(500) NOT NULL,
+  `descripcion` varchar(500) NOT NULL,
+  `dinero` float NOT NULL DEFAULT '1000',
+  `puntos` int(11) NOT NULL DEFAULT '0',
+  `nivel` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=101 ;
+
+--
+-- Volcado de datos para la tabla `granjeros`
+--
+
+INSERT INTO `granjeros` (`id`, `nombre`, `descripcion`, `dinero`, `puntos`, `nivel`) VALUES
+(1, 'Dorian U. Ayala', 'agresivo', 1810, 479, 9),
+(2, 'Melvin Davis', 'estándar', 3679, 117, 10),
+(3, 'Lucas Barr', 'estándar', 2607, 47, 3),
+(4, 'Jeremy T. Clarke', 'conservador', 861, 322, 9),
+(5, 'Salvador K. Drake', 'conservador', 85, 353, 3),
+(6, 'Melyssa O. Baldwin', 'conservador', 3174, 434, 4),
+(7, 'Rahim G. Stark', 'agresivo', 183, 250, 10),
+(8, 'Beatrice M. Conway', 'agresivo', 4289, 260, 4),
+(9, 'Audra Randolph', 'estándar', 2074, 157, 3),
+(10, 'Shelby R. Griffith', 'estándar', 2238, 42, 8),
+(11, 'Isabella Stevenson', 'cuidadoso', 1532, 445, 9),
+(12, 'Candice J. Banks', 'estándar', 625, 237, 8),
+(13, 'Alika R. Valentine', 'estándar', 4206, 15, 5),
+(14, 'Alexis G. Flynn', 'conservador', 4012, 435, 5),
+(15, 'Bert Fulton', 'agresivo', 4135, 79, 1),
+(16, 'Joan S. Bowers', 'estándar', 4018, 197, 7),
+(17, 'Kiara Caldwell', 'estándar', 474, 181, 8),
+(18, 'Axel E. Castillo', 'cuidadoso', 1302, 42, 5),
+(19, 'David U. Glass', 'conservador', 941, 136, 7),
+(20, 'Gage H. Gardner', 'cuidadoso', 1123, 35, 7),
+(21, 'Cooper W. Webster', 'cuidadoso', 1902, 455, 3),
+(22, 'Tara Q. Gates', 'agresivo', 3703, 120, 10),
+(23, 'Deborah Carey', 'conservador', 1480, 478, 10),
+(24, 'Marah U. Davenport', 'investigador', 3040, 365, 6),
+(25, 'Mariam Morrison', 'cuidadoso', 1821, 439, 8),
+(26, 'Leslie H. Patterson', 'conservador', 1313, 270, 1),
+(27, 'Fuller Hensley', 'investigador', 4788, 29, 7),
+(28, 'Larissa Larsen', 'cuidadoso', 1831, 45, 2),
+(29, 'Elizabeth Elliott', 'agresivo', 2979, 142, 10),
+(30, 'Lucian Battle', 'investigador', 3894, 18, 6),
+(31, 'Fletcher Ross', 'investigador', 1839, 387, 4),
+(32, 'Hilda Barnes', 'investigador', 2197, 157, 4),
+(33, 'Martina Wheeler', 'investigador', 3743, 218, 9),
+(34, 'Cathleen O. Webster', 'investigador', 3766, 8, 7),
+(35, 'Larissa Mcintosh', 'cuidadoso', 1765, 261, 1),
+(36, 'Basia Macdonald', 'investigador', 4853, 363, 3),
+(37, 'Guinevere Gilbert', 'cuidadoso', 2721, 315, 5),
+(38, 'Gillian Johnston', 'agresivo', 4535, 393, 7),
+(39, 'Freya Jenkins', 'conservador', 546, 199, 9),
+(40, 'Willa Wilder', 'estándar', 4789, 184, 8),
+(41, 'Roary Michael', 'cuidadoso', 3798, 184, 9),
+(42, 'Kitra T. Pearson', 'estándar', 136, 423, 10),
+(43, 'Forrest X. Phillips', 'cuidadoso', 218, 332, 2),
+(44, 'Dominique G. Myers', 'estándar', 1857, 50, 8),
+(45, 'Travis U. Snyder', 'investigador', 2437, 240, 1),
+(46, 'Yuri M. Norris', 'estándar', 477, 55, 1),
+(47, 'Alfonso Chen', 'investigador', 2818, 43, 6),
+(48, 'Salvador Norman', 'investigador', 1733, 239, 3),
+(49, 'Judith Monroe', 'agresivo', 1223, 483, 7),
+(50, 'Melanie C. Sims', 'estándar', 1462, 254, 1),
+(51, 'Gloria Z. Rodriquez', 'estándar', 2454, 328, 2),
+(52, 'Adria Wagner', 'estándar', 2435, 69, 8),
+(53, 'Colton Velasquez', 'investigador', 1565, 101, 4),
+(54, 'Christian Chaney', 'investigador', 2807, 66, 2),
+(55, 'Otto A. Mitchell', 'agresivo', 3942, 4, 5),
+(56, 'Kelsey Cote', 'investigador', 4841, 16, 10),
+(57, 'Lani L. Greer', 'agresivo', 1776, 313, 10),
+(58, 'Rajah Y. Rhodes', 'cuidadoso', 888, 53, 9),
+(59, 'Angelica C. Delaney', 'investigador', 622, 463, 8),
+(60, 'Cooper T. Vincent', 'conservador', 1616, 268, 8),
+(61, 'Vivian Klein', 'agresivo', 3796, 202, 7),
+(62, 'Caesar Francis', 'agresivo', 2897, 354, 9),
+(63, 'Cassandra C. Reynolds', 'estándar', 3080, 63, 4),
+(64, 'Pamela I. Stark', 'agresivo', 4172, 87, 2),
+(65, 'Ulysses Z. Schwartz', 'investigador', 3551, 206, 3),
+(66, 'Indigo Y. Massey', 'estándar', 4412, 32, 6),
+(67, 'Cairo L. Valdez', 'estándar', 2349, 280, 2),
+(68, 'Isadora Aguirre', 'cuidadoso', 2187, 467, 4),
+(69, 'Ebony Colon', 'conservador', 2557, 4, 1),
+(70, 'Jessamine S. Levine', 'conservador', 4733, 385, 6),
+(71, 'Joshua Key', 'estándar', 451, 107, 2),
+(72, 'Eleanor Bradshaw', 'conservador', 2832, 328, 6),
+(73, 'Castor Vasquez', 'cuidadoso', 2384, 57, 3),
+(74, 'Emmanuel N. Giles', 'estándar', 3677, 393, 3),
+(75, 'Camden Rivera', 'cuidadoso', 554, 128, 5),
+(76, 'Ciaran M. Dillard', 'agresivo', 4319, 23, 7),
+(77, 'Vincent S. Everett', 'estándar', 4267, 484, 3),
+(78, 'Bertha F. Davis', 'conservador', 2314, 361, 1),
+(79, 'Ruby Garner', 'conservador', 3384, 85, 10),
+(80, 'Mira A. Sykes', 'investigador', 1522, 440, 2),
+(81, 'Urielle Buckley', 'investigador', 4785, 393, 3),
+(82, 'Nash G. Mcfadden', 'agresivo', 1843, 209, 4),
+(83, 'Catherine L. Miles', 'cuidadoso', 4141, 125, 9),
+(84, 'Lois Valencia', 'investigador', 891, 258, 5),
+(85, 'Richard R. Hurley', 'agresivo', 864, 403, 5),
+(86, 'Justine Levine', 'cuidadoso', 3295, 150, 9),
+(87, 'Illiana Reilly', 'estándar', 4216, 352, 1),
+(88, 'Whilemina Barlow', 'investigador', 1568, 297, 2),
+(89, 'Vladimir F. Robbins', 'investigador', 3403, 457, 5),
+(90, 'Dustin U. Moore', 'estándar', 606, 93, 8),
+(91, 'Connor P. Ellis', 'agresivo', 3413, 252, 8),
+(92, 'Kelsey Schmidt', 'estándar', 1072, 229, 7),
+(93, 'Jacob Roth', 'estándar', 1309, 187, 9),
+(94, 'Brennan B. Vincent', 'agresivo', 3158, 485, 7),
+(95, 'Lionel Thomas', 'cuidadoso', 2906, 472, 10),
+(96, 'Bradley P. Spencer', 'estándar', 3553, 227, 9),
+(97, 'Brennan Duran', 'estándar', 4747, 170, 8),
+(98, 'Elizabeth Watkins', 'agresivo', 3839, 357, 4),
+(99, 'Jesse Heath', 'estándar', 3608, 49, 5),
+(100, 'Brendan L. Allison', 'investigador', 851, 54, 3);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `plantaciones`
+--
+
+CREATE TABLE IF NOT EXISTS `plantaciones` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) NOT NULL,
+  `precio_compra` float NOT NULL DEFAULT '0',
+  `precio_venta` float NOT NULL DEFAULT '0',
+  `proxima_cosecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `id_granjero` int(11) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_granjero` (`id_granjero`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=101 ;
+
+--
+-- Volcado de datos para la tabla `plantaciones`
+--
+
+INSERT INTO `plantaciones` (`id`, `nombre`, `precio_compra`, `precio_venta`, `proxima_cosecha`, `id_granjero`) VALUES
+(1, 'sandía', 171, 293, '2015-03-08 143159', 5),
+(2, 'fresas', 146, 279, '2015-07-08 174031', 6),
+(3, 'uvas', 159, 243, '2013-09-24 235427', 5),
+(4, 'uvas', 106, 248, '2015-07-28 154058', 10),
+(5, 'platanos', 160, 260, '2015-08-16 013849', 4),
+(6, 'ajos', 177, 203, '2014-01-28 190737', 6),
+(7, 'uvas', 148, 284, '2014-01-23 215542', 8),
+(8, 'ajos', 145, 206, '2015-04-02 182730', 8),
+(9, 'uvas', 138, 247, '2015-05-03 163509', 8),
+(10, 'sandía', 182, 256, '2013-10-30 144040', 7),
+(11, 'uvas', 143, 235, '2014-05-12 185548', 8),
+(12, 'uvas', 146, 200, '2015-01-31 021404', 6),
+(13, 'ajos', 123, 224, '2015-01-05 005321', 10),
+(14, 'sandía', 143, 283, '2014-07-06 014747', 10),
+(15, 'uvas', 152, 300, '2013-10-31 091212', 8),
+(16, 'ajos', 110, 287, '2015-07-23 133543', 1),
+(17, 'fresas', 115, 253, '2014-11-20 102044', 8),
+(18, 'calabazas', 195, 271, '2015-06-09 024317', 1),
+(19, 'sandía', 146, 213, '2013-10-27 034515', 3),
+(20, 'sandía', 105, 254, '2014-01-19 022411', 4),
+(21, 'calabazas', 103, 255, '2014-08-23 172953', 4),
+(22, 'platanos', 196, 231, '2015-04-06 081037', 9),
+(23, 'lechugas', 129, 287, '2013-09-12 031536', 7),
+(24, 'lechugas', 194, 296, '2014-09-17 071049', 10),
+(25, 'uvas', 136, 206, '2013-12-02 021504', 6),
+(26, 'calabazas', 182, 220, '2014-06-18 204024', 4),
+(27, 'fresas', 157, 227, '2013-10-29 121453', 5),
+(28, 'tomates', 196, 297, '2014-12-26 084641', 10),
+(29, 'platanos', 198, 276, '2014-07-18 000622', 6),
+(30, 'tomates', 195, 236, '2014-05-12 003632', 4),
+(31, 'lechugas', 110, 285, '2014-02-09 101135', 9),
+(32, 'tomates', 109, 240, '2014-10-06 173130', 9),
+(33, 'sandía', 101, 252, '2013-09-17 182252', 9),
+(34, 'sandía', 164, 262, '2015-01-31 155443', 3),
+(35, 'ajos', 163, 298, '2014-05-02 060313', 8),
+(36, 'tomates', 143, 294, '2013-09-14 211736', 7),
+(37, 'uvas', 141, 284, '2015-07-15 011305', 1),
+(38, 'platanos', 194, 210, '2014-05-20 213022', 1),
+(39, 'calabazas', 137, 267, '2015-07-28 044219', 7),
+(40, 'tomates', 161, 205, '2013-10-17 125810', 1),
+(41, 'sandía', 149, 247, '2014-01-28 000651', 9),
+(42, 'platanos', 165, 251, '2014-09-26 172338', 2),
+(43, 'tomates', 109, 246, '2014-10-04 112603', 4),
+(44, 'lechugas', 169, 283, '2013-12-03 085849', 4),
+(45, 'fresas', 146, 254, '2013-11-09 144148', 7),
+(46, 'uvas', 132, 233, '2014-09-14 191740', 7),
+(47, 'uvas', 113, 226, '2015-01-24 165515', 4),
+(48, 'lechugas', 134, 299, '2015-04-06 211159', 1),
+(49, 'platanos', 152, 225, '2015-05-01 033429', 3),
+(50, 'uvas', 196, 217, '2013-12-18 193123', 9),
+(51, 'ajos', 106, 258, '2013-09-23 222314', 2),
+(52, 'ajos', 150, 285, '2015-04-08 182727', 3),
+(53, 'platanos', 153, 298, '2014-01-25 080420', 7),
+(54, 'ajos', 159, 213, '2013-10-06 073553', 4),
+(55, 'platanos', 183, 238, '2014-01-15 171026', 2),
+(56, 'platanos', 116, 214, '2013-11-21 143750', 4),
+(57, 'platanos', 195, 289, '2015-01-30 211249', 6),
+(58, 'sandía', 164, 219, '2014-06-11 011432', 4),
+(59, 'tomates', 103, 261, '2014-03-05 111515', 2),
+(60, 'calabazas', 199, 266, '2015-04-24 080535', 3),
+(61, 'lechugas', 128, 213, '2014-07-21 230000', 4),
+(62, 'tomates', 156, 235, '2014-08-07 224615', 5),
+(63, 'tomates', 138, 221, '2013-09-24 150020', 9),
+(64, 'tomates', 149, 215, '2015-08-03 132943', 4),
+(65, 'sandía', 147, 217, '2015-09-07 211623', 6),
+(66, 'tomates', 168, 250, '2014-03-27 205316', 9),
+(67, 'fresas', 174, 233, '2015-01-16 083502', 9),
+(68, 'uvas', 137, 205, '2014-10-13 070503', 1),
+(69, 'tomates', 124, 300, '2013-12-17 045046', 1),
+(70, 'fresas', 150, 213, '2014-04-27 014653', 10),
+(71, 'uvas', 176, 232, '2013-09-26 153020', 10),
+(72, 'fresas', 182, 214, '2015-03-15 001549', 9),
+(73, 'platanos', 190, 249, '2014-11-12 135218', 9),
+(74, 'tomates', 107, 219, '2015-03-29 102949', 7),
+(75, 'fresas', 182, 232, '2015-01-08 073546', 8),
+(76, 'calabazas', 130, 256, '2014-05-03 125324', 10),
+(77, 'uvas', 159, 214, '2015-06-13 072154', 2),
+(78, 'tomates', 196, 272, '2014-10-08 100053', 7),
+(79, 'lechugas', 136, 293, '2013-09-26 085543', 2),
+(80, 'lechugas', 118, 212, '2014-11-10 044745', 2),
+(81, 'uvas', 149, 269, '2015-06-22 011043', 5),
+(82, 'ajos', 165, 211, '2013-10-29 172608', 2),
+(83, 'lechugas', 122, 206, '2015-03-01 092106', 6),
+(84, 'ajos', 197, 297, '2014-06-24 073756', 6),
+(85, 'platanos', 124, 243, '2015-08-23 130405', 7),
+(86, 'platanos', 178, 202, '2015-08-31 154903', 8),
+(87, 'ajos', 162, 265, '2014-06-26 231209', 9),
+(88, 'uvas', 130, 226, '2015-04-20 104030', 10),
+(89, 'tomates', 133, 290, '2015-07-12 012959', 4),
+(90, 'calabazas', 156, 281, '2013-12-25 190051', 7),
+(91, 'tomates', 106, 291, '2014-05-15 013540', 6),
+(92, 'sandía', 194, 221, '2014-09-03 053921', 5),
+(93, 'sandía', 131, 200, '2015-09-01 233459', 2),
+(94, 'ajos', 177, 295, '2014-06-19 185135', 6),
+(95, 'uvas', 121, 222, '2015-03-06 204424', 6),
+(96, 'fresas', 171, 291, '2015-05-12 155006', 5),
+(97, 'tomates', 103, 280, '2015-06-26 010721', 1),
+(98, 'lechugas', 139, 272, '2014-06-06 191817', 7),
+(99, 'calabazas', 144, 246, '2014-04-17 083746', 8),
+(100, 'lechugas', 130, 202, '2014-03-15 122853', 10);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `riegos`
+--
+
+CREATE TABLE IF NOT EXISTS `riegos` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `tipo` varchar(255) NOT NULL,
+  `velocidad` int(11) NOT NULL DEFAULT '10',
+  `id_plantacion` int(11) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_plantacion` (`id_plantacion`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=101 ;
+
+--
+-- Volcado de datos para la tabla `riegos`
+--
+
+INSERT INTO `riegos` (`id`, `tipo`, `velocidad`, `id_plantacion`) VALUES
+(1, 'goteo', 9, 60),
+(2, 'manguera', 1, 72),
+(3, 'manguera', 5, 76),
+(4, 'goteo', 2, 78),
+(5, 'manguera', 5, 9),
+(6, 'regadera', 4, 5),
+(7, 'manguera', 7, 66),
+(8, 'regadio', 4, 38),
+(9, 'manguera', 8, 70),
+(10, 'secano', 3, 32),
+(11, 'regadio', 4, 89),
+(12, 'regadio', 4, 75),
+(13, 'regadio', 8, 87),
+(14, 'regadio', 6, 26),
+(15, 'regadio', 2, 27),
+(16, 'regadio', 10, 10),
+(17, 'secano', 6, 55),
+(18, 'goteo', 10, 43),
+(19, 'regadera', 9, 62),
+(20, 'secano', 6, 59),
+(21, 'regadio', 4, 69),
+(22, 'secano', 2, 56),
+(23, 'manguera', 1, 43),
+(24, 'secano', 3, 82),
+(25, 'regadera', 9, 35),
+(26, 'goteo', 8, 85),
+(27, 'regadio', 2, 86),
+(28, 'goteo', 6, 7),
+(29, 'manguera', 3, 7),
+(30, 'regadio', 10, 81),
+(31, 'manguera', 2, 59),
+(32, 'secano', 7, 40),
+(33, 'manguera', 6, 56),
+(34, 'regadera', 6, 86),
+(35, 'goteo', 10, 18),
+(36, 'regadio', 1, 43),
+(37, 'manguera', 9, 31),
+(38, 'regadio', 6, 44),
+(39, 'manguera', 10, 28),
+(40, 'manguera', 7, 34),
+(41, 'regadera', 5, 76),
+(42, 'manguera', 2, 80),
+(43, 'goteo', 3, 35),
+(44, 'regadera', 1, 20),
+(45, 'secano', 4, 40),
+(46, 'secano', 4, 81),
+(47, 'goteo', 5, 31),
+(48, 'goteo', 6, 42),
+(49, 'goteo', 5, 83),
+(50, 'regadio', 7, 2),
+(51, 'goteo', 3, 10),
+(52, 'goteo', 2, 80),
+(53, 'goteo', 10, 76),
+(54, 'regadio', 3, 64),
+(55, 'goteo', 3, 57),
+(56, 'goteo', 7, 40),
+(57, 'secano', 2, 74),
+(58, 'regadera', 8, 14),
+(59, 'goteo', 8, 31),
+(60, 'regadio', 1, 35),
+(61, 'goteo', 8, 28),
+(62, 'manguera', 3, 36),
+(63, 'regadera', 8, 24),
+(64, 'manguera', 2, 16),
+(65, 'goteo', 7, 28),
+(66, 'regadera', 9, 14),
+(67, 'regadera', 1, 52),
+(68, 'secano', 2, 20),
+(69, 'regadio', 1, 56),
+(70, 'manguera', 3, 33),
+(71, 'regadio', 2, 58),
+(72, 'manguera', 6, 9),
+(73, 'goteo', 7, 14),
+(74, 'secano', 4, 50),
+(75, 'manguera', 6, 8),
+(76, 'regadio', 10, 51),
+(77, 'regadera', 2, 71),
+(78, 'secano', 4, 87),
+(79, 'secano', 6, 47),
+(80, 'secano', 10, 60),
+(81, 'secano', 7, 7),
+(82, 'manguera', 5, 18),
+(83, 'regadera', 9, 41),
+(84, 'regadera', 8, 85),
+(85, 'secano', 5, 47),
+(86, 'regadio', 10, 38),
+(87, 'goteo', 9, 8),
+(88, 'manguera', 6, 6),
+(89, 'goteo', 9, 40),
+(90, 'regadio', 7, 65),
+(91, 'manguera', 9, 79),
+(92, 'manguera', 8, 35),
+(93, 'secano', 6, 16),
+(94, 'manguera', 6, 38),
+(95, 'manguera', 4, 8),
+(96, 'regadera', 10, 30),
+(97, 'secano', 4, 41),
+(98, 'goteo', 2, 80),
+(99, 'secano', 1, 27),
+(100, 'regadera', 7, 4);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tractores`
+--
+
+CREATE TABLE IF NOT EXISTS `tractores` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `modelo` varchar(25) NOT NULL,
+  `velocidad` int(11) NOT NULL DEFAULT '10',
+  `precio_venta` float NOT NULL DEFAULT '0',
+  `id_construccion` int(11) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_construccion` (`id_construccion`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=101 ;
+
+--
+-- Volcado de datos para la tabla `tractores`
+--
+
+INSERT INTO `tractores` (`id`, `modelo`, `velocidad`, `precio_venta`, `id_construccion`) VALUES
+(1, 'rural', 4, 329, 8),
+(2, 'urbano', 8, 611, 84),
+(3, 'rural', 8, 453, 25),
+(4, 'cosechar', 1, 523, 71),
+(5, 'de carreras', 2, 848, 49),
+(6, 'cosechar', 6, 738, 14),
+(7, 'de carreras', 3, 289, 90),
+(8, 'plantar', 2, 728, 19),
+(9, 'plantar', 5, 271, 97),
+(10, 'cosechar', 5, 378, 41),
+(11, 'rural', 1, 568, 17),
+(12, 'urbano', 1, 549, 39),
+(13, 'cosechar', 9, 767, 35),
+(14, 'plantar', 8, 455, 87),
+(15, 'cosechar', 7, 387, 60),
+(16, 'urbano', 6, 848, 11),
+(17, 'urbano', 5, 938, 98),
+(18, 'rural', 3, 356, 97),
+(19, 'cosechar', 3, 231, 71),
+(20, 'plantar', 1, 148, 100),
+(21, 'plantar', 5, 485, 73),
+(22, 'de carreras', 10, 796, 90),
+(23, 'cosechar', 8, 757, 96),
+(24, 'cosechar', 6, 991, 20),
+(25, 'plantar', 2, 161, 56),
+(26, 'de carreras', 7, 905, 30),
+(27, 'rural', 10, 728, 30),
+(28, 'cosechar', 4, 768, 98),
+(29, 'cosechar', 7, 214, 69),
+(30, 'rural', 7, 890, 67),
+(31, 'urbano', 9, 883, 75),
+(32, 'urbano', 5, 199, 64),
+(33, 'rural', 10, 966, 80),
+(34, 'rural', 7, 333, 80),
+(35, 'plantar', 5, 580, 5),
+(36, 'de carreras', 4, 260, 73),
+(37, 'rural', 3, 659, 56),
+(38, 'de carreras', 8, 978, 94),
+(39, 'de carreras', 5, 654, 74),
+(40, 'de carreras', 4, 275, 9),
+(41, 'de carreras', 1, 410, 62),
+(42, 'rural', 4, 719, 96),
+(43, 'plantar', 5, 671, 43),
+(44, 'rural', 5, 552, 28),
+(45, 'plantar', 1, 222, 61),
+(46, 'rural', 4, 762, 29),
+(47, 'urbano', 1, 224, 49),
+(48, 'de carreras', 7, 548, 69),
+(49, 'urbano', 1, 547, 29),
+(50, 'plantar', 3, 321, 52),
+(51, 'cosechar', 6, 211, 55),
+(52, 'urbano', 10, 966, 27),
+(53, 'urbano', 2, 252, 78),
+(54, 'cosechar', 5, 361, 10),
+(55, 'rural', 1, 439, 16),
+(56, 'urbano', 7, 250, 97),
+(57, 'de carreras', 2, 876, 56),
+(58, 'plantar', 1, 192, 79),
+(59, 'plantar', 1, 415, 36),
+(60, 'cosechar', 6, 274, 44),
+(61, 'rural', 2, 332, 71),
+(62, 'urbano', 8, 622, 97),
+(63, 'urbano', 3, 908, 63),
+(64, 'urbano', 1, 919, 37),
+(65, 'rural', 6, 551, 65),
+(66, 'cosechar', 6, 196, 89),
+(67, 'rural', 6, 353, 54),
+(68, 'plantar', 7, 391, 87),
+(69, 'rural', 6, 998, 46),
+(70, 'de carreras', 5, 318, 86),
+(71, 'urbano', 10, 638, 70),
+(72, 'de carreras', 3, 856, 47),
+(73, 'rural', 7, 626, 78),
+(74, 'rural', 1, 293, 78),
+(75, 'urbano', 7, 770, 66),
+(76, 'plantar', 4, 500, 50),
+(77, 'urbano', 5, 650, 76),
+(78, 'cosechar', 4, 595, 1),
+(79, 'rural', 3, 538, 12),
+(80, 'rural', 4, 748, 28),
+(81, 'cosechar', 7, 601, 1),
+(82, 'rural', 9, 962, 86),
+(83, 'cosechar', 10, 243, 74),
+(84, 'cosechar', 7, 294, 61),
+(85, 'plantar', 5, 380, 32),
+(86, 'plantar', 6, 557, 20),
+(87, 'de carreras', 6, 122, 85),
+(88, 'de carreras', 10, 891, 86),
+(89, 'urbano', 3, 845, 51),
+(90, 'urbano', 7, 942, 56),
+(91, 'plantar', 4, 103, 68),
+(92, 'plantar', 9, 452, 25),
+(93, 'cosechar', 3, 743, 14),
+(94, 'rural', 1, 456, 57),
+(95, 'de carreras', 10, 785, 99),
+(96, 'rural', 8, 256, 48),
+(97, 'cosechar', 7, 734, 41),
+(98, 'cosechar', 2, 888, 66),
+(99, 'rural', 2, 202, 8),
+(100, 'urbano', 5, 706, 13);
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `construcciones`
+--
+ALTER TABLE `construcciones`
+  ADD CONSTRAINT `construcciones_ibfk_2` FOREIGN KEY (`id_granjero`) REFERENCES `granjeros` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `granjero_granjero`
+--
+ALTER TABLE `granjero_granjero`
+  ADD CONSTRAINT `granjero_granjero_ibfk_2` FOREIGN KEY (`id_vecino`) REFERENCES `granjeros` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION,
+  ADD CONSTRAINT `granjero_granjero_ibfk_1` FOREIGN KEY (`id_granjero`) REFERENCES `granjeros` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `plantaciones`
+--
+ALTER TABLE `plantaciones`
+  ADD CONSTRAINT `plantaciones_ibfk_1` FOREIGN KEY (`id_granjero`) REFERENCES `granjeros` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `riegos`
+--
+ALTER TABLE `riegos`
+  ADD CONSTRAINT `riegos_ibfk_1` FOREIGN KEY (`id_plantacion`) REFERENCES `plantaciones` (`id`) ON DELETE SET NULL ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `tractores`
+--
+ALTER TABLE `tractores`
+  ADD CONSTRAINT `tractores_ibfk_1` FOREIGN KEY (`id_construccion`) REFERENCES `construcciones` (`id`) ON DELETE SET NULL ON UPDATE NO ACTION;
+
+!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT ;
+!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS ;
+!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION ;

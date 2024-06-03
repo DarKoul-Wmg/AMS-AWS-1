@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sports SYSTEM "000.dtd">
+<sports>
+    <sport id="id_01">
+        <name>Gymnastics</name>
+        <technique>Vault</technique>
+        <technique>Uneven bars</technique>
+        <technique>Balance beam</technique>
+        <technique>Floor</technique>
+        <technique>Scoring</technique>
+    </sport>
+    <sport id="id_02">
+        <name>Water polo</name>
+        <technique>Positioning</technique>
+        <technique>Advancing</technique>
+        <technique>Setting</technique>
+        <technique>Man up</technique>
+    </sport>
+    <sport id="id_03">
+        <name>Climbing</name>
+        <technique>Buildering</technique>
+        <technique>Lumberjack</technique>
+        <technique>Top roping</technique>
+    </sport>
+</sports>

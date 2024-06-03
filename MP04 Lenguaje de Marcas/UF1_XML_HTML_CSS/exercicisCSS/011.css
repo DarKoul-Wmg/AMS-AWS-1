@@ -1,0 +1,13 @@
+.scrollRetall {
+    font-family: "Open Sans";
+    overflow-y: hidden;
+}
+.scrollAuto {
+    font-family: "Open Sans";
+    overflow-y: auto;
+
+}
+.scrollSempre {
+    font-family: "Open Sans";
+    overflow-y: scroll;
+}

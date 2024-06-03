@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- 
+No modifiquis aquest HTML
+Modifica els arxius CSS per tal que aquest arxiu:
+
+    Els calendaris petits:
+        El fons del més ha de ser 'color-clar'                          background-color: var(--color-clar);
+        El més ha de tenir un relleu inferior solid gris                border-bottom: 1px solid grey;
+        Els dies de la setmana han de tenir lletra gris                 color: var(--color-gris);
+        El números han de tenir lletra 0.7em alineada a la dreta        text-align: right;  font-weight: 0.7em;
+
+
+    El calendari gran:
+ 
+        El fons dels dies ha d'estar en color principal                 background-color: var(--color-main);
+        El text dels dies ha d'estar en majúscules                      text-transform: uppercase;
+        El color dels dies ha de ser blanc                              color: white;
+        Les files imparells han de tenir fons 'color-clar'
+        Les files imparells han de medir 50px d'alt
+
+                .max .days tr:nth-child(odd){
+                    background-color: var(--color-clar);
+                    height: 50px;}    
+        
+        La clase apunt ha de tenir el fons blau                         
+        La clase apunt ha de tenir relleu inferior amb línies grises
+        La clase apunt ha de tenir lletra 0.75em
+        La clase apunt ha de tenir lletra amb un gruix de 300
+                .apunt{
+                        background-color: var(--color-blau);
+                        font-size: 0.75em;
+                        font-weight: 300;
+                        border-bottom: 1px dashed grey; }
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet" />
+        <link href="./003.css" rel="stylesheet" />
+        <link href="./003min.css" rel="stylesheet" />
+        <link href="./003max.css" rel="stylesheet" />
+        <title>003</title>
+    </head>
+    <body>
+        <div class="autocenter">
+            <div class="top">
+                <div class="main">
+                    <h1>September</h1>
+                    <h3>2020</h3>
+                </div>
+                <div class="min">
+                    <div class="month">August</div>
+                    <table class="days">
+                        <tr><td>Sn</td><td>Mn</td><td>Ts</td><td>Wn</td><td>Th</td><td>Fr</td><td>St</td></tr>
+                        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+                        <tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+                        <tr><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
+                        <tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
+                        <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr>
+                        <tr><td>30</td><td>31</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </table>
+                </div>
+                <div class="min">
+                    <div class="month">October</div>
+                    <table class="days">
+                        <tr><td>Sn</td><td>Mn</td><td>Ts</td><td>Wn</td><td>Th</td><td>Fr</td><td>St</td></tr>
+                        <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+                        <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+                        <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+                        <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+                        <tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+                        <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="max">
+                <table class="days">
+                    <tr><td>Sunday</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td><td>Saturday</td></tr>
+                    <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+                    <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+                    <tr><td>&nbsp;</td><td><div class="apunt">Exàmen Prog.</div><div class="apunt">Partit a St.Just</div></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+                    <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
+                    <tr><td>&nbsp;</td><td></td><td></td><td></td><td><div class="apunt">Cumple Iaia</div></td><td></td><td></td></tr>
+                    <tr><td>27</td><td>28</td><td>29</td><td>30</td><td></td><td></td><td></td></tr>
+                    <tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

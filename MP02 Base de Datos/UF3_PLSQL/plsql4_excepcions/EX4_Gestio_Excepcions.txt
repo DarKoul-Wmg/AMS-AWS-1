@@ -1,0 +1,85 @@
+---Exercici 1 (Warehouse-Inventories)-------------------------------------------------------
+
+
+-- set serveroutput on;
+
+create or replace NONEDITIONABLE FUNCTION f_magatzem_ex6 ( in_id_product products.product_id%type,
+                                        in_id_country countries.country_id%type)
+RETURN number 
+IS
+    v_ok boolean;
+    v_num number(3);
+    v_id warehouses.warehouse_id%type;
+    v_max inventories.quantity%type;
+BEGIN
+    --1.comprovar producte si no existeix retornar null
+    v_ok:=TRUE;
+    begin
+        select 1 into v_num
+        from products 
+        where product_id = in_id_product;
+    exception
+        when no_data_found then v_ok:=FALSE;
+    end;
+    IF not v_ok THEN return null; 
+    END IF;
+     --2. si no n'hi ha retornar -1
+     select count(*)
+     into v_num
+     from inventories
+     where product_id = in_id_product AND warehouse_id IN (select warehouse_id
+                                                           from warehouses w, locations l
+                                                           where w.location_id = l-location_id 
+							   and l.country_id = in_id_country);
+    
+    if v_num = 0 then
+        return -1;
+    end if;
+    --3. buscar magatzem del producte en el pais i quantitat màxima
+    
+    SELECT warehouse_id, max(quantity)
+    into v_id, v_max
+    from inventories
+    where product_id = in_id_product  AND warehouse_id IN (select warehouse_id
+                                                           from warehouses
+                                                           where location_id IN (select location_id
+                                                           from locations
+                                                           )
+    group by warehouse_id;
+    return v_id;
+    
+EXCEPTION
+    when others then
+    dbms_output.put_line('Error: ' || sqlerrm);
+    return null;
+   
+END f_magatzem_ex6;
+
+----------------------------------------Ejercicio 2 ----------------------------------------
+
+-- set serveroutput on; to_date('01/01/2015', 'DD/MM/YYYY');
+create or replace FUNCTION f_customer_prod( 
+                                                                            in_id_product products.product_id%type,
+                                                                            in_data_ini orders.order_date%type,
+                                                                            in_data_fi orders.order_date%type)
+RETURN number 
+IS                                                                            
+    v_ok boolean;
+    v_num number(3);
+    v_id customers.customer_id%type;
+    v_max order_items.quantity%type;
+    
+BEGIN
+
+    v_ok := True;
+    begin
+        select distinct 1 into v_num
+        from( select oi.product_id,o.order_date, oi.quantity
+                from orders o join order_items oi on o.order_id = oi.order_id
+                where product_id = in_id_product and o.order_date between in_data_ini and in_data_fi)
+                
+        if v_num < 1 then
+
+group by o.customer_id
+order by prod_quantity desc
+fetch FIRST 1 ROW ONLY;

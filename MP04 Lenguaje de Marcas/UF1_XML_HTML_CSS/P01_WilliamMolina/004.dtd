@@ -1,0 +1,16 @@
+<!ELEMENT usuarios (usuario*)>
+<!ELEMENT usuario (nombre, direccion, cumple)>
+<!ELEMENT nombre (apellido, segundoapellido, apodo)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT segundoapellido (#PCDATA)>
+<!ELEMENT apodo (#PCDATA)>
+<!ELEMENT direccion (correo, correoelectronico, movil, calle, numero)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT correoelectronico (#PCDATA)>
+<!ELEMENT movil (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT cumple (año, mes, dia)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>

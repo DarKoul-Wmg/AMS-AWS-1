@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Microsiervos</title>
+      <link>https://www.microsiervos.com</link>
+      <description>Weblog acerca de ciencia, tecnología, internet y mucho más</description>
+      <language>es</language>
+      <copyright>Copyright 2023</copyright>
+      <lastBuildDate>Sun, 12 Feb 2023 16:30:00 +0100</lastBuildDate>
+      <generator>https://movabletype.com/</generator>
+      <docs>https://cyber.harvard.edu/rss/rss.html</docs> 
+      <atom:link href="https://www.microsiervos.com/index.xml" rel="self" type="application/rss+xml" />
+      
+      <item>
+      <title>SpaceX completa con éxito el primer encendido estático de los 33 motores de la primera etapa de un Starship</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Views from drone of Booster 7&#39;s static fire test <a href="https://t.co/KN4sk1nohf">pic.twitter.com/KN4sk1nohf</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1623812763415093249?ref_src=twsrc%5Etfw">February 9, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Esta semana SpaceX ha hecho <a href="https://twitter.com/SpaceX/status/1624150738447536128"><strong>una prueba de encendido estático</strong></a> de los 33 motores Raptor del Booster 7, la que previsiblemente será la primera etapa usada en el primer lanzamiento orbital de un Starship.</p>
+
+<p>El encendido puso los motores aproximadamente al 50 % de su potencia máxima durante unos segundos. Para el lanzamiento orbital funcionarán al 90 %. Uno de los motores se apagó espontáneamente y otro lo apagaron desde el control antes de la prueba</p>
+
+<p class="imagen"><img style="aspect-ratio:1000/666; width:100%;" loading="lazy" src="https://img.microsiervos.com/images2023/Booster7Motores.jpg" alt="" title="" /><br/><cite>Los 33 motores del Booster 7 – SpaceX</cite></p>
+
+<p>El encendido de los 31 motores rompe el récord de 30 motores encendidos simultáneamente en un cohete que tenía el N1 soviético. Aunque los cuatro intentos de lanzamiento del N1 terminaron mal.</p>
+
+<p>No está claro si SpaceX va a hacer otro encendido estático antes de <a href="https://www.microsiervos.com/archivo/espacio/prevision-primer-lanzamiento-orbital-starship.html">intentar un lanzamiento orbital</a>, aunque según Elon Musk los 31 motores que funcionaron hubieran sido suficientes para que la segunda etapa del cohete <a href="https://twitter.com/elonmusk/status/1623793909959901184?s=12"><strong>hubiera podido entrar en órbita</strong></a>.</p>
+
+<p>Relacionado,</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/espacio/spacex-ensambla-starship-palillos-torre-lanzamiento.html">SpaceX ensambla el Starship que probablemente volará primero al espacio usando los «palillos» de la plataforma de lanzamiento</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/spacex-carga-starship-propelentes.html">SpaceX carga por primera vez –y a la primera– un Starship de propelentes</a></li>
+</ul>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/espacio/spacex-encendido-estatico-primera-etapa-starship.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/espacio/spacex-encendido-estatico-primera-etapa-starship.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/espacio/spacex-encendido-estatico-primera-etapa-starship.html</guid>
+         <category>Espacio</category>
+         <pubDate>Sun, 12 Feb 2023 16:30:00 +0100</pubDate>
+         <!-- ItemID 154962 -->
+      </item>
+      
+      <item>
+      <title>1.700 principios mecánicos explicados en sencillas animaciones de Autodesk Inventor</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p><lite-youtube videoid="Apa-AaglOxk" style="background-image: url('https://i.ytimg.com/vi/Apa-AaglOxk/maxresdefault.jpg');"></lite-youtube>
+<script src="https://microsiervos.com/includes/lite-yt-embed.js"></script></p>
+
+<p>El canal de vídeo de <a href="https://www.youtube.com/@thang010146/videos">Thang010146</a> (Duc Thang Nguyen) es una auténtica maravilla, una gozada y contiene una vasta cantidad de información útil puesta disposición del mundo desde hace dos décadas, cuando se jubiló. Se trata de <strong>animaciones sobre 1.700 principios mecánicos</strong> creadas con Autodesk Inventor, fáciles de entender y entretenidas de ver y descubrir.</p>
+
+<p>Este ingeniero vietnamita apasionado por la mecánica ha puesto todo su trabajo al alcance de cualquiera que quiera descargarlo, en tres PDFs perfectamente clasificados con breves explicaciones y enlaces a los vídeos:</p>
+
+<h3><a href="https://www.mediafire.com/download/gqt6wxyoq8wstjw/1700AMMe.zip"><strong>1.700 mecanismos amecánicos animados</strong></a> [zip, pdf]</h3>
+
+<ol>
+<li>Mecanismos de tranmisión o rotación continua</li>
+<li>Otros tipos de transmisión de movimiento</li>
+<li>Mecanismos para propósitos específicos</li>
+</ol>
+
+<p>Los mecanismos varían entre los más básicos y los más complejos, con nombres que sólo deben conocer los expertos (o que habrán sido inventados por el propio autor). Sin duda el tipo de trabajo que habría que enterrar en alguna cueva para preservar en caso de catástrofe para la humanidad, porque sin este tipo de conocimientos reconstruir la civilización se alargaría bastante. Espero que esté todo a buen recaudo en YouTube y Archive.org, cuando menos.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/principios-mecanicos.html">Principios mecánicos</a></li>
+<li><a href="https://www.microsiervos.com/archivo/tecnologia/507-movimientos-mecanicos-que-hacen-funcionar-las-cosas-algunos-animados-y-todo.html">507 movimientos mecánicos que hacen funcionar las cosas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ingenieria/20-principios-mecanicos-explicados-con-lego.html">20 principios mecánicos explicados con Lego</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ingenieria/hombrecillos-principios-mecanicos.html">Hombrecillos mecánicos modernos que utilizan principios antiguos</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ingenieria/evolucion-mecanismo-ventanillas-automoviles.html">La evolución del mecanismo de las ventanillas de los automóviles</a></li>
+</ul>
+
+<p>(Vía <a href="https://makezine.com/article/workshop/understand-1700-mechanical-linkages-helpful-animations/">Make</a> + <a href="https://kottke.org/15/04/treasure-trove-of-over-1700-mechanical-animations">Kottke</a>.)<br />
+</p>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/ingenieria/1700-principios-mecanicos-explicados-animaciones-autodesk-inventor.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/ingenieria/1700-principios-mecanicos-explicados-animaciones-autodesk-inventor.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/ingenieria/1700-principios-mecanicos-explicados-animaciones-autodesk-inventor.html</guid>
+         <category>Ingeniería</category>
+         <pubDate>Sat, 11 Feb 2023 21:39:31 +0100</pubDate>
+         <!-- ItemID 154961 -->
+      </item>
+      
+      <item>
+      <title>La cápsula de carga Progress MS-21 sufre una fuga de refrigerante dos meses después que la cápsula tripulada  Soyuz MS-22</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen"><img style="aspect-ratio:16/9; width:100%;" loading="lazy" src="https://img.microsiervos.com/images2023/ProgressMS21AtracadaEEI.jpg" alt="" title="" /><br/><cite>La Progress MS-21 en la Estación Espacial Internacional</cite></p>
+
+<p>[Anotación en actualización]</p>
+
+<p>Según comunicaba Roscosmos hace unas horas el Centro de Control de la Misión ha detectado <a href="https://blogs.nasa.gov/spacestation/2023/02/11/international-space-station-operations-update-crew-continues-normal-activities/"><strong>una despresurización en la cápsula de carga Progress MS-21</strong></a>. Todo parece indicar que es <strong>una fuga en el sistema de refrigeración</strong> de la cápsula, <a href="https://twitter.com/cbs_spacenews/status/1624452887253319680">que se habría vaciado por completo</a>.</p>
+
+<p>Esto es algo bastante serio si recordamos que a la cápsula tripulada Soyuz MS-22 <strong>le pasó lo mismo</strong> el pasado 15 de diciembre <a href="https://www.microsiervos.com/archivo/espacio/soyus-ms-22-no-se-puede-utilizar-mas.html">que la dejó inutilizada</a>.</p>
+
+<p class="imagen"><img style="aspect-ratio:16/9; width:100%;" loading="lazy" src="https://img.microsiervos.com/images2022/SoyzMS22FugaBis.jpg" alt="Imagen de la Soyuz MS-22 rodeada de partículas blancas que flotan en el espacio" title=""><br><cite>La nube de partículas provenientes de la fuga de refrigerante de la Soyuz MS-22 – NASA TV</cite></p>
+
+<p>La Soyuz MS-22 llegó a la Estación el 21 de septiembre de 2022; la Progress MS-21 lo hizo el 28 de octubre. Esto quiere decir que la primera <strong>falló a los tres meses</strong> de su lanzamiento y la segunda <strong>aproximadamente a los tres meses y medio</strong>. En su momento Roscosmos atribuyó la fuga en la Soyuz al impacto de un micrometeorito pero lo cierto es que <strong>ahora parece un problema de control de calidad</strong>.</p>
+
+<p>Así que esta por ver qué va a pasar con el lanzamiento de la cápsula tripulada Soyuz MS-23, previsto para el próximo día 20. El plan es que vuele vacía a la EEI como sustituta de la Soyuz MS-21, y parece ser que <strong>por ahora no hay cambio de planes</strong>. Sólo que si sufre el mismo aparente problema de control de calidad –las Soyuz y las Progress tienen numerosos sistemas y elementos comunes– <strong>el problema puede ser muy serio</strong>.</p>
+
+<p>El final de la misión de la Progress MS-21, que llegó a la EEI <a href="https://www.microsiervos.com/archivo/espacio/progras-ms-21-estacion-espacial-internacional.html">a finales de octubre de 2022</a>, estaba programado para el próximo día 18. Y la fuga no debería influir en ello; a fin de cuentas su destino es <strong>desintegrarse en la atmósfera en una reentrada controlada</strong>. Aunque a lo mejor se retrasa unos días para que el brazo robot de la Estación pueda obtener imágenes de ella para intentar averiguar el origen de la fuga.</p>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/espacio/progress-ms-21-fuga-refrigerante.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/espacio/progress-ms-21-fuga-refrigerante.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/espacio/progress-ms-21-fuga-refrigerante.html</guid>
+         <category>Espacio</category>
+         <pubDate>Sat, 11 Feb 2023 17:45:00 +0100</pubDate>
+         <!-- ItemID 154960 -->
+      </item>
+      
+      <item>
+      <title>Género, identidad y estereotipos en la comunicación de la ciencia y la tecnología</title>
+<author>geekcrew@microsiervos.com (Microsiervos)</author>
+         <description><![CDATA[<p><lite-youtube videoid="ocbROgUQx3Y" style="background-image: url('https://img.youtube.com/vi/ocbROgUQx3Y/0.jpg');"></lite-youtube>
+<script src="https://microsiervos.com/includes/lite-yt-embed.js"></script></p>
+
+<p><em class="nota">Con motivo de la celebración del <a href="https://es.unesco.org/commemorations/womenandgirlinscienceday">Día Internacional de la Mujer y la Niña en la Ciencia</a> reproducimos aquí el artículo que la <a href="https://zientzia.info/sobre-la-catedra/">Cátedra de Cultura Científica</a> de la Universidad del País Vasco ha publicado al respecto. El 11F es, sin duda, una iniciativa que merece todo nuestro apoyo.</em></p>
+
+<p>Conforme van creciendo, niños y niñas adquieren una comprensión cada vez más sofisticada del entorno social que les rodea y, a la vez, desarrollan un sentido de su propia identidad, especialmente en relación con las características que los unen y los diferencian de los demás. Tanto la comprensión de la realidad social como el desarrollo de su identidad están muy condicionadas por la pertenencia a un grupo.</p>
+
+<p>Algunas de las características del grupo al que se pertenece derivan de o, directamente, son estereotipos sin bases objetivas. Por otro lado, dado que la creencia en estereotipos puede condicionar las expectativas acerca de lo que se puede hacer y lo que no, el sentido de pertenencia a un grupo y la identidad que confiere este condicionan esas expectativas en muchos casos. Los estereotipos, de ese modo, dan forma a las autopercepciones académicas, incluidas las creencias en la capacidad propia para cursar ciertos estudios y desempeñar ciertas profesiones, y las relativas al sentido de pertenencia al grupo de quienes optan por ciertos estudios o de quienes no lo hacen.</p>
+
+<h2>Género, comunicación y transmisión de estereotipos</h2>
+
+<p>Es importante, por tanto, entender dónde y de qué forma surgen los estereotipos citados y cómo se transmiten. Que sean adquiridos por chicos y chicas en el entorno familiar no quiere decir que surjan de forma espontánea. No son consecuencia de una revelación ni inspiración sobrenatural. Las familias no viven en un vacío social. <strong>Los estereotipos tienen carácter cultural</strong> y, para empezar, pueden surgir en el seno de la comunidad científica, por la forma en que se generan nuevas nociones y cómo, después, se difunden hacia otras esferas. Y <strong>se transmiten a través del entorno familiar, los grupos de amigos y amigas, la escuela, y los medios de comunicación</strong>. Estos reproducen los esquemas vigentes en la sociedad a través de la información que difunden, el tratamiento que hacen de la perspectiva de género o la representación e imágenes que emiten y proponen. Esta reproducción transmite los estereotipos y consolida determinadas formas de actuar acordes con aquellos.</p>
+
+<p>Además de la génesis y transmisión de los estereotipos, <strong>es importante conocer de qué forma, mediante qué mecanismos se difunden</strong>. Hay multitud de señales sutiles cuya transmisión contribuye a configurar las identidades a que me he referido antes. Por ejemplo, <strong>el lenguaje</strong>, más allá de su carácter incluyente o excluyente –que es en lo que más nos fijamos o en lo único en que reparamos–, <strong>contiene claves que dan forma a la identidad y la dotan de atributos (supuestos) con consecuencias de largo alcance. Y las imágenes tampoco son neutras</strong>. Lenguaje verbal y lenguaje visual son las dos herramientas de comunicación mediante las que, de forma sutil, se pueden transmitir preconcepciones y modelos estereotipados. Lo dicho no es importante solo para quienes se dedican a la comunicación de forma profesional, el personal investigador muchas veces no es consciente de que tan importante o más que el valor denotativo de lo que se afirma o niega, pueden serlo sus connotaciones. Todo ello influye de forma determinante en lo que se transmite y, por lo tanto, en los valores que se difunden y promueven.</p>
+
+<p>El pasado día 9 de febrero, y en el marco de los actos para conmemorar el Día Internacional de la Mujer y la Niña en la Ciencia, la Cátedra de Cultura Científica de la UPV/EHU celebró una jornada bajo el título <a href="https://www.generoycomunicacion.com/">Género y Comunicación de la Ciencia</a>. Hasta ahora, hemos celebrado esa efeméride <a href="https://www.youtube.com/playlist?list=PLFjjfF0vHULYR6qNyWp5yBhVcoHX7Jv0N">difundiendo vídeos</a> mediante los que hemos intentado llamar la atención y concienciar acerca de las desigualdades entre chicos y chicas en el acceso a ciertos estudios científico-tecnológicos y en el progreso en la carrera científica por parte de hombres y mujeres.</p>
+
+<p>Después de los <a href="https://culturacientifica.com/tag/ciencia-y-genero/">seis vídeos</a> difundidos durante los seis años anteriores, hemos decidido dar un salto y buscar la forma de llevar a la práctica acciones que contribuyan de forma efectiva a combatir esas desigualdades. Ese ha sido el objetivo de la jornada, aportar datos, valorar la situación y proponer remedios en el terreno de la comunicación científica. Parte de los estereotipos que dibujan diferentes predisposiciones, actitudes y aptitudes en chicos y chicas para con la ciencia, las matemáticas y la tecnología tiene su origen en la forma en que esos contenidos se generan en la comunidad científica y se transmiten a la sociedad a través de los medios de comunicación. Estos y <strong>la comunicación en sí pueden consolidar los esquemas de género predominantes en la sociedad o pueden inducir al cambio</strong>. El cambio exige prescindir de estereotipos y roles consolidados que no se compadecen con la realidad, y comunicar el conocimiento e información de manera que su transmisión sea coherente con la idea de la igualdad esencial de hombres y mujeres en su relación – como estudiantes o como profesionales– con la ciencia y la tecnología. Por eso hemos pensado que merecía la pena indagar acerca de todo ello y tratar de llegar a conclusiones prácticas. <strong>Hemos querido pasar del binomio reflexión y denuncia, a otro binomio diferente: reflexión y acción</strong>.</p>
+
+<p>No quiero terminar sin recordar, como cada 11 de febrero, que para la <a href="https://culturacientifica.com/catedra-de-cultura-cientifica/">Cátedra de Cultura Científica de la UPV/EHU</a> todos los del año son Día Internacional de la Mujer y la Niña en la Ciencia, como muestra el hecho de que <a href="https://mujeresconciencia.com/">Mujeres con Ciencia</a> publique un artículo todos los días del año.</p>
+
+<p style="font-size:80%;">_____<br>Referencias:
+
+<ul><li>Angulo, E. (2020). <a href="https://mujeresconciencia.com/2020/12/02/el-estereotipo-de-las-mujeres-en-la-ciencia/">El estereotipo de las mujeres en la ciencia.</a> <em>Mujeres con Ciencia.</em></li> <li>García-Jimenez, L., Torrado-Morales, S., eta Díaz Tomás, J.M. (2022). El rol de la mujer en la ciencia y la docencia en comunicación: análisis a partir de los programas universitarios en España. <em>Revista de comunicación, </em>21 (2), 91-112. DOI:<a href="https://doi.org/10.26441/RC21.2-2022-A5"> https://doi.org/10.26441/RC21.2-2022-A5 </a></li> <li>Gómez-Escalonilla, Gloria eta Izquierdo-Iranzo, Patricia (2021). Género y comunicacón en revistas y congresos científicos. <em>Comunicación y género</em>, 5 (1), 1-11. <span class="label">DOI: <a href="https://doi.org/10.5209/cgen.77148"> https://doi.org/10.5209/cgen.77148 </a></span></li> <li>Master, A. (2021). Gender Stereotypes Influence Children´s STEM Motivation. <em>Child Dev Perspect</em>, 15, 203-210. DOI: <a href="https://doi.org/10.1111/cdep.12424">https://doi.org/10.1111/cdep.12424</a></li> <li>Master, A., Cheryan, S., eta Meltzoff, A. N. (2016). Computing whether she belongs: Stereotypes undermine girls’ interest and sense of belonging in computer science. <em>Journal of Educational Psychology</em>, 108, 424– 437. DOI: <a href="https://doi.org/10.1037/edu0000061">https://doi.org/10.1037/edu0000061</a></li> <li>Master, A., eta Meltzoff, A. N. (2020). <a href="https://genderandset.open.ac.uk/index.php/genderandset/article/view/674">Cultural stereotypes and sense of belonging contribute to gender gaps in STEM.</a> <em>International Journal of Gender, Science, and Technology</em>, 12, 152– 198.</li> <li>Master, A., Meltzoff, A. N. eta Cheryan, S. (2021). Gender stereotypes about interests start early and cause gender disparities in computer science and engineering. <em>Proceedings of the National Academy of Sciences,</em> 118 (48), e2100030118. DOI: <a href="https://doi.org/10.1073/pnas.2100030118">https://doi.org/10.1073/pnas.2100030118</a></li> <li>Napp, C., Breda, T. (2022). The stereotype that girls lack talent: A worldwide investigation. <em>Science Advances</em> 8 (10). DOI: <a href="https://doi.org/10.1126/sciadv.abm3689">10.1126/sciadv.abm3689</a></li></ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/ciencia/genero-identida-estereotipos-comunicacion-ciencia-tecnologia.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/ciencia/genero-identida-estereotipos-comunicacion-ciencia-tecnologia.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/ciencia/genero-identida-estereotipos-comunicacion-ciencia-tecnologia.html</guid>
+         <category>Ciencia</category>
+         <pubDate>Sat, 11 Feb 2023 12:00:00 +0100</pubDate>
+         <!-- ItemID 154959 -->
+      </item>
+      
+      <item>
+      <title>Inferior, un libro que tira por tierra la supuesta inferioridad de las mujeres que se dice que la ciencia ha demostrado una y otra vez</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p><img style="aspect-ratio:800/1273; width:40%; float:right; margin-left:1em;" loading="lazy" src="https://img.microsiervos.com/images2023/PortadaInferior.jpg" alt="Portada de libro con un diseño que en su parte superior sugiere el pubis de una mujer" title="Portada de libro con un diseño que en su parte superior sugiere el pubis de una mujer"><a href="https://www.amazon.es/gp/product/B07XVN5885?tag=microsiervos-21" rel="sponsored"><strong>Inferior.</strong></a> Por <a href="https://es.wikipedia.org/wiki/Angela_Saini">Angela Saini</a>. Círculo de Tiza (2ª edición, 1 de noviembre de 2017). 270 páginas. Traducción de Alejandra Chaparro.</p>
+
+<p>En 2011, mientras estaba en plena promoción de su libro <i>Geek Nation</i>, la autora tuvo que enfrentarse con un «señoro» que, al terminar una de sus charlas, vino a preguntarle que dónde estaban las mujeres científicas. Que dónde estaban las ganadoras de premios Nobel. A decirle que, simplemente, <strong>las mujeres no eran tan buenas en ciencia como los hombres y que estaba demostrado que eran menos inteligentes</strong>. Por supuesto no falto una dosis de racismo en la diatriba del individuo ese; y es que aunque Ángela nació en Londres sus padres son indios.</p>
+
+<p>Ella intentó rebatir los ¿argumentos? del ¿señor? pero pronto se dio cuenta de que no había nada que hacer y lo dejó por imposible.</p>
+
+<p>Años más tarde Ian Tucker, editor del Observer, le pidió que escribiera un artículo sobre la menopausia. La investigación que llevó a cabo para escribir ese artículo la acercó a la enorme riqueza de la investigación sobre la mujer, y en particular <strong>las controversias dentro de la ciencia acerca de cómo definir lo que es una mujer</strong>. Y se convirtió en el germen de este libro.</p>
+
+<p>En él recorre la vida de una mujer, desde el nacimiento hasta la vejez, pasando por la vida laboral, la maternidad y la menopausia, mientras se cuestiona <strong>lo que la ciencia nos dice realmente</strong> y las controversias en torno a lo que sigue siendo incierto. Así, neurociencia, psicología, medicina, antropología y biología evolutiva tienen un importante papel en él.</p>
+
+<p>Pero tan importante o más que el papel de esas ciencias en él es la actitud de la autora, que intentó enfrentarse a lo que se iba encontrando sin posiciones preconcebidas. Y lo que queda claro es que la inmensa mayoría de los estudios –sino todos– que de alguna forma afirman que existe una clara diferencia entre hombres y mujeres y que, casi siempre, indican una superioridad de los hombres en lo que sea de lo que trata ese estudio, <strong>son, como poco, muy matizables</strong>. Cuando no han sido <strong>distorsionados por los medios de comunicación y la sabiduría popular</strong>, en especial a través de las redes sociales, hasta que al final acaba popularizándose la idea de que el estudio dice algo que no dice.</p>
+
+<p>Igual que el mundo no es en blanco y negro, las diferencias entre hombres y mujeres tampoco lo son; a menudo están en grises o son una cuestión de graduación, y sólo los casos más extremos, generalmente patológicos, puede que se puedan interpretar en el sentido de que uno de los géneros es superior al otro en algo. Por lo general todos los hombres tenemos nuestra parte femenina y todas las mujeres tienen su parte masculina; y las personas somos un continuo de pequeñas variaciones, con lo que las diferencias son muy sutiles, si es que existen; a menudo <strong>tan siquiera son realmente medibles</strong>.</p>
+
+<p>Y es que lo que se ha encontrado Angela es que, en sus propias palabras, «<strong>hay un convincente corpus de investigación científica que, en lugar de separar aún más a mujeres y hombres en la guerra de sexos, afirma la importancia de la igualdad sexual. Nos acerca más.</strong>»</p>
+
+<p class="frase" style="font-size:100%;">El feminismo es simplemente defender la igualdad de oportunidades para ambos sexos. En otras palabras, es defender la democracia. Y todas somos feministas, o debería darte vergüenza no serlo.</p><p style="text-align:right">–&nbsp;<a href="https://en.wikipedia.org/wiki/Sarah_Blaffer_Hrdy">Sarah Blaffer Hrdy</a>,<br/> primatóloga y antropóloga</p>
+
+<p>Aunque a menudo la ciencia, influenciada por los sesgos de las personas que la practican, se haya equivocado en casi todo lo que tiene que ver con las mujeres.</p>
+
+<p>Este libro <strong>es un magnífico recurso</strong> para cualquiera que se enfrente a la necesidad de poder desmontar «argumentaciones» como las del señoro del primer párrafo de esta reseña; es un gran punto de partida para tomarse con una enorme dosis de escepticismo esos estudios que dicen que los hombres esto o las mujeres aquello. Y para que cada vez que nos encontremos con uno, nos lo pensemos dos veces antes de creernos lo que dice.</p>
+
+<p>De este hueco entre lo que dice la ciencia y lo que de ella se comunica, pero con el foco puesto específicamente en cuestiones de género, se habló en la jornada <a href="https://www.generoycomunicacion.com/programa/">Género y comunicación de la ciencia</a>, organizada por la <strong>Universidad del País Vasco</strong> y <strong>Euskampus</strong> con la colaboración del <strong>Gobierno Vasco</strong>, <strong>EiTB</strong> e <strong>Iberdrola</strong>. Las charlas <a href="https://www.eitb.eus/eu/nahieran/dibulgazioa/genero-y-comunicacion-de-la-ciencia/5614/"><strong>están disponibles en línea</strong></a>.</p>
+
+<p style="font-size:80%;">_____<br>El enlace a Amazon lleva nuestro código de asociado, así que si compras el libro o alguna otra cosa tras haberlo seguido es posible que cobremos algo en forma de comisión. Pero si lo compras <a href="https://www.todostuslibros.com/libros/inferior_978-84-947707-2-2">en tu librería local</a> también nos parecerá muy bien.</p>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/libros/inferior-angela-saini.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/libros/inferior-angela-saini.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/libros/inferior-angela-saini.html</guid>
+         <category>Libros</category>
+         <pubDate>Wed, 08 Feb 2023 19:00:00 +0100</pubDate>
+         <!-- ItemID 154957 -->
+      </item>
+      
+      <item>
+      <title>Termina la misión de la cápsula de carga Progress MS-20</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen"><img style="aspect-ratio:1000/561; width:100%;" loading="lazy" src="https://img.microsiervos.com/images2023/ProgressMS20Partida.jpg" alt="La Progress con la Tierra y el negro del espacio al fondo vista mientras se aleja de la Estación" title="" /><br/><cite>La Progress MS-22 a su partida de la EEI - Roscosmos</cite></p>
+
+<p>A primera hora de la mañana del 7 de febrero de 2023 <a href="https://twitter.com/planet4589/status/1623128257955520513"><strong>terminaba la misión de la cápsula de carga Progress MS-20</strong></a>. Como es lo habitual, lo hizo con una reentrada controlada en la atmósfera sobre una zona remota del Pacífico –la más remota del mundo, de hecho– por si algún resto sobreviviera a la maniobra. Llevaba a bordo materiales de desecho y ya no necesarios en la Estación Espacial Internacional, que han resultado incinerados en la atmósfera igual que la cápsula.</p>
+
+<p>Deja en la Estación unas <strong>tres toneladas de alimentos, combustible y suministros</strong> que incluyen 599 kilogramos de combustible para la Estación propiamente dicha; 420 litros de agua para el segmento ruso; 40 kilos de nitrógeno comprimido; y 1.458 kilogramos de suministros varios para la tripulación que incluyen comida, bebida, ropa, y algunos objetos personales.</p>
+
+<p>Deja su sitio a la Progress <a href="https://en.wikipedia.org/wiki/Progress_MS-23">MS-23</a>, cuyo lanzamiento está previsto para el día 9.</p>
+
+<p>Relacionado,</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/10-1-cosas-que-no-sabias-de-la-estacion-espacial-internacional.html">10 (+1) cosas que no sabías de la Estación Espacial Internacional</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/rusia-primer-paso-estacion-espacial-2028.html">Rusia da un primer paso para permanecer en la Estación Espacial Internacional al menos hasta 2028</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/soyus-ms-22-no-se-puede-utilizar-mas.html">Roscosmos decide que la cápsula tripulada Soyuz MS-22 no se puede utilizar más y que debe volver a tierra vacía</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/estacion-espacial-lista-dos-ultimos-paneles-solares-desenrollables.html">La Estación Espacial Internacional ya está lista para recibir los dos últimos de sus nuevos paneles solares desenrollables</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/termina-mision-capsula-carga-dragon-26.html">Termina la misión de la cápsula de carga Dragon 26</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/basura-espacial-cancelacion-paseo-espacial.html">Un fragmento de basura espacial provoca la cancelación de un paseo espacial en la EEI y fuerza una maniobra para evitar una posible colisión</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/cygnus-18-sally-ride-en-estacion-espacial.html">La cápsula de carga Cygnus 18 «S. S. Sally Ride» por fin está en la Estación Espacial Internacional</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/primera-mision-tripulada-starliner-abril-2023.html">La primera misión tripulada de una Starliner de Boeing se retrasa al menos hasta abril de 2023</a></li>
+</ul>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/espacio/termina-mision-capsula-carga-progres-ms-20.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/espacio/termina-mision-capsula-carga-progres-ms-20.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/espacio/termina-mision-capsula-carga-progres-ms-20.html</guid>
+         <category>Espacio</category>
+         <pubDate>Wed, 08 Feb 2023 18:30:00 +0100</pubDate>
+         <!-- ItemID 154956 -->
+      </item>
+      
+      <item>
+      <title>Probamos los altavoces multimedia activos Edifier S3000 Pro</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen" style="text-align:center;"><a href="https://www.edifier.com/product-s3000-pro.html"><img style="aspect-ratio:1000/874; width:70%;" loading="lazy" src="https://img.microsiervos.com/images2023/EdifierS3000ProFrontal.jpg" alt="Vista frontal de los altavoces con el mando a distancia apoyado en el derecho" title="Poderío" /></a></p>
+
+<p>He estado probando durante un tiempo unos altavoces activos <a href="https://www.edifier.com/product-s3000-pro.html"><strong>Edifier S3000 Pro</strong></a> que me prestaron las buenas gentes de Zoco City. Y <strong>he alucinado con su calidad de sonido</strong>. Claro que era de esperar porque su precio es de <strong>900 euros</strong>, así que <em>ya pueden sonar bien</em>. También he de decir que aunque pueda haber escuchado altavoces mucho más caros en alguna feria esta es la primera vez en la que disfruto de unos en casa, así que tenían muchos boletos para dejarme impresionado.</p>
+
+<p>Los S3000 Pro están en la parte alta de la gama de productos de Edifier, dentro de lo que denominan altavoces para estantería. Aunque no sé exactamente qué tipo de estanterías tienen los de Edifier en sus casas porque miden <strong>356 mm de alto por 232 de ancho y 268 de fondo</strong>.</p>
+
+<p>Vamos, que son bastante grandes. De hecho, si los colocas al lado de ellas, dejan pequeña a una tele 32 pulgadas; no tanto a otra de 37, claro, con la que la proporción ya es más razonable. Aunque siempre queda la opción de colocarlos sobre unas peanas y no ponerlos en la estantería o sobre la mesa.</p>
+
+<p>Además pesan <strong>10,5 kilos cada uno</strong>. Contribuye a ese peso el que que están construidos en tablero MDF de 21 mm. El acabado es negro ligeramente satinado en el frontal y la trasera así como en la parte superior e inferior; los lados van terminados en madera veteada. Unas patas en color bronce con la parte inferior de goma negra los aísla de la superficie sobre la que los coloques anulando cualquier tipo de vibración no deseada.</p>
+
+<p>En el frontal montan un altavoz de bajos y medios de aleación de aluminio de alta dureza de <strong>179 milímetros de diámetro</strong> capaz de entregar <strong>120 vatios RMS</strong> y un tweeter de <strong>107 milímetros</strong> capaz de dar <strong>8 vatios</strong>, también RMS. Van cubiertos por una rejilla de tela desmontable. Su rango de frecuencias va de los <strong>38Hz a los 20KHz</strong>. Sólo muy brevemente me atreví a darles volumen a tope para evitar crear una crisis en la comunidad de vecinos. Y he de decir que tienen potencia más que suficiente para cualquiera de las habitaciones de mi casa sin distorsionar.</p>
+
+<p>Para quienes sepáis más de esto, las tripas de los S3000 Pro son un chip DAC PCM 5242 para convertir las señales digitales en analógicas; y un procesador xCore multi-core de XMOS y un chip de procesamiento de audio TI TLV320AIC3268.</p>
+
+<p>Pero lo importante, como decía al principio, es que los S3000 Pro <strong>suenan muy, muy bien</strong>. Iba a escribir que increíblemente bien pero, de nuevo, son unos altavoces de 900 euros, así que ya pueden. Me preocupaba un poco que al no tener subwoofer les pudiera faltar algo de pegada en los bajos, pero no. Además, puedes ajustar la potencia de los bajos y los agudos –y el volumen– mediante unos mandos que están en la parte trasera del altavoz derecho. La ubicación de esos mandos, por cierto, es uno de los pocos detalles que criticaría de los altavoces; creo que sería <strong>mucho más cómo que estuvieran en un lateral</strong>.</p>
+
+<p>Eso sí, el que suenen tan bien hace que te des cuenta de lo malo que es el audio de muchas conexiones o que veas las enormes diferencias en la producción de sonido que hay entre distintas series y películas. O lo mal que suenan algunos temas en Spotify. Claro que, por el contrario, te permiten disfrutar enormemente cuando el audio es bueno.</p>
+
+<h2>Entradas para todos los gustos</h2>
+
+<p><a href="https://www.edifier.com/product-s3000-pro.html"><img style="aspect-ratio:1/1; width:50%; float:right; padding:10px;" loading="lazy" src="https://img.microsiervos.com/images2023/EdifierS3000ProTrasera.jpg" alt="Vista trasera de los S3000 Pro con todos los conectores a la vista" title="Enchufes para todos los gustos"></a>Aparte del sonido otro aspecto en el que destacan los S3000 Pro es en la conectividad. <strong>Les puedes enchufar (casi) de todo</strong>. La parte trasera del altavoz derecho tiene dos entradas de línea con conectores RCA (una de ellas a 600 ± 50mV y la otra a 800 ± 50mV); una entrada de fibra óptica SPDIF; una entrada coaxial; una entrada balanceada con conectores Canon XLR de tres pines; y una entrada USB. Además soportan Bluetooth 5.0 con codecs aptX y aptX HD. Además, vienen con cables de 3,5 mm a RCA, RCA a RCA, USB-A a USB-B y de fibra óptica.</p>
+
+<p>Así, los tuve enchufados a una de las teles mediante una de las entradas en línea para el audio de los canales que recibimos por la antena y mediante fibra a un Apple TV para lo que llega por ahí; la conexión Bluetooth me permitía enviar el audio desde mi móvil o cualquier otro dispositivo que lo soportara.</p>
+
+<p>En la otra tele los usé con la entrada de línea conectada a la salida RCA de la televisión para escuchar por ahí las consolas que se conectan a la tele mediante un switch HDMI; con la de fibra conectada al descodificador de nuestra operadora de cable; y de nuevo con Bluetooth para los dispositivos móviles.</p>
+
+<p>El botón de volumen sirve también para ir pasando en secuencia de una entrada a otra si haces clic en él, pero, de nuevo, su ubicación no me parece la más adecuada. Aunque también puedes usar el mando a distancia para seleccionar la entrada, lo que es como infinitamente más cómodo. El mando sirve también para ajustar el volumen –no así los bajos y los agudos– y controlar la reproducción en el dispositivo Bluetooth que tengas conectado a los altavoces. Otra función del mando es seleccionar entre los cuatro preajustes de ecualización de los altavoces: monitor, que es el más neutro; dinámico; clásico; y vocal.</p>
+
+<p>El mando, por cierto, es otro punto que me pareció un poco flojo en los altavoces: para la calidad de construcción que tienen, <strong>es un poco «plasticoso» y demasiado ligero</strong>. Que no es que no haga su función, ojo, sólo que me parece que desentona un poco.</p>
+
+<p>La entrada y el modo de ecualización activos se indican en una pantalla situada en la parte inferior del altavoz derecho mediante unos ledes diminutos que a poco que estés un poco lejos de los altavoces te resultará imposible de distinguir; aunque siempre queda la opción de memorizar la posición de cada led para saber cual está encendido aunque no puedas leerlo.</p>
+
+<p>Un detalle curioso de los S3000 Pro es que el altavoz izquierdo <strong>se conecta de forma inalámbrica al derecho</strong>, usando una tecnología que Edifier llama Kleernet. Eso te evita el cable que tendría que conectar los dos altavoces, lo que a su vez facilita su colocación. Aunque no te evitas que el altavoz izquierdo necesite un cable, pues tiene que ir conectado a la corriente; igual que el derecho, claro. No hay que olvidar que se trata de altavoces activos. Los dos altavoces ya vienen emparejados de fábrica, así que no hay que nacer nada más que enchufarlos y conectarlos a las fuentes de audio para empezar a disfrutar de ellos.</p>
+
+<p>Como decía antes, son unos altavoces <a href="https://zococity.es/products/edifier-s3000pro"><strong>que cuestan 900 euros</strong></a>. Yo ahora mismo no estoy en el mercado para unos en esta gama. Pero por lo que he estado viendo el precio es muy competitivo. Y la calidad de sonido me hace que pueda recomendar sin dudarlo echarles un ojo –y ambos oídos– si estás buscando algo en esta gama.</p>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/gadgets/probamos-altavoces-activos-multimedia-edifier-s3000-pro.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/gadgets/probamos-altavoces-activos-multimedia-edifier-s3000-pro.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/gadgets/probamos-altavoces-activos-multimedia-edifier-s3000-pro.html</guid>
+         <category>Gadgets</category>
+         <pubDate>Wed, 08 Feb 2023 09:00:00 +0100</pubDate>
+         <!-- ItemID 154955 -->
+      </item>
+      
+      <item>
+      <title>«Pensar claro» en un podcast sobre el azar, la evaluación de las probabilidades, los sesgos y el riesgo, entre otras muchas cosas</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p><iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/acecdb73-f9e9-472a-99b3-5e0804f1e96e?dark=false" title="«Pensar claro» en un podcast sobre el azar, la evaluación de las probabilidades, los sesgos y el riesgo, entre otras muchas cosas"></iframe></p>
+
+<p>He aquí una charla/entrevista de dos horas que no se hace larga, sino todo lo contrario. Es el episodio #71 de <a href="https://joantubau.substack.com/"><strong>Kapital</strong></a>, un podcast de Joan Tubau, quien lleva cerca de dos años publicando material sumamente interesante tanto en forma de anotaciones de weblog como de boletín electrónico y como podcast. </p>
+
+<p>El entrevistado en este caso es <a href="https://kiko.llaneras.es/">Kiko Llaneras</a>, un doctor en ingeniería que trabaja publicando artículos en <em>El País</em> sobre análisis de datos y visualizaciones. Publicó hace poco el libro <a href="https://www.amazon.es/gp/product/8418967072?tag=microsiervos-21" rel="esponsorizado">Pensar claro: ocho reglas para descifrar el mundo y tener éxito en la era de los datos</a> donde bucea en un montón de temáticas de las que nos gusta también hablar en este blog.</p>
+
+<p><a href="https://kiko.llaneras.es/"><img style="aspect-ratio:267/405; width:34%; float:right; margin: .2em 0 1em 1em;" loading="lazy" src="https://img.microsiervos.com/images2023/piensa-claro.jpg" alt="Pensar claro / Libro de Kiko Llaneras editado por Debate" title="Pensar claro / Libro de Kiko Llaneras editado por Debate" /></a>La entrevista no es sólo sobre el libro, aunque sirve de hilo conductor, pero trata acerca del <strong>azar y la probabilidad,</strong> de los <strong>modelos predictivos,</strong> de <strong>la intuición humana</strong> frente al análisis y muchas más cosas, salpicadas con historias algunas bien conocidas y otras no tanto. Están por ejemplo la <strong>lotería</strong> y las dificultades de comprender lo improbable que es que nos toque, el cambio que supuso en el béisbol, el baloncesto, el fútbol y otros deportes el <strong>análisis de datos</strong> al estilo <em>Moneyball,</em> o cómo se crean modelos para pronosticar los resultados de las ligas, <a href="https://www.microsiervos.com/archivo/ciencia/matematicas-probabilisticas-mundial-futbol-rusia-2018.html">los mundiales de fútbol</a> o las <strong>elecciones.</strong>
+
+<p class="frase">La gente que no tiene ni idea de nada es tremendamente rotunda, y la gente que conoce mejor un asunto es más <em>vaporosa</em> y resulta menos convincente, cuando debería ser al revés.</p><p style="text-align:right">– Kiko Llaneras<br/>aludiendo al <a href="https://es.wikipedia.org/wiki/Efecto_Dunning-Kruger">efecto Dunning-Kruger</a></p>
+
+<p>También hay menciones a historias clásicas como la de la <strong>regresión a la media</strong> en el rendimiento de los pilotos o deportistas, cómo <strong>valoramos los riesgos</strong> y cómo se cuentan todas esas historias. Definitivamente el podcast merece la pena como repaso general a todos estos temas, y el libro naturalmente ya lo tengo encargado, porque es el paso lógico y subsiguiente para quien le interese todo lo que allí se cuenta.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/matematicas-probabilisticas-mundial-futbol-rusia-2018.html">Las matemáticas probabilísticas del mundial de fútbol Rusia 2018</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/obtener-muestra-estadistica.html">Obtener una buena muestra estadística es complicado</a></li>
+<li><a href="https://www.microsiervos.com/archivo/internet/predictify.html">Predictify: el mercado de predicciones y la sabiduría de las masas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/azar/elecciones-a-toro-predictivo.html">Las elecciones a toro predictivo y otras curiosidades matemáticas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/opinion/concurso-belleza-keynes-voto-util-encuestas-electorales.html">El concurso de belleza de Keynes, el voto útil y las encuestas electorales</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/azar/pensar-claro-podcast-azar-probabilidades-sesgos-riesgo.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/azar/pensar-claro-podcast-azar-probabilidades-sesgos-riesgo.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/azar/pensar-claro-podcast-azar-probabilidades-sesgos-riesgo.html</guid>
+         <category>Azar</category>
+         <pubDate>Tue, 07 Feb 2023 23:50:29 +0100</pubDate>
+         <!-- ItemID 154954 -->
+      </item>
+      
+      <item>
+      <title>Travel Hero crea itinerarios para viajes turísticos y no lo hace del todo mal (excepto cuando se lo inventa todo)</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" style="text-align:center;"><a href="https://gpt-travel-advisor.vercel.app/"><img style="aspect-ratio:1000/643; width:100%" loading="lazy" src="https://img.microsiervos.com/images2023/TravelHero.jpg" alt="Travel Hero" title="Travel Hero" /></a></p>
+
+<p><a href="https://gpt-travel-advisor.vercel.app/"><strong>Travel Hero</strong></a> es una idea interesante y que funciona adecuadamente: basta <strong>elegir un lugar de vacaciones y un número de días</strong> para que genere, utilizando GPT-3 de OpenAI, un <strong>itinerario con ideas sobre lo que hacer durante las vacaciones</strong>.</p>
+
+<p>Dice <a href="https://nader.arweave.dev/">Nader Dabit</a>, su creador, que estaba un poco harto de que <a href="https://www.tripadvisor.es/">TripAdvisor</a> se haya <a href="https://pluralistic.net/2023/01/21/potemkin-ai/">enmierdificado</a> y que estos sencillos textos son de mucha mayor ayuda, aunque procedan de una IA.</p>
+
+<p>En el fondo, en el fondo, estas miniguías pueden entenderse casi como la sabiduría de las masas, <strong>«lo que ha publicado la mayor parte de la gente en internet»</strong> acerca de los diversos sitios, convenientemente troceado según la duración del viaje, que en el fondo es lo que solemos hacer todos cuando vamos a algún destino.</p>
+
+<p>Hice varias pruebas con <strong>fines de semana largos de 3-4 días</strong> en pueblecitos de <strong>Alicante</strong> y funcionó estupendamente, también con una visita a <strong>Barcelona</strong> y la de <strong>Valencia</strong> no estaba nada mal. En los pueblecitos de <strong>Asturias</strong> sin muchas «atracciones» turísticas se liaba un poco más, enviándote ocasionalmente a conocer las Islas Cíes de Vigo que están a unos 400 km (!) Las descripciones son en inglés, pero contienen enlaces a Google, lo cual ayuda mucho.</p>
+
+<p>¿El único problema? <strong>No distingue si los sitios existen</strong>, si son reales o no. Por ejemplo, le pedí ayuda para pasar un finde en <strong>Aletas de la Frontera,</strong> mítica localidad gomaespumil. Pues mira, aunque no existe he aprendido que tiene un castillo, además de que cocinan muy bien y tiene una ciudad viaja con arquitectura admirable (como todas las ciudades del mundo, supongo).</p>
+
+<p><code><strong>Day 1: Start your day with a visit to the Castillo de San Marcos, a 16th century castle located in the heart of Aletas de la Frontera</strong>. After exploring the castle, take a stroll through the old town and admire the beautiful architecture. Stop for lunch at one of the local restaurants and sample some of the delicious local cuisine.</code></p>
+
+<p>En fin, creo que teniendo esto en cuenta y no jugando a burlarse de la app, la información que proporciona es bastante usable, con enlaces que complementan bien e itinerarios razonables.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/velocidad-viajes.html">La velocidad y los viajes</a></li>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/circulos-maximos-y-rutas-aereas.html">Círculos máximos y rutas aéreas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/aerotrastorno/que-vuelo-te-lleva-mas-rapido.html">¿Qué vuelo te lleva más rápido de un lugar a otro?</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ecologia/routerank-calculador-rutas-eficientes.html">RouteRank, calculador de rutas eficientes</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/mundoreal/travel-hero-itinerarios-viajes-turisticos.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/mundoreal/travel-hero-itinerarios-viajes-turisticos.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/mundoreal/travel-hero-itinerarios-viajes-turisticos.html</guid>
+         <category>MundoReal™</category>
+         <pubDate>Tue, 07 Feb 2023 18:00:37 +0100</pubDate>
+         <!-- ItemID 154953 -->
+      </item>
+      
+      <item>
+      <title>Unos consejos de diseño visual para ir sobre seguro</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" style="text-align:center;"><a href="https://anthonyhobday.com/"><img style="aspect-ratio:7/5; width:90%" loading="lazy" src="https://img.microsiervos.com/images2023/saferules2.jpg" alt="Anthony Hobday—Product designer" title="Anthony Hobday—Product designer" /></a><br/><cite><strong>Saturar los colores neutrales</strong> (blanco, negro, gris) con color para un resultado más coherente</cite></p>
+
+<p>Me pareció muy interesante y especialmente fácil de entender la lista de <a href="https://anthonyhobday.com/sideprojects/saferules/"><strong>Reglas de diseño visual para ir sobre seguro</strong></a> que ha publicado <a href="https://anthonyhobday.com/">Anthony Hobday</a> en su blog. Son ideas que se pueden leer –y entender– en cinco minutos y que si respetas <strong>sabes que no van a traicionarte.</strong></p>
+
+<p>Dicho de otro modo: utilizar otras ideas alternativas o con distinto criterio <em>podría funcionar</em>, pero eso requeriría profundos conocimientos de diseño, color o tipografía y además meditar cuidadosamente sobre ello. Algo que no todo el mundo sabe o sencillamente no puede hacer.</p>
+
+<p>Básicamente hay <strong>cuatro tipos de consejos</strong> con cerca de veinte en total:</p>
+
+<ul>
+<li>Colores y paletas de color</li>
+<li>Uso del brillo</li>
+<li>Cómo situar elementos y alinearlos</li>
+<li>Espaciado y tamaño de los textos</li>
+</ul>
+
+<p class="imagen" style="text-align:center;"><a href="https://anthonyhobday.com/"><img style="aspect-ratio:7/5; width:90%" loading="lazy" src="https://img.microsiervos.com/images2023/saferules9.jpg" alt="Anthony Hobday—Product designer" title="Anthony Hobday—Product designer" /></a><br/><cite><strong>Los colores de la paleta deben tener distintos valores de brillo</strong> para no competir entre sí</cite></p>
+
+<p>Aunque algunos son viejos conocidos como <strong>usar unos 70 caracteres por línea de texto</strong> (<a href="https://www.microsiervos.com/archivo/arte-y-diseno/caracteres-por-linea-web.html">la cifra mágica es 66</a>, pero puede variar según la tipografías entre 45 y 75 o la <strong>alineación visual</strong>, que <a href="https://www.microsiervos.com/archivo/ordenadores/historia-visual-interfaz-usuario-firefox.html">suele ser mejor que la matemática</a>, muchos otros son menos conocidos y más sutiles.</p>
+
+<p>En particular me gustaron los consejos acerca de <strong>cómo usar el brillo y las paletas de colores de forma más consistente</strong>. Tanto esto como el y uso de otros detalles (bordes, tamaños, espaciado) ayudan a la hora de entender por qué dos diseños diferentes aparentemente «casi iguales» uno funciona bien y el otro <em>chirría.</em> Así que, tal y como dice el título: <strong>mejor ir sobre seguro.</strong></p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/10-consejos-diseno-interfaces.html">Diez consejos rápidos a la hora de crear diseños</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/caracteres-por-linea-web.html">¿Cuál es el número óptimo de caracteres por línea?</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/34-mitos-diseno-web-experiencia-usuario-ux.html">34 mitos sobre diseño web y experiencia de usuario</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/trucos-rediseno-interfaces-ususario-ui.html">Trucos de rediseño de interfaces de usuario</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/poster-diseno-poster-comunicacion-cientifica-eficiente.html">Un póster que explica cómo diseñar un póster científico</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/fallos-diseno-dejar-ver.html">Un test sobre fallos de diseño</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/trucos-crear-iconografias.html">Trucos para crear iconografías desde cero</a></li>
+<li><a href="https://www.microsiervos.com/archivo/arte-y-diseno/tipografia-principiantes.html">Tipografía para principiantes</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/arte-y-diseno/consejos-diseno-visual-ir-sobre-seguro.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/arte-y-diseno/consejos-diseno-visual-ir-sobre-seguro.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/arte-y-diseno/consejos-diseno-visual-ir-sobre-seguro.html</guid>
+         <category>Arte y Diseño</category>
+         <pubDate>Tue, 07 Feb 2023 16:41:55 +0100</pubDate>
+         <!-- ItemID 154952 -->
+      </item>
+      
+      <item>
+      <title>Flappy Birdle: un cruce entre Flappy Bird y Wordle, el «más difícil todavía»</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" style="text-align:center;"><a href="https://flappybirdle.com/"><img style="aspect-ratio:915/672; width:90%; filter: brightness(.95);" loading="lazy" src="https://img.microsiervos.com/images2023/flappybirdle.jpg" alt="Flappy Birdle: un cruce entre Flappy Bird y Wordle, el «más difícil todavía»" title="Flappy Birdle: un cruce entre Flappy Bird y Wordle, el «más difícil todavía»" /></a></p>
+
+<p><a href="https://flappybirdle.com/"><strong>Flappy Birdle</strong></a> es un macabro, tenso y desesperante <em>crossover</em> de dos juegos adictivos: el mítico <a href="https://www.microsiervos.com/archivo/juegos-y-diversion/flappy-bird.html">Flappy Bird</a> y el recientemente encumbrado <a href="https://www.microsiervos.com/archivo/juegos-y-diversion/wordle-rompecabezas-palabras-practicar-ingles.html">Wordle</a>. Así que combina lo más trepidante de la acción con el esfuerzo mental que requiere un juego de palabras. Podríamos decir que, sin lugar a dudas, es adictivo &times; adictivo = adictivo&sup2;.</p>
+
+<p>El juego consta de dos pantallas: un <strong>tablero y teclado de Wordle</strong> y una <strong>pantalla de Flappy Bird.</strong> Mientras intentas resolver el juego de palabras cada clic en el teclado es un <strong>impulso para el pajarillo</strong>, que debe ir volando y evitar los obstáculos en forma de tuberías.</p>
+
+<p><strong>Es difícil saber dónde mirar,</strong> la verdad. Las pistas de colores (gris = incorrecto; amarillo y verde para correcto sin colocar y colocado) ayudan un poco, pero a veces desesperan. Teclear rápido no es la solución: el pájaro volaría demasiado alto, así que hay que utilizar una cadencia cansina, que se logra con mucha práctica. Mientras tanto, hay seis intentos y la única ventaja a favor del jugador es que <strong>las palabras inexistentes simplemente no se tienen en cuenta</strong> (se ìede teclear cualquier cosa).</p>
+
+<p>Lo mejor (o peor, según se mire) es que en Flappy Birdle hay infinitas palabras y juegos sin fin, no «uno al día» como viene siendo tradición. También hay dos modos: el <strong>normal</strong> y el <strong>fácil.</strong> En el fácil no hay colisiones, no existe el límite de seis intentos como en el Wordle normal y la gravedad es menor. Este modo fácil es llevadero. Si intentas el normal y te pasas un buen rato hasta acertar por primera vez… ¡Felicidades! No habrás sido la única persona en querer pasar por la guillotina a los virtuosos sádicos que han diseñado el juego, la gente de <a href="https://ae.studio/same-day-skunkworks">AE Studio</a>.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/weaver-juego-convertir-palabras-cambiando-una-letra-wordle.html">Weaver: el juego de convertir unas palabras a otras </a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/h3x-juego-logico-obtener-numeros-operaciones-aritmeticas-basicas.html">H3X: el juego de obtener números mediante operaciones aritméticas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/puzzles-y-rubik/rotaboxes-puzle-diario.html">Rotaboxes, un sencillo reto de puzles para relajarse cada día</a>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/puzle-logico-acoplamiento-vagones-tren.html">Un puzle lógico de acoplamiento de vagones de tren</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/chessguessr.html">Chessguessr, un Wordle de ajedrez</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/wordle-squardle-variante.html">Squardle, una variante de Wordle donde cuanto mejor, peor</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/marvled-juego-adivinar-series-peliculas-universo-marvel.html">Marvled combina los juegos de adivinar series y películas Marvel</a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/flixle-series-television-wordle.html">Flixle, el Wordle de las series de televisión</a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/redactle-juego-adivinar-palabras-ocultas-articulos-wikipedia.html">Redactle.com es un juego de adivinar las palabras ocultas</a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/framed-heardle-peliculas-canciones-wordle.html">Framed y Heardle, juegos de adivinar películas y canciones</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/duomoji-juego-memoria-parejas-wordle.html">DuoMoji: memoria al estilo Wordle</a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/worldle-mapas-paises-mundo.html">Worldle es un wordle visual de mapas de países del mundo</a></li>
+<li><a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/variantes-wordle.html">Variantes de Wordle para todos los gustos: números, palabras…</a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/shaple-juego-rotadores-piezas.html">Shaple: el juego para rotadores de piezas</a></li>
+</ul>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/flappy-birdle-cruce-flappy-bird-wordle.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/juegos-y-diversion/flappy-birdle-cruce-flappy-bird-wordle.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/juegos-y-diversion/flappy-birdle-cruce-flappy-bird-wordle.html</guid>
+         <category>Juegos y Diversión</category>
+         <pubDate>Tue, 07 Feb 2023 00:38:17 +0100</pubDate>
+         <!-- ItemID 154951 -->
+      </item>
+      
+      <item>
+      <title>Rusia da un primer paso para permanecer en la Estación Espacial Internacional al menos hasta 2028</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen"><a href="https://www.flickr.com/photos/nasa2explore/51732391125/in/album-72157720187084178/"><img style="aspect-ratio:1000/667; width:100%;" loading="lazy" src="https://img.microsiervos.com/images2022/EEI2Dic2021.jpg" alt="La EEI fotografiada durante un paseo espacial el 2 de diciembre de 2021 – NASA" title="La EEI fotografiada durante un paseo espacial el 2 de diciembre de 2021 – NASA"></a><br><cite>La EEI fotografiada durante un paseo espacial el 2 de diciembre de 2021 – NASA</cite></p>
+
+<p>Esta mañana se ha llevado a cabo una reunión del <strong>comité de Jefes de Diseño de RSC Energia</strong>, la empresa que fabrica las Soyuz y las Progress y componentes para Estación Espacial Internacional (EEI). La recomendación del comité ha sido <a href="https://t.me/roscosmos_gk/8332"><strong>ampliar la vida útil del segmento ruso de la Estación hasta 2028</strong></a>.</p>
+
+<p>En la reunión estaban presentes directivos de Roscosmos, la agencia espacial rusa; de distintas divisiones de la empresa; y de organizaciones y co-contratistas de la EEI que expusieron datos acerca de los resultados obtenidos hasta ahora en la Estación y el estado técnico actual del segmento ruso. </p>
+
+<p>Se alinea con el hecho de que hace unos meses Roscosmos solicitara permiso para sacar a concurso un contrato que incluye <a href="https://www.microsiervos.com/archivo/espacio/rusia-seguira-estacion-espacial-internacional-al-menos-2027.html">el envío de tripulaciones y carga a la EEI entre 2023 y 2027</a>. Y deja una vez más un poco en ridículo los titulares que el verano pasado aseguraban que Rusia iba abandonar la Estación en 2024; ya entonces dijimos <a href="https://www.microsiervos.com/archivo/espacio/rusia-insiste-dejara-estacion-espacial-despues-2024.html">que no había dicho tal cosa</a>.</p>
+
+<p>Ahora será el <strong>Consejo Científico y Técnico de Roscosmos</strong> quien estudie la recomendación para, si es el caso, presentarla al gobierno, que es el que <strong>en última instancia tiene el poder de decisión</strong>. Si no, la decisión sería dejar la EEI en 2025. Pero parece poco probable.</p>
+
+<p>Esta decisión se alinea también con la posición de la NASA, que quiere mantener la Estación en servicio <a href="https://www.microsiervos.com/archivo/espacio/estado-sunido-estacion-espacial-servicio-2030.html">hasta 2030</a> para dar tiempo a que las <a href="https://www.microsiervos.com/archivo/espacio/nasa-empresas-diseno-estaciones-espaciales-comerciales.html">estaciones espaciales comerciales</a> sean lanzadas y la puedan sustituir.</p>
+
+<p>Relacionado,</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/10-1-cosas-que-no-sabias-de-la-estacion-espacial-internacional.html">10 (+1) cosas que no sabías de la Estación Espacial Internacional</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/soyus-ms-22-no-se-puede-utilizar-mas.html">Roscosmos decide que la cápsula tripulada Soyuz MS-22 no se puede utilizar más y que debe volver a tierra vacía</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/estacion-espacial-lista-dos-ultimos-paneles-solares-desenrollables.html">La Estación Espacial Internacional ya está lista para recibir los dos últimos de sus nuevos paneles solares desenrollables</a></li>
+</ul>]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/espacio/rusia-primer-paso-estacion-espacial-2028.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/espacio/rusia-primer-paso-estacion-espacial-2028.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/espacio/rusia-primer-paso-estacion-espacial-2028.html</guid>
+         <category>Espacio</category>
+         <pubDate>Mon, 06 Feb 2023 18:19:27 +0100</pubDate>
+         <!-- ItemID 154950 -->
+      </item>
+      
+      <item>
+      <title>La microgravedad como servicio: drones y cohetes para realizar experimentos científicos en caída libre</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p><lite-youtube videoid="tke5y4K52Jg" style="background-image: url('https://img.youtube.com/vi/tke5y4K52Jg/0.jpg');"></lite-youtube>
+<script src="https://microsiervos.com/includes/lite-yt-embed.js"></script></p>
+
+<p>La idea detrás de lo que hacen en <a href="https://gravitilab.space/"><strong>GravityLab</strong></a> es tan sencilla como aparentemente fácil de llevar a cabo: <strong>proporcionar hasta 180 segundos de microgravedad</strong> (ingravidez o cero-G) para realizar experimentos científicos. Ese entorno se consigue dejando caer una cápsula con forma de cohete desde las alturas, tras haberla subido a las alturas con un dron. O bien dejando caer un cohete autopropulsado que suba mucho más alto.</p>
+
+<p>Lo relativamente sencillo de este sistema <strong>hace que sea muy barato</strong>, algo que miden en «costes por kilo por segundo de ingravidez». Actualmente se lo plantean con una flota de <a href="https://gravitilab.space/fleet/">siete vehículos de transporte</a>, incluyendo seis cohetes que pueden elevarse unos pocos kilómetros o incluso hasta 250 km en el mejor de los casos. Además como el montaje de los artilugios es relativamente pequeño se puede llevar a cualquier parte del mundo.</p>
+
+<p>De momento llevan tres años trabajando con agencias como la ESA con el pequeño modelo <strong>Louis</strong>, que es el que se ve en el vídeo, que puede cargar hasta 3 litros o 20 kg, que proporciona unos <strong>12 segundos de microgravedad</strong> y puede lanzarse hasta 6 veces al día.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/espacio/gravedad-artificial-naves-espaciales.html">Aunque los humanos necesitaremos «gravedad artificial» para viajar largas distancias en naves espaciales, nunca ha sido una prioridad</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/surfactantes-microgravedad.html">Surfactantes en microgravedad, un experimento diseñado por dos jóvenes que podría viajar al espacio</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/science-off-the-sphere-experimentos-fisica-en-microgravedad.html"><em>Science off the sphere</em>, experimentos con física en microgravedad</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ingenieria/disenar-hardware-experimento-estacion-espacial-internacional.html">Un ejemplo práctico de cómo diseñar hardware para experimentos en la Estación Espacial Internacional</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/ciencia/microgravedad-servicio-drones-cohetes-experimentos-cientificos.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/ciencia/microgravedad-servicio-drones-cohetes-experimentos-cientificos.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/ciencia/microgravedad-servicio-drones-cohetes-experimentos-cientificos.html</guid>
+         <category>Ciencia</category>
+         <pubDate>Mon, 06 Feb 2023 13:42:05 +0100</pubDate>
+         <!-- ItemID 154948 -->
+      </item>
+      
+      <item>
+      <title>En internet ya hay 1.132 millones de páginas web en 271 millones de dominios alojados en 12 millones de servidores</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" style="text-align:center;"><a href="https://news.netcraft.com/archives/2023/01/27/january-2023-web-server-survey.html"><img style="aspect-ratio:800/658; width:100%" loading="lazy" src="https://img.microsiervos.com/images2023/Netcraft_2023_servidores_dominios_paginas.jpg" alt="Netcraft News | Internet Research, Cybercrime Disruption and PCI Security Services" title="Netcraft News | Internet Research, Cybercrime Disruption and PCI Security Services" /></a></p>
+
+<p>Ya se han publicado los últimos datos del tradicional <a href="https://news.netcraft.com/archives/2023/01/27/january-2023-web-server-survey.html"><strong>estudio de Netcraft</strong></a> sobre el crecimiento de Internet. El resumen es que hay <strong>1.132.268.801 sitios web</strong> en 270.967.923 dominios distintos que funcionan sobre 12.156.700 de servidores.</p>
+
+<p>Aunque son cifras enormes, en los últimos meses <strong>se han ido perdiendo algunos miles de dominios</strong> (porque caducan y no son renovados) y también servidores, quizá porque la gente agrupa varios sitios web en las mismas máquinas.</p>
+
+<p>Uno de los sitios que más destaca por su crecimiento es <strong>Cloudflare</strong>, cuyos servicios compiten con AWS de Amazon, Google Cloud y Azure de Microsoft, pero que por otro lado ha sido muy criticado por su laxitud a la hora de alojar servicios y contenidos polémicos e ilegales.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/internet/mil-millones-de-sitios-web.html">Hito en Internet: ya hay más de mil millones de sitios web registrados</a></li>
+<li><a href="https://www.microsiervos.com/archivo/internet/crecimiento-amazon-web-services.html">El implacable crecimiento de Amazon Web Services</a></li>
+<li><a href="https://www.microsiervos.com/archivo/internet/valor-empresas-hosting.html">El valor de las empresas de hosting según el número de servidores</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/internet/internet-1132-millones-paginas-web-dominios-servidores.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/internet/internet-1132-millones-paginas-web-dominios-servidores.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/internet/internet-1132-millones-paginas-web-dominios-servidores.html</guid>
+         <category>Internet</category>
+         <pubDate>Mon, 06 Feb 2023 13:19:54 +0100</pubDate>
+         <!-- ItemID 154947 -->
+      </item>
+      
+      <item>
+      <title>Una breve historia de blogs en América Latina, ahora en formato libro electrónico</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" style="text-align:center;"><a href="https://infoactivismo.org/una-breve-historia-de-blogs-en-america-latina/"><img style="aspect-ratio:500/648; width:60%" loading="lazy" src="https://img.microsiervos.com/images2023/BreveHistoriaBlogs.jpg" alt="Una breve historia de blogs en América Latina | InfoActivismo.org" title="Una breve historia de blogs en América Latina | InfoActivismo.org" /></a></p>
+
+<p>Me descargué <a href="https://infoactivismo.org/una-breve-historia-de-blogs-en-america-latina/"><strong>Una breve historia de blogs en América Latina</strong></a> de Gustavo A. Vargas Ramírez, un libro que básicamente narra <strong>el surgimiento de los blogs latinoamericanos desde una perspectiva histórica</strong>. Pero más que un simple listado de nombres y fechas contiene un montón de referencias a lo que podríamos llamar Los Viejos Tiempos™ blogueros, especialmente de las tecnologías y empresas de la época y también de los primeros blogs en inglés y de los que luego surgieron en España – y en los que algunos seguimos.</p>
+
+<p>Según cuenta el autor el libro surgió a raíz de la tesis titulada <em>Colombia y México. Dos estudios de caso sobre el surgimiento de la blogosfera en América Latina 2000-2010</em>, pero ha sido ampliado a toda Latinoamérica en diversas «ediciones», incluyendo esta que data de <strong>octubre de 2022</strong>. Se ha publicado con una licencia Creative Commons Atribución-NoComercial así que quien quiera puede descargarse el PDF y sumergirse en sus 117 páginas <a href="https://drive.google.com/file/d/1x3u0ovMJJOedSjxkff63YVtiG6HNB27-/view">sin más dilación</a> [PDF en Google Drive].</p>
+
+<p>En el libro aparecen muchas <strong>historias de interacción humana</strong>, de cómo en toda Latinoamérica se fue <strong>popularizando internet</strong> y a finales de los 90 y principios de los 2000 surgieron <strong>las primeras plataformas y las primeras bitácoras</strong>; grandes recuerdos aquellos. Por ejemplo se menciona el hito histórico de la mítica <a href="http://tremendo.com/bitacora/">Bitácora Tremendo</a>, del mexicano Carlos Tirado (1999-2005) que no sólo fue el origen de la traducción de <em>weblog</em> = <em>bitácora</em> sino también de la traducción al castellano del legandario <a href="http://tremendo.com/cluetrain/">Manifiesto del Tren de Claves</a>, un <a href="https://www.microsiervos.com/archivo/internet/manifiestos-declaraciones-ciberespacio-ciencia-tecnologia.html">manifiesto</a> que compartió época con la Web 2.0. También aparecen <a href="https://diarionocturno.com/">Diario Nocturno</a>, ALT1040 (ahora reconvertido en <a href="https://hipertextual.com/">Hipertextual</a>) y Blogalaxia, un directorio de blogs de la época, entre muchas otras referencias.</p>
+
+<p>Una lectura recomendable tanto si sueles visitar bitácoras de los diversos países escritas en español como si simplemente te interesa el fenómeno blog en general.</p>
+
+<p>(Vía <a href="https://www.ecuaderno.com/2023/01/13/historia-de-los-blogs-en-america-latina/">eCuaderno</a> + <a href="https://twitter.com/torresburriel/status/1621924352471048194">Daniel Torres-Burriel</a>.)</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/weblogs/historia-de-los-weblogs.html">Historia de los weblogs</a></li>
+<li><a href="https://www.microsiervos.com/archivo/libros/the-weblog-handbook.html">The Weblog Handbook</a></li>
+<li><a href="https://www.microsiervos.com/archivo/weblogs/weblogs.html">Weblogs: ¿Qué son?</a></li>
+<li><a href="https://www.microsiervos.com/archivo/internet/la-revolucion-de-los-blogs.html">La revolución de los blogs</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="https://www.microsiervos.com/archivo/weblogs/una-breve-historia-de-blogs-en-america-latina.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>https://www.microsiervos.com/archivo/weblogs/una-breve-historia-de-blogs-en-america-latina.html</link>
+         <guid isPermaLink="true">https://www.microsiervos.com/archivo/weblogs/una-breve-historia-de-blogs-en-america-latina.html</guid>
+         <category>Weblogs</category>
+         <pubDate>Sun, 05 Feb 2023 23:27:32 +0100</pubDate>
+         <!-- ItemID 154946 -->
+      </item>
+      
+   </channel>
+</rss>

@@ -1,0 +1,4 @@
+AD: Es una herramienta que proporciona windows para el administrador de redes.
+
+la creación y gestion de dominios, mediante la creación de bosques.
+Los subdominios sirven para compartimentar (politicas de grupo).

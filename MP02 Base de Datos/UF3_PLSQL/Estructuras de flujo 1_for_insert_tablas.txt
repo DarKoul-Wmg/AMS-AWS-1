@@ -1,0 +1,132 @@
+-- ============EJERCICIO BASE======================
+
+DROP TABLE empleado_salario; 
+CREATE TABLE empleado_salario
+(nombre VARCHAR(25), salario NUMBER(8,2));
+
+--1
+DECLARE	/* Declaración de variables y tablas PL/SQL */
+
+TYPE tipo_tabla_nombre IS TABLE OF VARCHAR2(20) INDEX BY BINARY_INTEGER;
+TYPE tipo_tabla_salario IS TABLE OF NUMBER(8,2) INDEX BY BINARY_INTEGER;
+
+var_codigo		employees.employee_id%TYPE := 100;
+var_name		employees.first_name%TYPE;
+var_sal			employees.first_name%TYPE;
+tabla_nombre	tipo_tabla_nombre;
+tabla_salario	tipo_tabla_salario;
+
+i BINARY_INTEGER := 0;	/*Posición de la tabla PL/SQL*/
+
+BEGIN
+-- Eliminar contenido de la tabla empleado_salario
+DELETE FROM empleado_salario;
+
+-- Consultar los datos del empleado a consultar
+FOR j in 100..105 LOOP
+SELECT first_name, salary INTO var_name, var_sal FROM employees 
+WHERE employee_id = var_codigo;
+
+-- Llenar las tablas PL/SQL con los datos correspondientes del empleado
+tabla_nombre(i) := var_name; tabla_salario(i) := var_sal;
+
+-- Insertar en la tabla física de la base de datos,
+-- los datos que contiene las tablas PL/SQL
+INSERT INTO empleado_salario (nombre, salario) 
+VALUES (tabla_nombre(i), tabla_salario(i));
+
+-- Guardar los cambios en la base de datos
+COMMIT;
+
+-- Mostrar mensajes correspondientes al usuario
+DBMS_OUTPUT.PUT_LINE ('SE HA CREADO LA TABLA, COMPRUEBALO');
+END;
+/
+select * from empleado_salario;
+
+
+-- ============EJERCICIO INSERT DE 100 a 105=====================
+
+DROP TABLE empleado_salario; 
+CREATE TABLE empleado_salario
+(nombre VARCHAR(25), salario NUMBER(8,2));
+
+--1
+DECLARE	/* Declaración de variables y tablas PL/SQL */
+
+TYPE tipo_tabla_nombre IS TABLE OF VARCHAR2(20) INDEX BY BINARY_INTEGER;
+TYPE tipo_tabla_salario IS TABLE OF NUMBER(8,2) INDEX BY BINARY_INTEGER;
+
+var_codigo		employees.employee_id%TYPE := 100;
+var_name		employees.first_name%TYPE;
+var_sal			employees.first_name%TYPE;
+tabla_nombre	tipo_tabla_nombre;
+tabla_salario	tipo_tabla_salario;
+
+i BINARY_INTEGER := 0;	/*Posición de la tabla PL/SQL*/
+
+BEGIN
+-- Eliminar contenido de la tabla empleado_salario
+DELETE FROM empleado_salario;
+
+/* FOR PARA QUE NOS EJECUTE INSERT HASTA LO QUE QUEREMPS 105*/
+FOR var_codigo in 100..105 LOOP
+-- Consultar los datos del empleado a consultar
+
+	SELECT first_name, salary INTO var_name, var_sal FROM employees 
+	WHERE employee_id = var_codigo;
+
+-- Llenar las tablas PL/SQL con los datos correspondientes del empleado
+	tabla_nombre(i) := var_name; tabla_salario(i) := var_sal;
+
+-- Insertar en la tabla física de la base de datos,
+-- los datos que contiene las tablas PL/SQL
+	INSERT INTO empleado_salario (nombre, salario) 
+	VALUES (tabla_nombre(i), tabla_salario(i));
+	i := i+1;
+ END LOOP;
+-- Guardar los cambios en la base de datos
+COMMIT;
+
+-- Mostrar mensajes correspondientes al usuario
+DBMS_OUTPUT.PUT_LINE ('SE HA CREADO LA TABLA, COMPRUEBALO');
+END;
+/
+select * from empleado_salario;
+
+
+================== OTRA MANERA ===========================
+
+DECLARE /* Declaración de variables y tablas PL/SQL */
+TYPE tipo_tabla_nombre IS TABLE OF VARCHAR2(20) INDEX BY BINARY_INTEGER;
+TYPE tipo_tabla_salario IS TABLE OF NUMBER(8,2) INDEX BY BINARY_INTEGER;
+    var_name employees.first_name%TYPE;
+    var_sal employees.first_name%TYPE;
+    tabla_nombre tipo_tabla_nombre;
+    tabla_salario tipo_tabla_salario;
+    i BINARY_INTEGER := 0; /*Posición de la tabla PL/SQL*/
+BEGIN
+    -- Eliminar contenido de la tabla empleado_salario
+    DELETE FROM empleado_salario;
+    -- Consultar los datos del empleado a consultar
+    for var_codigo in 100..105 loop
+        SELECT first_name, salary INTO var_name, var_sal FROM employees
+        WHERE employee_id = var_codigo;
+        -- Llenar las tablas PL/SQL con los datos correspondientes del empleado
+        tabla_nombre(i) := var_name; tabla_salario(i) := var_sal;
+        i:=i+1;
+    end loop;
+    -- Insertar en la tabla física de la base de datos,
+    -- los datos que contiene las tablas PL/SQL
+    for j in 0..i-1 loop
+        INSERT INTO empleado_salario (nombre, salario)
+        VALUES (tabla_nombre(j), tabla_salario(j));
+        -- Guardar los cambios en la base de datos
+        COMMIT;
+    end loop;
+    -- Mostrar mensajes correspondientes al usuario
+    DBMS_OUTPUT.PUT_LINE ('SE HA CREADO LA TABLA, COMPROBARLO');
+END;
+/
+SELECT * FROM empleado_salario;
+/

@@ -1,0 +1,54 @@
+create or replace FUNCTION it_employeesMolinaWilliam(num_empleats NUMBER)
+RETURN NUMBER --Empleats trobats
+IS
+    v_count NUMBER := 0;
+    V_count_empleats NUMBER:= 0;
+
+    cursor c_cursor IS 
+        select e.first_name, e.last_name, e.hire_date, j.job_title
+        FROM EMPLOYEES e
+        JOIN JOBS j ON e.JOB_ID = j.JOB_ID
+        WHERE e.EMPLOYEE_ID != e.MANAGER_ID AND DEPARTMENT_ID = 60  
+        ORDER BY e.HIRE_DATE DESC;
+    
+    v_row c_cursor%ROWTYPE;
+
+BEGIN
+    IF num_empleats IS NULL THEN
+        OPEN c_cursor;
+        LOOP
+            FETCH c_cursor INTO v_row;
+            EXIT WHEN c_cursor%NOTFOUND OR v_count >= num_empleats;
+ 
+            DBMS_OUTPUT.PUT_LINE(RPAD(v_row.first_name, 10) || RPAD(v_row.last_name, 10) || 
+                            TO_CHAR(v_row.hire_date, 'DD-MM-YYYY') || '   ' ||RPAD(v_row.job_title, 10));
+    
+            v_count := v_count + 1;
+        END LOOP;
+        CLOSE c_cursor;
+        RETURN v_count;
+
+    ELSE
+     OPEN c_cursor;
+        LOOP
+            FETCH c_cursor INTO v_row;
+            EXIT WHEN c_cursor%NOTFOUND OR v_count >= num_empleats;
+ 
+            DBMS_OUTPUT.PUT_LINE(RPAD(v_row.first_name, 10) || RPAD(v_row.last_name, 10) || 
+                            TO_CHAR(v_row.hire_date, 'DD-MM-YYYY') || '   $' ||RPAD(v_row.job_title, 10));
+    
+            v_count := v_count + 1;
+        END LOOP;
+        CLOSE c_cursor;
+
+        RETURN v_count;
+        
+      
+    END IF;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+            RETURN -1;
+END it_employeesMolinaWilliam;
+

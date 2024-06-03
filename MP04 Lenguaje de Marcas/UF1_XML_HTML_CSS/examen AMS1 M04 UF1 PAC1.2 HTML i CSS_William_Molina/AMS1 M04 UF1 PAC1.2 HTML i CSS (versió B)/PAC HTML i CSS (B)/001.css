@@ -1,0 +1,151 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 25px;
+    user-select: none;
+}
+
+.autocenter {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.fullBox {
+    background-image: url("./imgs/bg_painting.svg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 25px;
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+
+.top {
+    align-items: flex-end;
+    background-color: rgb(225, 225, 225);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.top .text {
+    color: rgb(67, 122, 223);
+    box-sizing: border-box;
+    padding: 25px;
+    width: 50%;
+}
+
+.top img {
+    border-top-left-radius: 25px;
+    overflow: hidden;
+    width: 40%;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 30px;
+}
+
+.bottom .left {
+    background-color: rgb(45, 60, 70);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-right: 30px;
+    width: calc(65% - 30px);
+}
+
+.bottom .left .linedBox {
+    border-left: solid 1px rgb(225, 225, 181);
+    color: white;
+    padding-bottom: 25px;
+    height: calc(100% - 25px);
+}
+
+.bottom .left h3 {
+    border-bottom: solid 1px rgb(225, 225, 181);
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bottom .left p {
+    padding-right: 25px;
+}
+
+.bottom .right {
+    background-color: rgb(225, 225, 225);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 25px;
+    width: 35%;
+}
+
+.bottom .right img {
+    width: 75%;
+}
+
+.boxesPos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    max-width: 175px;
+    padding: 25px;
+}
+
+.box span {
+    background-color: rgb(235, 205, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .top{
+        display: flex;
+        flex-direction: column; 
+    }
+        .top .text{
+            width: 100%;
+        }
+
+        .top img{
+            width: auto;
+            max-width: 100%;
+            padding-top: 10px; 
+        }
+    
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bottom .left{
+        width: 100%;
+    }
+
+    .bottom .right{
+        margin-top: 2em;
+        width: 100%;
+    }
+}

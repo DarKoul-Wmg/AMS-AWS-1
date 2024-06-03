@@ -1,0 +1,38 @@
+use hr;
+
+/* EXEMPLES AGRUPACIONS*/
+/* treballadors per departaments, de departaments que tenen mes de 5 treballadors
+   els departaments són els que es troben a localitazacions en països de la regió 2*/
+
+select department_id,count(*)
+from employees
+where department_id in /* llista de departaments que estan en localitzacions de la regio 2*/
+                    (select department_id from hr.departments
+						where location_id in /* llista de localitzacions en països de la regió 2*/
+                                          (select location_id from hr.locations
+                                           where country_id in /* llista de països de la regió 2*/
+                                                            (SELECT country_id FROM hr.countries where region_id=2)))
+group by department_id
+having count(*) > 5;
+
+/* treballadors per categoria, mostrar job_id i job_title
+   ordenar de mes treballadors a meys i després per categoria*/
+
+select concat(job_id,' - ',(SELECT job_title FROM jobs j where j.job_id=e.job_id)) as job, count(*)
+from employees e
+group by 1
+order by 2 desc ,1;
+
+
+/* EXEMPLE SUBCONSULTES CORRELACIONADES*/
+/* mostrar cada departament i la quantitat de treballadors, si no en té serà 0*/
+
+select department_name, 
+		(select count(*) from employees e where e.department_id=d.department_id) as treballadors
+from departments d
+order by treballadors, department_name;
+
+/* per comprovar que ho ha fet bé, miro si la suma de treballadors del departaments coincideix am
+   el total de treballadors  amb departament*/
+
+select count(*) from employees where department_id is not null;

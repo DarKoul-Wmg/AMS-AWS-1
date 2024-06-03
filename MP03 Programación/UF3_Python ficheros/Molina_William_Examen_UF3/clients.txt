@@ -1,0 +1,11 @@
+id:AD3 ; Name: Juan; surnames: Guitierrez-Lopez; age: 26; dni : 34451223A; tfn  : 234234234
+tfn: 523482323 ;  id:XT6 ; Name:  Pedro; surnames: Martinez-Lara; age  : 18;  dni:93939393F
+id  :   TS7 ; Name : Maria; surnames : Ruiz-Fernandez; age: 45 ; dni:0987987H  ; tfn: 876344332
+ Name: Ana;  id:RD5 ; surnames: Alvarez-Perez; age: 54;   dni:23455432T;  tfn : 356982456
+id:FS6;  surnames: Moreno-Diaz; age: 23; Name: Soraya;  dni :75849302S; tfn  : 646482826
+id:OS6 ;  Name: Yolanda; surnames: Martin-Ferreras; age: 13;  dni : 75849302S; tfn: 646482826
+Name:Sebastian;  id:TO2; surnames:Almansa-Navarro;age:34;   dni:77777777G; tfn:767676767
+Name: Sebastian;  id:VO5 ; surnames: Almansa-Navarro;age: 34;   dni:77777777G;  tfn: 767676767
+
+Name: Sebastian;  id:SC2 ; surnames: Almansa-Navarro;age: 34;   dni:77777777G;  tfn: 767676767
+Name: Sebastian;  id:TS7 ; surnames: Almansa-Navarro;age: 34;   dni:77777777G;  tfn: 767676767

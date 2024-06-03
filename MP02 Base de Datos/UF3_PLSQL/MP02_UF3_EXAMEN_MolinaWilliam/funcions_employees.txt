@@ -1,0 +1,123 @@
+--FUNCIÓ PRIVADA
+create or replace function f_job_excep(nom jobs.job_title%type)
+return jobs.job_id%type
+is
+v_id jobs.job_id%type;
+begin
+    select job_id into v_id
+    from jobs where job_title=nom;
+    return v_id;
+exception
+    when no_data_found then
+        return null;
+    when too_many_rows then
+        return null;
+    when others then
+        return -1;
+end f_job_excep;
+/
+--FUNCIÓ PÚBLICA
+create or replace function f_job(nom jobs.job_title%type)
+return jobs.job_id%type
+is
+begin
+    return f_job_excep(normalitzar_string(nom,true));
+end f_job;
+/
+--FUNCIÓ PÚBLICA
+create or replace function f_empleat_per_cognom
+    (p_dept departments.department_id%type,
+     p_cognom employees.last_name%type)
+return employees%rowtype
+is
+v_emp   employees%rowtype;
+begin 
+    v_emp:= f_empleat_per_cognom_i_nom(p_dept,p_cognom,null);
+    return v_emp;  
+end;
+/
+--FUNCIÓ PÚBLICA
+create or replace function f_empleat_per_cognom_i_nom
+        (p_dept departments.department_id%type,
+         p_cognom employees.last_name%type,
+         p_nom employees.first_name%type)
+return employees%rowtype
+is
+v_emp   employees%rowtype;
+v_convertir boolean:=true;
+begin 
+    begin
+        select * into v_emp
+        from employees where department_id=p_dept
+                       and   last_name=normalitzar_string(p_cognom,v_convertir)
+                       and   first_name=nvl(normalitzar_string(p_nom,v_convertir),first_name);        
+    exception
+        when no_data_found then v_emp.employee_id:=-1;
+        when too_many_rows then v_emp.employee_id:=-99;
+        when others then        v_emp.employee_id:=-10;
+    end;  
+    return v_emp;  
+end;
+/
+--FUNCIÓ PUBLICA
+create or replace function normalitzar_string
+(p_string varchar2,p_convertir boolean)
+return varchar2
+is
+v_string        varchar2(50);
+v_string_out    varchar2(50);
+v_paraula       varchar2(50);
+v_paraula_aux   varchar2(50);
+v_pos           number;
+primera_vegada  boolean;
+-- agafa l'string d'entrada, elimina blancs a dreta i esquerra 
+-- i posa el primer caracter e majuscula i la resta en minúscula
+begin 
+    -- comprovar que no sigui null
+    if p_string is null then return null; 
+    end if;
+    -- comprovar que la longitud no sigui més de 50
+    if length(trim(p_string))>50 then return null;
+    end if;
+
+    -- elimina blancs a dreta i esquerra
+    v_string:=trim(p_string);
+
+    -- agafar cada paraula i convertir-la
+    primera_vegada:=true;
+    while v_string is not null loop
+        -- busquem la posició del blanc, si no n'hi ha la posició és el final de l'string
+        v_pos:= instr(v_string,' ',1,1);
+        if v_pos=0 then v_pos:=length(v_string)+1; end if;
+        
+        -- fem subtring per trobar la paraula
+        v_paraula:=substr(v_string,1,v_pos-1);
+        
+        -- CONVERTIM la primera lletra a majuscula i la resta a minúscula
+        -- si l'opció convertir és true
+        if p_convertir then
+            if length(v_paraula)>1 then
+                v_paraula_aux:=upper(substr(v_paraula,1,1))||lower(substr(v_paraula,2));
+            else
+                v_paraula_aux:=upper(v_paraula);
+        end if;
+        else
+            v_paraula_aux:=v_paraula;
+        end if;
+        
+        -- concatanem la paraula a l'string de sortida
+        if primera_vegada then
+            v_string_out:= v_paraula_aux;
+            primera_vegada:=false;
+        else
+            v_string_out:= v_string_out||' '||v_paraula_aux;
+        end if;
+        
+        -- escurcem l'string per continuar buscant paraules a convertir, 
+        -- aprofitem per eliminar blancs a l'esquerra
+        v_string:=ltrim(substr(v_string,v_pos+1));
+    end loop;
+
+    return v_string_out;  
+end;
+

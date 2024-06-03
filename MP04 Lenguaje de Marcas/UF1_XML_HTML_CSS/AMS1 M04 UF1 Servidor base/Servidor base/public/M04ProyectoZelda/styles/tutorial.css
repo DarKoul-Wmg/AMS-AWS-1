@@ -1,0 +1,414 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto;
+    padding: 0;
+    background-image: url('../images/game/background_tutorial.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    color: whitesmoke;
+  
+}
+.menu a:hover {
+    cursor: zoom-in;
+    background-color: #a600ffbd; 
+    color: black; 
+}
+.menu .foto {
+    border: none;
+    max-width: 80px;
+    transition: transform 0.5s ease-in-out;
+}
+    .menu .foto:hover {
+        transform: rotateY(360deg);
+        cursor: wait;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+img{
+    border: 2px solid white;
+}
+h1,h2{
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+}
+h1 {
+    align-items: center;
+    color: greenyellow;
+    text-shadow: 0 0 10px black;
+    font-size: 4em;
+}
+
+h2 {
+    color: rgb(0, 255, 170);
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+
+}
+h3{
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+}
+
+p{
+    text-shadow: 0 0 10px black;
+}
+
+.tutorial-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.how-play h2{
+   text-align: center;
+}
+
+.how-play p{
+    text-align: center;
+    padding-inline: 5em;
+ }
+
+section {
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 140ch;
+    border-radius: 10px;
+}
+
+.first-steps {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+    .first-steps h3 {
+        margin-bottom: 10px;
+    }
+
+    .first-steps-image {
+        width: 100%;
+        max-width: 100%; 
+        object-fit: contain;
+    }
+
+    .first-steps-content{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 30px;
+        margin: 4em;
+        background-color: rgba(0, 0, 0, 0.611);
+    }
+
+.first-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.new-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+}
+    .new-game-image {
+        max-width: 100%;
+        height: auto; 
+        object-fit: contain;
+        margin-bottom: 2em;
+    }
+
+    .new-game p {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 3em;
+    }
+
+
+
+.leg-plot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+}
+    .leg-plot-image {
+        max-width: 100%;
+        height: auto; 
+        object-fit: contain;
+        margin-bottom: 2em;
+    }
+
+    .leg-plot p {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 3em;
+    }
+.continue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+}
+    .continue-image {
+        max-width: 100%;
+        height: auto; 
+        object-fit: contain;
+        margin-bottom: 1em;
+    }
+
+    .continue p {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 3em;
+    }
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+}
+    .tips-img {
+        max-width: 100%;
+        height: auto; 
+        object-fit: contain;
+        margin-bottom: 1em;
+    }
+
+    .tips p {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 3em;
+    }
+    .tips ul li{
+        margin-inline: 4em;
+        padding-right: 10px;
+        margin-bottom: 5px;
+    
+    }
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+}
+    .end-img {
+        max-width: 20%;
+        height: auto; 
+        object-fit: contain;
+        margin-bottom: 1em;
+        transition: 0.3s ease;
+    }
+
+    .end p {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 3em;
+        padding-inline: 5em;
+    }
+
+.game{
+    padding-inline: 5em;
+}
+    .game h3{
+        margin-top: 2em;
+        text-align: center;
+    }
+     
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   .screen p{
+        padding-inline: 4em;
+        padding-bottom: 1em;
+    }
+
+    .map_icons {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .map_icons ul li{
+        margin-bottom: 10px;
+
+}
+.inventory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .inventory p{
+        padding-inline: 8em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions p{
+    text-align: center;
+    line-height: 1.5;
+    padding-inline: 4em;
+    padding-bottom: 1em;
+    margin-bottom: 20px;
+}
+.actions img{
+    margin-top: 20px;
+}
+
+.map_icons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.actions ul li{
+    margin-inline: 4em;
+    padding-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+section,
+.how-play,
+.new-game,
+.leg-plot,
+.continue,
+.tips,
+.end
+ {
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px; 
+    background-color: rgba(30, 32, 33, 0.692);
+    margin: 3em; 
+    padding: 1em;
+    box-shadow: 0 0 30px rgba(0, 191, 255); 
+}
+
+.screen,
+.inventory,
+.actions{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px; 
+    background-color: rgba(30, 32, 33, 0.692);
+    margin: 3em; 
+    padding: 1em;
+    transition: all 0.3s ease; 
+}
+.screen:hover,
+.inventory:hover,
+.actions:hover {
+    transform: scale(0.80); 
+    box-shadow: 0 0 40px rgb(21, 255, 0); 
+}
+
+.end-img:hover {
+    transform: rotateY(720deg);
+    transition: transform 0.6s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: 'Arial', sans-serif;
+        background-image: url('../images/game/background_movil_tutorial.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        align-content: center;
+        background-color: #101c34;
+    }
+    
+    .tutorial-container{
+        width: auto;
+    }
+
+    .tips {
+        width: 60%;
+    }
+
+    .tutorial-container section, article, div {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map_icons {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .map_icons img {
+        width: 500px;
+        height: auto;
+    }
+    .map_icons ul li{
+        margin-bottom: 10px;
+
+    }
+
+    .first-container {
+        width: 75%;
+    }
+
+    .game-description,.how-play,.first-steps,
+    .tips,.end,.new-game,.leg-plot{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu .foto:hover {
+        transform: none;
+        cursor: auto;
+    }
+    
+    .screen:hover,
+    .inventory:hover,
+    .actions:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .end-img:hover {
+        transform: none;
+        transition: none;
+    }
+    section,
+    .how-play,
+    .new-game,
+    .leg-plot,
+    .continue,
+    .tips,
+    .end{
+    border: none;
+    background-color: rgba(30, 32, 33, 0.692);
+    margin: 0; 
+    padding: 0;
+    box-shadow: none; 
+    }
+    .game h3{
+        padding-inline: 4em;
+    }
+}

@@ -1,0 +1,12 @@
+.filtreGris {
+    filter: grayscale(80%);
+}
+.filtreSepia {
+    filter: sepia(80%);
+}
+.filtreVibrant {
+    filter: saturate(200%);
+}
+.filtreDifuminat {
+    filter: blur(5px);
+}

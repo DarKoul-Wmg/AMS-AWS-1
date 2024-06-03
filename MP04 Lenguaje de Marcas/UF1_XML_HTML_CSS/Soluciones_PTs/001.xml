@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE riders SYSTEM "001.dtd">
+<riders>
+    <person id="id_01">
+        <name>Steve McQueen</name>
+        <born>
+            <year>1930</year>
+            <month>03</month>
+            <day>24</day>
+        </born>
+        <events>
+            <event>The Great Escape</event>
+            <event>Bullit</event>
+            <event>Le Mans</event>
+        </events>
+    </person>
+    <person id="id_02">
+        <name>Burt Munro</name>
+        <born>
+            <year>1899</year>
+            <month>03</month>
+            <day>25</day>
+        </born>
+        <events>
+            <event>1.000cc Bonnerville</event>
+        </events>
+    </person>
+    <person id="id_03">
+        <name>Eve Knieval</name>
+        <born>
+            <year>1938</year>
+            <month>10</month>
+            <day>17</day>
+        </born>
+    </person>
+    <person id="id_04">
+        <name>Guy Martin</name>
+        <born>
+            <year>1981</year>
+            <month>11</month>
+            <day>04</day>
+        </born>
+        <events>
+            <event>Guinnes World Records - Fastest speed on snow sled</event>
+            <event>Guinnes World Records - Highest speed on a Wall of death</event>
+        </events>
+    </person>
+</riders>

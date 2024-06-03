@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 25px;
+    user-select: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    margin: 0.75em 0;
+}
+
+.autocenter {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    margin-right: 25px;
+    position: relative;
+    width: 250px;
+}
+
+.pain {
+    height:250px;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: rgb(175, 45, 50);
+    font-size: 1.5em;
+    margin: 0;
+    top: 0;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-family: "Marhey", sans-serif;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBox img {
+    width: 100px;
+}

@@ -1,0 +1,7 @@
+.paragraf {
+    letter-spacing: -2px;
+    line-height: 50px;
+    text-indent: 100px;
+    user-select: none;
+    word-spacing: 10px;
+}

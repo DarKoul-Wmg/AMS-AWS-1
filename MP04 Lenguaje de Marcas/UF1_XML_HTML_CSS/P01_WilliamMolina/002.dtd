@@ -1,0 +1,9 @@
+<!ELEMENT videojocs (videojoc+)>
+<!ELEMENT videojoc (nom,publicacio,productora,consola+)>
+<!ATTLIST videojoc id ID #REQUIRED>
+<!ATTLIST videojoc edat CDATA #REQUIRED>
+<!ATTLIST videojoc online (si|no) #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT publicacio (#PCDATA)>
+<!ELEMENT productora (#PCDATA)>
+<!ELEMENT consola (#PCDATA)>

@@ -1,0 +1,41 @@
+:root {
+    --color-main: rgb(238, 94, 53);
+    --color-blau: rgb(187, 229, 252);
+    --color-gris: rgb(120, 120, 120);
+    --color-clar: rgb(232, 236, 236);
+}
+
+body {
+    color: var(--color-text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    margin: 0;
+    user-select: none;
+}
+
+h1 {
+    color: var(--color-main);
+    font-size: 4em;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.autocenter {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.top {
+    align-items: flex-start;
+    display: flex;
+    margin: 24px 0;
+}
+
+.top .main {
+    flex-grow: 1;
+}

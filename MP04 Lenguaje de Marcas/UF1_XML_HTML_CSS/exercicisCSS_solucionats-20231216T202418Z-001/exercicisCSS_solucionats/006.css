@@ -1,0 +1,24 @@
+.centrat {
+    display: flex;
+    justify-content: center;
+}
+.espaiat {
+    display: flex;
+    justify-content: space-between;
+}
+.voltant {
+    display: flex;
+    justify-content: space-around;
+}
+.uniforme {
+    display: flex;
+    justify-content: space-evenly;
+}
+.principi {
+    display: flex;
+    justify-content: flex-start;
+}
+.final {
+    display: flex;
+    justify-content: flex-end;
+}

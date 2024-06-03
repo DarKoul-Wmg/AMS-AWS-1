@@ -1,0 +1,192 @@
+# Nom:
+# Cognoms:
+# DNI:
+# URL del vídeo:
+
+# Fer anar els testos amb:
+# python "Test.py"
+# python "Test_e0.py"
+
+"""
+
+Exercici X (1 punt)
+
+Has estudiat per aquest exàmen?
+
+"""
+
+# Resol aquí l'exercici X
+
+"""
+
+Exercici 0 (2 punts)
+
+Fes una funció 'e0_llistaDades' que rep com a paràmetres:
+
+- arxiu: El nom d'un arxiu '.csv'
+- files: Una llista amb els números de files que cal mostrar
+- columnes: Una llista amb els noms de columnes que cal mostrar
+
+Funcionalitat:
+
+La funció mostra linia a linia el contingut de les files i columnes especificades de l'arxiu .csv amb el format 'Fila X: valor1, valor2, valor3, ...'.
+No es pot llegir l'arxiu sencer, només linia a linia.
+Es pot fer servir 'readline()' però no 'readlines()'.
+
+Validacions:
+
+- Si l'arxiu no existeix, llença un valueError amb el missatge "L'arxiu no existeix".
+- Si l'arxiu existeix però no té extensió '.csv', llença un valueError amb el missatge "L'arxiu no té extensió .csv".
+- Si l'arxiu existeix i té extensió '.csv' però al obrir-lo no és realment un arxiu .csv (perquè la quantitat de ,
+no és igual a cada fila), llença un typeError amb el missatge "L'arxiu no és un .csv vàlid".
+- Si es demana algun número de fila que no existeix, llança un valueError amb el missatge "La fila X no existeix".
+- Si es demana alguna columna que no existeix, llança un valueError amb el missatge "La columna X no existeix".
+- Si la llista de files és buida, llança un valueError amb el missatge "La llista de files és buida".
+- Si la llista de columnes és buida, llança un valueError amb el missatge "La llista de columnes és buida".
+
+"""
+
+# Resol aquí l'exercici 0
+
+"""
+
+Exercici 1 (2 punts)
+
+Fes una funció 'e1_canviaParaula' que rep com a paràmetres:
+
+- arxiu: El nom d'un arxiu '.txt'
+- paraula: Una paraula que cal buscar i substituir
+- substitucio: La paraula per la qual cal substituir
+
+Funcionalitat:
+
+La funció llegeix l'arxiu sencer i substitueix totes les aparicions de la paraula 'paraula' per la paraula 'substitucio'.
+No es pot fer servir 'readlines' ni carregar tota la informació de l'arxiu a la memòria al mateix temps, cal anar linia per linia.
+Mostra el resultat per consola.
+
+Validacions:
+
+- Si l'arxiu no existeix, llença un valueError amb el missatge "L'arxiu no existeix".
+- Si l'arxiu existeix però no té extensió '.txt', llença un valueError amb el missatge "L'arxiu no té extensió .txt".
+- Si l'arxiu existeix i té extensió '.txt' però al obrir-lo no és realment un arxiu .txt, llença un typeError amb el missatge "L'arxiu no és un .txt vàlid".
+- Si la paraula a substituir no existeix a l'arxiu, llença un valueError amb el missatge "La paraula a substituir no existeix a l'arxiu".
+- Si la paraula a substituir és buida, llença un valueError amb el missatge "La paraula a substituir és buida".
+- Si la paraula de substitució és buida, llença un valueError amb el missatge "La paraula de substitució és buida".
+- Si la paraula a substituir és igual a la paraula de substitució, llença un valueError amb el missatge "La paraula a substituir és igual a la paraula de substitució".
+
+"""
+
+# Resol aquí l'exercici 1
+
+"""
+
+Exercici 2 (1 punt)
+
+Fes una funció 'e2_gestionaArxius' que rep com a paràmetres:
+
+- acció: pot ser 'c' (crear), 'e' (esborrar) o 'm' (moure)
+- arxiu1: El nom d'un arxiu
+- arxiu2: El nom d'un arxiu (paràmetre opcional, només caldrà si l'acció és 'm')
+
+Funcionalitat:
+
+- Si l'acció és 'c', crea un arxiu amb el nom 'arxiu1' i escriu el text 'Contingut de prova'.
+- Si l'acció és 'e', esborra l'arxiu 'arxiu1'.
+- Si l'acció és 'm', mou l'arxiu 'arxiu1' a 'arxiu2'.
+
+Validacions:
+
+- Si l'acció no és 'c', 'e' o 'm', llença un valueError amb el missatge "L'acció no és correcta".
+- Si l'acció és 'm' i no es passa el paràmetre 'arxiu2', llença un valueError amb el missatge "Falta el segon arxiu".
+- Si l'acció és 'c' i ja existeix un arxiu amb el nom 'arxiu1', llença un valueError amb el missatge "L'arxiu ja existeix".
+- Si l'acció és 'e' i l'arxiu 'arxiu1' no existeix, llença un valueError amb el missatge "L'arxiu no existeix".
+- Si l'acció és 'm' i l'arxiu 'arxiu1' no existeix, llença un valueError amb el missatge "L'arxiu no existeix".
+- Si l'acció és 'm' i l'arxiu 'arxiu2' ja existeix, llença un valueError amb el missatge "L'arxiu de destí ja existeix".
+
+"""
+
+# Resol aquí l'exercici 2
+
+"""
+
+Exercici 3 (1 punt)
+
+Fes la funció 'e3_capgiraNoms' que capgira els noms de tots els arxius d'una carpeta i les seves subcarpetes.
+
+Per exemple:
+
+Si hi ha l'arxiu: 'nom1.txt' li canvia el nom per '1mon.txt'
+Si hi ha l'arxiu: '1mon.txt' li canvia el nom per 'nom1.txt'
+
+Paràmetres:
+
+- directori_base: El nom de la carpeta on es volen capgirar els noms dels arxius.
+
+Per exemple: e3_capgiraNoms('arxius/capgirar')
+
+Validacions:
+
+- Si el directori no existeix, llença un valueError amb el missatge "El directori no existeix".
+
+Nota: si fas una solució recursiva, i et cal, pots passar més paràmetres.
+
+"""
+
+# Resol aquí l'exercici 3
+
+"""
+
+Exercici 4 (2 punts)
+
+Fes la funció 'buscaArxius' que rep com a paràmetres:
+
+- directori: El nom de la carpeta on es volen buscar els arxius.
+- paraules: Una llista amb les paraules que cal buscar dins dels arxius.
+- condicio: Pot ser 'totes' (l'arxiu ha de contenir totes les paraules de la llista) o 'alguna' (l'arxiu ha de contenir alguna de les paraules de la llista)
+
+La funció ha de retornar una llista amb els noms dels arxius que compleixen la condició.
+
+Validacions:
+
+- Si el directori no existeix, llença un valueError amb el missatge "El directori no existeix".
+- Si la condició no és 'totes' o 'alguna', llença un valueError amb el missatge "La condició no és correcta".
+- Si la llista de paraules és buida, llença un valueError amb el missatge "La llista de paraules és buida".
+- Si el valor de 'directori' no és de tipus cadena, llença un typeError amb el missatge "El valor de directori no és de tipus cadena".
+- Si el valor 'paraules' no és de tipus llista, llença un typeError amb el missatge "El valor de paraules no és de tipus llista".
+- Si el valor 'condicio' no és de tipus cadena, llença un typeError amb el missatge "El valor de condicio no és de tipus cadena".
+
+Nota: si fas una solució recursiva, i et cal, pots passar més paràmetres.
+
+"""
+
+# Resol aquí l'exercici 4
+
+"""
+
+Exercici 5 (1 punt)
+
+Fes una funció 'e5_modificaJSON' que rep com a paràmetres:
+
+- arxiu: El nom d'un arxiu '.json'
+- clau: Una clau del JSON, per exemple 'name' o 'widget.window.width'
+- valor: El valor que cal posar a la clau del JSON
+
+Funcionalitat:
+
+La funció llegeix l'arxiu .json i modifica el valor de la clau especificada pel valor indicat.
+
+Un cop modificat el valor, guarda el JSON modificat sobreescribint l'arxiu original.
+
+Validacions:
+
+- Si el nom de l'arxiu no és de tipus cadena de text, llença un typeError amb el missatge "El nom de l'arxiu no és de tipus cadena de text".
+- Si l'arxiu no existeix, llença un valueError amb el missatge "L'arxiu no existeix".
+- Si l'arxiu existeix però no té extensió '.json', llença un valueError amb el missatge "L'arxiu no té extensió .json".
+- Si el JSON no té la clau especificada, llença un valueError amb el missatge "La clau no existeix al JSON".
+- Si el tipus del valor no és el mateix que el valor de la clau, llença un typeError amb el missatge "El tipus del valor no és el mateix que el valor de la clau".
+
+Nota: Evidentment pots afegir una funció de suport si ho consideres necessari.
+
+"""
+
+# Resol aquí l'exercici 5

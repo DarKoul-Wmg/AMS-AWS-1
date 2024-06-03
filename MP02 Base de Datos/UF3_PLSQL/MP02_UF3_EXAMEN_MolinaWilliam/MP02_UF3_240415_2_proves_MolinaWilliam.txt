@@ -1,0 +1,25 @@
+set serveroutput on
+declare
+result number(6);
+tot_emp number(3):=null;
+begin
+
+---paràmetre null
+tot_emp:=null;
+DBMS_OUTPUT.PUT_LINE('--------------- Crida amb  '||nvl(to_char(tot_emp),'null')|| ' treballadors');
+result:=it_employeesMolinaWilliam(tot_emp);
+DBMS_OUTPUT.PUT_LINE('-- s''han demanat '||nvl(to_char(tot_emp),'null')|| ' treballadors'
+					||' la funció n''ha retornat :'||result);
+---2 treballadors
+tot_emp:=2;
+DBMS_OUTPUT.PUT_LINE('--------------- Crida amb  '||nvl(to_char(tot_emp),'null')|| ' treballadors');
+result:=it_employeesMolinaWilliam(tot_emp);
+DBMS_OUTPUT.PUT_LINE('-- s''han demanat '||nvl(to_char(tot_emp),'null')|| ' treballadors'
+					||' la funció n''ha retornat :'||result);
+---5 treballadors
+tot_emp:=5;
+DBMS_OUTPUT.PUT_LINE('--------------- Crida amb  '||nvl(to_char(tot_emp),'null')|| ' treballadors');
+result:=it_employeesMolinaWilliam(tot_emp);
+DBMS_OUTPUT.PUT_LINE('-- s''han demanat '||nvl(to_char(tot_emp),'null')|| ' treballadors'
+					||' la funció n''ha retornat :'||result);
+end;

@@ -1,0 +1,22 @@
+set serveroutput on
+declare
+result number(6);
+nom_producte varchar2(30);
+begin
+
+--producte inexistent 'kkk'
+nom_producte:='kkk';
+prod_cat5_noUS_MolinaWilliam(nom_producte);
+
+--producte categoria NO 5 'Intel Xeon E5-2697 V4'
+nom_producte:='Intel Xeon E5-2697 V4';
+prod_cat5_noUS_MolinaWilliam(nom_producte);
+
+--producte CATEGORIA 5 sense estoc fora US 'Crucial CT525MX300SSD4'
+nom_producte:='Crucial CT525MX300SSD4';
+prod_cat5_noUS_MolinaWilliam(nom_producte);
+
+--PRODUCTE CATEGORIA 5 EN MAGATZEMS FORA US 'G.Skill Trident Z'
+nom_producte:='G.Skill Trident Z';
+prod_cat5_noUS_MolinaWilliam(nom_producte);
+end;

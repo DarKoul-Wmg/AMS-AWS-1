@@ -1,0 +1,270 @@
+Consultas sobre una tabla
+1.Lista el nombre de todos los productos que hay en la tabla producto.
+	SELECT nombre FROM tienda.producto;
+
+2.Lista los nombres y los precios de todos los productos de la tabla producto.
+	SELECT nombre, precio FROM tienda.producto;
+
+3.Lista el nombre de los productos, el precio en euros y el precio en dólares estadounidenses (USD). Utiliza los siguientes alias para las columnas: nombre de producto, euros, dólares. (precio por 1.15)
+	SELECT nombre as 'nombre de producto' , precio as 'euro', precio*1.15 as 'dólares'
+	FROM tienda.producto;
+
+4.Lista los nombres y los precios de todos los productos de la tabla producto, convirtiendo los nombres a mayúscula.
+	SELECT upper(nombre) as 'nombre de producto' , precio as 'euro'
+	FROM tienda.producto;
+
+5.Lista los nombres y los precios de todos los productos de la tabla producto, convirtiendo los nombres en minúscula.
+	SELECT lower(nombre) as 'nombre de producto' , precio as 'euro'
+	FROM tienda.producto;
+
+6.Lista los nombres y los precios de todos los productos de la tabla producto, redondeando el valor del precio.
+	SELECT nombre as 'nombre de producto' , round(precio) as 'euro'
+	FROM tienda.producto;
+
+7.Lista el código de los fabricantes que tienen productos en la tabla producto.
+	SELECT codigo_fabricante
+	FROM tienda.producto;
+
+8.Lista el código de los fabricantes que tienen productos en la tabla producto, eliminando los códigos que aparecen repetidos
+	SELECT DISTINCT codigo_fabricante
+	FROM tienda.producto;
+
+9.Lista los nombres de los productos ordenados en primer lugar por el nombre de forma ascendente y en segundo lugar por el precio de forma descendente.
+	SELECT nombre as 'nombre de producto' , PRECIO as 'euro'
+	FROM tienda.producto
+    	ORDER BY nombre ASC, precio DESC;
+
+10.Lista el nombre de todos los productos del fabricante cuyo código de fabricante es igual a 2.
+	SELECT nombre as 'nombre de producto'
+	FROM tienda.producto
+    	WHERE codigo_fabricante=2
+
+11.Lista el nombre de los productos que tienen un precio menor o igual a 120€.
+	SELECT nombre as 'nombre de producto', precio
+	FROM tienda.producto
+    	WHERE precio <= 120
+
+12.Lista el nombre de los productos que tienen un precio mayor o igual a 400€.
+	SELECT nombre as 'nombre de producto', precio
+	FROM tienda.producto
+    	WHERE precio >= 400
+
+13.Lista todos los productos que tengan un precio entre 60€ y 200€. Utilizando el operador BETWEEN.
+	SELECT nombre as 'nombre de producto', precio
+	FROM tienda.producto
+    	WHERE precio BETWEEN 60 AND 200
+
+14.Lista todos los productos que tengan un precio mayor que 200€ y que el código de fabricante sea igual a 6.
+	SELECT nombre as 'nombre de producto', precio, codigo_fabricante
+	FROM tienda.producto
+    	WHERE precio > 200 AND codigo_fabricante = 6
+
+15.Lista todos los productos donde el código de fabricante sea 1, 3 o 5. Utilizando el operador IN
+	SELECT nombre as 'nombre de producto', codigo_fabricante
+	FROM tienda.producto
+    	WHERE codigo_fabricante IN (1,3,6)
+    	
+    	
+    	
+Consultas multitabla (Composición interna)
+1.Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos.
+	SELECT p.nombre as 'nombre de producto', p.precio, f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+
+2.Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos. Ordene el resultado por el nombre del fabricante, por orden alfabético.
+	SELECT p.nombre as 'nombre de producto', p.precio, f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	ORDER BY f.nombre
+
+3.Devuelve una lista con el código del producto, nombre del producto, código del fabricante y nombre del fabricante, de todos los productos de la base de datos.
+	SELECT  p.codigo as 'ID producto', p.nombre as 'nombre de producto', 
+		f.codigo as 'ID fabricante' , f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+
+4.Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más barato.
+	SELECT p.nombre as 'nombre de producto', p.precio, f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	ORDER BY p.precio limit 1
+
+6.Devuelve una lista de todos los productos del fabricante Lenovo.
+	SELECT p.nombre as 'nombre de producto', f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	WHERE f.nombre = 'Lenovo'
+
+7.Devuelve una lista de todos los productos del fabricante Crucial que tengan un precio mayorque 200€.
+	SELECT p.nombre as 'nombre de producto', p.precio, f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	WHERE f.nombre = 'Crucial' AND p.precio > 200
+
+8.Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packard y Seagate. Utilizando el operador IN.
+	SELECT p.nombre as 'nombre de producto', f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	WHERE f.nombre IN ('Asus', 'Hewlett-Packard', 'Seagate')
+
+9.Devuelve un listado con el nombre y el precio de todos los productos de los fabricantes cuyonombre termine por la vocal e.
+	SELECT p.nombre as 'nombre de producto', p.precio, f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	WHERE f.nombre LIKE '%e'
+
+10.Devuelve un listado con el nombre y el precio de todos los productos cuyo nombre de fabricante contenga el carácter w en su nombre.
+	SELECT p.nombre as 'nombre de producto', p.precio, f.nombre as 'nombre del fabricante'
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante = f.codigo
+    	WHERE f.nombre LIKE '%w%'
+
+
+Consultas resumen
+1.Calcula el número total de productos que hay en la tabla productos.
+	SELECT count(*)
+	FROM tienda.producto p 
+
+2.Calcula el número total de fabricantes que hay en la tabla fabricante.
+	SELECT count(*)
+	FROM tienda.fabricante f 
+
+.Calcula la media del precio de todos los productos.
+	SELECT avg(precio), min(precio), max(precio)
+	FROM tienda.producto p 
+
+4.Calcula el precio más barato de todos los productos.
+
+5.Calcula el precio más caro de todos los productos.
+
+6.Lista el nombre y el precio del producto más barato.
+	SELECT p.nombre, p.precio
+	FROM tienda.producto p 
+    	WHERE p.precio = (SELECT min(precio) FROM tienda.producto)
+
+7.Lista el nombre y el precio del producto más caro.
+	SELECT p.nombre, p.precio
+	FROM tienda.producto p 
+    	WHERE p.precio = (SELECT MAX(precio) FROM tienda.producto)
+
+8.Calcula la suma de los precios de todos los productos.
+	SELECT sum(precio)
+	FROM tienda.producto p 
+
+9.Calcula el número de productos que tiene el fabricante Asus.
+	SELECT count(*)
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+    	WHERE f.nombre='Asus'
+
+10.Calcula la media del precio de todos los productos del fabricante Asus.
+	SELECT avg(precio), min(precio), max(precio), sum(precio)
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+    	WHERE f.nombre='Asus'
+
+11.Calcula el precio más barato de todos los productos del fabricante Asus.
+
+12.Calcula el precio más caro de todos los productos del fabricante Asus.
+
+13.Calcula la suma de todos los productos del fabricante Asus.
+
+
+14.Muestra el precio máximo, precio mínimo, precio medio y el número total de productos que tiene el fabricante Crucial.
+	SELECT avg(precio), min(precio), max(precio), count(*)
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+    	WHERE f.nombre='Crucial'
+
+15.Muestra el número total de productos que tiene cada uno de los fabricantes. El listado también debe incluir los fabricantes que no tienen ningún producto. El resultado mostrará dos columnas, una con el nombre del fabricante y otra con el número de productos que tiene.Ordene el resultado descendentemente por el número de productos.
+	SELECT f.nombre, sum(if(p.codigo is null,0,1)) AS total
+ 	FROM tienda.producto p 
+    	RIGHT JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+    	GROUP BY f.nombre
+    	ORDER BY total DESC
+
+16.Muestra el precio máximo, precio mínimo y precio medio de los productos de cada uno de los fabricantes. El resultado mostrará el nombre del fabricante junto con los datos que se solicitan.
+	SELECT f.nombre, avg(precio), min(precio), max(precio), count(*)
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+    	GROUP BY f.nombre
+
+17.Muestra el precio máximo, precio mínimo, precio medio y el número total de productos de los fabricantes que tienen un precio medio superior a 200€. No es necesario mostrar el nombre del fabricante, con el código del fabricante es suficiente.
+	SELECT p.codigo_fabricante, avg(precio), min(precio), max(precio), count(*)
+	FROM tienda.producto p 
+    	GROUP BY p.codigo_fabricante
+    	HAVING avg(precio)>200
+
+18.Muestra el nombre de cada fabricante, junto con el precio máximo, precio mínimo, precio medio y el número total de productos de los fabricantes que tienen un precio medio superior a 200€. Es necesario mostrar el nombre del fabricante.
+	SELECT f.nombre, avg(precio), min(precio), max(precio), count(*)
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+    	GROUP BY f.nombre
+    	HAVING avg(precio)>200
+
+19.Calcula el número de productos que tienen un precio mayor o igual a 180€.
+	SELECT count(*) FROM tienda.producto WHERE precio >= 180
+
+20.Calcula el número de productos que tiene cada fabricante con un precio mayor o igual a 180€.
+	SELECT f.nombre, count(*)
+	FROM tienda.producto p 
+    	JOIN tienda.fabricante f ON p.codigo_fabricante=f.codigo
+        WHERE p.precio >=180
+    	GROUP BY f.nombre
+    	
+
+Subconsultas (En la cláusula WHERE)Con operadores básicos de comparación
+
+1.Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER JOIN).
+	SELECT * 
+ 	FROM tienda.producto p 
+    	WHERE p.codigo_fabricante = 
+		(select codigo from tienda.fabricante where nombre = 'Lenovo')
+
+2.Devuelve todos los datos de los productos que tienen el mismo precio que el producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
+	SELECT * 
+ 	FROM tienda.producto
+    	WHERE precio = 
+		(select max(p.precio) 
+		from tienda.fabricante f join producto p  on f.codigo=p.codigo_fabricante
+		where f.nombre = 'Lenovo')
+
+3.Lista el nombre del producto más caro del fabricante Lenovo.
+	SELECT nombre
+ 	FROM tienda.producto
+    	WHERE codigo_fabricante=
+			(select codigo from tienda.fabricante where nombre='Lenovo')
+        AND precio = 
+			(select max(p.precio) 
+			from tienda.fabricante f join producto p  on f.codigo=p.codigo_fabricante
+			where f.nombre = 'Lenovo')
+            
+
+4.Lista el nombre del producto más barato del fabricante Hewlett-Packard.
+	SELECT nombre
+ 	FROM tienda.producto
+    	WHERE codigo_fabricante=
+			(select codigo from tienda.fabricante where nombre='Hewlett-Packard')
+        AND precio = 
+			(select min(p.precio) 
+			from tienda.fabricante f join producto p  on f.codigo=p.codigo_fabricante
+			where f.nombre = 'Hewlett-Packard')
+
+5.Devuelve todos los productos de la base de datos que tienen un precio mayor o igual al producto más caro del fabricante Lenovo
+	SELECT * 
+ 	FROM tienda.producto
+    	WHERE precio >= 
+		(select max(p.precio) 
+		from tienda.fabricante f join producto p  on f.codigo=p.codigo_fabricante
+		where f.nombre = 'Lenovo')
+
+6.Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos
+	SELECT *
+ 	FROM tienda.producto
+    	WHERE codigo_fabricante=
+			(select codigo from tienda.fabricante where nombre='Asus')
+        AND precio >
+			(select avg(p.precio) 
+			from tienda.fabricante f join producto p  on f.codigo=p.codigo_fabricante
+			where f.nombre = 'Asus')

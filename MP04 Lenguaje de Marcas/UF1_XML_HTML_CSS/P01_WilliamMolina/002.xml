@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojocs SYSTEM "002.dtd">
+<!-- Exercici 2
+     Emplena aquest XML per tal que:
+
+    - Tingui una llista de 4 videojocs
+    - Cada videojoc ha de tenir informació de
+        * Identificador únic
+        * Nom
+        * Edat
+        * Any de publicació
+        * És online?
+        * Productora
+        * Consola
+    - Genera el 002.dtd que el valida
+-->
+<videojocs>
+    <videojoc id="vj_058" edat= "18" online ="si">
+        <nom>Call of Duty Black Ops 2</nom>
+        <publicacio>2012</publicacio>
+        <productora>Treyarch</productora>
+        <consola>Play</consola>
+        <consola>Xbox</consola>
+        <consola>Pc</consola>
+
+    </videojoc>
+
+    <videojoc id="vj_033" edat= "+6" online ="no">
+        <nom>Planta Simulator</nom>
+        <publicacio>2002</publicacio>
+        <productora>Green Peace</productora>
+        <consola>Xbox</consola>
+    </videojoc>
+
+    <videojoc id="vj_139" edat= "+18" online ="no"> 
+        <nom>Parciales Isolation</nom>
+        <publicacio>2022</publicacio>
+        <productora>True terror</productora>
+        <consola>Pc</consola>
+        <consola>Xbox</consola>
+    </videojoc>
+
+    <videojoc id="vj_053" edat= "+12" online ="si">
+        <nom>Stardust</nom>
+        <publicacio>2017</publicacio>
+        <productora>vr sistem</productora>
+        <consola>pc</consola>
+        <consola>Play</consola>
+    </videojoc>
+    
+
+</videojocs>

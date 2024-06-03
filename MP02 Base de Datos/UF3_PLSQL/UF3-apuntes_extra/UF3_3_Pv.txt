@@ -1,0 +1,196 @@
+-- EXERCICI 3
+
+-- PAQUET
+
+CREATE OR REPLACE PACKAGE pkg_comanda_Parraga_Valeria as
+function repetir_comandes_pkg(p_periode varchar2, --'mm-yyyy'p_salesman_id employees.employee_id%type) return number;
+end pkg_comanda_Parraga_Valeria;
+
+create or replace package body pkg_comanda_Parraga_Valeria as
+
+-- FUNCIO PUBLICA
+function repetir_comandes_pkg
+    ( p_periode varchar2, --'mm-yyyy'
+      p_salesman_id employees.employee_id%type)
+RETURN number IS
+    v_ok boolean;
+    v_num number;
+    v_emp employees%rowtype;
+    v_salesman_ok boolean;
+BEGIN
+    --El període ha de ser vàlid
+    v_ok:=validar_periode (p_periode);
+    -- si no es OK vol dir que es tracta d'un periode incorrecte
+    IF not v_ok THEN return -2; END IF;
+
+    --El venedor ha de ser un treballador i ha de tenir el càrrec ‘Sales Representative’,    
+    v_num:=validar_venedor(p_salesman_id);
+    -- si no es OK vol dir que no es treballador
+    IF v_num=-1 THEN return -1; END IF;
+    -- si v_salesman no es OK vol dir que no te la categoria ‘Sales Representative’
+    IF v_num=-11 THEN 
+        return -11; 
+    else
+        declare
+            v_nom_venedor varchar2(300);
+        begin
+            select substr(last_name||', '||first_name, 1, 300) into v_nom_venedor 
+            from employees where employee_id=p_salesman_id;
+            dbms_output.put_line('Comandes del venedor: '||v_nom_venedor);
+        exception
+            when others then 
+                dbms_output.put_line(sqlerrm);
+                dbms_output.put_line('Comandes del venedor: '||p_salesman_id);
+        end;
+        
+    END IF;
+
+    --El venedor ha d’haver fet vendes en el període indicat, si no n’ha fet RETURN 0
+    v_num:=validar_vendes(p_periode,p_salesman_id);
+    if v_num=0 then return 0; END IF;
+
+    -- hi ha vendes en el periode indicat ara cridarem a la funció repetir.
+    declare
+    cursor c_order  is (select * from orders
+                      where salesman_id=p_salesman_id 
+                         and order_date between to_date('01'||p_periode,'dd-mm-yyyy') 
+                         and last_day(to_date(p_periode,'mm-yyyy')));
+    repetir_comanda_error exception;
+    begin
+        v_num:=0;
+        for v_order in c_order loop
+            if v_order.status = 'Shipped' then
+                declare
+                    v_client_name customers.name%type;
+                begin
+                    select name into v_client_name
+                    from customers where customer_id=v_order.customer_id;
+                    dbms_output.put_line('Comanda a repetir   : '||to_char(v_order.order_id,9999)||
+                                    ' de data '||to_char(v_order.order_date,'dd-mm-yyyy')||
+                                    ' del client: '||v_client_name);
+                    v_num:=v_num+1;
+                exception
+                    when no_data_found then 
+                    dbms_output.put_line('Comanda a repetir   : '||to_char(v_order.order_id,9999)||
+                                    ' de data '||to_char(v_order.order_date,'dd-mm-yyyy')||
+                                    ' sense client ');
+                    when others then 
+                    dbms_output.put_line('Comanda a repetir   : '||to_char(v_order.order_id,9999)||
+                                    ' de data '||to_char(v_order.order_date,'dd-mm-yyyy')||
+                                    ' client error '||sqlcode);
+
+                end;
+            end if;
+        end loop;
+        commit;
+        return v_num;
+    exception
+        when others then 
+            rollback;
+            return null;
+    end;
+
+END repetir_comandes_pkg;
+
+-- FUNCIONS PRIVADES
+
+function validar_periode ( p_periode varchar2)
+RETURN boolean IS
+    v_ok boolean;
+    v_num number;
+BEGIN
+    --El període ha de ser vàlid
+    v_ok:=TRUE;
+    begin
+        if p_periode is null then v_ok:=FALSE;
+        else 
+            -- comprovar mes
+            v_num:=to_number(substr(p_periode,1,2),'99');
+            if v_num<1 or v_num>12 then v_ok:=FALSE;  END IF;
+            -- comprovar separador
+            if substr(p_periode,3,4)='-' then v_ok:=FALSE;  END IF;
+            -- comprovar any
+            v_num:=to_number(substr(p_periode,4,8),'9999');
+            if v_num<2000 or v_num>2022 then v_ok:=FALSE;   END IF;
+        end if;
+    exception
+        when value_error then v_ok:=FALSE;
+        when others then 
+            v_ok:=FALSE; 
+            DBMS_OUTPUT.PUT_LINE('ERROR = ' || sqlerrm);
+    end;
+
+function validar_vendes
+    ( p_periode varchar2, 
+      p_salesman_id employees.employee_id%type)
+RETURN number IS
+    v_num number;
+BEGIN
+    select count(*) into v_num 
+    from orders
+    where salesman_id=p_salesman_id 
+      and order_date between to_date('01'||p_periode,'dd-mm-yyyy') 
+                         and last_day(to_date(p_periode,'mm-yyyy'));
+    if v_num=0 then return 0;
+    else return v_num;
+    end if;
+end validar_vendes;
+
+function validar_venedor 
+    ( p_salesman_id employees.employee_id%type)
+RETURN number IS
+    v_ok boolean;
+    v_emp employees%rowtype;
+    v_salesman_ok boolean;
+BEGIN
+    --El venedor ha de ser un treballador i ha de tenir el càrrec ‘Sales Representative’,    
+    v_ok:=TRUE;
+    v_salesman_ok:=TRUE;
+    begin
+        select * into v_emp
+        from employees where employee_id=p_salesman_id;   
+        if v_emp.job_title <> 'Sales Representative' then v_salesman_ok:=FALSE; END IF;
+    exception
+        when no_data_found then v_ok:=FALSE;
+    end;
+    -- si no es OK vol dir que no es treballador
+    IF not v_ok THEN return -1; END IF;
+    -- si v_salesman no es OK vol dir que no te la categoria ‘Sales Representative’
+    IF not v_salesman_ok THEN return -11; END IF;
+    return 0;
+end validar_venedor; 
+    return v_ok;
+end  validar_periode;
+
+END pkg_comanda_Parraga_Valeria;
+
+-- SCRIPT
+
+DECLARE
+    resultado NUMBER;
+    salesman NUMBER;
+BEGIN
+    --Salesman i data valida
+    salesman := 60;
+    resultado := pkg_comanda_Parraga_Valeria.REPETIR_COMANDES_PKG('01-2017', salesman);
+    DBMS_OUTPUT.PUT_LINE('Numero de comandas de sales man con ID '||salesman||' es: '||resultado);
+
+    --Data no valida
+    resultado := pkg_comanda_Parraga_Valeria.REPETIR_COMANDES_PKG('01-1999', salesman);
+    DBMS_OUTPUT.PUT_LINE('Numero de comandas de sales man con ID '||salesman||' es: '||resultado);
+
+    --Venedor no es treballador
+    salesman := 7777;
+    resultado := pkg_comanda_Parraga_Valeria.REPETIR_COMANDES_PKG('01-2017', salesman);
+    DBMS_OUTPUT.PUT_LINE('Numero de comandas de sales man con ID '||salesman||' es: '||resultado);
+
+    --Venedor no es 'Sales Representative'
+    salesman := 45;
+    resultado := pkg_comanda_Parraga_Valeria.REPETIR_COMANDES_PKG('01-2017', salesman);
+    DBMS_OUTPUT.PUT_LINE('Numero de comandas de sales man con ID '||salesman||' es: '||resultado);
+
+    --Venedor sense vendes en el periode indicat
+    salesman := 57;
+    resultado := pkg_comanda_Parraga_Valeria.REPETIR_COMANDES_PKG('12-2022', salesman);
+    DBMS_OUTPUT.PUT_LINE('Numero de comandas de sales man con ID '||salesman||' es: '||resultado);
+END;

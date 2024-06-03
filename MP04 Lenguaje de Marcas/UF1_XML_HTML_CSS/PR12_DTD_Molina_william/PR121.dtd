@@ -1,0 +1,7 @@
+<!ELEMENT breakfast_menu (food)+>
+<!ELEMENT food (name, price, description, calories)>
+<!ATTLIST food id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>

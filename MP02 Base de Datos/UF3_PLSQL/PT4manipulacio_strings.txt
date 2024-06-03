@@ -1,0 +1,31 @@
+set SERVEROUTPUT on
+DECLARE
+    list_customer varchar2(50):='10,20,conill,30';
+    customer_id varchar2(50);
+	str_aux varchar2(51):=list_customer;
+    conversion_error boolean:=false;
+begin
+	--comprovar que la llista no està buida
+    if length(str_aux)>0 then
+		--afegir una coma al final de la llista si no hi és
+    	if substr(str_aux,length(str_aux),1)=',' then null;
+    	else str_aux:=concat(str_aux,','); end if;
+		-- recorre la llista bucant els elements abans de cada coma
+        -- també comprovem que els elements de la llista són números
+		while length(str_aux)>0 and not conversion_error loop
+    		--DBMS_OUTPUT.PUT_LINE('str_aux ' || str_aux);
+			--obtenir el primer element de la llista abans de la posició de la coma
+            BEGIN
+                customer_id:=to_number(substr(str_aux,1,instr(str_aux,',',1,1)-1));
+			    DBMS_OUTPUT.PUT_LINE('item: ' || customer_id);
+            EXCEPTION
+                when value_error then conversion_error:=true;
+            end;
+			--retallar la llista eliminant el primer element
+			--s'agaf el que queda a partir de la posició de la coma+1
+			str_aux:=substr(str_aux,instr(str_aux,',',1,1)+1);
+		end loop;
+	else
+    	DBMS_OUTPUT.PUT_LINE('llista buida');
+	end if;        
+end;

@@ -1,0 +1,6 @@
+<!ELEMENT peliculas (item+)>
+<!ELEMENT item (titulo,fecha,sinopsis)>
+<!ATTLIST item id ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>

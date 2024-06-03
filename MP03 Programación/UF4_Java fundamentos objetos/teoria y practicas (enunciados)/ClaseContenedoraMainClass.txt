@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class MainClass {
+
+    public static void main(String[] args) {
+        
+        Cajero juan = new Cajero("juan", "Berlin", "Caracas", 25);
+//        System.out.println(juan.ciudadOrigen());
+//        System.out.println(juan.salarioDiario());
+        Limpieza amaya = new Limpieza("Amaya", "Salszburgo", "La Mina") ;
+        Mostrador encarna = new Mostrador("Encarna", "Bolonia", "Acapulco", 24000);
+        
+        Cajero rodrigo = new Cajero("Rodrigo", "Cornella", "Cornella", 35);
+//        System.out.println(juan.ciudadOrigen());
+//        System.out.println(juan.salarioDiario());
+        Limpieza ines = new Limpieza("Ines", "Cornella", "Cornella") ;
+        Mostrador anastasia = new Mostrador("Anastasia", "Cornella", "Cornella", 54000);
+        
+        ClaseContenedora nominas = new ClaseContenedora();
+        nominas.insertaEmpleado(new Cajero("juan", "Berlin", "Caracas", 25));
+        nominas.insertaEmpleado(new Limpieza("Amaya", "Salszburgo", "La Mina") );
+        nominas.insertaEmpleado(new Mostrador("Encarna", "Bolonia", "Acapulco", 24000));
+        nominas.insertaEmpleado(new Cajero("Rodrigo", "Cornella", "Cornella", 35));
+        nominas.insertaEmpleado(new Limpieza("Ines", "Cornella", "Cornella"));
+        nominas.insertaEmpleado(new Mostrador("Anastasia", "Cornella", "Cornella", 54000));
+        
+        nominas.mostrarNombres();
+        System.out.println("*********");
+//        nominas.eliminarLinpieza();
+//        nominas.mostrarNombres();
+        System.out.println(nominas.cuantosCornella());
+        nominas.cuantosCornella();
+        System.out.println(nominas.costeNomina());
+        System.out.println(nominas.sueldoPromedio());
+        System.out.println(nominas.cantidadCajeros());
+        
+        
+        
+
+    }
+
+}

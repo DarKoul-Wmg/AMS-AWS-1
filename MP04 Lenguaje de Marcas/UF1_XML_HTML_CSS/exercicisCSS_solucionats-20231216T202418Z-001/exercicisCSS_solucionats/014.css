@@ -1,0 +1,12 @@
+.filtreGris {
+    backdrop-filter: grayscale(80%);
+}
+.filtreSepia {
+    backdrop-filter: sepia(80%);
+}
+.filtreVibrant {
+    backdrop-filter: saturate(200%);
+}
+.filtreDifuminat {
+    backdrop-filter: blur(5px);
+}

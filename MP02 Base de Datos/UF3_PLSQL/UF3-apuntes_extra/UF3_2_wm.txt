@@ -1,0 +1,101 @@
+SET SERVEROUTPUT ON;
+
+-- EXERCICI 2
+
+-- FUNCIÓ HR
+
+create or replace function foraJob_wm(v_job_title jobs.job_title%TYPE, v_num NUMBER)
+    return Number
+IS
+
+v_count number := 0;
+v_count_job number := 0;
+no_existeix exception;
+
+cursor c_cursor is 
+    select e.first_name, e.last_name, e.hire_date, e.salary
+    FROM employees e
+    JOIN jobs j ON e.job_id = j.job_id
+    WHERE j.job_title = v_job_title
+    ORDER BY e.salary DESC;
+
+v_row c_cursor%rowtype;
+
+BEGIN
+
+    IF v_job_title IS NULL THEN
+        raise no_data_found;
+    END IF;
+    
+    IF v_num IS NULL THEN 
+        raise no_data_found;
+    END IF;
+    
+    SELECT count(*) INTO v_count_job FROM jobs where job_title = v_job_title;
+
+    IF v_count_job = 0 then
+        raise no_existeix;
+    END IF;
+    	
+    OPEN c_cursor;    
+    LOOP
+        FETCH c_cursor INTO v_row;
+        EXIT WHEN c_cursor%NOTFOUND OR v_count >= v_num;
+ 
+        DBMS_OUTPUT.PUT_LINE(RPAD(v_row.first_name, 10) || RPAD(v_row.last_name, 10) || 
+                            TO_CHAR(v_row.hire_date, 'DD-MM-YYYY') || '   $' ||RPAD(v_row.salary, 10));
+    
+        v_count := v_count + 1;
+    END LOOP;
+    CLOSE c_cursor;
+
+    RETURN v_count;
+    
+EXCEPTION
+    WHEN no_data_found then
+        RETURN -1;
+    WHEN no_existeix then
+        RETURN -2;
+END foraJob_wm;
+
+/  
+-- SCRIPT
+
+
+DECLARE
+res number;
+BEGIN 
+    res := foraJob_wm(null, 5);
+    IF res = -1 THEN
+        DBMS_OUTPUT.PUT_LINE('Dades no trovades: error ' || res);
+    ELSE
+        IF res = -2 THEN
+            DBMS_OUTPUT.PUT_LINE('La categoria no existeix: '|| res);
+        ELSE
+            DBMS_OUTPUT.PUT_LINE(res);
+        END IF;
+    END IF;
+
+    res := foraJob_wm('Pollastre', 5);
+   IF res = -1 THEN
+        DBMS_OUTPUT.PUT_LINE('Dades no trovades: error ' || res);
+    ELSE
+        IF res = -2 THEN
+            DBMS_OUTPUT.PUT_LINE('La categoria no existeix: '|| res);
+        ELSE
+            DBMS_OUTPUT.PUT_LINE(res);
+        END IF;
+    END IF;
+
+
+    res := foraJob_wm('Purchasing Clerk', 3);
+    IF res = -1 THEN
+        DBMS_OUTPUT.PUT_LINE('Dades no trovades: error ' || res);
+    ELSE
+        IF res = -2 THEN
+            DBMS_OUTPUT.PUT_LINE('La categoria no existeix: '|| res);
+        ELSE
+            DBMS_OUTPUT.PUT_LINE(res);
+        END IF;
+    END IF;
+END;

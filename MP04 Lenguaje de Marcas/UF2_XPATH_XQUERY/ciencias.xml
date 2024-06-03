@@ -1,0 +1,2342 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:media="http://search.yahoo.com/mrss/">
+    <id>http://www.bbc.co.uk/mundo/temas/ciencia/index.xml</id>
+    <title xml:lang="es">BBCMundo.com | Ciencia</title>
+    <updated>2014-09-23T13:54:05+00:00</updated>
+    <link rel="self" href="http://www.bbc.co.uk/mundo/temas/ciencia/index.xml"/>
+    <author>
+    <name>BBC Mundo</name>
+    <email>escribanos@bbc.co.uk</email>
+    <uri>http://www.bbcmundo.com</uri>
+    </author>
+    <generator>http://www.bbcmundo.com</generator>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="ciencia" label="Ciencia"/>
+    <category xml:lang="es" term="topics" label="Temas"/>
+    <logo>http://www.bbc.co.uk/mundo/images/gel/rss_logo.gif</logo>
+    <rights xml:lang="es">Derechos Reservados de la British Broadcasting Corporation (Corporación Británica de Radiodifusión) 2014</rights>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-22:34871312</id>
+    <dc:identifier>34871312</dc:identifier>
+    <updated>2014-09-23T13:51:24+00:00</updated>
+    <published>2014-09-22T12:45:26+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">La fascinación por la misteriosa tumba de la era de Alejandro Magno</title>
+    <summary xml:lang="es">Los investigadores dicen que es el sepulcro más grande jamás hallado en Grecia. Aunque aún no se sabe quién es su misterioso ocupante, su hallazgo causa fascinación y grandes expectativas.</summary>
+    <dc:subject>Ciencia, Grecia, arqueología, tumba, Macedonia, Alejandro Magno, familia, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140922_ciencia_tumba_grecia_anfipolis_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922142311_tumba_griega_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922142311_tumba_griega_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922142311_tumba_griega_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Entrada de la tumba de Anfípolis" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922142311_tumba_griega_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-23:34889398</id>
+    <dc:identifier>34889398</dc:identifier>
+    <updated>2014-09-23T09:56:23+00:00</updated>
+    <published>2014-09-23T09:47:01+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Líderes de 125 países se reúnen para debatir sobre cambio climático</title>
+    <summary xml:lang="es">Este martes tiene lugar en la sede de Naciones Unidas en Nueva York la cumbre sobre cambio climático que busca generar respaldos para la firma de un acuerdo global el año que viene.</summary>
+    <dc:subject>Economía, Internacional, Cambio Climático, ONU, protestas, Ciencia, Naciones Unidas, marchas, rockefeller, rockefeller fund</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140923_ultnot_cumbre_onu_cambio_climatico_nc.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/23/140923095307_ban_ki_moon_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/23/140923095307_ban_ki_moon_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/23/140923095307_ban_ki_moon_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Ban Ki-moon" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/23/140923095307_ban_ki_moon_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-03:34455875</id>
+    <dc:identifier>34455875</dc:identifier>
+    <updated>2014-09-23T04:39:47+00:00</updated>
+    <published>2014-09-03T15:12:55+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Cómo se forman las ideas</title>
+    <summary xml:lang="es">El fascinante cerebro humano aún guarda un secreto que los científicos recién comienzan a vislumbrar: el código neural, o más bien, la partitura de la misteriosa música que hacer bailar a las neuronas. </summary>
+    <dc:subject>Ciencia, cerebro, lenguaje, ideas, neuronas, comunicación, neurología</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140903_vert_fut_ciencia_pensamiento_lenguaje_neuronas_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/03/140903154049_neuronas_neurona_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/03/140903154049_neuronas_neurona_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/03/140903154049_neuronas_neurona_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Neuronas" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/03/140903154049_neuronas_neurona_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-22:34880028</id>
+    <dc:identifier>34880028</dc:identifier>
+    <updated>2014-09-22T18:56:11+00:00</updated>
+    <published>2014-09-22T18:42:09+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Ecuador: cuerpo disecado de "Solitario Jorge" no será llevado a Galápagos</title>
+    <summary xml:lang="es">El ministerio del Ambiente de Ecuador afirmó que no están dadas las condiciones para llevar el cuerpo embalsamado de la tortuga gigante que fue considerada el símbolo de las islas Galápagos durante 40 años. </summary>
+    <dc:subject>Ciencia, Tortuga, Solitario, Jorge, Ecuador</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140922_ultnot_solitario_jorge_galapagos_ecuador_amv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2012/06/25/120625004520_sp_solitario_jorge_144x81_reuters_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2012/06/25/120625004520_sp_solitario_jorge_144x81_reuters_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2012/06/25/120625004520_sp_solitario_jorge_144x81_reuters_nocredit.jpg" width="144" height="81">
+    <img alt="Jorge, el Solitario " width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2012/06/25/120625004520_sp_solitario_jorge_144x81_reuters_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-21:34848893</id>
+    <dc:identifier>34848893</dc:identifier>
+    <updated>2014-09-22T14:16:09+00:00</updated>
+    <published>2014-09-21T11:37:22+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Los consejos del Nobel mexicano que descubrió gases del agujero de ozono</title>
+    <summary xml:lang="es">El Nobel mexicano Mario Molina, quien identificó los gases que destruyen la capa de ozono y ayudó a resolver uno de los grandes desafíos del planeta, respondió a las preguntas de los lectores de BBC Mundo.</summary>
+    <dc:subject>Ciencia, Verde, medio ambiente, América Latina, Mario Molina, entrevista, Premio Nobel mexicano, México, capa de ozono, CFC, compuestos, gases, recuperación, atmósfera, cambio climático</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140921_ciencia_nobel_mario_molina_nobel_ozono_responde_lectores_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Mario Molina" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-22:34865934</id>
+    <dc:identifier>34865934</dc:identifier>
+    <updated>2014-09-22T10:06:16+00:00</updated>
+    <published>2014-09-22T09:58:10+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Panda de zoo de Edimburgo perdió un embarazo</title>
+    <summary xml:lang="es">Los expertos del zoo escocés creían que el embarazo llegaría a término, pero este lunes confirmaron que la hembra de panda gigante Tian Tian ya no está embarazada.</summary>
+    <dc:subject>Cultura, Escocia, panda, embarazo, zoológico, Edimburgo, tian tian, panda gigante, escocia, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140922_ultnot_zoo_edimburgo_panda_tian_tian_nc.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922100227_tian_tian_panda_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922100227_tian_tian_panda_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922100227_tian_tian_panda_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="Tian Tian (foto de archivo)" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922100227_tian_tian_panda_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-22:34864689</id>
+    <dc:identifier>34864689</dc:identifier>
+    <updated>2014-09-22T09:20:32+00:00</updated>
+    <published>2014-09-22T09:11:00+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Familia Rockefeller se desprenderá de inversiones en combustibles fósiles</title>
+    <summary xml:lang="es">El Rockefeller Fund anunciará este lunes que venderá todas sus inversiones en el sector de los combustibles fósiles y reinvertirá el dinero en energías limpias.</summary>
+    <dc:subject>Economía, Internacional, Cambio Climático, ONU, protestas, Ciencia, Naciones Unidas, marchas, rockefeller, rockefeller fund</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140922_ultnot_rockefeller_cambio_climatico_nc.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922091644_john_d_rockefeller_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922091644_john_d_rockefeller_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922091644_john_d_rockefeller_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="John D. Rockefeller" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922091644_john_d_rockefeller_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-22:34860672</id>
+    <dc:identifier>34860672</dc:identifier>
+    <updated>2014-09-22T05:23:50+00:00</updated>
+    <published>2014-09-22T04:47:28+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">La última aventura marciana de la NASA</title>
+    <summary xml:lang="es">La sonda Maven llegó a la órbita de Marte donde estudiará su atmósfera para tratar de responder a una pregunta: "¿por qué se quedó sin agua?".</summary>
+    <dc:subject>Ciencia, marte, maven, atmósfera, estudio, agua, vida, extraterrestre</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140922_ciencia_marte_maven_atmosfera_az.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922044333_sp_maven_144x81_nasa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/22/140922044333_sp_maven_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922044333_sp_maven_144x81_nasa_nocredit.jpg" width="144" height="81">
+    <img alt="Maven" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/22/140922044333_sp_maven_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/05/140502_tecnologia_traje_nasa_marte_rg.shtml">
+    <dc:title>El traje de la NASA para ir a Marte</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/05/02/140502102715_nasa_z2_144x81_nasa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/05/02/140502102715_nasa_z2_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/05/02/140502102715_nasa_z2_144x81_nasa_nocredit.jpg" width="144" height="81">
+    <img alt="Traje NASA Z-1" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/05/02/140502102715_nasa_z2_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2013/09/130510_ciencia_astronautas_marte_aa.shtml">
+    <dc:title>Los desafíos del viajero marciano </dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/05/10/130510144649_marte_144x81_nasa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/05/10/130510144649_marte_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/05/10/130510144649_marte_144x81_nasa_nocredit.jpg" width="144" height="81">
+    <img alt="Marte" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/05/10/130510144649_marte_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-22:34859239</id>
+    <dc:identifier>34859239</dc:identifier>
+    <updated>2014-09-22T04:35:14+00:00</updated>
+    <published>2014-09-22T02:34:56+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Pesan todas las hormigas juntas más que toda la humanidad?</title>
+    <summary xml:lang="es">Un documental de la BBC se hizo eco de lo que aseguran algunos científicos: todas las hormigas juntas pesan más que todos los humanos juntos. ¿Será cierto?</summary>
+    <dc:subject>Ciencia, hormigas, insectos, humanos</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140922_hormigas_peso_humanos_az.shtml">
+    ...
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-21:34857358</id>
+    <dc:identifier>34857358</dc:identifier>
+    <updated>2014-09-21T22:36:03+00:00</updated>
+    <published>2014-09-21T21:51:19+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Nave espacial de la NASA se acerca a la órbita de Marte</title>
+    <summary xml:lang="es">La sonda Evolución Atmosférica y Volátil de Marte (MAVEN) lleva recorridos más de 700 millones de kilómetros. Su misión es estudiar cómo perdió su agua el planeta rojo.</summary>
+    <dc:subject>Ciencia, Marte, Maven, nave espacial, nasa, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140921_ultnot_ciencia_marte_maven_az.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/21/140921215408_sp_maven_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/21/140921215408_sp_maven_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/21/140921215408_sp_maven_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/21/140921215408_sp_maven_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-16:34736220</id>
+    <dc:identifier>34736220</dc:identifier>
+    <updated>2014-09-21T13:05:15+00:00</updated>
+    <published>2014-09-16T12:12:02+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Es realmente posible la vida en un arca?</title>
+    <summary xml:lang="es">Según cuenta la Biblia, antes del diluvio universal, Dios se aseguró de que hubiera un arca para salvar la vida que había creado. A menor escala, con el tsunami en Japón, una barquita desempeñó un rol similar. </summary>
+    <dc:subject>Ciencia, tsunami, arca, Noé, microsistema</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140916_vida_arca_finde_dv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917115021_arca_promos_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917115021_arca_promos_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917115021_arca_promos_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Arca de Noé" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917115021_arca_promos_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-21:34848438</id>
+    <dc:identifier>34848438</dc:identifier>
+    <updated>2014-09-21T11:21:16+00:00</updated>
+    <published>2014-09-21T11:21:16+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Miles de personas participan en jornada mundial de protestas por cambio climático</title>
+    <summary xml:lang="es">Desde Australia y Londres hasta Río de Janeiro y Nueva York, miles de personas, incluidas estrellas del cine y la música, exigieron que se tomen acciones urgentes sobre el cambio climático.</summary>
+    <dc:subject>Internacional, Cambio Climático, ONU, protestas, Ciencia, Naciones Unidas, marchas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140921_ultnot_marchas_cambio_climatico_hr.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/21/140921193510_climate_change_march_ny_dicaprio_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/21/140921193510_climate_change_march_ny_dicaprio_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/21/140921193510_climate_change_march_ny_dicaprio_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Leonardo DiCaprio en la marcha de Nueva York" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/21/140921193510_climate_change_march_ny_dicaprio_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-17:34771426</id>
+    <dc:identifier>34771426</dc:identifier>
+    <updated>2014-09-20T10:17:45+00:00</updated>
+    <published>2014-09-17T17:26:44+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">¿Por qué somos tan buenos para percibir la tensión entre dos personas?</title>
+    <summary xml:lang="es">¿Por qué se nos calientan las orejas? ¿Podríamos modificar avispas genéticamente para que actúen como abejas? ¿Cuándo puede considerarse que los robots son conscientes? Respuestas para curiosos de la revista BBC Focus.</summary>
+    <dc:subject>ciencia, respuestas, curiosos, preguntas, tensión, emociones, avispas, robots, orejas rojas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140917_respuestas_curiosos_20sep_finde_yv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918110845_focus_emociones_negativas_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918110845_focus_emociones_negativas_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918110845_focus_emociones_negativas_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Dos amigas enemistadas" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918110845_focus_emociones_negativas_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-20:34825986</id>
+    <dc:identifier>34825986</dc:identifier>
+    <updated>2014-09-20T02:52:46+00:00</updated>
+    <published>2014-09-20T00:05:30+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Plutonio: el peligroso elemento que salvó a la tripulación del Apolo 13</title>
+    <summary xml:lang="es">Ese elemento siempre ha sido ligado a la bomba atómica, y en efecto, fue el responsable de generar las más horribles pesadillas en torno a una conflagración nuclear. Sin embargo, tiene aplicaciones que muy pocos conocen.</summary>
+    <dc:subject>Ciencia, Apolo 13, plutonio, misión salvación</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140919_apolo_13_plutonio_ao.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/19/140919235519_sp_apolo_plutonio_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/19/140919235519_sp_apolo_plutonio_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/19/140919235519_sp_apolo_plutonio_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="apolo, plutonio" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/19/140919235519_sp_apolo_plutonio_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-12:34667792</id>
+    <dc:identifier>34667792</dc:identifier>
+    <updated>2014-09-20T02:46:17+00:00</updated>
+    <published>2014-09-12T22:10:09+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Loma Miranda: el controvertido veto que dejó en shock a los dominicanos</title>
+    <summary xml:lang="es">Un movimiento liderado por un sacerdote pretende frenar el proyecto minero de Loma Miranda, en República Dominicana. El presidente Medina dio mediante un veto luz verde a la iniciativa. ¿Le pasará factura? </summary>
+    <dc:subject>america latina, republica dominicana, ciencia, medio ambiente, loma miranda, parque nacional, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140912_alatina_rdominicana_loma_miranda_lav.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912235644_sp_loma_miranda_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912235644_sp_loma_miranda_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912235644_sp_loma_miranda_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912235644_sp_loma_miranda_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/01/140114_ciencia_america_latina_lago_crece_republica_dominicana_lav.shtml">
+    <dc:title>"El agua se lo llevó todo": el misterio de los lagos crecientes del Caribe </dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/01/15/140115015012_sp_lago_azuei_144x81_thehispaniolalakesprojectcuny_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/01/15/140115015012_sp_lago_azuei_144x81_thehispaniolalakesprojectcuny_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/01/15/140115015012_sp_lago_azuei_144x81_thehispaniolalakesprojectcuny_nocredit.jpg" width="144" height="81">
+    <img alt="Lago Azuei, Haiti " width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/01/15/140115015012_sp_lago_azuei_144x81_thehispaniolalakesprojectcuny_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-19:34811108</id>
+    <dc:identifier>34811108</dc:identifier>
+    <updated>2014-09-19T20:54:20+00:00</updated>
+    <published>2014-09-19T11:05:50+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Los IgNobel premian a la resbaladiza cáscara de banano</title>
+    <summary xml:lang="es">¿Por qué resbalan las pieles de banana cuando las pisamos? El estudio que responde a esta crucial pregunta ha ganado el galardón principal de los premios más divertidos de la ciencia.</summary>
+    <dc:subject>Ciencia, premios IgNobel, burla, parodia, cascara de banana, piel, estudio, Anales de la Investigación Improbable</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140919_ciencia_ignobel_piel_banano_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/19/140919112953_ignobel_banano_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/19/140919112953_ignobel_banano_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/19/140919112953_ignobel_banano_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Cáscara de banana" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/19/140919112953_ignobel_banano_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-18:34793853</id>
+    <dc:identifier>34793853</dc:identifier>
+    <updated>2014-09-19T12:24:57+00:00</updated>
+    <published>2014-09-18T16:39:23+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Las mejores imágenes de astronomía de 2014</title>
+    <summary xml:lang="es">Desde un eclipse en Kenia a una aurora esmeralda y almas perdidas en un paisaje cósmico. Vea las fotos ganadoras del concurso convocado por el Observatorio de Greenwich, en Londres.</summary>
+    <dc:subject>Fotos, Ciencia, astronomía, concurso, Greenwich, Observatorio</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140918_ciencia_galeria_astronomia_premios_am.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918130305_astro_2014_promo144.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918130305_astro_2014_promo144.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918130305_astro_2014_promo144.jpg" width="144" height="81">
+    <img alt="Aurora boreal" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918130305_astro_2014_promo144.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-18:34792822</id>
+    <dc:identifier>34792822</dc:identifier>
+    <updated>2014-09-18T17:55:43+00:00</updated>
+    <published>2014-09-18T16:00:22+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Quiénes son más inteligentes, los perros o los delfines?</title>
+    <summary xml:lang="es">Los delfines pueden "ver" a través de la arena y son considerados como los animales más inteligentes después de los humanos. Pero los perros, eternos amigos del hombre, sobresalen con otros talentos. ¿Es posible compararlos?</summary>
+    <dc:subject>Ciencia, animales, inteligencia, perros, delfines, humanos, cerebro, talentos, habilidades, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140918_ciencia_perros_delfines_mas_inteligentes_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918164545_perros_delfines_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918164545_perros_delfines_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918164545_perros_delfines_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Perro y delfín" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918164545_perros_delfines_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-18:34784062</id>
+    <dc:identifier>34784062</dc:identifier>
+    <updated>2014-09-18T13:21:24+00:00</updated>
+    <published>2014-09-18T10:53:21+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Un curioso invento para producir energía masticando chicle</title>
+    <summary xml:lang="es">¿Te imaginas poder recargar un pequeño dispositivo solo con masticar? Para eso hay que ajustarse una correa a la barbilla. Te contamos cómo funciona el prototipo que acaban de presentar ingenieros canadienses.</summary>
+    <dc:subject>Ciencia, tecnología, energía, electricidad, mandíbula, masticación, movimiento, energía renovable</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140918_ciencia_correa_energia_movimiento_mandibula_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918113057_correa_mandibula_chicle_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918113057_correa_mandibula_chicle_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918113057_correa_mandibula_chicle_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Chicle" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918113057_correa_mandibula_chicle_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-17:34774917</id>
+    <dc:identifier>34774917</dc:identifier>
+    <updated>2014-09-17T23:42:21+00:00</updated>
+    <published>2014-09-17T23:21:36+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Astrónomos descubren enorme agujero negro en pequeña galaxia </title>
+    <summary xml:lang="es">El agujero negro posee una masa de de 21 millones de soles -es cinco veces mayor que el del centro de la Vía Láctea- y fue descubierto en una galaxia enana conocida como M60-UCD1.</summary>
+    <dc:subject>Ciencia, astrónomos, enorme, agujero, negro, nature, M60-UCD1</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140917_ultnot_astronomos_agujero_negro_en.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917234031_sp_agujero_negro_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917234031_sp_agujero_negro_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917234031_sp_agujero_negro_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="Agujero negro hallado en la galaxia M60-UCD1" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917234031_sp_agujero_negro_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-17:34769008</id>
+    <dc:identifier>34769008</dc:identifier>
+    <updated>2014-09-17T21:23:51+00:00</updated>
+    <published>2014-09-17T15:55:13+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Vea cómo son las entrañas de un raro calamar gigante</title>
+    <summary xml:lang="es">Científicos de Nueva Zelanda descongelaron un camalar gigante atrapado el año pasado y tuvieron la rara oportunidad de examinarlo para conocer un poco más de estos misteriosos moluscos.</summary>
+    <dc:subject>Video, ciencia, calamar gigante, Nueva Zelanda, ESXL_BBC_Mundo, ESXL_BBC_Ciencia</dc:subject>
+    <link rel="alternate" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140917_video_ciencia_calamar_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917160705_calamar_gigante_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917160705_calamar_gigante_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917160705_calamar_gigante_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="Boca del calamar gigante" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917160705_calamar_gigante_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-17:34759604</id>
+    <dc:identifier>34759604</dc:identifier>
+    <updated>2014-09-17T14:22:34+00:00</updated>
+    <published>2014-09-17T11:46:50+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Las horrendas heridas que causaron la muerte a Ricardo III</title>
+    <summary xml:lang="es">Fue un ataque brutal: al menos 11 heridas de afiladas armas medievales marcaron el final del rey inglés Ricardo III, según el análisis forense que pudo recrear con escalofriantes detalles el momento de su muerte.</summary>
+    <dc:subject>Ciencia, análisis forense, Ricardo III, heridas, muerte, batalla, Universidad de Leicester, armas, espadas, Reino Unido</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140917_ciencia_muerte_heridas_ricardoiii_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918004339_sp_richard_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/18/140918004339_sp_richard_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918004339_sp_richard_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="Busto de Ricardo III" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/18/140918004339_sp_richard_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-17:34755757</id>
+    <dc:identifier>34755757</dc:identifier>
+    <updated>2014-09-17T13:58:38+00:00</updated>
+    <published>2014-09-17T09:38:29+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Así son los taxis espaciales del futuro seleccionados por la NASA</title>
+    <summary xml:lang="es">Para finales de 2017 serán naves de las compañías privadas Boeing y SpaceX las que lleven al espacio a los astronautas de la NASA, la agencia espacial estadounidense. </summary>
+    <dc:subject>tecnología, espacio, Nasa, Space X, Boeing, exploracion, espacial, Dragon, CST-100, Estación Espacial Internacional</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140917_tecnologia_nasa_taxis_espaciales_ig.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917115118_spacex_144x81_spacex_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917115118_spacex_144x81_spacex_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917115118_spacex_144x81_spacex_nocredit.jpg" width="144" height="81">
+    <img alt="Nave Dragon de SpaceX" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917115118_spacex_144x81_spacex_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-08:34560581</id>
+    <dc:identifier>34560581</dc:identifier>
+    <updated>2014-09-17T12:42:46+00:00</updated>
+    <published>2014-09-08T14:08:07+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Cómo cambiar tu postura puede cambiar tu destino en el trabajo</title>
+    <summary xml:lang="es">Algunos hablan de la pose de la "estrella de mar", otros de una "actitud de poder": nuestro cuerpo y nuestra mente están conectados bioquímicamente. Sólo controlar el lenguaje corporal puede producir grandes resultados.</summary>
+    <dc:subject/>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140908_vert_cap_como_hablar_en_publico_yv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908165342_pose_triunfadora_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908165342_pose_triunfadora_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908165342_pose_triunfadora_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Hombre con pose triunfadora" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908165342_pose_triunfadora_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-17:34749122</id>
+    <dc:identifier>34749122</dc:identifier>
+    <updated>2014-09-17T02:11:55+00:00</updated>
+    <published>2014-09-17T01:49:20+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Revelan detalles de la muerte del rey Ricardo III</title>
+    <summary xml:lang="es">Científicos realizaron exploraciones detalladas de los huesos del rey, que fueron hallados bajo un estacionamiento en la ciudad de Leicester en 2013, y comprobaron que el último de los Plantagenet murió luchando.</summary>
+    <dc:subject>Ciencia, Ricardo III</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140916_ultnot_ricardoiii_investigacion_.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917020525_sp_ricardoiii_144x81_reuters_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/17/140917020525_sp_ricardoiii_144x81_reuters_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917020525_sp_ricardoiii_144x81_reuters_nocredit.jpg" width="144" height="81">
+    <img alt="Ricardo III" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/17/140917020525_sp_ricardoiii_144x81_reuters_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-16:34746974</id>
+    <dc:identifier>34746974</dc:identifier>
+    <updated>2014-09-16T22:02:19+00:00</updated>
+    <published>2014-09-16T21:06:47+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">La NASA otorga contratos a Boeing y SpaceX para llevar astronautas al espacio</title>
+    <summary xml:lang="es">La noticia fue comunicada por el administrador de la NASA, Charles Bolden, quien explicó que se han impuesto el ambicioso objetivo de 2017 para llevar a cabo el primer lanzamiento desde territorio estadounidense desde 2011.</summary>
+    <dc:subject>Ciencia, NASA, contratos, Boeing, SpaceX, astronautas, espacio</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140916_ultnot_nasa_boeing_spacex_en.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916214131_sp_crew_space_transportation_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916214131_sp_crew_space_transportation_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916214131_sp_crew_space_transportation_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="cápsula espacial CST-100 de Boeing." width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916214131_sp_crew_space_transportation_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-16:34738203</id>
+    <dc:identifier>34738203</dc:identifier>
+    <updated>2014-09-16T20:41:15+00:00</updated>
+    <published>2014-09-16T13:30:33+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Vinculan el fracking con el aumento de sismos en Estados Unidos</title>
+    <summary xml:lang="es">La extracción de gas y petróleo con la técnica de fracturación hidráulica es responsable del aumento de la actividad sísmica en Colorado y Nuevo Mexico, según un informe del Servicio Geológico de Estados Unidos. </summary>
+    <dc:subject>Ciencia, Verde, fracking, energía, fracturación hidráulica, gas esquisto, agua residual, inyección hidráulica, sismos, terremotos, actividad, Colorado, Nuevo México, Estados Unidos, USGS</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140916_ciencia_fracking_mas_sismos_estados_unidos_evidencias_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916150315_fracking_well_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916150315_fracking_well_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916150315_fracking_well_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Pozo de extracción de petróleo por fracturación hidráulica" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916150315_fracking_well_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-16:34735523</id>
+    <dc:identifier>34735523</dc:identifier>
+    <updated>2014-09-16T14:04:45+00:00</updated>
+    <published>2014-09-16T11:48:23+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Informe advierte sobre falso dilema entre economía y ambiente</title>
+    <summary xml:lang="es">La Comisión Global sobre la Economía y el Clima, que dirige el expresidente mexicano Felipe Calderón, señaló que con la inversión y la innovación se puede impulsar la prosperidad sin afectar el clima. </summary>
+    <dc:subject>clima, economia, felipe calderon, cambio climatico</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140916_ultnot_clima_economia_calderon_egn.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916114201_felipe_calderon_clima_economia_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916114201_felipe_calderon_clima_economia_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916114201_felipe_calderon_clima_economia_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="Felipe Calderón" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916114201_felipe_calderon_clima_economia_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-16:34732611</id>
+    <dc:identifier>34732611</dc:identifier>
+    <updated>2014-09-16T12:26:54+00:00</updated>
+    <published>2014-09-16T10:17:07+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Los secretos del Caribe que buscan los científicos en los cuadernos de Hemingway</title>
+    <summary xml:lang="es">El legado de Ernest Hemingway no es sólo literario: un grupo de científicos cree que las notas del escritor, un amante de la naturaleza, pueden tener valiosa información sobre la fauna marina del Caribe. </summary>
+    <dc:subject>Ciencia, América Latina, Cuba</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140916_ciencia_cuba_hemingway_nietos_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916115142_hemingway_marlin_144x81_spl_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/16/140916115142_hemingway_marlin_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916115142_hemingway_marlin_144x81_spl_nocredit.jpg" width="144" height="81">
+    <img alt="Ernest Hemingway" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/16/140916115142_hemingway_marlin_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-15:34724387</id>
+    <dc:identifier>34724387</dc:identifier>
+    <updated>2014-09-15T23:35:44+00:00</updated>
+    <published>2014-09-15T23:14:38+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Critican a la NASA por fallas en la identificación de asteroides peligrosos</title>
+    <summary xml:lang="es">Hasta la fecha, la NASA solo ha descubierto el 10% del total estimado y es poco probable que se logre cumplir con la meta de finalizar en 2020, como estaba estipulado. </summary>
+    <dc:subject>Ciencia, NASA, programa, asteroide, críticas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140915_ultnot_nasa_criticas_asteroide_en.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-15:34722985</id>
+    <dc:identifier>34722985</dc:identifier>
+    <updated>2014-09-15T20:17:34+00:00</updated>
+    <published>2014-09-15T20:06:12+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Operan con éxito de un tumor cerebral a un pez dorado en Australia</title>
+    <summary xml:lang="es">El pez, de nombre George, fue anestesiado y sometido a una intervención quirúrgica de "alto riesgo" que duró 45 minutos en Melbourne, Australia.</summary>
+    <dc:subject>Ciencia, pez dorado, Australia, Melbourne, tumor cerebral</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140915_ultnot_operacion_pez_dorado_australia_bd.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915200805_sp_goerge_the_goldfish_144x81_lortsmithanimalhospital_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915200805_sp_goerge_the_goldfish_144x81_lortsmithanimalhospital_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915200805_sp_goerge_the_goldfish_144x81_lortsmithanimalhospital_nocredit.jpg" width="144" height="81">
+    <img alt="Pez dorado" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915200805_sp_goerge_the_goldfish_144x81_lortsmithanimalhospital_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-13:34668528</id>
+    <dc:identifier>34668528</dc:identifier>
+    <updated>2014-09-15T17:08:33+00:00</updated>
+    <published>2014-09-13T00:52:06+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Qué es la megasequía que amenaza al suroeste de EE.UU.?</title>
+    <summary xml:lang="es">California, Arizona, y Nuevo México padecen la peor sequía de la que se tiene registro. Los científicos aseguran que hay posibilidades de que el suroeste de EE.UU. sufra una "megasequía". BBC Mundo le cuenta qué es.</summary>
+    <dc:subject>Ciencia, EE.UU., California, sequía, agua, lluvia, megasequía, estudio</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140911_eeuu_ciencia_megasequia_california_jg.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/13/140913004426_sequia_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/13/140913004426_sequia_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/13/140913004426_sequia_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Sequía en California" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/13/140913004426_sequia_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-15:34709178</id>
+    <dc:identifier>34709178</dc:identifier>
+    <updated>2014-09-15T16:49:41+00:00</updated>
+    <published>2014-09-15T10:38:06+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Por qué Brasil construye una torre más alta que la Eiffel en medio del Amazonas?</title>
+    <summary xml:lang="es">En el corazón de la Amazonía, Brasil comenzó a alzar una estructura altísima. Te contamos para qué servirá este enorme armazón de acero, un vigía de la selva tropical. </summary>
+    <dc:subject>Ciencia, Verde, ATTO, Observatorio Torre Alta del Amazonas, Brasil, construcción, torre, observación, clima, cambio climático, selva</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140915_ciencia_observatorio_torre_alta_amazonas_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915110908_torre_amazonas_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915110908_torre_amazonas_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915110908_torre_amazonas_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="Selva amazónica" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915110908_torre_amazonas_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-15:34712232</id>
+    <dc:identifier>34712232</dc:identifier>
+    <updated>2014-09-15T16:08:59+00:00</updated>
+    <published>2014-09-15T12:21:35+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Pregúntale al premio Nobel Mario Molina sobre la capa de ozono</title>
+    <summary xml:lang="es">BBC Mundo hablará con el científico mexicano Mario Molina, quien descubrió hace 40 años los gases que destruyen la capa de ozono y colaboró así a su protección. ¿Qué te gustaría preguntarle?</summary>
+    <dc:subject>Ciencia, entrevista interactiva, Mario Molina, capa de ozono, recuperación</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140915_ciencia_entrevista_mario_molina_preguntas_lectores_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Mario Molina" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915134317_mario_molina_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-12:34657000</id>
+    <dc:identifier>34657000</dc:identifier>
+    <updated>2014-09-15T12:08:37+00:00</updated>
+    <published>2014-09-12T12:38:45+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Los últimos lugares de la Tierra donde no hay especies invasoras</title>
+    <summary xml:lang="es">Quedan muy pocas zonas en el planeta libres de especies "foráneas". Les contamos cuáles son y cómo se recuperan los ecosistemas de la invasión de ratas y otras plagas.</summary>
+    <dc:subject>Ciencia, Verde, Medio ambiente, especies invasoras, zonas vírgenes, erradicación, conservación, plagas, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140912_vert_fut_ciencia_ultimo_lugar_sin_especies_invasoras_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912141548_especies_invasoras_lamprea_144x81_sciencephotolibrary_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912141548_especies_invasoras_lamprea_144x81_sciencephotolibrary_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912141548_especies_invasoras_lamprea_144x81_sciencephotolibrary_nocredit.jpg" width="144" height="81">
+    <img alt="Desierto en Arabia Saudita" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912141548_especies_invasoras_lamprea_144x81_sciencephotolibrary_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-15:34707735</id>
+    <dc:identifier>34707735</dc:identifier>
+    <updated>2014-09-15T10:08:40+00:00</updated>
+    <published>2014-09-15T09:47:43+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Agencia Espacial Europea elige lugar de aterrizaje de la sonda Rosetta</title>
+    <summary xml:lang="es">El punto "J", en la "cabeza" del cometa 67P/Churyumov–Gerasimenko, es el lugar elegido por los científicos para intentar el aterrizaje, que tendría lugar el 11 de noviembre.</summary>
+    <dc:subject>Ciencia, sonda espacial Rosetta, cometa 67P/Churyumov–Gerasimenko</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140915_ultnot_rosetta_aterrizaje_yv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915100501_rosetta_aterrizaje_144x81_esarosettamps_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915100501_rosetta_aterrizaje_144x81_esarosettamps_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915100501_rosetta_aterrizaje_144x81_esarosettamps_nocredit.jpg" width="144" height="81">
+    <img alt="El lugar escogido para el aterrizaje de la sonda Rosetta" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915100501_rosetta_aterrizaje_144x81_esarosettamps_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-15:34702858</id>
+    <dc:identifier>34702858</dc:identifier>
+    <updated>2014-09-15T04:29:16+00:00</updated>
+    <published>2014-09-15T04:28:48+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">El esturión chino en peligro de extinción, según medios estatales</title>
+    <summary xml:lang="es">La agencia Xinhua informó que por primera vez desde que se lleva registro, no se han encontrado huevos en el río Yangtze y no se ha visto a las especies más jóvenes de estos peces nadar en dirección al mar. </summary>
+    <dc:subject>Ciencia, China, esturión chino, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140914_ultnot_china_esturion_pez_en.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915043129_sp_esturion_chino_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/15/140915043129_sp_esturion_chino_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915043129_sp_esturion_chino_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="Esturión chino" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/15/140915043129_sp_esturion_chino_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-14:34700180</id>
+    <dc:identifier>34700180</dc:identifier>
+    <updated>2014-09-15T00:44:35+00:00</updated>
+    <published>2014-09-14T21:28:32+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Brasil construye torre en el Amazonas para monitorear el clima</title>
+    <summary xml:lang="es">La Torre Atto tendrá 325 metros de altura y en ella habrá un observatorio que permitirá monitorear las condiciones climáticas así como recolectar información sobre los gases del efecto invernadero.</summary>
+    <dc:subject>América Latina, Brasil, Amazonas, Torre, Attos</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140914_ultnot_amazonas_torre_observatorio_clima_ng.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/10/22/131022110405_amazonas_2_144x81_spl_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/10/22/131022110405_amazonas_2_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/10/22/131022110405_amazonas_2_144x81_spl_nocredit.jpg" width="144" height="81">
+    <img alt="Amazonas" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/10/22/131022110405_amazonas_2_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34644253</id>
+    <dc:identifier>34644253</dc:identifier>
+    <updated>2014-09-14T11:00:07+00:00</updated>
+    <published>2014-09-11T21:14:13+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Por qué a los islandeses les fascinan las erupciones volcánicas</title>
+    <summary xml:lang="es">Una periodista nacida en Islandia relata su fascinación por las erupciones, en momentos en los que el país vive una intensa actividad geológica. Para ella, los volcanes tienen una dosis de majestuosidad. He aquí sus razones.</summary>
+    <dc:subject>Ciencia, Islandia, volcanes, sismos, lava, erupción, Vatnajökull</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140911_ciencia_islandia_volcanes_finde.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911194908_sp_bardarbunga_islandia_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911194908_sp_bardarbunga_islandia_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911194908_sp_bardarbunga_islandia_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Volcán Bardarbunga, Islandia" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911194908_sp_bardarbunga_islandia_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-13:34677764</id>
+    <dc:identifier>34677764</dc:identifier>
+    <updated>2014-09-13T14:32:32+00:00</updated>
+    <published>2014-09-13T14:32:32+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">El Botox "puede afectar" al desarrollo emocional de los jóvenes</title>
+    <summary xml:lang="es">Una nueva investigación apunta a que el uso del Botox por los jóvenes puede afectar su desarrollo emocional.</summary>
+    <dc:subject>Ciencia, botox, jóvenes, desarrollo, emociones, cirugía</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140913_ultnot_botox_peligroso_jovenes_fp.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/13/140913030122_botox_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/13/140913030122_botox_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/13/140913030122_botox_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Botox." width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/13/140913030122_botox_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-09:34593523</id>
+    <dc:identifier>34593523</dc:identifier>
+    <updated>2014-09-13T09:03:33+00:00</updated>
+    <published>2014-09-09T22:10:54+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">¿Cómo funciona la cirugía robótica?</title>
+    <summary xml:lang="es">¿Por qué se nos secan los ojos? ¿Qué animal percibe el sonido de frecuencia más alta? ¿Cómo es la órbita de un planeta que gira alrededor de dos soles? Respuestas para curiosos de la revista BBC Focus.</summary>
+    <dc:subject>ciencia, respuestas, curiosos, preguntas, mariposas, adicción, rayos, cataratas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140909_respuestas_curiosos_13sep_finde_yv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/10/140910164111_focus_robot_da_vinci_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/10/140910164111_focus_robot_da_vinci_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/10/140910164111_focus_robot_da_vinci_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Robot para cirugía " width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/10/140910164111_focus_robot_da_vinci_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34635321</id>
+    <dc:identifier>34635321</dc:identifier>
+    <updated>2014-09-13T08:52:23+00:00</updated>
+    <published>2014-09-11T14:15:06+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Las mujeres con una visión superhumana</title>
+    <summary xml:lang="es">Hay un grupo de personas que puede ver colores que el resto de los seres humanos no podemos percibir. Es irresistible preguntarles ¿qué ven?, y preguntarse ¿por qué lo ven? </summary>
+    <dc:subject>Salud, ciencia, visión, colores, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140911_vert_fut_mujeres_vision_superhumana_finde_dv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912120325_tetracromatas_promos__144x81_spl_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912120325_tetracromatas_promos__144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912120325_tetracromatas_promos__144x81_spl_nocredit.jpg" width="144" height="81">
+    <img alt="Ojo con colores" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912120325_tetracromatas_promos__144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-04:34483396</id>
+    <dc:identifier>34483396</dc:identifier>
+    <updated>2014-09-12T19:18:04+00:00</updated>
+    <published>2014-09-04T15:46:51+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Yo crecí en un zoológico</title>
+    <summary xml:lang="es">¿Te imaginas tener un león y un chimpancé como mejores amigos de la infancia? Así creció June Williams, la hija del fundador de uno de los zoológicos más grandes de Reino Unido, creado en 1931. </summary>
+    <dc:subject>Ciencia, Verde, zoo de Chester</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140904_ciencia_june_williams_crecer_en_un_zoo_chester_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905143113_zoo_ave_144x81_mottershead_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905143113_zoo_ave_144x81_mottershead_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905143113_zoo_ave_144x81_mottershead_nocredit.jpg" width="144" height="81">
+    <img alt="June con pelícano" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905143113_zoo_ave_144x81_mottershead_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-12:34653090</id>
+    <dc:identifier>34653090</dc:identifier>
+    <updated>2014-09-12T12:34:19+00:00</updated>
+    <published>2014-09-12T10:26:38+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">El extraordinario "selfie" de un satélite y un cometa</title>
+    <summary xml:lang="es">Desde el espacio profundo llega un autorretrato extraordinario: las celebridades que lo protagonizan son un misterioso cuerpo celeste y la nave espacial que lo persigue de muy cerca para estudiarlo.</summary>
+    <dc:subject>Ciencia, espacio, Rosetta, satélite, cometa, misión, selfie, foto, retrato</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140912_ciencia_selfie_rosetta_cometa_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912110027_rosetta_selfie_144x81_esa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/12/140912110027_rosetta_selfie_144x81_esa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912110027_rosetta_selfie_144x81_esa_nocredit.jpg" width="144" height="81">
+    <img alt="Sefie de la nave Rosetta y el cometa 67P" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/12/140912110027_rosetta_selfie_144x81_esa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-12:34654553</id>
+    <dc:identifier>34654553</dc:identifier>
+    <updated>2014-09-12T11:24:51+00:00</updated>
+    <published>2014-09-12T11:24:51+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Australia suspende matanza de tiburones</title>
+    <summary xml:lang="es">Autoridades en Australia decidieron abandonar una matanza de tiburones que tenía por fin proteger a los bañistas después de que una agencia oficial ecologista objetara contra la medida.</summary>
+    <dc:subject>Ciencia, Australia, tiburones, sacrificio</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140912_ultnot_tiburones_australia_matanza_fp.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/06/140906032536_man_eater_shark_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/06/140906032536_man_eater_shark_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/06/140906032536_man_eater_shark_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Tiburón" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/06/140906032536_man_eater_shark_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140908_ultnot_australia_ataque_tiburon_en.shtml">
+    <dc:title>Investigan muerte en Australia por ataque de tiburón</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909044456_sp_tiburon_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909044456_sp_tiburon_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909044456_sp_tiburon_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="Tiburón" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909044456_sp_tiburon_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140905_tecnologia_tiburones_fibra_optica_kv.shtml">
+    <dc:title>Por qué los tiburones amenazan nuestra conexión a internet</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905170549_shark_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905170549_shark_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905170549_shark_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Tiburón." width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905170549_shark_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2013/08/130727_eeuu_hollywood_sharknado_twitter_fenomeno_cines_jg.shtml">
+    <dc:title>"Sharknado": el fenómeno del tornado de tiburones llega a los cines</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/08/02/130802040354_sharknado_144x81_theasylum_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/08/02/130802040354_sharknado_144x81_theasylum_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/08/02/130802040354_sharknado_144x81_theasylum_nocredit.jpg" width="144" height="81">
+    <img alt="Sharknado" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/08/02/130802040354_sharknado_144x81_theasylum_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34645077</id>
+    <dc:identifier>34645077</dc:identifier>
+    <updated>2014-09-12T00:14:19+00:00</updated>
+    <published>2014-09-11T23:59:34+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Dinosaurios: el mayor depredador del Cretácico sabía nadar</title>
+    <summary xml:lang="es">Según el estudio publicado en la revista Science, el esqueleto del Spinosaurus presenta “adaptaciones únicas” para desenvolverse tanto en el entorno terrestre como en el acuático.</summary>
+    <dc:subject>Ciencia, Dinosaurios, Spinosaurus, cretácico</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140911_ultnot_ciencia_dinosaurio_spinosaurus_az.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911235859_sp_spinosaurus_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911235859_sp_spinosaurus_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911235859_sp_spinosaurus_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911235859_sp_spinosaurus_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34637253</id>
+    <dc:identifier>34637253</dc:identifier>
+    <updated>2014-09-11T21:08:07+00:00</updated>
+    <published>2014-09-11T15:08:12+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Mi mujer se quiere ir a Marte</title>
+    <summary xml:lang="es">Sonia Van Meter ha sido preseleccionada para formar parte de la primera colonia humana en Marte. Si lo logra, su vida en la Tierra quedará atrás, incluyendo a su marido, en un viaje sin retorno.</summary>
+    <dc:subject>Ciencia, Marte, Sonia Van Meter, Jason Stanford, Mars One, candidatos, seleccionados, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140911_ciencia_marte_sonia_van_meter_candidata_mars_one_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911155012_marte_jason_sonia_144x81_miguelangel_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911155012_marte_jason_sonia_144x81_miguelangel_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911155012_marte_jason_sonia_144x81_miguelangel_nocredit.jpg" width="144" height="81">
+    <img alt="Jason Stanford y Sonia Van Meter" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911155012_marte_jason_sonia_144x81_miguelangel_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34642269</id>
+    <dc:identifier>34642269</dc:identifier>
+    <updated>2014-09-11T17:54:45+00:00</updated>
+    <published>2014-09-11T17:54:45+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Llamarada solar se acerca a la Tierra y puede afectar a las telecomunicaciones</title>
+    <summary xml:lang="es">El sol emitió el miércoles una fuerte llamarada solar que podría afectar este jueves a las telecomunicaciones en la Tierra.</summary>
+    <dc:subject>Ciencia, llamarada, sol, tierra, telecomunicaciones</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140911_ultnot_llamarada_sol_telecomunicaciones_fp.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911174331_solar_flare_144x81_nasa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911174331_solar_flare_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911174331_solar_flare_144x81_nasa_nocredit.jpg" width="144" height="81">
+    <img alt="Llamarada solar." width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911174331_solar_flare_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/04/140401_ciencia_erupcion_solar_x1_np.shtml">
+    <dc:title>Impresionantes imágenes de una poderosa erupción solar</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/04/01/140401144937_erupcion_solar_144x81_nasasdo_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/04/01/140401144937_erupcion_solar_144x81_nasasdo_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/04/01/140401144937_erupcion_solar_144x81_nasasdo_nocredit.jpg" width="144" height="81">
+    <img alt="Erupción solar" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/04/01/140401144937_erupcion_solar_144x81_nasasdo_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/video_fotos/2013/05/130517_new_galeria_erupciones_sol_ig.shtml">
+    <dc:title>Espectaculares imágenes del Sol en erupción</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/05/17/130517104223_solar_filament_nasa_144.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/05/17/130517104223_solar_filament_nasa_144.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/05/17/130517104223_solar_filament_nasa_144.jpg" width="144" height="81">
+    <img alt="Esta imagen capturada por el Observatorio de Dinámicas Solares de la NASA muestra un gran filamento que se desprende del Sol el 31 de agosto de 2012. La erupción duró más de 12 horas. Crédito: NASA/SDO/AIA" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/05/17/130517104223_solar_filament_nasa_144.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2013/05/130515_ciencia_erupcion_solar_ig.shtml">
+    <dc:title>Gigantes explosiones de fuego en el Sol</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/05/14/130514172151_sun144.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/05/14/130514172151_sun144.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/05/14/130514172151_sun144.jpg" width="144" height="81">
+    <img alt="Imagen de una erupción del Sol" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/05/14/130514172151_sun144.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34632339</id>
+    <dc:identifier>34632339</dc:identifier>
+    <updated>2014-09-11T13:44:29+00:00</updated>
+    <published>2014-09-11T12:12:39+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Es posible detener la lava de un volcán en erupción?</title>
+    <summary xml:lang="es">Ante la amenza del flujo de roca ardiente de un volcán, el ingenio humano ha intentado detener su avance con bastante poco éxito. Les contamos cuatro iniciativas a las que no les fue tan mal. </summary>
+    <dc:subject>Ciencia, volcanes, lava, avance, desvío, intentos, Etna, Islandia, barreras, bombas, tubos volcánicos, agua fría</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140911_ciencia_volcanes_erupcion_como_detener_lava_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911120333_lava_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911120333_lava_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911120333_lava_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Lava volcánica" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911120333_lava_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34631157</id>
+    <dc:identifier>34631157</dc:identifier>
+    <updated>2014-09-11T12:11:13+00:00</updated>
+    <published>2014-09-11T11:43:58+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Boletín: la capa de ozono está en proceso de recuperación y otras noticias</title>
+    <summary xml:lang="es">Además, Barack Obama anuncia estrategia contra Estado Islámico, Chile conmemora el aniversario del golpe en ambiente de tensión por explosión del lunes y muere Richard Kiel, el villano de los films de James Bond. La actualidad en 1 minuto.</summary>
+    <dc:subject>video, Noticias en 1 minuto, ESXL_BBC_1minuto, internacional, irak, obama, estado islámico, chile, aniversario, golpe, explosión, atentados, santiago, richard kiel, james bond, villano, ozono, capa, onu, recuperación</dc:subject>
+    <link rel="alternate" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140911_video_boletin_noticias_re.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911115931_sp_ozono_reuters_144.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911115931_sp_ozono_reuters_144.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911115931_sp_ozono_reuters_144.jpg" width="144" height="81">
+    <img alt="Rayos de sol sobre superficie helada" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911115931_sp_ozono_reuters_144.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-11:34622579</id>
+    <dc:identifier>34622579</dc:identifier>
+    <updated>2014-09-11T05:37:00+00:00</updated>
+    <published>2014-09-11T05:07:54+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">La capa de ozono muestra señales de recuperación</title>
+    <summary xml:lang="es">Un informe científico de la ONU afirma que la recuperación es resultado del veto global impuesto en la década de los años 80 a los químicos que se usan en aerosoles.</summary>
+    <dc:subject>Ciencia, Verde, capa de ozono, cambio climático, medio ambiente</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140911_ultnot_estudio_sobre_capa_de_ozono_bd.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911050128_sp_ozone_layer_above_the_artic_144x81_spl_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/11/140911050128_sp_ozone_layer_above_the_artic_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911050128_sp_ozone_layer_above_the_artic_144x81_spl_nocredit.jpg" width="144" height="81">
+    <img alt="Capa de ozono en el Ártico" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/11/140911050128_sp_ozone_layer_above_the_artic_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-05:34498488</id>
+    <dc:identifier>34498488</dc:identifier>
+    <updated>2014-09-10T21:54:14+00:00</updated>
+    <published>2014-09-05T10:20:15+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">¿Por qué nos atrae tanto el rojo?</title>
+    <summary xml:lang="es">El rojo es quizás el color más manipulador. Estudios han encontrado que puede tener un profundo efecto sobre nuestro estado de ánimo, nuestras percepciones y acciones.</summary>
+    <dc:subject>Ciencia, psicología del color, mandriles, rojo</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140905_vert_fut_ciencia_color_rojo_hr.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905114524_labios_rojos_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905114524_labios_rojos_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905114524_labios_rojos_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="labios rojos" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905114524_labios_rojos_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-05:34497064</id>
+    <dc:identifier>34497064</dc:identifier>
+    <updated>2014-09-10T14:00:27+00:00</updated>
+    <published>2014-09-05T09:16:14+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">En fotos: las mejores imágenes de la vida silvestre británica</title>
+    <summary xml:lang="es">Gansos, alcatraces, nutrias, frailecillos, cormoranes, jejenes y mirlos: los Premios Británicos de Fotografía de Vida Salvaje 2014 eligieron sus ganadores. Vea una selección de las fotografías más destacadas.</summary>
+    <dc:subject>fotos, imágenes, galería, ciencia, cultura, vida silvestre, reino unido, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140905_galeria_premios_britanicos_fotografia_vida_salvaje_jp.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904125423_british_wildlife_promo144.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904125423_british_wildlife_promo144.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904125423_british_wildlife_promo144.jpg" width="144" height="81">
+    <img alt="Imagen de Lee Acaster" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904125423_british_wildlife_promo144.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-10:34606264</id>
+    <dc:identifier>34606264</dc:identifier>
+    <updated>2014-09-10T13:52:33+00:00</updated>
+    <published>2014-09-10T12:09:05+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Las sorpresas subterráneas que descubrieron en Stonehenge</title>
+    <summary xml:lang="es">Templos, sepulcros, enormes anillos de monolitos. Todo eso rodeó alguna vez al famoso sitio de Stonehenge, Patrimonio de la Humanidad, según descubrieron al escanear el suelo debajo de sus enormes piedras. </summary>
+    <dc:subject>Ciencia, Stonehenge, arqueología, escaneo, subterráneo, templos, monumento megalítico</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140910_ciencia_stonehenge_sorpresas_enterradas_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/10/140910122753_stonehenge_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/10/140910122753_stonehenge_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/10/140910122753_stonehenge_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Stonehenge" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/10/140910122753_stonehenge_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-09:34587114</id>
+    <dc:identifier>34587114</dc:identifier>
+    <updated>2014-09-09T17:46:28+00:00</updated>
+    <published>2014-09-09T15:32:32+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Mucho? ¿Poco? ¿Quieres saber cuánto pesa la Tierra?</title>
+    <summary xml:lang="es">La respuesta incluye muchos ceros y una duda que preocupa a los científicos expertos en medidas, que temen estar calculando mal una de las constantes fundamentales de la física: la de la gravedad.</summary>
+    <dc:subject>Ciencia, física, Newton, gravedad, peso, Tierra, masa, cálculo, ecuación</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140909_ciencia_cuanto_pesa_la_tierra_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909160753_peso_tierra_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909160753_peso_tierra_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909160753_peso_tierra_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Manos sujetando un globo terráqueo" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909160753_peso_tierra_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-09:34577666</id>
+    <dc:identifier>34577666</dc:identifier>
+    <updated>2014-09-09T16:30:52+00:00</updated>
+    <published>2014-09-09T09:57:19+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Superpronosticadores: la gente "normal" capaz de predecir el futuro</title>
+    <summary xml:lang="es">¿Quiénes son los superpronosticadores y cómo intentan anticipar lo que nadie ha podido predecir? Algunas personas tienen una habilidad sorprendente para predecir el curso de los acontecimientos mundiales de forma correcta.</summary>
+    <dc:subject>ciencia, futuro, predecir, predicción</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140909_vert_fut_mejor_manera_predecir_futuro_lv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/10/140910072428_eye_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/10/140910072428_eye_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/10/140910072428_eye_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Ojo humano" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/10/140910072428_eye_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-09:34580973</id>
+    <dc:identifier>34580973</dc:identifier>
+    <updated>2014-09-09T12:02:31+00:00</updated>
+    <published>2014-09-09T11:53:34+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Hallan nueva especie de dinosaurio en Tanzania</title>
+    <summary xml:lang="es">Se piensa que la criatura herbívora vivió hace 100 millones de años, tenía una masa de varios elefantes y patas delanteras de dos metros de largo.</summary>
+    <dc:subject>ciencia, tanzania, dinosaurio</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140909_ultnot_ciencia_dinosaurio_tanzania_men.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/03/05/130305195508_sp_rollingnews_worldwide_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-05:34508004</id>
+    <dc:identifier>34508004</dc:identifier>
+    <updated>2014-09-09T11:30:02+00:00</updated>
+    <published>2014-09-05T15:52:14+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">En fotos: el peligroso e inaccesible mundo de la tala ilegal en Perú</title>
+    <summary xml:lang="es">La muerte de cuatro activistas peruanos contra la tala ilegal muestra lo más oscuro de un negocio que supone el 80% de la exportación de madera en Perú. El fotógrafo Fellipe Abreu retrató el viaje de los troncos furtivos.</summary>
+    <dc:subject>Ciencia, Verde, Medio Ambiente, Perú, frontera, Amazonas, tala ilegal, fotos, leñadores, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140905_ciencia_galeria_tala_ilegal_peru_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905100445_peru_logging_promo144.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905100445_peru_logging_promo144.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905100445_peru_logging_promo144.jpg" width="144" height="81">
+    <img alt="Un hombre corta un árbol con una motosierra en Perú" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905100445_peru_logging_promo144.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-09:34574812</id>
+    <dc:identifier>34574812</dc:identifier>
+    <updated>2014-09-09T08:06:16+00:00</updated>
+    <published>2014-09-09T07:29:44+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Niveles récord de CO2 en la atmósfera, dice la ONU</title>
+    <summary xml:lang="es">Nuevas cifras publicadas por la Organización Mundial de Meteorología de Naciones Unidas señalan que la cantidad de dióxido de carbono en la atmósfera terrestre alcazó niveles récord el año pasado.</summary>
+    <dc:subject>últimas noticias, ciencia, medio ambiente, onu, gases, invernadero, niveles</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140909_ultnot_onu_gases_invernadero_wbm.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909080204_emisiones_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909080204_emisiones_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909080204_emisiones_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Emisiones de carbono" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909080204_emisiones_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-08:34567441</id>
+    <dc:identifier>34567441</dc:identifier>
+    <updated>2014-09-09T02:47:37+00:00</updated>
+    <published>2014-09-08T18:46:58+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Las dudas en torno al meteorito que cayó en Nicaragua</title>
+    <summary xml:lang="es">Pese a que el gobierno nicaragüense dice no tener dudas de que el cráter surgido cerca del Aeropuerto Internacional de Managua es fruto de un meteorito, varias voces, incluida la NASA, han puesto en duda la teoría.</summary>
+    <dc:subject>ciencia, america latina, nicaragua, meteorito, caido, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140908_ciencia_meteorito_nicaragua_lo_que_se_sabe_lav.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140909_video_nicaragua_meteorito_am.shtml">
+    <dc:title>Vea el cráter dejado por el meteorito en Nicaragua</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909095412_nicaragua_144x81_afpgetty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/09/140909095412_nicaragua_144x81_afpgetty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909095412_nicaragua_144x81_afpgetty_nocredit.jpg" width="144" height="81">
+    <img alt="Cráter dejado por un meteorito en Nicaragua " width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/09/140909095412_nicaragua_144x81_afpgetty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-08:34561512</id>
+    <dc:identifier>34561512</dc:identifier>
+    <updated>2014-09-08T20:15:08+00:00</updated>
+    <published>2014-09-08T14:38:56+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Cómo se logró el primer saludo telepático por internet</title>
+    <summary xml:lang="es">Un cerebro en la India pensó un mensaje que llegó hasta otro cerebro en Francia, en un viaje que duró 30 segundos a través de internet y que prueba que la telepatía ya es posible.</summary>
+    <dc:subject>Ciencia, tecnología, telepatía, cerebro, Universidad de Barcelona, Universidad de Harvard, comunicación, internet, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140908_ciencia_telepatia_primer_saludo_cerebros_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908145620_telepatia_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908145620_telepatia_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908145620_telepatia_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Representación gráfica del concepto telepatía" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908145620_telepatia_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-08:34564637</id>
+    <dc:identifier>34564637</dc:identifier>
+    <updated>2014-09-08T16:10:59+00:00</updated>
+    <published>2014-09-08T16:05:54+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Encuentran un caracol que se creía extinto</title>
+    <summary xml:lang="es">La semana pasada se encontraron siete caracoles de rayas rosadas en una remota área de las islas Seychelles, conocida como isla Malabar.</summary>
+    <dc:subject>ciencia, caracol, gigante, Seychelles, indico</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140908_ultnot_caracol_gigante_seychelles_lav.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908160533_sp_aldabra_snail_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908160533_sp_aldabra_snail_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908160533_sp_aldabra_snail_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908160533_sp_aldabra_snail_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-08:34548076</id>
+    <dc:identifier>34548076</dc:identifier>
+    <updated>2014-09-08T06:48:08+00:00</updated>
+    <published>2014-09-08T06:48:08+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Meteorito en Nicaragua coincide con paso de asteroide por la Tierra </title>
+    <summary xml:lang="es">Nicaragua pidió asistencia internacional para analizar el cráter de un meteorito que impactó en su territorio al tiempo que el asteroide 2014RC pasara cerca de la Tierra.</summary>
+    <dc:subject>últimas noticias, ciencia, internacional, asteroide, tierra, nicaragua, meteorito, NASA</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140908_ultnot_asteroide_tierra_wbm.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="Cráter causado por un meteorito en Managua" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/08/140908103935_meteorito_managua_crater_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-02:34429727</id>
+    <dc:identifier>34429727</dc:identifier>
+    <updated>2014-09-07T11:48:09+00:00</updated>
+    <published>2014-09-02T15:27:23+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Las niñas que nunca envejecen</title>
+    <summary xml:lang="es">Tienen algo tan raro que no tiene ni nombre. Los expertos le llaman "el síndrome X". Hay un científico que sospecha que en sus genes está el secreto de la eterna juventud, pero otros temen que la búsqueda es vana. </summary>
+    <dc:subject>Ciencia, envejecimiento, síndrome X, genes, juventud</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140902_vert_fut_envejecimiento_sindrome_finde_dv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904150611_envejecer_promos__144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904150611_envejecer_promos__144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904150611_envejecer_promos__144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Mujer joven con ojo viejo" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904150611_envejecer_promos__144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-07:34533046</id>
+    <dc:identifier>34533046</dc:identifier>
+    <updated>2014-09-07T09:31:07+00:00</updated>
+    <published>2014-09-07T09:28:28+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Asteroide del tamaño de una casa pasará cerca de la Tierra</title>
+    <summary xml:lang="es">La agencia espacial estadounidense NASA dijo este domingo que un pequeño asteroide, del tamaño de una casa, pasará a unos 40.000km de distancia de la Tierra.</summary>
+    <dc:subject>ciencia, asteroide, tierra, luna, 2014 RC</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140907_ultnot_ciencia_asteroide_tierra_nc.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2011/09/21/110921113521_rolling_news_gel_144x81.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2011/09/21/110921113521_rolling_news_gel_144x81.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2011/09/21/110921113521_rolling_news_gel_144x81.jpg" width="144" height="81">
+    <img alt="Últimas noticias" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2011/09/21/110921113521_rolling_news_gel_144x81.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-03:34462852</id>
+    <dc:identifier>34462852</dc:identifier>
+    <updated>2014-09-06T10:23:40+00:00</updated>
+    <published>2014-09-03T21:51:44+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">¿Cuál es el mejor tratamiento para el insomnio?</title>
+    <summary xml:lang="es">¿Vuelan los pájaros entre las nubes? ¿Cómo puede una compresa fría aliviar el dolor de cabeza? ¿Puede ocurrir la fotosíntesis a la luz de la Luna? Respuestas para curiosos de la revista BBC Focus.</summary>
+    <dc:subject>ciencia, respuestas, curiosos, preguntas, mariposas, adicción, rayos, cataratas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140903_respuestas_curiosos_6sep_finde_yv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904183210_focus_insomnio_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904183210_focus_insomnio_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904183210_focus_insomnio_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Mujer con insomnio" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904183210_focus_insomnio_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-06:34515979</id>
+    <dc:identifier>34515979</dc:identifier>
+    <updated>2014-09-06T06:58:44+00:00</updated>
+    <published>2014-09-06T06:56:08+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Emergencia en Hawai por actividad del volcán Kilauea</title>
+    <summary xml:lang="es">Las autoridades de la isla de Hawai declararon el estado de emergencia ante el avance de la lava del volcán Kilauea hacia zonas residenciales y la posibilidad de que alcance los primeros hogares en los próximos días.</summary>
+    <dc:subject>Ciencia, volcan, Hawai, erupción</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140906_ultnot_volcan_hawai_ao.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/06/140906065405_sp_volcan_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/06/140906065405_sp_volcan_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/06/140906065405_sp_volcan_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Volcán Kilauea" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/06/140906065405_sp_volcan_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-05:34498671</id>
+    <dc:identifier>34498671</dc:identifier>
+    <updated>2014-09-05T14:07:17+00:00</updated>
+    <published>2014-09-05T10:30:23+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">La increíble precisión del pez escupidor</title>
+    <summary xml:lang="es">Conocido como pez arquero, este animal dispara chorros de agua para cazar pequeños insectos con una técnica notable. Te contamos cómo lo hace.</summary>
+    <dc:subject>Ciencia, pez escupidor, pez arquero, precisión, video, cámara lenta, dinámica, chorro de agua</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140905_ciencia_precision_pez_escupidor_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905104318_pez_escupidor_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905104318_pez_escupidor_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905104318_pez_escupidor_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="Pez arquero" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905104318_pez_escupidor_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140905_video_ciencia_pez_escupidor_np.shtml">
+    <dc:title>Mira cómo dispara escupitajos el pez arquero</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg" width="144" height="81">
+    <img alt="Pez arquero" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-05:34500803</id>
+    <dc:identifier>34500803</dc:identifier>
+    <updated>2014-09-05T12:06:32+00:00</updated>
+    <published>2014-09-05T11:54:06+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Mira cómo dispara escupitajos el pez arquero</title>
+    <summary xml:lang="es">Científicos de la Universidad de Bayreuth, en Alemania, filmaron en cámara lenta los escupitajos del pez arquero para estudiar la gran precisión de los chorros de agua que lanzan para cazar insectos. Mira cómo lo hace.</summary>
+    <dc:subject>Video, Ciencia, pez escupidor, pez arquero, Current Biology, cámara lenta, escupitajo, precisión, dinámica, física, ESXL_BBC_Mundo, ESXL_BBC_Ciencia, ESXL_BBC_Curiosidades</dc:subject>
+    <link rel="alternate" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140905_video_ciencia_pez_escupidor_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg" width="144" height="81">
+    <img alt="Pez arquero" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905113744_pez_arquero_video_144x81_currentbiology_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-04:34490187</id>
+    <dc:identifier>34490187</dc:identifier>
+    <updated>2014-09-05T01:16:49+00:00</updated>
+    <published>2014-09-04T22:21:37+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Confirman muerte por ántrax en Argentina</title>
+    <summary xml:lang="es">Las autoridades de la provincia de Santa Fe lanzaron un alerta sanitaria tras la muerte de un hombre como consecuencia de la bacteria de origen animal.</summary>
+    <dc:subject>salud, ciencia, america latina, argentina</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140904_ultnot_argentina_antrax_vs.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/20/140820155442_carne_vacas_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/20/140820155442_carne_vacas_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/20/140820155442_carne_vacas_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/20/140820155442_carne_vacas_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-05:34491240</id>
+    <dc:identifier>34491240</dc:identifier>
+    <updated>2014-09-05T01:02:48+00:00</updated>
+    <published>2014-09-05T00:13:31+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Aseguran que pasarse al cigarrillo electrónico salvaría vidas</title>
+    <summary xml:lang="es">Científicos británicos reconocen que aunque se desconocen los efectos a largo plazo, los cigarrillso electrónicos son menos perjudiciales que los convencionales.</summary>
+    <dc:subject>Salud, Ciencia, tabaquismo, cigarrillo, electrónoc.</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140904_ultnot_cigarrillo_electronico_az.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/05/29/140529105453_e_cigarrettes_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/05/29/140529105453_e_cigarrettes_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/05/29/140529105453_e_cigarrettes_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/05/29/140529105453_e_cigarrettes_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-04:34490356</id>
+    <dc:identifier>34490356</dc:identifier>
+    <updated>2014-09-04T23:40:46+00:00</updated>
+    <published>2014-09-04T22:33:43+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Descubren esqueleto fosilizado del dinosaurio más grande de la prehistoria</title>
+    <summary xml:lang="es">Científicos dijeron que poseen el 70% de los huesos claves para describir con precisión la anatomía y la biomecánica del Dreadnoughtus schrani, que pesaba unas 65 toneladas de peso. Los fósiles fueron hallados en Argentina.</summary>
+    <dc:subject>Ciencia, Argentina, fósiles, dinosaurio, gigante, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140904_ultnot_argentina_fosiles_dinosaurio_en.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905022330_sp_dino_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/05/140905022330_sp_dino_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905022330_sp_dino_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="Dinosaurio gigante" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/05/140905022330_sp_dino_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-04:34475479</id>
+    <dc:identifier>34475479</dc:identifier>
+    <updated>2014-09-04T17:34:50+00:00</updated>
+    <published>2014-09-04T11:53:42+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Los jabalíes radiactivos de Alemania</title>
+    <summary xml:lang="es">Una gran proporción de los jabalíes que rondan por los bosques de Sajonia posee alto niveles de radiación. Se cree que la contaminación proviene del desastre de Chernobyl, ocurrido hace 28 años. </summary>
+    <dc:subject>Ciencia, Verde, jabalíes, Alemania, Sajonia, radioactividad, Chernobyl, desastre nuclear, celsio 137</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140904_ciencia_radioactividad_jabali_sajonia_alemania_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904115230_jabalies_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904115230_jabalies_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904115230_jabalies_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Jabalíes" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904115230_jabalies_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-04:34480019</id>
+    <dc:identifier>34480019</dc:identifier>
+    <updated>2014-09-04T14:32:38+00:00</updated>
+    <published>2014-09-04T14:10:03+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Acuerdan reducir a la mitad la pesca de atún azul</title>
+    <summary xml:lang="es">Un organismo internacional de pesca recomendó este jueves un recorte sustancial a partir del próximo año de las capturas de atún azul o común en un intento de duplicar su cantidad en los océanos en diez años.</summary>
+    <dc:subject>ciencia, pesca, atún azul, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140904_ultnot_pesca_atun_rojo_reduccion_jp.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904142804_sushi_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904142804_sushi_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904142804_sushi_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="Sushi" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904142804_sushi_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-04:34463712</id>
+    <dc:identifier>34463712</dc:identifier>
+    <updated>2014-09-04T01:58:50+00:00</updated>
+    <published>2014-09-04T00:21:02+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Extraño animal de las profundidades desafía a los biólogos</title>
+    <summary xml:lang="es">Un animal marino con forma de hongo descubierto frente a las costas de Australia ha dejado perplejo a muchos científicos por la imposibilidad de clasificarlo. El hecho ha ocurrido muy pocas veces en los últimos 100 años.</summary>
+    <dc:subject>Ciencia, animal marino, hongo, australia, clasificación</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140903_animal_como_hongo_marino_ao.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904005602_sp_hongos_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/04/140904005602_sp_hongos_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904005602_sp_hongos_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="Dendrogramma" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/04/140904005602_sp_hongos_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-01:34410136</id>
+    <dc:identifier>34410136</dc:identifier>
+    <updated>2014-09-03T18:58:48+00:00</updated>
+    <published>2014-09-01T21:20:22+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Los peligros que amenazan a la súper rana chilena</title>
+    <summary xml:lang="es">La rana grande chilena, única en el mundo, habita la Tierra desde antes que se formara el continente americano, pero en menos de dos décadas podría desaparecer. ¿Por qué corre el riesgo de extinguirse?</summary>
+    <dc:subject>Ciencia, America Latina, Chile, rana, grande, anfibios, peligro de extinción</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140901_ciencia_rana_grande_chile_vs.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901212653_chile_rana_144.gif" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901212653_chile_rana_144.gif"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901212653_chile_rana_144.gif" width="144" height="81">
+    <img alt="Rana grande chilena" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901212653_chile_rana_144.gif"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-02:34429603</id>
+    <dc:identifier>34429603</dc:identifier>
+    <updated>2014-09-03T14:43:33+00:00</updated>
+    <published>2014-09-02T15:24:27+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">El secreto de los sabores artificiales</title>
+    <summary xml:lang="es">¿Es apresurado tachar de "falsos" los sabores artificiales como el de la banana? Este mundo es mucho más complejo e interesante de lo que parece a primera vista.</summary>
+    <dc:subject>Ciencia, sabores artificiales, secreto, banana, química, sentidos</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140902_vert_fut_secreto_sabores_artificiales_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902151748_sabores_caramelos_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902151748_sabores_caramelos_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902151748_sabores_caramelos_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Caramelos de colores" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902151748_sabores_caramelos_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-03:34438929</id>
+    <dc:identifier>34438929</dc:identifier>
+    <updated>2014-09-03T04:01:35+00:00</updated>
+    <published>2014-09-03T03:47:04+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Tormenta tropical "Dolly" toca tierra en Veracruz</title>
+    <summary xml:lang="es">Más temprano, las autoridades mexicanas declararon la alerta roja para las regiones centro-oriente del estado de Tamaulipas y norte de Veracruz, ante la llegada de la tormenta tropical.</summary>
+    <dc:subject>america latina, mexico, ciencia, tormenta tropical, dolly</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140902_ultnot_mexico_tormenta_tropical_dolly_lav.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/03/140903040014_sp_dolly_tormenta_mexico_144x81_ap_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/03/140903040014_sp_dolly_tormenta_mexico_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/03/140903040014_sp_dolly_tormenta_mexico_144x81_ap_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/03/140903040014_sp_dolly_tormenta_mexico_144x81_ap_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-02:34437146</id>
+    <dc:identifier>34437146</dc:identifier>
+    <updated>2014-09-03T00:20:26+00:00</updated>
+    <published>2014-09-02T23:39:48+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Las cacatúas se enseñan a usar herramientas entre sí</title>
+    <summary xml:lang="es">El hallazgo fue hecho por científicos de universidades británicas y austriacas y publicado en un estudio publicado en el Royal Society journal.</summary>
+    <dc:subject>ciencia, animales, cacatúas, inteligentes, herramientas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140902_ultnot_ciencia_cacatuas_lav.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902234543_sp_cacatuas_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902234543_sp_cacatuas_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902234543_sp_cacatuas_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902234543_sp_cacatuas_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-02:34421961</id>
+    <dc:identifier>34421961</dc:identifier>
+    <updated>2014-09-02T19:11:12+00:00</updated>
+    <published>2014-09-02T12:02:05+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">La misteriosa muerte de toneladas de peces en México</title>
+    <summary xml:lang="es">La aparición de toneladas de peces muertos en una laguna del oeste de México preocupa a pescadores y autoridades. Se investiga si la causa puede ser el mal manejo de plantas de tratamiento de aguas residuales.</summary>
+    <dc:subject>Ciencia, Verde, México, Medio Ambiente, peces popocha, peces muertos, laguna Cajititlán</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140902_ciencia_cajititlan_peces_muertos_laguna_mexico_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902134713_mexico_peces_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902134713_mexico_peces_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902134713_mexico_peces_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="Peces muertos en la laguna de Cajititlán" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902134713_mexico_peces_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-02:34422824</id>
+    <dc:identifier>34422824</dc:identifier>
+    <updated>2014-09-02T12:29:07+00:00</updated>
+    <published>2014-09-02T12:22:17+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Vea la erupción de un volcán con chorros de lava de 50 metros en Islandia</title>
+    <summary xml:lang="es">Las autoridades islandesas rebajaron el nivel de alerta por la erupción del volcán Bardarbunga, en Islandia, debido a la falta de cenizas. En su momento álgido, los chorros de lava alcanzaron los 50 metros de altura.</summary>
+    <dc:subject>video, internacional, ciencia, islandia, lava, volcan, bardarbunga, ESXL_BBC_Mundo</dc:subject>
+    <link rel="alternate" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140901_video_volcan_islandia_erupcion_lava_pea.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902122653_volcan_islandia_144x81_j_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902122653_volcan_islandia_144x81_j_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902122653_volcan_islandia_144x81_j_nocredit.jpg" width="144" height="81">
+    <img alt="Volcán en Islandia" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902122653_volcan_islandia_144x81_j_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-02:34418166</id>
+    <dc:identifier>34418166</dc:identifier>
+    <updated>2014-09-02T10:43:31+00:00</updated>
+    <published>2014-09-02T10:23:19+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Las lagartijas de la prueba sexual rusa vuelven muertas del espacio</title>
+    <summary xml:lang="es">La agencia espacial rusa confirmó que los cinco ejemplares que había enviado al espacio para estudiar su vida sexual en estado de ingravidez regresaron muertos a la Tierra.</summary>
+    <dc:subject>Ciencia, satélite ruso, prueba espacial, Roscosmos, gecos, experimento sexual, ingravidez, muerte</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140902_ultnot_gecos_muertos_satelite_ruso_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902102438_geco_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902102438_geco_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902102438_geco_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Gecko" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902102438_geco_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-01:34408969</id>
+    <dc:identifier>34408969</dc:identifier>
+    <updated>2014-09-01T23:17:36+00:00</updated>
+    <published>2014-09-01T19:12:39+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Descubren grabados que demuestran el arte Neandertal</title>
+    <summary xml:lang="es">Una serie de surcos que decoran una cueva en Gibraltar constituye la prueba más convincente hasta ahora del arte del hombre de Neandertal y de que éste era más creativo e inteligente de lo que se pensaba.</summary>
+    <dc:subject>Ciencia, Neandertal, arte rupestre, pensamiento abstracto, Gibraltar</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/09/140901_ultnot_neandertal_capacidad_pensamiento_abstracto_lv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901230407_neandertal_engraving_144x81_stewartfinlayson_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901230407_neandertal_engraving_144x81_stewartfinlayson_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901230407_neandertal_engraving_144x81_stewartfinlayson_nocredit.jpg" width="144" height="81">
+    <img alt="Marcas en la piedra" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901230407_neandertal_engraving_144x81_stewartfinlayson_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-01:34404179</id>
+    <dc:identifier>34404179</dc:identifier>
+    <updated>2014-09-01T18:54:26+00:00</updated>
+    <published>2014-09-01T15:28:55+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">Urano, el planeta más extraño e inexplorado</title>
+    <summary xml:lang="es">¿Por qué rara vez las misiones espaciales apuntan a Urano? La dificultad del viaje es una razón, pero según los científicos, este gigante de gas tóxico es uno de los planetas más extraños y fascinantes del Sistema Solar.</summary>
+    <dc:subject>Ciencia, Urano, planeta inexplorado, sistema solar, misión, ESA, gigante, gas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140901_vert_fut_ciencia_urano_planeta_inexplorado_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901154303_urano_planeta_144x81_spl_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901154303_urano_planeta_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901154303_urano_planeta_144x81_spl_nocredit.jpg" width="144" height="81">
+    <img alt="Planeta Urano" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901154303_urano_planeta_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-01:34400809</id>
+    <dc:identifier>34400809</dc:identifier>
+    <updated>2014-09-01T17:25:07+00:00</updated>
+    <published>2014-09-01T13:59:45+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Alana, la joven con tres padres biológicos</title>
+    <summary xml:lang="es">La joven sonriente de la foto nació a partir una técnica de fertilización que hoy no está permitida y que implica la utilización de material genético de tres personas -dos mujeres y un hombre- para concebir un bebé.</summary>
+    <dc:subject>Ciencia, salud, Alana Saarinen, transferencia mitocondrial, técnica, tres padres biológicos, ADN, Reino Unido, debate</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/09/140901_ciencia_alana_tres_padres_biologicos_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902041931_sp_alana_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/02/140902041931_sp_alana_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902041931_sp_alana_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt="Alana Saarinen " width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/02/140902041931_sp_alana_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-09-01:34395795</id>
+    <dc:identifier>34395795</dc:identifier>
+    <updated>2014-09-01T12:20:55+00:00</updated>
+    <published>2014-09-01T11:28:18+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Espectaculares imágenes de las últimas erupciones solares</title>
+    <summary xml:lang="es">La NASA publicó imágenes de varias erupciones solares durante una semana de intensa actividad en la superficie del Sol.</summary>
+    <dc:subject>video, ciencia, sol, erupción solar, viento solar, tierra, nasa, ESXL_BBC_Ciencia</dc:subject>
+    <link rel="alternate" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/09/140901_video_actividad_solar_wbm.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901112323_erupcion_solar_144x81_nasa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/09/01/140901112323_erupcion_solar_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901112323_erupcion_solar_144x81_nasa_nocredit.jpg" width="144" height="81">
+    <img alt="Erupción solar (NASA)" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/09/01/140901112323_erupcion_solar_144x81_nasa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-27:34282192</id>
+    <dc:identifier>34282192</dc:identifier>
+    <updated>2014-08-31T07:28:50+00:00</updated>
+    <published>2014-08-27T12:19:32+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Guía ilustrada: lo que quizás no sabe de las abejas </title>
+    <summary xml:lang="es">Vuelan distancias asombrosas, construyen estructuras sorprendentes, se comunican danzando y encima producen miel y cera. Descubra a estas pequeñas maravillas con gráficos, dibujos e imágenes.</summary>
+    <dc:subject>Ciencia, abejas, secretos, hazañas, proezas, en cifras</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140827_abejas_extraordinarias_finde_dv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827170158_abejas_promos__144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827170158_abejas_promos__144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827170158_abejas_promos__144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Abejas" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827170158_abejas_promos__144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-28:34318644</id>
+    <dc:identifier>34318644</dc:identifier>
+    <updated>2014-08-30T13:43:34+00:00</updated>
+    <published>2014-08-28T18:01:38+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">En fotos: las mejores imágenes de la vida silvestre</title>
+    <summary xml:lang="es">La Academia de Ciencias de California inauguró su principal muestra fotográfica con espectaculares trabajos de fotógrafos de naturaleza, vida salvaje y ecologismo de todo el mundo.</summary>
+    <dc:subject>Galeria, fotos, naturaleza, animales, medioambiente</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/video_fotos/2014/08/140828_galeria_bigpicture_finde_az.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/26/140826104020_bigpicture_promo144b.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/26/140826104020_bigpicture_promo144b.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/26/140826104020_bigpicture_promo144b.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/26/140826104020_bigpicture_promo144b.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-29:34330945</id>
+    <dc:identifier>34330945</dc:identifier>
+    <updated>2014-08-30T09:31:19+00:00</updated>
+    <published>2014-08-29T09:53:35+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>restricted</rights>
+    <title xml:lang="es">¿Cuál es la mariposa más grande del mundo?</title>
+    <summary xml:lang="es">¿Afectan las cataratas los sistemas de reconocimiento de iris? ¿Qué causa la adicción? ¿Cómo se protegen los aviones de los rayos? Respuestas para curiosos de la revista BBC Focus.</summary>
+    <dc:subject>ciencia, respuestas, curiosos, preguntas, mariposas, adicción, rayos, cataratas</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140829_respuestas_curiosos_30agosto_finde_hr.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/29/140829144904_mariposa_144x81_spl_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/29/140829144904_mariposa_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/29/140829144904_mariposa_144x81_spl_nocredit.jpg" width="144" height="81">
+    <img alt="Mariposa monarca" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/29/140829144904_mariposa_144x81_spl_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-29:34347866</id>
+    <dc:identifier>34347866</dc:identifier>
+    <updated>2014-08-29T23:00:56+00:00</updated>
+    <published>2014-08-29T22:05:44+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Aumentan posibilidades de que se registre una "megasequía" en el suroeste de EE.UU.</title>
+    <summary xml:lang="es">La investigación, elaborada por de la Universidad de Cornell, la Universidad de Arizona y el Instituto Geológico de EE.UU., señala que los estados de Nuevo México, Arizona y California serían los que más se verían afectados.</summary>
+    <dc:subject>Ciencia, EE.UU., sequía prolongada, California, Arizona, Nuevo México</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/08/140828_ultnot_eeuu_sequia_suroeste_california_jg.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/02/01/140201140706_sequia_california_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/02/01/140201140706_sequia_california_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/02/01/140201140706_sequia_california_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="Sequía en California" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/02/01/140201140706_sequia_california_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-29:34337531</id>
+    <dc:identifier>34337531</dc:identifier>
+    <updated>2014-08-29T17:21:17+00:00</updated>
+    <published>2014-08-29T13:21:39+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Descifran la biología que está detrás de la expresión de rabia</title>
+    <summary xml:lang="es">¿Cuál es su origen? ¿Para qué la hacemos? ¿Qué información nos da? Un grupo de científicos realizó un estudio y dice haber encontrado esas respuestas.</summary>
+    <dc:subject>ciencia, estudio, cara de ira, enojo, rabia, Universidad de California en Santa Bárbara, Universidad de Griffith, Evolution and Human Behaviour</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140829_ciencia_estudio_biologia_cara_de_ira_jp.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/29/140829140845_anger_face_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/29/140829140845_anger_face_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/29/140829140845_anger_face_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Hombre enojado" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/29/140829140845_anger_face_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-28:34316635</id>
+    <dc:identifier>34316635</dc:identifier>
+    <updated>2014-08-29T11:10:49+00:00</updated>
+    <published>2014-08-28T16:31:06+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">El proyecto para convertir a Londres en la primera ciudad-parque nacional del mundo</title>
+    <summary xml:lang="es">Es probable que en el apogeo de la revolución industrial nadie lo imaginara, pero los muchos espacios verdes de la capital británica son el principal argumento de quienes piden que se declare a Londres como sitio protegido.</summary>
+    <dc:subject>Ciencia, Verde, Reino Unido, Londres, parque nacional, Daniel Raven-Ellison</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140828_ciencia_londres_parque_nacional_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/28/140828163438_londres_paisaje_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/28/140828163438_londres_paisaje_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/28/140828163438_londres_paisaje_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="Vista de Londres desde Hampstead Heath" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/28/140828163438_londres_paisaje_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-28:34306191</id>
+    <dc:identifier>34306191</dc:identifier>
+    <updated>2014-08-28T13:57:05+00:00</updated>
+    <published>2014-08-28T11:16:37+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Cómo convertir un recuerdo malo en uno bueno</title>
+    <summary xml:lang="es">Las emociones asociadas al recuerdo de un lugar pueden cambiarse en el laboratorio, al menos en el cerebro de ratones. Te contamos la fascinante historia de cómo una luz azul puede convertir un mal recuerdo en uno agradable.</summary>
+    <dc:subject>Ciencia, recuerdos, memoria, cambio, memoria emocional, experimento, ratones, recuerdos buenos, malos recuerdos</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140828_ciencia_convertir_recuerdos_malos_en_buenos_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/28/140828114236_recuerdos_ratones_144x81_thinkstock_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/28/140828114236_recuerdos_ratones_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/28/140828114236_recuerdos_ratones_144x81_thinkstock_nocredit.jpg" width="144" height="81">
+    <img alt="Ratones" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/28/140828114236_recuerdos_ratones_144x81_thinkstock_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-28:34298576</id>
+    <dc:identifier>34298576</dc:identifier>
+    <updated>2014-08-28T05:49:09+00:00</updated>
+    <published>2014-08-28T04:59:51+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Brasil desmantela la mayor banda de "destructores de la Amazonía"</title>
+    <summary xml:lang="es">La policía brasileña dio por desmantelada una banda criminal dedicada a arrasar con grandes extensiones de bosque amazónico.</summary>
+    <dc:subject>Ciencia, medio ambiente, verde, brasil, amazonia</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/08/140828_ultnot_brasil_crimen_amazonia_az.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/28/140828045739_sp_amazonia_144x81_greenpeace_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/28/140828045739_sp_amazonia_144x81_greenpeace_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/28/140828045739_sp_amazonia_144x81_greenpeace_nocredit.jpg" width="144" height="81">
+    <img alt="" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/28/140828045739_sp_amazonia_144x81_greenpeace_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-28:34296441</id>
+    <dc:identifier>34296441</dc:identifier>
+    <updated>2014-08-28T03:27:52+00:00</updated>
+    <published>2014-08-28T01:16:26+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Resuelven el misterio de las rocas viajeras del Valle de la Muerte</title>
+    <summary xml:lang="es">Científicos logran registrar el fenómeno que hace que estas rocas -que se encuentran en California y pueden llegar a pesar 300 kg- se muevan dejando tras de sí surcos de decenas de metros de longitud.</summary>
+    <dc:subject>Ciencia, EE.UU., Valle de la Muerte, California, misterio, rocas viajeras</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/08/140828_ultnot_eeuu_california_valle_muerte_piedras_viajeras_jg.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/07/17/130717004811_racetrack_playa_144x81_nasagsfcmaggiemcadam_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2013/07/17/130717004811_racetrack_playa_144x81_nasagsfcmaggiemcadam_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/07/17/130717004811_racetrack_playa_144x81_nasagsfcmaggiemcadam_nocredit.jpg" width="144" height="81">
+    <img alt="Racetrack Playa" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2013/07/17/130717004811_racetrack_playa_144x81_nasagsfcmaggiemcadam_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-27:34285823</id>
+    <dc:identifier>34285823</dc:identifier>
+    <updated>2014-08-27T21:56:06+00:00</updated>
+    <published>2014-08-27T14:43:01+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Por qué los dinosaurios de película no son como los de verdad</title>
+    <summary xml:lang="es">Las versiones cinematográficas de los enormes predadores prehistóricos son tan antiguas como el mismo cine, pero muchas veces están muy lejos de la realidad. Te contamos por qué.</summary>
+    <dc:subject>ciencia, dinosaurios, películas, mitos, </dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140827_ciencia_errores_peliculas_dinosaurios_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827220420_dinosaurios_144x81_bbc_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827220420_dinosaurios_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827220420_dinosaurios_144x81_bbc_nocredit.jpg" width="144" height="81">
+    <img alt='Dinosaurio de la serie Caminando entre dinosaurios' width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827220420_dinosaurios_144x81_bbc_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-27:34293501</id>
+    <dc:identifier>34293501</dc:identifier>
+    <updated>2014-08-27T19:50:14+00:00</updated>
+    <published>2014-08-27T19:44:19+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="rolling_news" label="Última Hora"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Descubren asiento de inodoro de madera de 2000 años de antigüedad</title>
+    <summary xml:lang="es">Arqueólogos en Reino Unido descubrieron en una excavación lo que aseguran es un asiento de inodoro de madera de la era romana, un objeto único en su tipo.</summary>
+    <dc:subject>Internacional, arqueología, monedas, imperio, romano, inodoro, baño, váter</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/ultimas_noticias/2014/08/140827_ultnot_tapa_inodoro_romana_nc.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827194708_inodoro_romano_144x81_pa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827194708_inodoro_romano_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827194708_inodoro_romano_144x81_pa_nocredit.jpg" width="144" height="81">
+    <img alt="Tapa de inodoro de la era romana" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827194708_inodoro_romano_144x81_pa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-27:34278976</id>
+    <dc:identifier>34278976</dc:identifier>
+    <updated>2014-08-27T13:30:46+00:00</updated>
+    <published>2014-08-27T10:36:32+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Estrellas cojín y otros asombrosos habitantes antárticos</title>
+    <summary xml:lang="es">Brillantes estrellas de mar o diminutas criaturas unicelulares, todos tienen un lugar en el nuevo atlas de vida marina de la Antártica, que incluye crustáceos carnívoros y ballenas entre las más de 9.000 especies relevadas.</summary>
+    <dc:subject>Ciencia, Verde, atlas, censo, vida marina, océano Antártico, estrellas marinas cojín, hisópodos gigantes, elefantes marinos, ballenas jorobadas, anémonas, investigación científica, Atlas Biogeográfico del Océano Antártico</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140827_ciencia_estrellas_cojin_atlas_vida_marina_antartica_np.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827111015_atlas_antartica_estrella_144x81_jeremycolmanbas_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/27/140827111015_atlas_antartica_estrella_144x81_jeremycolmanbas_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827111015_atlas_antartica_estrella_144x81_jeremycolmanbas_nocredit.jpg" width="144" height="81">
+    <img alt="Estrellas de mar cojín" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/27/140827111015_atlas_antartica_estrella_144x81_jeremycolmanbas_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-26:34256105</id>
+    <dc:identifier>34256105</dc:identifier>
+    <updated>2014-08-26T18:37:10+00:00</updated>
+    <published>2014-08-26T12:09:25+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="news" label="Noticias"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">¿Por qué el 90% de los terremotos suceden en el Cinturón del Pacífico?</title>
+    <summary xml:lang="es">Un área forma de herradura en el Pacífico es la zona más sísmica del mundo. En esa área también está el 75 % de todos los volcanes activos e inactivos del planeta. Le explicamos por qué.</summary>
+    <dc:subject>Cinturón de Fuego del Pacífico, zona sísmica, terremotos, temblores, sismo, seísmo</dc:subject>
+    <link rel="alternate" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140826_ciencia_cinturon_fuego_pacifico_zona_mas_sismica_mundo_lv.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/26/140826163350_ciencia_sismos_cinturon_fuego_pacifico_144x81_getty_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/26/140826163350_ciencia_sismos_cinturon_fuego_pacifico_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/26/140826163350_ciencia_sismos_cinturon_fuego_pacifico_144x81_getty_nocredit.jpg" width="144" height="81">
+    <img alt="El Cinturón de Fuego del Pacífico es un área de 40.000 kilómetros." width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/26/140826163350_ciencia_sismos_cinturon_fuego_pacifico_144x81_getty_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    <link rel="related" type="text/html" title="story" href="http://www.bbc.co.uk/mundo/noticias/2014/08/140825_terremoto_sismo_diferencias_mz.shtml">
+    <dc:title>¿Es lo mismo un sismo que un terremoto?</dc:title>
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/25/140825203312_sp_sismo_napa_144x81_afp_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/25/140825203312_sp_sismo_napa_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/25/140825203312_sp_sismo_napa_144x81_afp_nocredit.jpg" width="144" height="81">
+    <img alt="sismo, napa valley" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/25/140825203312_sp_sismo_napa_144x81_afp_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    <entry>
+    <id>tag:www.bbcmundo.com,2014-08-26:34256847</id>
+    <dc:identifier>34256847</dc:identifier>
+    <updated>2014-08-26T14:35:49+00:00</updated>
+    <published>2014-08-26T12:29:35+00:00</published>
+    <category xml:lang="es" term="mundo" label="mundo"/>
+    <category xml:lang="es" term="videoyfotos" label="Video y Fotos"/>
+    <rights>not restricted</rights>
+    <title xml:lang="es">Vea la aurora austral captada desde el espacio</title>
+    <summary xml:lang="es">El fenómeno fue grabado desde la Estación Espacial Internacional cuando sobrevolaba el Polo Sur, el pasado 23 de julio.</summary>
+    <dc:subject>video, ciencia, espacio, aurora austral, satélite, nasa, esa, estación, espacial, internacional, polo sur, ESXL_BBC_Ciencia</dc:subject>
+    <link rel="alternate" type="text/html" title="video" href="http://www.bbc.co.uk/mundo/video_fotos/2014/08/140826_video_aurora_austal_wbm.shtml">
+    <media:content>
+    <media:thumbnail url="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/26/140826122620_aurora_austral_144x81_esanasa_nocredit.jpg" width="106" height="60">
+    <img alt="" width="106" height="60" src="http://ichef.bbci.co.uk/wsimagechef/ic/106x60/amz/worldservice/live/assets/images/2014/08/26/140826122620_aurora_austral_144x81_esanasa_nocredit.jpg"/>
+    </media:thumbnail>
+    <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/26/140826122620_aurora_austral_144x81_esanasa_nocredit.jpg" width="144" height="81">
+    <img alt="Aurora Austral" width="144" height="81" src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/08/26/140826122620_aurora_austral_144x81_esanasa_nocredit.jpg"/>
+    </media:thumbnail>
+    </media:content>
+    </link>
+    </entry>
+    </feed>

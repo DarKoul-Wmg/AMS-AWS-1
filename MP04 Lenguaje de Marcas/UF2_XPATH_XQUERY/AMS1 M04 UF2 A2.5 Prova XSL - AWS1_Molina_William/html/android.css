@@ -1,0 +1,48 @@
+body{
+    background-color: #908f8f;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: rgb(229, 243, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+h3{
+    text-align: center;
+
+}
+.info{
+    align-content: center;
+}
+.device {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-items: center;
+    
+}   
+    .device img{
+        margin: 30px;
+        width: 40%;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.808);
+    }
+
+    .device li {
+        
+        margin-bottom: 5px;
+    }
+    .device:nth-child(odd) {
+        background-color: #242424; /*egre*/
+    }
+
+
+    .device:nth-child(even) {
+        background-color: #53514c; /*gris fosc*/
+    }

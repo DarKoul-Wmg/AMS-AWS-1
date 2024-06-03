@@ -1,0 +1,55 @@
+.menu {
+    display: flex;
+    position: sticky;
+    background-color: #232323b1;
+    color: #fff;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+    .menu a {
+        color: #14ff03;
+        margin: 0 1%;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .menu a:hover::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(73, 255, 1, 0.456);
+    
+        animation: spin 1s linear infinite;
+    }
+        .menu .foto {
+            max-width: 80px;
+        }
+.opc {
+    padding: 0 15px;
+}
+    
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .menu {
+        width: 100%; 
+    }
+
+    .menu a {
+        margin: 0;
+    }
+    
+}

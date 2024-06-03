@@ -1,0 +1,128 @@
+
+
+body {
+    background-color: black;
+    margin: 0;
+    
+}
+
+
+#contenedor1 {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+#logo {
+    margin-top: 1%;
+    width: 23%;
+    height: auto;
+    transition: transform 1s;
+}
+
+
+#alien1 {
+    margin-top: 1%;
+    width: 50%;
+    height: auto;
+}
+
+#logo2 {
+    margin-top: 1%;
+    width: 23%;
+    height: auto;
+    transform: scale(-1, 1);
+    transition: transform 1.5s;
+}
+
+
+
+.logo-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.contenedor2 {
+    background-color: #5c850f;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    height: auto
+    
+    
+}
+
+.contenedor2 a:hover {
+    background: black;
+    color: #5c850f;
+}
+#logo:hover {
+    transform: rotateY(180deg);
+}
+#logo2:hover {
+    transform: scale(-1) rotate(540deg);
+}
+
+.t {
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 30px;
+   
+}
+.foto {
+    
+    
+    width: 8%;
+    height: auto;
+}
+
+
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c850f;
+    color: black;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.contenedor3 h2 {
+    
+    margin: 20px;
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+.contenedor2 {
+    width: 100%;
+    height: 10px;
+}
+.t {
+    font-size: 12%;
+
+}
+.contenedor2 {
+    width: 100%;
+    height: auto;
+}
+.foto {
+   width: 0%;
+   height: 0;
+  
+}
+#logo, #logo2, #alien1 {
+    margin-top: 18%;
+}
+
+}

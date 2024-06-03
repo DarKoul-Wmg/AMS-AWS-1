@@ -1,0 +1,20 @@
+Sobre la BBDD HR.
+
+    • (2 PUNTS) Realitza un procediment anomenat "Mostrarcaps" que rebi el número d'un department i 
+       mostri el nom dels empleats d'aquest department que són caps d'altres empleats. 
+       Tracta les excepcions que consideris oportunes i crea una excepció que controle exclusivament 
+       que controli que existeix el departament. Realitza el bloc anònim corresponent per cridar al procediment.
+
+
+
+    • (2,5 PUNTS) Realitza un procediment anomenat “dinoman” que mostri el nom de l'empleat més antic de cada 
+	departament juntament amb el nom del departament. Tracta les excepcions que consideris necessàries.
+        Realitza el bloc anònim corresponent per cridar al procediment.
+	Nota: Crear i Fer servir una funció anomenada old_emp per calcular l’empleat més antic d’un departament i 
+        cridar-lo dins el procediment.*/
+
+    • (3 PUNTS) Realitza un procediment anomenat “forabecari” que esborri als dos empleats més nous de cada departament. 
+      Els empleats borrats han de copiarse a una taula anomenada T_BECARIS_HIST, afegint la seva data de eixida. 
+      Tracta les excepcions que consideris necessàries a l’hora desborrar i d’insertat (ha de mostrar un missatge 
+      exclusiu per a cada acció (insert o delete)). Realitza el bloc anònim corresponent per cridar al procediment.
+      En cas d’error ROLLBACK del delete y del insert.

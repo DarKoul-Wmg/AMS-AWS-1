@@ -1,0 +1,9 @@
+<!ELEMENT catalog (plant+)>
+<!ATTLIST plant id CDATA #REQUIRED>
+<!ELEMENT plant (common, botanical, zone, light, price, availability)>
+<!ELEMENT common (#PCDATA)>
+<!ELEMENT botanical (#PCDATA)>
+<!ELEMENT zone (#PCDATA)>
+<!ELEMENT light (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>

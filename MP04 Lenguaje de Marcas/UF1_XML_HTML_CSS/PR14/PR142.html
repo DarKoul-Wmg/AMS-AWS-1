@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://localhost:3000/PR14/PR142.html">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link href="PR142.css" rel = "stylesheet"/>
+    </head>
+    
+    <body>
+    
+        <container class="main-container">
+            <section class="cols">
+                <h1><b>Pivot Table Basics</b> </h1>
+                <div class="content-container">
+                    <p><b>Analize and Summarize</b><br>
+                    You can use pivot tables to analyze any set of data,
+                    quickly group and summarize values, and identify
+                    Interesting patterns and trends.</p>
+                </div>
+                <div class="content-container">
+                    <p><b>Fields and Source Data</b><br>
+                    Pivot tables are based on fields which correspond to 
+                    columns in a separate table of source data. You
+                    choose which fields to include in the pivot table. In
+                    this example, the Sales Pivot table uses values from 
+                    the Sales table.</p>
+                </div>
+                <div class="content-container">
+                    <p><b>Columns, Rows, and Values</b><br>
+                    Use fields to create columns and rows in the pivot
+                    table and to specify which data is summarized. In this
+                    example, the month columns are based on the Date
+                    field and subtotals are calculated using data from the
+                    Units field.</p>
+                </div>
+                <div class="content-container">
+                    <p><b>Pivot Table Options</b><br>
+                    To edit a pivot table, select it, click or tap the
+                    Organize button in the toolbar, and then choose 
+                    Pivot Options. You can add, remove, and reorder 
+                    fields. and choose options for how data is 
+                    summarized, sorted, labeled, and more.</p>
+                </div>
+            </section>
+
+            <section class="cols">
+                <div>
+                    <p class="table-title">Sales Pivot</p>
+                    <table class="sales-pivot-table" >
+                        <tr>
+                            <th class="Date" colspan="2">Date (Month)</th>
+                            <th>January</th>
+                            <th>February</th>
+                            <th>March</th>
+                            <th>Grand Total</th>
+                        </tr>
+                        <tr>
+                            <th  class="Power">Power</th>
+                            <th>Product</th>
+                            <th colspan="3">Units (Sum)</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-category" rowspan="3">&#x25BC; <b>Electric</b></td>
+                            <td class="sales-pivot-table-left"><b>Bicycles</b></td>
+                            <td class="sales-pivot-table-right">476</td>
+                            <td class="sales-pivot-table-right">354</td>
+                            <td class="sales-pivot-table-right">399</td>
+                            <td class="sales-pivot-table-right"><b>1222</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-left"><b>Scooters</b></td>
+                            <td class="sales-pivot-table-right">387</td>
+                            <td class="sales-pivot-table-right">312</td>
+                            <td class="sales-pivot-table-right">211</td>
+                            <td class="sales-pivot-table-right"><b>910</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-left"><b>Skateboards</b></td>
+                            <td class="sales-pivot-table-right">251</td>
+                            <td class="sales-pivot-table-right">315</td>
+                            <td class="sales-pivot-table-right">477</td>
+                            <td class="sales-pivot-table-right"><b>1033</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-left" colspan="2"><b>Electric Total</b></td>
+                            <td class="sales-pivot-table-right">1,114</td>
+                            <td class="sales-pivot-table-right">981</td>
+                            <td class="sales-pivot-table-right">1,070</td>
+                            <td class="sales-pivot-table-right"><b>3,165</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-category" rowspan="2">&#x25BC; <b>Manual</b></td>
+                            <td class="sales-pivot-table-left"><b>Bicycles</b></td>
+                            <td class="sales-pivot-table-right">302</td>
+                            <td class="sales-pivot-table-right">219</td>
+                            <td class="sales-pivot-table-right">464</td>
+                            <td class="sales-pivot-table-right"><b>985</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-left"><b>Scooters</b></td>
+                            <td class="sales-pivot-table-right">309</td>
+                            <td class="sales-pivot-table-right">419</td>
+                            <td class="sales-pivot-table-right">293</td>
+                            <td class="sales-pivot-table-right"><b>1,021</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-left" colspan="2"><b>Manual Total</b></td>
+                            <td class="sales-pivot-table-right">611</td>
+                            <td class="sales-pivot-table-right">638</td>
+                            <td class="sales-pivot-table-right">757</td>
+                            <td class="sales-pivot-table-right"><b>2,006</b></td>
+                        </tr>
+                        <tr>
+                            <td class="sales-pivot-table-left" colspan="2"><b>Grand Total</b></td>
+                            <td class="sales-pivot-table-right"><b>1,725</b></td>
+                            <td class="sales-pivot-table-right"><b>1,619</b></td>
+                            <td class="sales-pivot-table-right"><b>1,872</b></td>
+                            <td class="sales-pivot-table-right"><b>5,171</b></td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <p class="table-title">Sales</p>
+                    <table class ="sales-table">
+                        <tr>
+                            <th>Date</th>
+                            <th>Product</th>
+                            <th>Power</th>
+                            <th>Units</th>
+                            <th>Revenue</th>
+                        </tr>
+                        <tr>
+                            <td class="sales-table-right"><b>January</b></td>
+                            <td class="sales-table-left">Bicycles</td>
+                            <td class="sales-table-left">Electric</td>
+                            <td class="sales-table-right">476</td>
+                            <td class="sales-table-right">$751,604</td>
+                        </tr>
+                        <tr>
+                            <td class="sales-table-right no-color" ><b>March</b></td>
+                            <td class="sales-table-left">Bicycles</td>
+                            <td class="sales-table-left">Electric</td>
+                            <td class="sales-table-right">392</td>
+                            <td class="sales-table-right">$39,200</td>
+                        </tr>
+                        <tr>
+                            <td class="sales-table-right"><b>March</b></td>
+                            <td class="sales-table-left">Bicycles</td>
+                            <td class="sales-table-left">Manual</td>
+                            <td class="sales-table-right">464</td>
+                            <td class="sales-table-right">$892,736</td>
+                        </tr>
+                        <tr>
+                            <td class="sales-table-right no-color"><b>April</b></td>
+                            <td class="sales-table-left">Scooters</td>
+                            <td class="sales-table-left">Electric</td>
+                            <td class="sales-table-right">211</td>
+                            <td class="sales-table-right">$151,498</td>
+                        </tr>
+                        <tr>
+                            <td class="sales-table-right"><b>May</b></td>
+                            <td class="sales-table-left">Scooters</td>
+                            <td class="sales-table-left">Manual</td>
+                            <td class="sales-table-right">293</td>
+                            <td class="sales-table-right">$467,628</td>
+                        </tr>
+                        <tr>
+                            <td class="sales-table-right no-color"><b>June</b></td>
+                            <td class="sales-table-left">Skateboards</td>
+                            <td class="sales-table-left">Electric</td>
+                            <td class="sales-table-right">467</td>
+                            <td class="sales-table-right">$798,570</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </container>
+    </body>
+</html>

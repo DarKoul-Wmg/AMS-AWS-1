@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<records>
+	<record client="yes" ontrack="yes">
+		<name>Caesar Craft</name>
+		<address>P.O. Box 376, 9084 Tortor Street</address>
+		<phone>(220) 203-7457</phone>
+		<email>ac.feugiat@aol.com</email>
+		<date>Jun 14, 2023</date>
+		<time>Sit Amet Institute</time>
+	</record>
+	<record client="yes" ontrack="no">
+		<name>Gray Simpson</name>
+		<address>Ap #533-8631 Lectus St.</address>
+		<phone>(229) 336-2622</phone>
+		<email>vitae@aol.org</email>
+		<date>Dec 27, 2022</date>
+		<time>Dolor Donec Fringilla Institute</time>
+	</record>
+	<record client="no" ontrack="no">
+		<name>Alan Beck</name>
+		<address>404-7854 Dignissim Ave</address>
+		<phone>1-349-531-6707</phone>
+		<email>at.egestas.a@protonmail.couk</email>
+		<date>Oct 7, 2021</date>
+		<time>Et Pede LLP</time>
+	</record>
+	<record client="yes" ontrack="yes">
+		<name>Mannix Snyder</name>
+		<address>2386 Ligula Road</address>
+		<phone>1-429-904-7378</phone>
+		<email>et@protonmail.org</email>
+		<date>Jan 24, 2023</date>
+		<time>Ac Foundation</time>
+	</record>
+	<record client="no" ontrack="no">
+		<name>Asher Lucas</name>
+		<address>2339 Et, Avenue</address>
+		<phone>1-672-341-8463</phone>
+		<email>aliquam.nec.enim@yahoo.net</email>
+		<date>Dec 9, 2021</date>
+		<time>Neque In Corp.</time>
+	</record>
+</records>

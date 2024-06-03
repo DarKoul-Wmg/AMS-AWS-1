@@ -1,0 +1,129 @@
+use hr;
+
+/*1. Consulta que mostri la data actual. Etiquetar la columna com Date.*/
+
+select current_date "date";
+select now() "date";
+SELECT DATE_FORMAT(NOW(), '%d-%m-%Y');
+
+/*2. Per a cada empleat, visualitzar el seu número, cognom, salari i
+ salari nou (salari incrementat en el 15%) expressat com a número enter.*/
+
+ select employee_id,salary,salary+ceil(salary*15/100) as "new_salary"
+ from employees;
+
+/*3. Modifica la consulta de l’exercici 2 per afegir una columna que resti
+ el salari antic del nou. Etiquetar la columna com a Increase.*/
+
+ select employee_id,salary,
+		ceil(salary*15/100) as "increase",
+        salary+ceil(salary*15/100) as "new_salary"
+ from employees;
+
+ /*4. Consulta que mostri els cognoms dels empleats
+ amb la primera lletra en minúscules i totes la resta en majúscules,
+ així com la longitud del camp nom, per a tots els empleats on el nom comença per J, A o M.
+ Etiquetar les columnes com a Name i com a Length respectivament.*/
+
+ select first_name, length(first_name) as "Length",
+		concat(lower(substring(last_name,1,1)),upper(substring(last_name,2))) as "Name"
+ from employees
+ where UCASE(first_name) like 'J%' or UCASE(first_name) like 'A%' or UCASE(first_name) like 'M%';
+
+/*5. Consulta que mostri per a cada empleat, el seu cognom
+ i a més, calculi el número de mesos entre el dia d’avui i la data de contractació.
+ Etiquetar la columna com a MONTHS_WORKED.
+ Ordenar els resultats segons el número de mesos treballats.
+ Arrodonir el número de mesos cap dalt per incloure el dia d'avui com a dia treballat.*/
+
+ select last_name, hire_date,
+        timestampdiff(MONTH,hire_date,current_date+1) as "MONTHS_WORKED",
+        str_to_date('20231201','%Y%m%d') as control_date_1,
+        str_to_date('20231231','%Y%m%d') as control_date_2,
+        timestampdiff(MONTH,str_to_date('20231201','%Y%m%d'),str_to_date('20231231','%Y%m%d')) as "MONTHS_control_1",        
+        timestampdiff(MONTH,str_to_date('20231201','%Y%m%d'),adddate(str_to_date('20231231','%Y%m%d'),1)) as "MONTHS_control_2"
+ from employees
+ order by "MONTHS_WORKED" desc;
+
+/*6. Consulta que mostri per a cada empleat el següent resultat:
+        ◦ <nom_empleat> earns <salari> monthly but wants <3 vegades el salari>.
+ Etiquetar la columna com a Dream Salaries.*/
+
+ select concat(last_name, " earns " ,
+		format(salary,2,'es_ES'), " monthly but wants ",
+		format(salary*3,2,'es_ES')) as "Dream Salaries"
+ from employees;
+
+ /*7. Consulta que mostri el cognom i el salari de tots els empleats.
+ Formatar el salari per a que surti amb 15 caràcters, omplint a la esquerra amb $.
+ Etiquetar la columna com a SALARY*/
+
+ select last_name, salary,
+		LPAD(format(salary,2,'es_ES'),15,'$') as "SALARY2"
+ from employees;
+
+/*8. Consulta que mostri de cada empleat, així com la data de contractació i
+ la data de revisió de salari, que és el primer dilluns després de cada sis mesos de servei.
+ Etiquetar la columna com a REVIEW.
+ Formatar les dates per tal de que aparegui en un format similar
+ a ”Monday, the 21st of July,2000”.*/
+
+select last_name, hire_date,
+	date_add(hire_date, INTERVAL 6 MONTH) as "hire_date_6",
+    adddate(date_add(hire_date, INTERVAL 6 MONTH),
+			case when dayofweek(date_add(hire_date, INTERVAL 6 MONTH))=2 then 7
+			when dayofweek(date_add(hire_date, INTERVAL 6 MONTH))=1 then 1
+			else 9-dayofweek(date_add(hire_date, INTERVAL 6 MONTH))
+		end) as "hire_date_6 monday",
+    date_format(
+			adddate(date_add(hire_date, INTERVAL 6 MONTH),
+            case when dayofweek(date_add(hire_date, INTERVAL 6 MONTH))=2 then 7
+			when dayofweek(date_add(hire_date, INTERVAL 6 MONTH))=1 then 1
+			else 9-dayofweek(date_add(hire_date, INTERVAL 6 MONTH))
+		end),
+           '%W, %D of %M, %Y'
+           )as "review"
+ from employees;
+
+/*9. Consulta que mostri el cognom, data de contractació i
+ el dia de la setmana en que va començar l’empleat.
+ Etiquetar la columna com a DAY.
+ Ordenar els resultats per dia de la setmana, començant per dilluns.*/
+
+select last_name, hire_date,
+		dayname(hire_date) as dia_setmana
+ from employees
+ order by dayofweek(hire_date)-1 + (case when dayofweek(hire_date) = 1 then 7 else 0 end);
+
+/*10. Consulta que mostri el cognom i les comissions dels empleats.
+ Si un empleat no té comissió, s’ha de posar “No Commission”.*/
+
+ select last_name, first_name,
+	IFNULL(concat(FORMAT(commission_pct*100,2,'es_ES'),'%'), "No Commission") as commission
+ from employees e;
+
+/* 11. Consulta que mostri el cognom dels empleats  i que indiqui
+ les quantitats dels seus salaris anuals amb asteriscs.
+ Cada asterisc significa mil dòlars.
+ Ordenar les dades per salari en ordre descendent.
+ Etiqueta la columna com a:  EMPLOYEES_AND_THEIR_SALARIES.*/
+
+  select salary, concat(last_name, ', ',first_name,' -salary- ',
+		IF(IFNULL(salary,0)<1000,'-',LPAD('*',(salary/1000),'*'))
+		  ) as EMPLOYEES_AND_THEIR_SALARIES
+ from employees e
+ order by salary desc;
+
+/* 12. Fent ús de la funció CASE, escriure una consulta
+ que mostri el GRAU de tots els empleats basant-se
+ en el valor de la columna JOB_ID, segons les dades següents:
+ AD_PRES-A, ST_MAN-B, IT_PROG-C, SA_REP-D, ST_CLERK-E, Cap dels anteriors-0*/
+
+  select last_name, first_name, job_id,
+		(case when job_id = 'AD_PRES' then 'A'
+			when job_id = 'ST_MAN' then 'B'
+			when job_id = 'IT_PROG' then 'C'
+			when job_id = 'SA_REP' then 'D'
+			when job_id = 'ST_CLERK' then 'E'
+		 else '0'end) AS GRAU
+ from employees e;

@@ -1,0 +1,5 @@
+<!ELEMENT sports (sport*)>
+<!ELEMENT sport (name, technique*)>
+<!ATTLIST sport id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT technique (#PCDATA)>

@@ -1,0 +1,443 @@
+body {
+    background-color: black;
+    margin: 0;
+     
+}
+
+
+.titulo1 {
+    margin-top: 10%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+    color: #5c850f;;
+    font-size: 35px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+
+.imagen0 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+.imagen0 img {
+    width: 50%;
+    height: auto;
+    
+}
+
+
+.general {
+    line-height: 175%;
+    
+    
+
+}
+
+.entrada {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.octavo {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #5c850f;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.octavo a {
+    margin-left: 20px;
+}
+
+.imagen1 {
+    
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+.imagen1 img {
+    width: 30%;
+    height: auto;
+    
+}
+
+.abraza {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.video1 {
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+
+.pecho {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.aliens {
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #5c850f;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.aliens a {
+    margin-left: 20px;
+}
+
+.entrada2 {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.video2 {
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    display: flex;
+    width: 40%;
+    height: auto;
+    
+}
+
+.colonos {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.imagen2 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imagen2 img {
+    width: 40%;
+    height: auto;
+    
+}
+
+.newt {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.video3 {
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    display: flex;
+    width: 40%;
+    height: auto;
+    
+}
+
+.pelea {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.alien3 {
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #5c850f;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.alien3 a {
+    margin-left: 20px;
+}
+
+.imagen3 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imagen3 img {
+    width: 40%;
+    height: auto;
+    
+}
+
+.beso {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.prometheus {
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #5c850f;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.prometheus a {
+    margin-left: 20px;
+}
+
+.imagen4 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imagen4 img {
+    width: 30%;
+    height: auto;
+    
+}
+
+.arquitecto {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.imagen7 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+.imagen7 img {
+    width: 40%;
+    height: auto;
+    
+}
+
+.cesaria {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.imagen5 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imagen5 img {
+    width: 30%;
+    height: auto;
+    
+}
+
+.xeno {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.covenant {
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #5c850f;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.covenant a {
+    margin-left: 20px;
+}
+
+.imagen8 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+.imagen8 img {
+    width: 40%;
+    height: auto;
+    
+}
+
+.ataque {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.imagen6 {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imagen6 img {
+    width: 30%;
+    height: auto;
+    
+}
+
+.origen {
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.fin {
+    margin-top: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.despedida {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+.titulo1 {
+    font-size: 20px;
+}
+.entrada, .entrada2, .octavo, .pecho, .abraza, .aliens, .alien3, .colonos, .pelea, .newt, .prometheus, .arquitecto, .covenant, .xeno, .ataque, .fin, .despedida, .origen, .cesaria, .beso {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+} 
+.video1, .video2, .video3, .video4, .video5 {
+    width: 60%;
+    height: auto;
+}
+.imagen0 img, .imagen1 img, .imagen2 img, .imagen3 img, .imagen4 img, .imagen5 img, .imagen6 img, .imagen7 img, .imagen8 img {
+    width: 60%;
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

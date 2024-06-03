@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+    <android_device>
+        <model>Galaxy S24</model>
+        <brand>Samsung</brand>
+        <year>2024</year>
+        <colors>
+            <color>Phantom Black</color>
+            <color>Phantom Silver</color>
+            <color>Phantom Violet</color>
+        </colors>
+		<picture>https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202401/12/00157063607980009_1__1200x1200.jpg</picture>
+    </android_device>
+    <android_device>
+        <model>Pixel 8</model>
+        <brand>Google</brand>
+        <year>2023</year>
+        <colors>
+            <color>Blue</color>
+            <color>Black</color>
+			<color>White</color>
+        </colors>
+		<picture>https://www.powerplanetonline.com/cdnassets/google_pixel_8_pro_5g_12gb_128gb_azul_telefono_movil_01_l.jpg</picture>
+    </android_device>
+    <android_device>
+        <model>Xperia 1 V</model>
+        <brand>Sony</brand>
+        <year>2024</year>
+        <colors>
+            <color>Black</color>
+            <color>Green</color>
+        </colors>
+		<picture>https://www.mytrendyphone.es/images/Sony-Xperia-1-V-256GB-Platinum-Silver-4589771648735-28062023-01-p.webp</picture>
+    </android_device>
+    <android_device>
+        <model>Mi 13</model>
+        <brand>Xiaomi</brand>
+        <year>2023</year>
+        <colors>
+            <color>White</color>
+            <color>Black</color>
+            <color>Green</color>
+        </colors>
+		<picture>https://media.ldlc.com/r1600/ld/products/00/06/01/64/LD0006016490.jpg</picture>
+    </android_device>
+    <ios_device>
+        <model>iPhone 15</model>
+        <brand>Apple</brand>
+        <year>2023</year>
+        <colors>
+            <color>Blue</color>
+            <color>Pink</color>
+            <color>Yellow</color>
+            <color>Green</color>
+			<color>Black</color>
+        </colors>
+		<picture>https://static.k-tuin.com/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/i/p/iphone-15-color-azul-de-128-gb.jpg</picture>
+    </ios_device>
+    <ios_device>
+        <model>iPad Pro</model>
+        <brand>Apple</brand>
+        <year>2022</year>
+        <colors>
+            <color>Silver</color>
+            <color>Space Gray</color>
+        </colors>
+		<picture>https://media.ldlc.com/r1600/ld/products/00/05/98/87/LD0005988755_0005988760_0005988769.jpg</picture>
+    </ios_device>
+    <ios_device>
+        <model>iPad mini</model>
+        <brand>Apple</brand>
+        <year>2021</year>
+        <colors>
+            <color>Purple</color>
+            <color>Pink</color>
+            <color>Starlight</color>
+            <color>Space Gray</color>
+        </colors>
+		<picture>https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111886_sp850-ipad-mini-6gen-480.png</picture>
+    </ios_device>
+    <ios_device>
+        <model>iPad Air</model>
+        <brand>Apple</brand>
+        <year>2022</year>
+        <colors>
+            <color>Gold</color>
+            <color>Space Gray</color>
+            <color>Blue</color>
+            <color>Purple</color>
+            <color>Rose Gold</color>
+        </colors>
+		<picture>https://i.ebayimg.com/images/g/ooQAAOSweUpj4Cgo/s-l400.jpg</picture>
+    </ios_device>
+    <ios_device>
+        <model>iPhone SE</model>
+        <brand>Apple</brand>
+        <year>2021</year>
+        <colors>
+            <color>Silver</color>
+            <color>Space Gray</color>
+			<color>Product Red</color>
+        </colors>
+		<picture>https://rossellimac.es/cdn/shop/files/iPhone_SE3_Midnight_PDP_Image_Position-1A__ESES_ee9fb151-b497-478d-828d-96eede0dbfbe.jpg?v=1689094023</picture>
+    </ios_device>
+</root>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programacio SYSTEM "PR122.dtd">
+<programacio>
+    <canal nom = "canal1">
+        <publicitat></publicitat>
+
+        <dia>
+            <data></data>
+            <programes>
+
+                <programa edat = "18"
+                idioma = "Esp, Ing">
+                    <duracio></duracio>
+                    <titol></titol>
+                    <resum></resum>
+
+                </programa>
+            </programes>
+        </dia>
+
+    </canal>
+
+    <canal nom = "canal2">
+
+        <publicitat></publicitat>
+
+        <dia>
+            <data></data>
+            <programes>
+
+                <programa edat = "18"
+                idioma = "Esp, Ing">
+                    <duracio></duracio>
+                    <titol></titol>
+                    <resum></resum>
+                    <resum></resum>
+
+                </programa>
+                <programa edat = "16"
+                idioma = "Esp">
+                    <duracio></duracio>
+                    <titol></titol>
+                    <resum></resum>
+
+
+                </programa>
+                <programa edat = "18"
+                idioma = "Esp, Cat, Ing">
+                    <duracio></duracio>
+                    <titol></titol>
+                    <resum></resum>
+                    <resum></resum>
+                    <resum></resum>
+
+                </programa>
+            </programes>
+        </dia>
+
+    </canal>
+    <canal nom = "canal3">
+   
+        <publicitat></publicitat>
+        <dia>
+            <data></data>
+            <programes>
+
+                <programa edat = "18"
+                idioma = "Esp, Cat">
+                    <duracio></duracio>
+                    <titol></titol>
+                    <resum></resum>
+
+
+                </programa>
+                <programa edat = "14"
+                idioma = "Esp, Ing">
+                    <duracio></duracio>
+                    <titol></titol>
+                    <resum></resum>
+
+
+                </programa>
+            </programes>
+        </dia>
+
+    </canal>
+    
+</programacio>

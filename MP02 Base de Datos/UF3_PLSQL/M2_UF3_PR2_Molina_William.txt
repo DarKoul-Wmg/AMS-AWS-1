@@ -1,0 +1,115 @@
+-- EX1-------------------------------------------------------------------
+CREATE OR REPLACE FUNCTION F1_EmployeeCount_Molina_William(id_dept number)
+return number --contador de empleados
+is
+     v_id departments.department_id%type;
+     v_count_employee number :=0;
+BEGIN
+     select department_id into v_id
+     from DEPARTMENTS
+     where department_id = id_dept;
+     if v_id is NULL then
+          return NULL;
+     else
+          select count(*) into v_count_employee from EMPLOYEES
+          where department_id = v_id;
+          update DEPARTMENTS set EMPLOYEE_COUNT = v_count_employee where
+          department_id = v_id;
+          return v_count_employee;
+     end if;
+exception
+     when no_data_found THEN
+         return null;
+     when OTHERS THEN
+         DBMS_OUTPUT.PUT_LINE('Error inesperado');
+         return null;
+END F1_EmployeeCount_Molina_William;
+
+-- -------Script de pruebas-----EX1--------------------------------------
+set SERVEROUTPUT on;
+DECLARE
+    v_input int := 20;
+    v_resultado int;
+BEGIN
+v_resultado := F1_EmployeeCount_Molina_William(v_input);
+    if v_resultado is null THEN
+        DBMS_OUTPUT.PUT_LINE('No existe la id: '||v_input);
+    else
+        DBMS_OUTPUT.PUT_LINE('There are ' || v_resultado || ' employees in department ' || v_input);
+    end if;
+END;
+
+
+-- EX2-------------------------------------------------------------------
+
+-- Modificar la columna:
+ALTER TABLE DEPARTMENTS
+MODIFY department_name VARCHAR2(50);
+
+-- Sentencia para comprobar el estado de los objetos de la BBDD:
+SELECT object_name, object_type, status
+FROM all_objects
+WHERE status != 'VALID';
+
+/*
+Objetos en estado INVALID:
+'EMP_DETAILS_VIEW'
+'F1_DEPT'
+'P1_COMISSIO'
+'F_DEPT_MANAGER'
+*/
+
+-- Sentencias para actualizar los objetos de la base de datos ante la modificación de la columna:
+ALTER VIEW EMP_DETAILS_VIEW COMPILE;
+ALTER FUNCTION F1_DEPT COMPILE;
+ALTER FUNCTION F_DEPT_MANAGER COMPILE;
+ALTER PROCEDURE P1_COMISSIO COMPILE;
+
+/*
+Cuando se ha modificado la columna de la tabla DEPARTMENTS, los objetos creados en la base de datos
+se han quedado en estado invalidos por el cambio. Para solucionar esto, es necesario revisar estos objetos
+y actualizarlos para que sean compatibles con la tabla actualizada.
+Mediante el uso de las sentencias anteriores, hacemos que los objetos se compilen y, de esta forma, pasen
+de estar de un estado INVALID a un estado VALID.
+*/
+
+-- EX3----------------------------------------------------------------
+
+CREATE OR REPLACE PROCEDURE P1_EmployeeCount_Molina_William
+
+IS
+
+    v_comprobar_funcion number := 0;
+    v_count_dept number := 0;
+    v_total_empl number := 0;
+
+BEGIN
+
+    FOR dept IN 10..200 by 10 LOOP
+        v_comprobar_funcion := F1_EmployeeCount_Molina_William(dept);
+
+        if v_comprobar_funcion > 0 AND v_comprobar_funcion IS NOT NULL THEN
+            v_total_empl :=  v_total_empl + v_comprobar_funcion;
+            v_count_dept := v_count_dept + 1;
+
+        end if;
+    END LOOP;
+
+    DBMS_OUTPUT.PUT_LINE('There are ' || v_count_dept || ' departments.');
+    DBMS_OUTPUT.PUT_LINE('There are ' || v_total_empl || ' employees.');
+
+EXCEPTION
+
+    when NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Datos no encontrados');
+
+    when others THEN
+        DBMS_OUTPUT.PUT_LINE('Error inesperado');
+
+END P1_EmployeeCount_Molina_William;
+
+-- script de pruebas-----EX3-----------------------------------------------
+
+BEGIN
+    P1_EmployeeCount_Molina_William();
+END;

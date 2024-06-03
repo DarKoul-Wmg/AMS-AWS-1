@@ -1,0 +1,10 @@
+<!ELEMENT riders (person+)>
+<!ELEMENT person (name,born,events*)>
+<!ATTLIST person id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT born (year,month,day)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT events (event*)>
+<!ELEMENT event (#PCDATA)>

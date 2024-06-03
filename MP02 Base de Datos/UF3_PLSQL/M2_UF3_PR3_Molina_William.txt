@@ -1,0 +1,290 @@
+-- ex1---------------
+create or replace FUNCTION f_buscar_empleat_Molina_William(p_nom string, p_cognom string)
+return employees%rowtype  --registre
+
+is
+
+    v_registre employees%rowtype;
+
+        cursor cursor_buscar is  
+            select * from employees
+            where first_name = nvl(p_nom, first_name)
+            and last_name = nvl(p_cognom, last_name)
+            order by last_name, first_name;
+
+
+BEGIN 
+
+    open cursor_buscar;
+    fetch cursor_buscar into v_registre;
+    close cursor_buscar;
+    return v_registre;
+    
+exception
+
+        when no_data_found then
+            return null;
+            close cursor_buscar;
+
+        when others then
+            return null;
+            close cursor_buscar;
+
+END f_buscar_empleat_Molina_William;
+
+-- proves-Ex1-------------------------------------------------
+
+SET SERVEROUTPUT ON;
+DECLARE
+  p_nom employees.first_name%type;
+  p_cognom employees.last_name%type;
+  v_Return employees%rowtype;
+BEGIN
+  p_nom := null;
+  p_cognom := null;
+  v_Return := f_buscar_empleat_Molina_William(p_nom,p_cognom);
+  if v_Return.employee_id IS NULL then DBMS_OUTPUT.PUT_LINE('v_Return null'); else
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_emplea t= ' || v_Return.first_name || ' ' ||v_Return.last_name);
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.email);
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat= ' || v_Return.department_id);
+  end if;
+  DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+  p_nom := 'UK';
+  p_cognom := 'UK';
+  v_Return := f_buscar_empleat_Molina_William(p_nom,p_cognom);
+  if v_Return.employee_id IS NULL then DBMS_OUTPUT.PUT_LINE('v_Return null'); else
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.first_name || ' ' ||v_Return.last_name);
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.email);
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.department_id);
+  end if;
+  DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+
+  p_nom := 'John';
+  p_cognom := 'Chen';
+  v_Return := f_buscar_empleat_Molina_William(p_nom,p_cognom);
+  if v_Return.employee_id IS NULL then DBMS_OUTPUT.PUT_LINE('v_Return null'); else
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.first_name || ' ' ||v_Return.last_name);
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.email);
+  DBMS_OUTPUT.PUT_LINE('v_Return buscar_empleat = ' || v_Return.department_id);
+  end if;
+  DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+END;
+
+
+
+-- ex2-------------------------------------------------------
+
+create or replace FUNCTION f_salari_total_dep_Molina_William(p_dep_id number)
+return number  --suma
+
+is
+
+    v_total_salaris number := 0;
+    v_salary employees.salary%type;
+
+    -- control
+    dep_exist number;
+
+    cursor cursor_salary is  
+        select salary from employees
+        where p_dep_id = department_id;
+
+BEGIN 
+
+    -- Comprobación de que el departamento exista
+    select count(*) into dep_exist
+    from departments where department_id = p_dep_id;
+    if dep_exist = 0 THEN
+        return null;
+    end if;
+
+
+    open cursor_salary;
+    LOOP
+        fetch cursor_salary into v_salary;
+        exit when cursor_salary%notfound;
+
+        v_total_salaris := v_total_salaris + v_salary;
+    end LOOP;
+
+    close cursor_salary;
+    return v_total_salaris;
+    
+exception
+        when value_error then
+            close cursor_salary;
+            return null;
+
+        when no_data_found then
+            close cursor_salary;
+            return null;
+            
+        when others then
+            close cursor_salary;
+            return null;
+            
+
+END f_salari_total_dep_Molina_William;
+
+
+-- proves-Ex2-------------------------------------------------
+
+SET SERVEROUTPUT ON;
+DECLARE
+    p_dept_id employees.department_id%TYPE;
+    v_Return NUMBER;
+BEGIN
+    p_dept_id := 100;
+
+    v_Return := f_salari_total_dep_Molina_William(p_dept_id);
+    IF v_Return IS NULL THEN
+        DBMS_OUTPUT.PUT_LINE('Department id: ' || p_dept_id ||' not exist');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Department = ' || p_dept_id || ' - Total salary = ' || v_Return);
+    END IF;
+    DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+
+    p_dept_id := 5;
+
+    v_Return := f_salari_total_dep_Molina_William(p_dept_id);
+    IF v_Return IS NULL THEN
+        DBMS_OUTPUT.PUT_LINE('Department id: ' || p_dept_id ||' not exist');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Department = ' || p_dept_id || ' - Total salary = ' || v_Return);
+    END IF;
+    DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+END;
+
+
+
+-- ex3---------------
+
+SET SERVEROUTPUT ON;
+DECLARE
+    v_nomines NUMBER(10,2) := 200000;
+    v_acumulat NUMBER(10,2) := 0;
+    v_restant NUMBER(10,2) :=0;
+
+    CURSOR cursor_emp IS
+        SELECT first_name, last_name, salary
+        FROM employees
+        ORDER BY salary ASC;
+
+    dades_emp cursor_emp%ROWTYPE;
+BEGIN 
+    OPEN cursor_emp;
+    LOOP
+        FETCH cursor_emp INTO dades_emp;
+        EXIT WHEN cursor_emp%NOTFOUND OR v_acumulat + dades_emp.salary > v_nomines;
+        
+        v_acumulat := v_acumulat + dades_emp.salary;
+        DBMS_OUTPUT.PUT_LINE('Empleat: ' || dades_emp.first_name || ' ' || dades_emp.last_name);
+        DBMS_OUTPUT.PUT_LINE('Despeses totals: ' || v_acumulat);
+        v_restant := v_nomines - v_acumulat;
+        DBMS_OUTPUT.PUT_LINE('Despeses disponibles: ' || v_restant);
+        DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+    END LOOP;
+    CLOSE cursor_emp;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+END;
+-- acabar en sundar Ander/ 194,800.00
+
+-- proves-Ex3-------------------------------------------------
+
+
+-- ex4---------------
+
+SET SERVEROUTPUT ON;
+DECLARE
+    v_dep_id NUMBER := 20;
+    v_data_contracte date := TO_DATE('01/01/06','DD/MM/YY');
+
+    CURSOR cursor_data IS
+        SELECT first_name, last_name, hire_date, jobs.job_title
+        FROM employees JOIN jobs ON employees.job_id = jobs.job_id
+        WHERE employees.hire_date < v_data_contracte 
+        ORDER BY hire_date, last_name;
+
+    dades_emp cursor_data%ROWTYPE;
+
+BEGIN 
+    OPEN cursor_data;
+    LOOP
+        FETCH cursor_data INTO dades_emp;
+        EXIT WHEN cursor_data%NOTFOUND;
+        DBMS_OUTPUT.PUT_LINE('Empleat: ' || dades_emp.first_name || ' ' || dades_emp.last_name);
+        DBMS_OUTPUT.PUT_LINE('Data contracte: ' || dades_emp.hire_date);
+        DBMS_OUTPUT.PUT_LINE('Càrrec: ' || dades_emp.job_title);
+        DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+    END LOOP;
+    CLOSE cursor_data;
+
+EXCEPTION
+    when NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Dades no trobades ');
+
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+END;
+
+-- proves-Ex4-------------------------------------------------
+
+
+
+-- ex5---------------
+
+SET SERVEROUTPUT ON;
+
+DECLARE
+    v_cont_emp NUMBER;
+    v_manager employees.employee_id%TYPE;
+    v_salari_extra employees.salary%TYPE;
+
+    CURSOR cursor_sou_cap IS
+        SELECT employee_id
+        FROM employees 
+        WHERE employee_id IN (
+            SELECT manager_id FROM departments)
+        FOR UPDATE;
+
+BEGIN
+
+    OPEN cursor_sou_cap;
+    LOOP
+        FETCH cursor_sou_cap into v_manager;  --id del manager actual del loop
+        EXIT when cursor_sou_cap%NOTFOUND;
+
+        SELECT COUNT(*) INTO v_cont_emp --contador de empleados
+        FROM employees 
+        WHERE manager_id = v_manager;
+
+        IF v_cont_emp <= 5 THEN
+            v_salari_extra := v_cont_emp * 100;
+        ELSE
+            v_salari_extra := v_cont_emp * 85;
+        END IF;
+        
+        UPDATE employees
+        SET salary = salary + v_salari_extra
+        WHERE employee_id = v_manager;
+
+        DBMS_OUTPUT.PUT_LINE('Salary of manager_id : ' || v_manager || ' increased in: ' || v_salari_extra || '$');
+        DBMS_OUTPUT.PUT_LINE('-----------------------------------------------------');
+
+    END LOOP;
+    COMMIT;
+    
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Dades no trobades ');
+
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+
+END;
+
+-- proves-Ex5-------------------------------------------------
+

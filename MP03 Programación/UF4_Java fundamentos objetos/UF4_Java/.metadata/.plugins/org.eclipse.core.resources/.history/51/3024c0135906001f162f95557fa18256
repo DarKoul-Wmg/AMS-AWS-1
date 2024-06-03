@@ -1,0 +1,384 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Random;
+
+import javax.imageio.ImageIO;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.border.Border;
+import javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener;
+
+
+
+public class Exercici1_uf5_Molina_William {
+
+	public static void main(String[] args) {
+		new VentanaPrevia();
+
+	}
+
+}
+class VentanaPrevia extends JFrame{
+	private JPanel panelPrincipal,panel1,panel2,panel3,panel4;
+	private JLabel etiqueta1, etiqueta2;
+	private JTextField campoTexto1;
+	private JButton botonGuardar, botonStart, botonSalir;
+	private String nombre = "";
+	
+	
+	
+	VentanaPrevia() {
+		setBounds(100,100,400,400);
+		initComponents();
+		
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+	
+
+	private void initComponents() {
+		panelPrincipal = new JPanel();
+		panelPrincipal.setLayout(new BoxLayout(panelPrincipal, BoxLayout.Y_AXIS));
+		add(panelPrincipal);
+		
+		panel1 = new JPanel();
+		etiqueta1 = new JLabel("Whats your username? ");
+		campoTexto1 = new JTextField(10);
+		panel1.add(etiqueta1);
+		panel1.add(campoTexto1);
+		panelPrincipal.add(panel1);
+		
+		panel2 = new JPanel();
+		etiqueta2 = new JLabel("message about the username");
+		panel2.add(etiqueta2);
+		panelPrincipal.add(panel2);
+		
+		panel3= new JPanel();
+		botonGuardar = new JButton("Save name");
+        botonStart = new JButton("Start");
+        panel3.add(botonGuardar);
+        panel3.add(botonStart);
+        panelPrincipal.add(panel3);
+
+        panel4 = new JPanel();
+        botonSalir = new JButton("Exit");
+        panel4.add(botonSalir);
+        panelPrincipal.add(panel4);
+        
+        //acciones
+        
+        botonSalir.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+				dispose();
+				
+			}
+		});
+        
+        botonStart.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	nombre = campoTexto1.getText();           
+                if (nombre == null || nombre.isEmpty()) {
+                	etiqueta2.setText("Exception: the name entered is not valid");
+                	
+                    
+                } else {
+                    // Abre la ventana del juego
+                    new MiVentanaPrincipal(nombre);
+                    dispose(); // Cierra la ventana actual
+                }
+            }
+        });
+        
+        botonGuardar.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				nombre = campoTexto1.getText();
+				
+				try {
+					checkAlphabet(nombre);
+					etiqueta2.setText("nombre valido");
+					
+				} catch (MiExcepcion ex) {
+					campoTexto1.setText("");
+					etiqueta2.setText(ex.getMessage());
+				}
+			}
+		});
+        
+		
+	}
+	
+	public void checkAlphabet(String s) throws MiExcepcion{
+		if (s.equals("")) {
+			throw(new MiExcepcion("Exception: Missing save username"));
+		}
+		char t;
+		for (int i = 0; i < s.length(); i++) {
+			t = s.charAt(i);
+			if (!((s.charAt(i) >= 'a' && s.charAt(i)<= 'z' )||(s.charAt(i) >= 'A' && s.charAt(i)<= 'Z' ))){
+				throw (new MiExcepcion("Exception: the name entered is not valid"));
+			}
+		}
+	}
+
+}
+class MiPane extends JPanel{
+	private int id;
+	private BufferedImage imagen;
+	
+	public void paint(Graphics g) {
+		super.paint(g);
+        g.drawImage(imagen, 0, 0, this.getWidth(), this.getHeight(), null);
+        
+	}
+	
+	//set get Buffimage
+	public BufferedImage getImagen() {
+		return imagen;
+	}
+
+	public void setImagen(BufferedImage imagen) {
+		this.imagen = imagen;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public int getId() {
+		return id;
+	}
+}
+
+
+class MiExcepcion extends Exception{
+	
+	public MiExcepcion(String message){
+		super(message);
+		
+	}
+
+}
+
+class MiVentanaPrincipal extends JFrame{
+	private String nombre;
+	private JPanel panelPrincipal, panelCentral, westPane;
+	private MiPane panel1,panel2,panel3,panel4;
+	private JButton b1,b2,b3,b4, reset;
+	private JLabel etiquetaSur;
+	private ArrayList<BufferedImage> imagenes;
+	private int indiceAleatorio;
+	
+	MiVentanaPrincipal(String nombre) {
+		
+		
+		setBounds(100,100,400,400);
+		setTitle("Hola "+nombre);
+		initComponents();
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+		setLocationRelativeTo(null);
+	}
+	private void initComponents() {
+		
+		
+		imagenes = new ArrayList<BufferedImage>();
+		Random random = new Random();
+		
+		//genera todas las imagenes disponibles
+		for (int i=1;i<=9;i++) {
+			try {
+				imagenes.add(ImageIO.read(new File("./src/Imagen"+i+".JPG")));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		panelPrincipal = new JPanel();
+		panelPrincipal.setLayout(new BorderLayout());
+		add(panelPrincipal);
+		
+		panelCentral = new JPanel();
+		panelCentral.setLayout(new GridLayout(2,2));
+		panelPrincipal.add(panelCentral,BorderLayout.CENTER);
+		
+		indiceAleatorio = random.nextInt(imagenes.size());
+		panel1 = new MiPane();
+		panel1.setImagen(imagenes.get(indiceAleatorio));
+		panel1.setId(indiceAleatorio+1);
+		panelCentral.add(panel1);
+		panel1.addMouseListener(new MouseListener() {
+			public void mouseReleased(MouseEvent e) {}
+			public void mousePressed(MouseEvent e) {}
+			public void mouseExited(MouseEvent e) {}
+			public void mouseEntered(MouseEvent e) {}
+			public void mouseClicked(MouseEvent e) {
+				JOptionPane.showMessageDialog(null, "ID imagen = "+(panel1.getId()));
+				
+			}
+		});
+		
+					
+		indiceAleatorio = random.nextInt(imagenes.size());
+		panel2 = new MiPane();
+		panel2.setImagen(imagenes.get(indiceAleatorio));
+		panel2.setId(indiceAleatorio+1);
+		panelCentral.add(panel2);
+		panel2.addMouseListener(new MouseListener() {
+			public void mouseReleased(MouseEvent e) {}
+			public void mousePressed(MouseEvent e) {}
+			public void mouseExited(MouseEvent e) {}
+			public void mouseEntered(MouseEvent e) {}
+			public void mouseClicked(MouseEvent e) {
+				JOptionPane.showMessageDialog(null, "ID imagen = "+(panel2.getId()));
+				
+			}
+		});
+		
+		indiceAleatorio = random.nextInt(imagenes.size());
+		panel3 = new MiPane();
+		panel3.setImagen(imagenes.get(indiceAleatorio));
+		panel3.setId(indiceAleatorio+1);
+		panelCentral.add(panel3);
+		panel3.addMouseListener(new MouseListener() {
+			public void mouseReleased(MouseEvent e) {}
+			public void mousePressed(MouseEvent e) {}
+			public void mouseExited(MouseEvent e) {}
+			public void mouseEntered(MouseEvent e) {}
+			public void mouseClicked(MouseEvent e) {
+				JOptionPane.showMessageDialog(null, "ID imagen = "+(panel3.getId()));
+				
+			}
+		});
+		
+		indiceAleatorio = random.nextInt(imagenes.size());
+		panel4 = new MiPane();
+		panel4.setImagen(imagenes.get(indiceAleatorio));
+		panel4.setId(indiceAleatorio+1);
+		panelCentral.add(panel4);
+		panel4.addMouseListener(new MouseListener() {
+			public void mouseReleased(MouseEvent e) {}
+			public void mousePressed(MouseEvent e) {}
+			public void mouseExited(MouseEvent e) {}
+			public void mouseEntered(MouseEvent e) {}
+			public void mouseClicked(MouseEvent e) {
+				JOptionPane.showMessageDialog(null, "ID imagen = "+(panel4.getId()));
+				
+			}
+		});
+		
+		westPane = new JPanel();
+		westPane.setLayout(new BoxLayout(westPane, BoxLayout.Y_AXIS));
+		b1 = new JButton("Panel1");
+		b2 = new JButton("Panel2");
+		b3 = new JButton("Panel3");
+		b4 = new JButton("Panel4");
+		westPane.add(b1);
+		westPane.add(b2);
+		westPane.add(b3);
+		westPane.add(b4);
+		panelPrincipal.add(westPane, BorderLayout.WEST);
+	
+		
+		
+		reset = new JButton("reset");
+		panelPrincipal.add(reset,BorderLayout.EAST);
+		
+		etiquetaSur = new JLabel("Imagenes coincidentes: ");
+		panelPrincipal.add(etiquetaSur,BorderLayout.SOUTH);
+		
+		
+		
+		//metodo imagenes coincidentes
+		
+		//public int comprobarImagenes
+		
+		//acciones botones
+		
+		b1.addActionListener(new ActionListener() {		
+			public void actionPerformed(ActionEvent e) {
+				indiceAleatorio = random.nextInt(imagenes.size());
+				panel1.setImagen(imagenes.get(indiceAleatorio));
+				panel1.setId(indiceAleatorio);
+				panel1.repaint();
+				
+			}
+		});
+		b2.addActionListener(new ActionListener() {		
+			public void actionPerformed(ActionEvent e) {
+				indiceAleatorio = random.nextInt(imagenes.size());
+				panel2.setImagen(imagenes.get(indiceAleatorio));
+				panel2.setId(indiceAleatorio);
+				panel2.repaint();
+				
+			}
+		});
+		b3.addActionListener(new ActionListener() {		
+			public void actionPerformed(ActionEvent e) {
+				indiceAleatorio = random.nextInt(imagenes.size());
+				panel3.setImagen(imagenes.get(indiceAleatorio));
+				panel3.setId(indiceAleatorio);
+				panel3.repaint();
+				
+			}
+		});
+		b4.addActionListener(new ActionListener() {		
+			public void actionPerformed(ActionEvent e) {
+				indiceAleatorio = random.nextInt(imagenes.size());
+				panel4.setImagen(imagenes.get(indiceAleatorio));
+				panel4.setId(indiceAleatorio);
+				panel4.repaint();
+				
+			}
+		});
+		
+		reset.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				try {
+					panel1.setImagen(ImageIO.read(new File("./src/Imagen0.JPG")));
+					panel1.setId(0);
+					panel1.repaint();
+					
+					panel2.setImagen(ImageIO.read(new File("./src/Imagen0.JPG")));
+					panel2.setId(0);
+					panel2.repaint();
+					
+					panel3.setImagen(ImageIO.read(new File("./src/Imagen0.JPG")));
+					panel3.setId(0);
+					panel3.repaint();
+					
+					panel4.setImagen(ImageIO.read(new File("./src/Imagen0.JPG")));
+					panel4.setId(0);
+					panel4.repaint();
+				}catch (Exception ex) {
+					System.out.println("No se ha obtenido la imagen");
+				}
+				
+				
+			}
+		});
+		
+	}
+
+}

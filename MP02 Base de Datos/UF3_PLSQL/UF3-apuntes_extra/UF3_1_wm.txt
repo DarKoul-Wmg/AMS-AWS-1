@@ -1,0 +1,47 @@
+SET SERVEROUTPUT ON;
+
+-- EXERCICI 1  (productes)
+
+-- BLOC ANÒNIM
+
+DECLARE
+  v_import_str VARCHAR2(10) := '0';
+  v_import NUMBER;
+  v_product_id NUMBER := 95; -- en teoria el cursor viene von 95 por defecto 
+
+  cursor c_cursor(v_import NUMBER) is 
+        select o.order_id, o.order_date, c.name, oi.quantity, oi.unit_price
+        from customers c 
+        JOIN orders o ON c.customer_id = o.customer_id
+        JOIN order_items oi ON oi.order_id = o.order_id
+        where product_id = v_product_id and (quantity * unit_price) >= v_import;
+
+
+  v_row c_cursor%rowtype;
+
+BEGIN
+    BEGIN
+        v_import := TO_NUMBER(v_import_str);
+    EXCEPTION
+        WHEN VALUE_ERROR THEN
+            dbms_output.put_line('Import incorrecte, ha de ser un numero valid: ' || v_import_str);
+    END;
+
+    BEGIN
+        open c_cursor(v_import);
+        LOOP
+            FETCH c_cursor INTO v_row;
+            EXIT WHEN c_cursor%NOTFOUND;
+        
+            DBMS_OUTPUT.PUT_LINE('ORDER:   '||v_row.order_id|| '   DATA:   ' || v_row.order_date|| '   CLIENT:   ' ||v_row.name|| 
+                                    '  IMPORT: ' ||v_row.quantity * v_row.unit_price);
+        END LOOP;
+        CLOSE c_cursor;
+
+    EXCEPTION
+        WHEN no_data_found THEN
+            dbms_output.put_line('Error: Client no trovat');
+	WHEN others THEN
+            dbms_output.put_line('Error inesperat');
+    END;
+END;

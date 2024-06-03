@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estacions>
+    <estacio id="0">
+        <nom>Estació de Sants</nom>
+        <ciutat>0</ciutat>
+    </estacio>
+    <estacio id="1">
+        <nom>Passeig de Gràcia</nom>
+        <ciutat>0</ciutat>
+    </estacio>
+    <estacio id="2">
+        <nom>Estació de França</nom>
+        <ciutat>0</ciutat>
+    </estacio>
+    <estacio id="3">
+        <nom>Estació de l'Hospitalet</nom>
+        <ciutat>1</ciutat>
+    </estacio>
+    <estacio id="4">
+        <nom>Badalona Estació</nom>
+        <ciutat>2</ciutat>
+    </estacio>
+    <estacio id="5">
+        <nom>Montcada Bifurcació</nom>
+        <ciutat>3</ciutat>
+    </estacio>
+    <estacio id="6">
+        <nom>Montcada - Ripollet</nom>
+        <ciutat>3</ciutat>
+    </estacio>
+    <estacio id="7">
+        <nom>Sabadell Centre</nom>
+        <ciutat>4</ciutat>
+    </estacio>
+    <estacio id="8">
+        <nom>Sabadell Zona Hermètica</nom>
+        <ciutat>4</ciutat>
+    </estacio>
+    <estacio id="9">
+        <nom>Estació de Vic</nom>
+        <ciutat>5</ciutat>
+    </estacio>
+</estacions>

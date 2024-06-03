@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios SYSTEM "004.dtd">
+<!-- Exercici 4
+    Genera l'arxiu XML que funciona segons
+    la validació DTD adjunta, inventa't les dades
+    i posa-hi almenys 1 persona
+-->
+<usuarios>
+    <usuario>
+
+        <nombre>
+            <apellido>Molina</apellido>
+            <segundoapellido>Galan</segundoapellido>
+            <apodo>WallY</apodo>
+        </nombre>
+
+        <direccion>
+            <correo>08940</correo>
+            <correoelectronico>wally8@gmail.com</correoelectronico>
+            <movil>666666666</movil>
+            <calle>domenech i muntaner</calle>
+            <numero>45</numero>
+        </direccion>
+
+        <cumple>
+            <año>2002</año>
+            <mes>abril</mes>
+            <dia>9</dia>
+        </cumple>
+
+    </usuario>
+    <usuario>
+
+        <nombre>
+            <apellido>Naharro</apellido>
+            <segundoapellido>Rata</segundoapellido>
+            <apodo>Caraslocas</apodo>
+        </nombre>
+
+        <direccion>
+            <correo>08940</correo>
+            <correoelectronico>pnaharro9@gmail.com</correoelectronico>
+            <movil>666999666</movil>
+            <calle>desmayo</calle>
+            <numero>8</numero>
+        </direccion>
+
+        <cumple>
+            <año>2002</año>
+            <mes>octubre</mes>
+            <dia>5</dia>
+        </cumple>
+
+    </usuario>
+</usuarios>

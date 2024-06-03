@@ -1,0 +1,69 @@
+<universidad>
+    <facultad nombre="Ingeniería">
+        <carrera nombre="Informática">
+            <curso codigo="101">
+                <alumno nombre="Juan" edad="20"/>
+                <alumno nombre="Andres" edad="21"/>
+                <alumno nombre="Kyle" edad="19"/>
+            </curso>
+            <curso codigo="102">
+                <alumno nombre="María" edad="22"/>
+                <alumno nombre="Carlos" edad="21"/>
+                <alumno nombre="Marta" edad="20"/>
+            </curso>
+        </carrera>
+        <carrera nombre="Electrónica">
+        <curso codigo="201">
+            <alumno nombre="Ana" edad="23"/>
+            <alumno nombre="Pedro" edad="22"/>
+            <alumno nombre="Ben" edad="21"/>
+        </curso>
+        </carrera>
+    </facultad>
+    <facultad nombre="Ciencias">
+        <carrera nombre="Física">
+            <curso codigo="301">
+                <alumno nombre="Laura" edad="25"/>
+                <alumno nombre="Lucia" edad="21"/>
+                <alumno nombre="Pol" edad="23"/>
+            </curso>
+        </carrera>
+        <carrera nombre="Quimica">
+            <curso codigo="401">
+                <alumno nombre="Quim" edad="21"/>
+            </curso>
+        </carrera>
+    </facultad>
+</universidad>
+    <!-- 
+    1- Selecciona todos los nodos <alumno> en el documento.
+    /universidad/*/*/*/alumno (no recomendada)
+/universidad/facultad/carrera/curso/alumno
+
+    2- Selecciona el nombre de todas las carreras.
+/universidad/facultad/carrera/@nombre
+
+    3- Selecciona el nombre de los alumnos que tienen 22 años.
+/universidad/facultad/carrera/curso/alumno[@edad='22']/@nombre
+
+    4- Selecciona todos los cursos de la facultad de Ingeniería.
+/universidad/facultad[@nombre = 'Ingeniería']/carrera/curso
+
+    5- Selecciona los alumnos mayores de 23 años que estudian Física.
+/universidad/facultad/carrera[@nombre = 'Física']/curso/alumno[@edad>23]
+
+    6- Selecciona los cursos que tienen más de un alumno.
+/universidad/facultad/carrera/cursos[count (alumno) > 1]
+
+    7- Selecciona los nombres de todas las facultades.
+/universidad/facultad/@nombre
+
+    8- Selecciona la edad del alumno Juan.
+/universidad/facultad/carrera/curso/alumno[@nombre = 'Juan']/@edad
+
+    9- Selecciona todos los cursos cuyo código es mayor que 200.
+/universidad/facultad/carrera/curso[@codigo > 200]
+
+    10- Selecciona los alumnos de la facultad de Ingeniería que tienen menos de 22 años.
+/universidad/facultad[@nombre = 'Ingeniería']/carrera/curso/alumno[@edad < 22]
+     -->

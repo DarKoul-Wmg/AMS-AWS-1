@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receptes>
+    <recepta id="0">
+        <nom>Ou ferrat</nom>
+        <ingredients>
+            <ingredient>Oli</ingredient>
+            <ingredient>Sal</ingredient>
+            <ingredient>Ou</ingredient>
+            <ingredient>Pa</ingredient>
+        </ingredients>
+        <elaboracio>
+            <pas>Posar oli en una paella</pas>
+            <pas>Esperar que l'oli s'escalfi</pas>
+            <pas>Posar l'ou</pas>
+            <pas>Esperar que l'ou es rosi</pas>
+            <pas>Posar sal</pas>
+            <pas>Emplatar</pas>
+            <pas>Servir amb pà</pas>
+        </elaboracio>
+    </recepta>
+    <recepta id="1">
+        <nom>Pà amb tomàquet</nom>
+        <ingredients>
+            <ingredient>Pa</ingredient>
+            <ingredient>Tomàquet</ingredient>
+            <ingredient>Oli</ingredient>
+            <ingredient>Sal</ingredient>
+        </ingredients>
+        <elaboracio>
+            <pas>Tallar el pà en llesques</pas>
+            <pas>Xucar-hi tomàquet</pas>
+            <pas>Posar-hi un rajolí d'oli</pas>
+            <pas>Posar-hi sal</pas>
+            <pas>Emplatar</pas>
+        </elaboracio>
+    </recepta>
+</receptes>

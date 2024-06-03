@@ -1,0 +1,574 @@
+body {
+    background-color: black;
+    margin: 0;
+    
+}
+.presentacion {
+    line-height: 175%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+
+    
+}
+
+.titulo1 {
+    display: flex;
+    flex-direction: row;
+    color: #5c850f;
+    margin-left: 20%;
+    margin-bottom: 5%;
+
+
+}
+.titulo2 {
+    display: flex;
+    flex-direction: row;
+    color: #5c850f;
+    margin-left: 20%;
+    
+
+
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+        
+}
+.contenedor a {
+    color: #5c850f;
+}
+.octavo {
+    
+    margin: auto;
+    
+    margin-bottom: 5%;
+    height: auto;
+    width: 45%;
+   
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px#39de39
+}
+.ti {
+    
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.poctavo {
+    
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    width: 35%;
+    box-shadow:0px 5px 15px 2px white;
+    
+    
+    
+    
+}
+.ficha1 {
+    
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    line-height: 175%;
+    
+    width: 55%;
+    height: auto;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    
+}
+.sinopsis {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    line-height: 175%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    
+
+}
+
+.regreso {
+    
+    margin: auto;
+    
+    margin-bottom: 5%;
+    height: auto;
+    width: 45%;
+   
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px #39de39
+}
+.ti1 {
+    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.elregreso {
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow:0px 5px 15px 2px white;
+
+    
+    
+    
+}
+.ficha2 {
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    line-height: 175%;
+    
+    width: 55%;
+    height: auto;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.sinopsis2 {
+
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 175%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding-bottom: 20px;
+    
+
+}
+.alien3 {
+    
+    margin: auto;
+    
+    margin-bottom: 5%;
+    height: auto;
+    width: 45%;
+   
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px #39de39
+}
+.ti2 {
+    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.palien3 {
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 35%;
+    box-shadow:0px 5px 15px 2px white;
+
+    
+    
+    
+}
+.ficha3 {
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    line-height: 175%;
+    
+    width: 55%;
+    height: auto;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.sinopsis3 {
+
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 175%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding-bottom: 20px;
+    
+
+}
+
+.resurreccion {
+    
+    margin: auto;
+    
+    margin-bottom: 5%;
+    height: auto;
+    width: 45%;
+   
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px #39de39
+}
+.ti3 {
+    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.presurreccion {
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    width: 35%;
+    box-shadow:0px 5px 15px 2px white;
+
+    
+    
+    
+}
+.ficha4 {
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    line-height: 175%;
+    
+    width: 55%;
+    height: auto;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.sinopsis4 {
+
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 175%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding-bottom: 20px;
+    
+
+}
+
+.prometheus {
+    
+    margin: auto;
+    
+    margin-bottom: 5%;
+    height: auto;
+    width: 45%;
+   
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px #39de39
+}
+.ti4 {
+    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.pprometheus {
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    width: 35%;
+    box-shadow:0px 5px 15px 2px white;
+
+    
+    
+    
+}
+.ficha5 {
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    line-height: 175%;
+    
+    width: 55%;
+    height: auto;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.sinopsis5 {
+
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 175%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding-bottom: 20px;
+    
+
+}
+
+.covenant {
+    
+    margin: auto;
+    
+    margin-bottom: 5%;
+    height: auto;
+    width: 45%;
+   
+    border-radius: 15px; 
+    box-shadow: 0px 5px 15px 5px #39de39
+}
+.ti5 {
+    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.pcovenant {
+    
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    width: 35%;
+    box-shadow:0px 5px 15px 2px white;
+
+    
+    
+    
+}
+.ficha6 {
+    float: right;
+    margin: auto;
+    margin-right: 5px;
+    line-height: 175%;
+    
+    width: 50%;
+    height: auto;
+    
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.sinopsis6 {
+
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 175%;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding-bottom: 20px;
+    
+
+}
+.predator {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    text-align: center;
+}
+.predator img {
+    width: 40%;
+    height: auto;
+    animation: flipImage 12s infinite;
+}
+
+.lista {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 25%;
+
+}
+.lista li {
+    margin-left: 40%;
+    text-align: left;
+}
+.lista t {
+    font-size: 15px;
+    color: #5c850f;
+    margin-left: 40%;
+    text-align: left;
+    
+}
+
+@media only screen and (max-width: 720px) {
+.presentacion {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+}
+
+.titulo1, .titulo2 {
+    margin-left: 0%;
+}
+.contenedor {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.octavo, .regreso, .alien3, .resurreccion, .prometheus, .covenant {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+.ti, .ti1, .ti2, .ti3, .ti4 {
+    font-size: 16px;
+}
+.ficha1, .ficha2, .ficha3, .ficha4, .ficha5, .ficha6 {
+    
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.sinopsis, .sinopsis2, .sinopsis3, .sinopsis4, .sinopsis5, .sinopsis6 {
+    font-size: 11px;
+}
+
+.predator img {
+    width: 50%;
+    height: auto;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 12px;
+}
+
+.lista t {
+    font-size: 11px;
+    
+   
+}
+.titulo1, .titulo2 {
+    margin-left: 0;
+    font-size: 12px;
+}
+
+}
+@media only screen and (max-width: 1020px) {
+    .presentacion {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+    }
+    
+    .titulo1, .titulo2 {
+        margin-left: 0%;
+    }
+    .contenedor {
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .octavo, .regreso, .alien3, .resurreccion, .prometheus, .covenant {
+        margin-top: 5%;
+        width: 100%;
+        height: auto;
+    }
+    .ti, .ti1, .ti2, .ti3, .ti4 {
+        font-size: 18px;
+    }
+    .ficha1, .ficha2, .ficha3, .ficha4, .ficha5, .ficha6 {
+        
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    
+    .sinopsis, .sinopsis2, .sinopsis3, .sinopsis4, .sinopsis5, .sinopsis6 {
+        font-size: 14px;
+    }
+    
+    .predator img {
+        width: 50%;
+        height: auto;
+        
+        
+    }
+
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        
+        font-size: 14px;
+    }
+    
+    .lista t {
+        font-size: 13px;
+        
+       
+    }
+    .titulo1, .titulo2 {
+        margin-left: 0;
+        font-size: 15px;
+    }
+    
+    }
+
+@keyframes flipImage {
+    0%, 100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    
+    50% {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}

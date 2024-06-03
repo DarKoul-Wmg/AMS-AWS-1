@@ -1,0 +1,6 @@
+nif: 33333333A,name: Jose Miguel, shoppings:135 - 247 - 321, surname: Lara
+name: Mariano, surname: Ruiz, shoppings:135 - 22, nif: 44444444A
+nif: 55555555A,name: Sabrina, surname: Robles, shoppings:34 - 345 - 23 - 4444
+nif: 66666666A, surname: Castro, shoppings:23,name: Mari Carmen
+nif:99999999A,name:Marta,surname:Lara,shoppings:234-34-2344
+nif:99999999A,name:Marta,surname:Lara,shoppings:234-34-2344

@@ -1,0 +1,22 @@
+.taulaDetails {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 100%;
+    
+}
+    .taulaDetails td,th{
+        padding:8px;
+    }
+    .taulaDetails td:first-child{
+        background-color: var(--color-gris);
+    }
+
+    .taulaDetails .fonsGroc{
+        background-color: var(--color-groc);
+    }
+    .taulaDetails td:last-child {
+        text-align: right;
+    }
+
+
+

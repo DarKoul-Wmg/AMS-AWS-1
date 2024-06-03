@@ -1,0 +1,37 @@
+/*calcular el sou mig dels treballadors del departament 50 que no són cap, 'ST_MAN',
+llavors comptar quants treballadors cobren igual o més que la mitja*/
+  
+select count(*) 
+from hr.employees 
+where department_id=50 and job_id <>'ST_MAN' AND
+	salary >= (
+	SELECT avg(salary) FROM hr.employees
+	where department_id=50 and job_id <>'ST_MAN');
+    
+/*comptar els treballadors del departament 50, 
+  comptar quants n'hi ha que cobren igual o més que la mitja (i no són caps)
+  quants n'hi ha que cobren per sota de la mitja (i no són caps) i quants caps hi ha*/
+  
+select count(*) as total_emp,
+		sum(if(salary>=3000 and job_id<>'ST_MAN',1,0)) as per_sobre,
+		sum(if(salary<3000 and job_id<>'ST_MAN',1,0)) as per_sota,
+		sum(if(job_id='ST_MAN',1,0)) as caps          
+from hr.employees where department_id=50;
+
+select count(*) as total_emp,
+		sum(if(salary>=(SELECT avg(salary) FROM hr.employees
+						where department_id=50 and job_id <>'ST_MAN') 
+                        and job_id<>'ST_MAN',1,0)) as per_sobre,
+		sum(if(salary<(SELECT avg(salary) FROM hr.employees
+						where department_id=50 and job_id <>'ST_MAN') 
+                        and job_id<>'ST_MAN',1,0)) as per_sota,
+		sum(if(job_id='ST_MAN',1,0)) as caps          
+from hr.employees where department_id=50;
+    
+/*comptar els treballadors del departament 50, 
+  comptar quants caps hi ha 'ST_MAN', comptar la resta*/   
+
+select count(*) as total_emp,
+		sum(if(job_id='ST_MAN',1,0)) as caps,
+		sum(if(job_id<>'ST_MAN',1,0)) as no_caps           
+from hr.employees where department_id=50;

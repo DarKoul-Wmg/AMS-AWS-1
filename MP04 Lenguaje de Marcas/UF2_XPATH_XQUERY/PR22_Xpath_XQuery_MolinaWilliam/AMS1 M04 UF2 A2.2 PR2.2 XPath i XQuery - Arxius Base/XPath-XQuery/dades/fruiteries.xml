@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fruiteries>
+    <fruiteria id="0">
+        <nom>Cal manel</nom>
+        <fruites>
+            <fruita id="0"/>
+            <fruita id="1"/>
+            <fruita id="2"/>
+        </fruites>
+    </fruiteria>
+    <fruiteria id="1">
+        <nom>Carmen Miranda</nom>
+        <fruites>
+            <fruita id="2"/>
+            <fruita id="3"/>
+            <fruita id="4"/>
+        </fruites>
+    </fruiteria>
+    <fruiteria id="2">
+        <nom>Germans Bròquil</nom>
+        <fruites>
+            <fruita id="4"/>
+            <fruita id="5"/>
+            <fruita id="6"/>
+        </fruites>
+    </fruiteria>
+</fruiteries>

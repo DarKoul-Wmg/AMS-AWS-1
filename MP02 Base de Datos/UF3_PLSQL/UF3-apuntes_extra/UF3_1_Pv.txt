@@ -1,0 +1,41 @@
+-- EXERCICI 1
+
+-- BLOC ANÒNIM
+
+DECLARE
+  v_import_str VARCHAR2(10);
+  v_import NUMBER;
+  cursor c_cursor is select o.order_id, o.order_date, c.name, oi.quantity, oi.unit_price
+        from customers c JOIN orders o ON c.customer_id = o.customer_id
+        JOIN order_items oi ON oi.order_id = o.order_id
+        where product_id = 95 and (quantity * unit_price) >= v_import;
+  
+BEGIN
+    v_import_str := '&import';
+
+    BEGIN
+        v_import := TO_NUMBER(v_import_str);
+    EXCEPTION
+        WHEN VALUE_ERROR THEN
+            dbms_output.put_line('Import incorrecte: ' || v_import_str);
+    END;
+    BEGIN
+        FOR i in c_cursor LOOP
+        
+        DBMS_OUTPUT.PUT_LINE('ORDER:   '||RPAD(i.order_id, 5) || ' de data   ' || RPAD(i.order_date, 10) || '   del client   ' ||RPAD(i.name, 10) || '  per un import de   ' ||RPAD(i.quantity * i.unit_price, 10));
+
+        END LOOP;
+    EXCEPTION
+        WHEN no_data_found THEN
+            dbms_output.put_line('Error');
+	WHEN others THEN
+            dbms_output.put_line('Error');
+    END;
+END;
+
+-- SCRIPT
+
+/*IMPORTS PROVATS
+ - hola
+ - 10000
+ */

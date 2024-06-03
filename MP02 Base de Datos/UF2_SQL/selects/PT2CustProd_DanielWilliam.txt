@@ -1,0 +1,237 @@
+/*Pràctica 2. CustProd*/
+/*Daniel Cobano y William Molina*/
+
+use CustProd;
+
+/* 1-clients en paisos diferents al pais de la oficina    
+     client (numero, nom, ciutat, pais) oficina (ciutat, pais). 40 FILES*/
+
+SELECT 
+    c.customerNumber AS num_client,
+    c.customerName AS nom_client,
+    c.city AS ciutat_client,
+    c.country AS pais_client,
+    o.city AS ciutat_oficina,
+    o.country AS ciutat_pais
+FROM customers c 
+    JOIN employees e ON c.salesRepEmployeeNumber = e.employeeNumber
+    JOIN offices o ON e.officeCode =  o.officeCode
+WHERE c.country != o.country
+GROUP BY
+    c.customerNumber,
+    c.customerName, 
+    c.city,
+    c.country; 
+
+/* 2-quants sales rep hi ha a cada oficina   
+     oficina (codi oficina, ciutat, pais), sales rep (total sales rep). 7 FILES*/
+
+SELECT 
+    o.officeCode AS codi_oficina,
+    o.city AS ciutat,
+    o.country AS pais,
+    COUNT(e.employeeNumber) AS total_sales_rep
+FROM 
+    offices o
+JOIN 
+    employees e ON o.officeCode = e.officeCode
+WHERE 
+    e.jobTitle LIKE 'Sales Rep%'
+GROUP BY 
+    o.officeCode, 
+    o.city, 
+    o.country
+ORDER BY 
+    o.officeCode;
+
+/* 3-comptar quants treballadors hi ha a cada oficina  
+     oficina (codi oficina, ciutat, pais), treballadors (total treballadors, total sales rep, total altres). 7 FILES*/
+    
+SELECT 
+    o.officeCode AS codi_oficina,
+    o.city AS ciutat,
+    o.country AS pais,
+    count(e.employeeNumber) AS totalTreballadors, 
+    SUM(if (e.jobTitle = "Sales Rep",1,0))AS totalSalesRep,
+    SUM(if (e.jobTitle != "Sales Rep",1,0))AS totalAltres
+FROM employees e 
+JOIN offices o ON e.officeCode = o.officeCode
+GROUP BY o.officeCode;
+
+
+/* 4-comptar quants clients té i quants paisos tracta cada sales rep 
+     sales rep (codi oficina, ciutat, pais, nom i cognom), clients (total clients, total paisos diferents dels clients).15 FILES*/
+
+SELECT 
+    e.officeCode AS codi_oficina,
+    o.city AS ciutat,
+    o.country AS pais,
+    CONCAT(e.firstName, ' ', e.lastName) AS sales_rep_name,
+    COUNT(DISTINCT c.customerNumber) AS total_clients,
+    COUNT(DISTINCT c.country) AS total_paisos
+FROM 
+    employees e
+JOIN 
+    customers c ON e.employeeNumber = c.salesRepEmployeeNumber
+JOIN 
+    offices o ON e.officeCode = o.officeCode
+WHERE 
+    e.jobTitle LIKE 'Sales Rep%'
+GROUP BY 
+    e.employeeNumber
+ORDER BY 
+    e.officeCode, 
+    e.lastName, 
+    e.firstName;
+
+/* 5-Ingressos anuals per cada producte, ordenar de mes a menys ingressos 
+     producte (numero), Ingressos (any, total comandes, total ingressos). 327 FILES*/
+     
+SELECT 
+    p.productCode AS numero,
+    YEAR(o.orderDate) AS any, 
+    SUM(od.priceEach * quantityOrdered) AS total_ingressos
+FROM products p
+JOIN orderdetails od ON p.productCode = od.productCode
+JOIN orders o ON od.orderNumber = o.orderNumber
+GROUP BY p.productCode, any
+ORDER BY
+    any DESC,
+    total_ingressos DESC;
+
+
+/* 6-Clients, comandes, i cost del producte dels clients que han comprat productes de la linia 'Vintage cars'
+     Clients (numero), comandes (data), i cost (quantitat, preu unitari, total). 657 FILES*/
+
+SELECT 
+    c.customerNumber AS numero_client,
+    o.orderNumber AS numero_comanda,
+    o.orderDate AS data_comanda,
+    od.quantityOrdered AS quantitat_comanda,
+    od.priceEach AS preu_unitari,
+    (od.quantityOrdered * od.priceEach) AS cost_total
+FROM 
+    customers c
+JOIN 
+    orders o ON c.customerNumber = o.customerNumber
+JOIN 
+    orderdetails od ON o.orderNumber = od.orderNumber
+JOIN 
+    products p ON od.productCode = p.productCode
+JOIN 
+    productlines pl ON p.productLine = pl.productLine
+WHERE 
+    pl.productLine = 'Vintage Cars'
+ORDER BY 
+    c.customerNumber, 
+    o.orderDate;
+
+/* 7-Deute dels clients, sumar els cost de les comandes que no tenen status ('Cancelled','On Hold') 
+     Clients (numero), deute (suma del cost de les comandes). 98 FILES*/
+     
+SELECT 
+    c.customerNumber AS cliente,
+    SUM(od.priceEach * od.quantityOrdered) AS deute
+FROM orderdetails od
+JOIN orders o ON od.orderNumber =o.orderNumber
+JOIN  customers c ON o.customerNumber = c.customerNumber
+WHERE o.status NOT IN ('Cancelled','On Hold')
+GROUP BY c.customerNumber;
+
+
+/* 8-Pagaments dels clients, 
+     Clients (numero), pagaments (suma de les quantitats pagades). 98 FILES*/
+
+SELECT 
+    c.customerNumber AS numero_client,
+    SUM(p.amount) AS total_pagaments
+FROM 
+    customers c
+JOIN 
+    payments p ON c.customerNumber = p.customerNumber
+GROUP BY 
+    c.customerNumber
+ORDER BY 
+    c.customerNumber;
+
+/* 9-Clients morosos, que no han pagat tot el seu deute, només s'han de tenir en compte les comandes que no estan ('Cancelled' o 'On Hold')
+     Clients (numero), deute (suma del cost de les comandes) > pagaments (suma de les quantitats pagades). 13 FILES EXERCICI EN DISCORD, RESOLT A CLASE*/
+
+
+
+
+/* 10 - Venedor amb comandes 'On hold' o 'Cancelled' i els seus productes 
+        venedor (codi, nom i congom) client (nom) comandes (número, data, status i comentaris) productes (quantitat demanada, nom i línia)
+        ordenat per cognom i nom del venedor . 123 FILES*/
+
+SELECT 
+    e.employeeNumber AS vendedor_codigo,
+    CONCAT(e.firstName, ' ', e.lastName) AS vendedor_nombre,
+    c.customerName AS cliente_nombre,
+    o.orderNumber AS numero_pedido,
+    o.orderDate AS fecha_pedido,
+    o.status,
+    o.comments AS comentaris,
+    od.quantityOrdered AS cantidad_pedidos,
+    p.productName AS nombre_producto,
+    p.productLine AS linia_proudcto
+FROM 
+    employees e
+JOIN 
+    customers c ON e.employeeNumber = c.salesRepEmployeeNumber
+JOIN 
+    orders o ON c.customerNumber = o.customerNumber
+JOIN 
+    orderdetails od ON o.orderNumber = od.orderNumber
+JOIN 
+    products p ON od.productCode = p.productCode
+WHERE 
+    o.status IN ('On Hold', 'Cancelled')
+ORDER BY 
+    e.lastName, 
+    e.firstName;
+
+/* 11 - Els venedors amb comandes 'On hold' o 'Cancelled'
+        Venedor (codi, nom i congom) sense repetits. 7 FILES*/
+SELECT DISTINCT
+    employeeNumber as codi_vendedor,
+    concat(e.firstName,' ',e.lastName) AS nom_cognom
+FROM employees e
+JOIN customers c ON e.employeeNumber = c.salesRepEmployeeNumber
+JOIN orders o ON c.customerNumber = o.customerNumber
+WHERE o.status IN ('Cancelled','On Hold')
+GROUP BY  employeeNumber;
+
+
+/* 12 - Clients de l'oficina de Boston
+        Client (número, nom i ciutat) sense repetits. 12 FILES*/
+
+SELECT DISTINCT 
+    c.customerNumber AS Numero_client,
+    c.customerName AS Nom_client,
+    c.city AS Ciutat
+FROM 
+    customers c
+JOIN 
+    employees e ON c.salesRepEmployeeNumber = e.employeeNumber
+JOIN 
+    offices o ON e.officeCode = o.officeCode
+WHERE 
+    o.city = 'Boston'
+ORDER BY 
+    c.customerNumber;
+    
+
+/* 13 - Ingressos dels clients de l'oficina de Boston, nomes comandes que no estan ('Cancelled' o 'On Hold')
+        el resultat ha de ser '841731.77'*/
+SELECT
+    SUM(od.priceEach * od.quantityOrdered)
+FROM orderdetails od 
+JOIN orders o ON o.orderNumber = od.orderNumber
+JOIN customers c ON o.customerNumber = c.customerNumber
+JOIN employees e ON c.salesRepEmployeeNumber = e.employeeNumber
+JOIN offices off ON e.officeCode = off.officeCode
+WHERE 
+    off.city ="Boston" 
+AND 
+    o.status NOT IN ('Cancelled','On Hold');
